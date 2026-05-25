@@ -33,7 +33,7 @@ const HomeClient = () => {
         <div className="mx-5 min-h-120 xl:min-h-160 flex items-center">
         <div className="max-w-md md:max-w-xl">
         <h1 className="font-aino text-2xl md:text-4xl text-white leading-14">
-            Your official national guide to higher education in the Republic of Lithuania?
+            Study in Lithuania for Quality Education, Growth, and Global Career Opportunities
         </h1>
         </div>
         </div>
@@ -53,10 +53,10 @@ const HomeClient = () => {
       <h4 className="font-aino text-xl md:text-2xl mb-4">What is...</h4>
       <h2 className="font-aino text-2xl md:text-4xl mb-4">Study in Lithuania?</h2>
       <p className="text-lg md:text-xl mb-6">
-        Study in Lithuania is your official national guide to higher education in the Republic of Lithuania and is maintained by the Education and Youth Board of Lithuania. Our aim is to promote Lithuania as an attractive study destination and promote the possibilities for studying for international students.
+       Study in Lithuania refers to pursuing higher education in one of Europe’s most affordable and fast-growing education destinations. Lithuania offers internationally recognised degrees, English-taught programs, and high-quality education at budget-friendly costs.
         <br />
         <br />
-        More than 150 degree programmes offered by our partner institutions are fully taught in English. We hope that all of you who have made the decision to come to study in Lithuania will experience something new and gain valuable experiences for the rest of your life.
+        It is becoming popular among international students due to its safe environment, modern universities, and European exposure. Students also benefit from travel opportunities within the Schengen Area and strong career prospects after graduation.
      </p>
      <div className="flex justify-end items-end">
      <Link href={'/about'} className="text-blue-500 font-roboto hover:underline">Read more <FaArrowRightLong className="inline-block"/></Link>
@@ -73,7 +73,7 @@ const HomeClient = () => {
                <Image className="w-full h-50 md:h-auto" width={360} height={60} src={'/images/home/bachelors.avif'} alt="bachelors in lithuania" />
                <div className="relative z-3 flex justify-center items-center flex-col gap-5 px-4 py-6">
                <h4 className="text-white text-2xl md:text-2xl font-aino">Bachelor's</h4>
-               <p className="text-white text-sm md:text-md text-center">A bachelor’s degree provides you with the basic understanding and knowledge of the study programme that you have chosen.</p>
+               <p className="text-white text-sm md:text-md text-center">Bachelor’s programs in Lithuania offer internationally recognised degrees, affordable tuition, and strong academic foundation for global career opportunities.</p>
                <Link className="text-white px-6 py-2 rounded-full border border-white text-md md:text-base hover:bg-white hover:text-primary duration-300 ease-in-out" href={'/learn-more'}>Learn More <FaArrowRightLong className="size-5 inline-block"/></Link>
                </div>
             </div>
@@ -84,7 +84,7 @@ const HomeClient = () => {
                <Image className="w-full h-50 md:h-auto" width={360} height={60} src={'/images/home/masters.avif'} alt="bachelors in lithuania" />
                <div className="relative z-3 flex justify-center items-center flex-col gap-5 px-4 py-6">
                <h4 className="text-white text-lg md:text-2xl font-aino">Master's</h4>
-               <p className="text-white text-sm md:text-md text-center">The European education system is famous for its unique and high quality master’s degree programmes all over the world.</p>
+               <p className="text-white text-sm md:text-md text-center">Master’s programs in Lithuania provide advanced knowledge, research opportunities, and industry-focused learning for better international career growth.</p>
                <Link className="text-white px-6 py-2 rounded-full border border-white text-md md:text-base hover:bg-white hover:text-tertiary duration-300 ease-in-out" href={'/learn-more'}>Learn More <FaArrowRightLong className="size-5 inline-block"/></Link>
                </div>
             </div>
@@ -94,8 +94,8 @@ const HomeClient = () => {
             <div className="">
                <Image className="w-full h-50 md:h-auto" width={360} height={60} src={'/images/home/doctoral.avif'} alt="bachelors in lithuania" />
                <div className="relative z-3 flex justify-center items-center flex-col gap-5 px-4 py-6">
-               <h4 className="text-white text-lg md:text-2xl font-aino">Doctoral</h4>
-               <p className="text-white text-sm md:text-md text-center">Doctoral studies in Estonia are without tuition fee. There are PhD students from more than 50 countries studying here</p>
+               <h4 className="text-white text-lg md:text-2xl font-aino">PhD</h4>
+               <p className="text-white text-sm md:text-md text-center">PhD programs in Lithuania focus on research excellence, academic innovation, and expert guidance in specialised fields across Europe.</p>
                <Link className="text-white px-6 py-2 rounded-full border border-white text-md md:text-base hover:bg-white hover:text-primary duration-300 ease-in-out" href={'/learn-more'}>Learn More <FaArrowRightLong className="size-5 inline-block"/></Link>
                </div>
             </div>
@@ -106,7 +106,7 @@ const HomeClient = () => {
                <Image className="w-full h-50 md:h-auto lg:max-h-47" width={360} height={60} src={'/images/home/short-courses.avif'} alt="bachelors in lithuania" />
                <div className="relative z-3 flex justify-center items-center flex-col gap-5 px-4 py-6">
                <h4 className="text-white text-lg md:text-2xl font-aino">Short Courses</h4>
-               <p className="text-white text-sm md:text-md text-center">Estonian universities offer various international short courses (1-4 weeks) for applicants.</p>
+               <p className="text-white text-sm md:text-md text-center">Short courses in Lithuania help students gain practical skills, flexible learning experience, and quick career development opportunities.</p>
                <Link className="text-white px-6 py-2 rounded-full border border-white text-md md:text-base hover:bg-white hover:text-tertiary duration-300 ease-in-out" href={'/learn-more'}>Learn More <FaArrowRightLong className="size-5 inline-block"/></Link>
             </div>
             </div>
@@ -135,11 +135,11 @@ const HomeClient = () => {
               </div>
               <div className="mb-5">
                  <ul className="pr-5">
-                  <li className="flex items-center gap-1 text-white my-10"><TbCircleDashedLetterL className="inline-block size-10 shrink-0" />&nbsp;<p className="text-sm md:text-md">Lithuania is an e-society, with electronic ID-cards, e-government, e-health, e-school, e-parking and so much more. You would be living in a very unique country!</p></li>
-                  <li className="flex items-center gap-1 text-white my-10"><BsBank className="inline-block size-10 shrink-0" />&nbsp;<p className="text-sm md:text-md">It takes only about 20 minutes to found your own company online and 100% of banking is done online.</p></li>
-                  <li className="flex items-center gap-1 text-white my-10"><SiEuropeanunion className="inline-block size-10 shrink-0" />&nbsp;<p className="text-sm md:text-md">Europe's start-up hot-spot!</p></li>
-                  <li className="flex items-center gap-1 text-white my-10"><AiFillSafetyCertificate className="inline-block size-10 shrink-0" />&nbsp;<p className="text-sm md:text-md">One of the safest countries in the world.</p></li>
-                  <li className="flex items-center gap-1 text-white my-10"><FaRankingStar className="inline-block size-10 shrink-0" />&nbsp;<p className="text-sm md:text-md">Ranks 2nd place for internet freedom in the world.</p></li>
+                  <li className="flex items-center gap-1 text-white my-10"><TbCircleDashedLetterL className="inline-block size-10 shrink-0" />&nbsp;<p className="text-sm md:text-md">A student visa and residence permit are required to study in Lithuania, allowing legal stay and smooth access to education benefits.</p></li>
+                  <li className="flex items-center gap-1 text-white my-10"><BsBank className="inline-block size-10 shrink-0" />&nbsp;<p className="text-sm md:text-md">A student visa and residence permit are required to study in Lithuania, allowing legal stay and smooth access to education benefits.</p></li>
+                  <li className="flex items-center gap-1 text-white my-10"><SiEuropeanunion className="inline-block size-10 shrink-0" />&nbsp;<p className="text-sm md:text-md">A student visa and residence permit are required to study in Lithuania, allowing legal stay and smooth access to education benefits.</p></li>
+                  <li className="flex items-center gap-1 text-white my-10"><AiFillSafetyCertificate className="inline-block size-10 shrink-0" />&nbsp;<p className="text-sm md:text-md">A student visa and residence permit are required to study in Lithuania, allowing legal stay and smooth access to education benefits.</p></li>
+                  <li className="flex items-center gap-1 text-white my-10"><FaRankingStar className="inline-block size-10 shrink-0" />&nbsp;<p className="text-sm md:text-md">A student visa and residence permit are required to study in Lithuania, allowing legal stay and smooth access to education benefits.</p></li>
                  </ul>
               </div>
             </div>
@@ -155,7 +155,7 @@ const HomeClient = () => {
                <Image className="w-full h-50 md:h-auto" width={360} height={60} src={'/images/home/scholarships.avif'} alt="scholarships in lithuania" />
                <div className="relative z-3 flex justify-center items-center flex-col gap-5 px-4 py-6">
                <h4 className="text-white text-2xl md:text-2xl font-aino">Scholarships</h4>
-               <p className="text-white text-sm md:text-md text-center">Estonian government and universities have initiated various scholarship schemes in order to support international students who are interested in studying in Estonia.</p>
+               <p className="text-white text-sm md:text-md text-center">Scholarships in Lithuania help international students reduce tuition fees and study expenses based on academic performance and eligibility criteria.</p>
                <Link className="text-white px-6 py-2 rounded-full border border-white text-md md:text-base hover:bg-white hover:text-primary duration-300 ease-in-out" href={'/learn-more'}>Learn More <FaArrowRightLong className="size-5 inline-block"/></Link>
                </div>
             </div>
@@ -166,7 +166,7 @@ const HomeClient = () => {
                <Image className="w-full h-50 md:h-auto" width={360} height={60} src={'/images/home/admission.avif'} alt="admission in lithuania" />
                <div className="relative z-3 flex justify-center items-center flex-col gap-5 px-4 py-6">
                <h4 className="text-white text-lg md:text-2xl font-aino">Admission</h4>
-               <p className="text-white text-sm md:text-md text-center">Before applying to study in Estonia, please read the relevant information about study programmes, admission process, requirements for applicants, tuition fees and deadlines.</p>
+               <p className="text-white text-sm md:text-md text-center">Admission in Lithuania universities is simple, requiring academic documents, English proficiency proof, and timely application submission before deadlines.</p>
                <Link className="text-white px-6 py-2 rounded-full border border-white text-md md:text-base hover:bg-white hover:text-tertiary duration-300 ease-in-out" href={'/learn-more'}>Learn More <FaArrowRightLong className="size-5 inline-block"/></Link>
                </div>
             </div>
@@ -177,7 +177,7 @@ const HomeClient = () => {
                <Image className="w-full h-50 md:h-auto" width={360} height={60} src={'/images/home/working.avif'} alt="working in lithuania" />
                <div className="relative z-3 flex justify-center items-center flex-col gap-5 px-4 py-6">
                <h4 className="text-white text-lg md:text-2xl font-aino">Working</h4>
-               <p className="text-white text-sm md:text-md text-center">International students in Estonia do not need an additional working permit to work while studying full time. They are allowed to work on the condition that it does not interfere with their studies.</p>
+               <p className="text-white text-sm md:text-md text-center">Students in Lithuania can work part-time during studies, gaining practical experience and supporting their living costs effectively.</p>
                <Link className="text-white px-6 py-2 rounded-full border border-white text-md md:text-base hover:bg-white hover:text-primary duration-300 ease-in-out" href={'/learn-more'}>Learn More <FaArrowRightLong className="size-5 inline-block"/></Link>
                </div>
             </div>
@@ -188,7 +188,7 @@ const HomeClient = () => {
                <Image className="w-full h-50 md:h-auto lg:max-h-47" width={360} height={60} src={'/images/home/visa-and-residence-permit.avif'} alt="visa and residence permit in lithuania" />
                <div className="relative z-3 flex justify-center items-center flex-col gap-5 px-4 py-6">
                <h4 className="text-white text-lg md:text-2xl font-aino text-center">Visa and Residence Permit</h4>
-               <p className="text-white text-sm md:text-md text-center">The visa and residence permit application process will usually begin after student has been accepted to study on chosen programme.</p>
+               <p className="text-white text-sm md:text-md text-center">A student visa and residence permit are required to study in Lithuania, allowing legal stay and smooth access to education benefits.</p>
                <Link className="text-white px-6 py-2 rounded-full border border-white text-md md:text-base hover:bg-white hover:text-tertiary duration-300 ease-in-out" href={'/learn-more'}>Learn More <FaArrowRightLong className="size-5 inline-block"/></Link>
             </div>
             </div>

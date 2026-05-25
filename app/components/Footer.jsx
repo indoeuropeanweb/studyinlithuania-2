@@ -8,7 +8,7 @@ const footer = () => {
         <div className='py-6 grid grid-cols-1 md:grid-cols-4 gap-5'>
           <div className='max-w-100 col-span-1'>
             <Link className='' href={'/'}><Image className="" width={140} height={70} src='/images/logos/logo.webp' alt="study in lithuania centre" /></Link>
-            <p className='mt-3'>Lithuania, a country with a rich cultural heritage and stunning natural landscapes, offers a lower cost of living compared to many Western European nations.</p>
+            <p className='mt-3'>A student visa and residence permit are required to study in Lithuania, allowing legal stay and smooth access to education benefits.</p>
             <div className='flex gap-5 mt-3'>
               <span className=''>Follow us on</span>
               <ul className='flex gap-3'>
