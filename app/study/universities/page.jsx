@@ -1,4 +1,4 @@
-import Breadcrumb from "@/app/components/form/Breadcrumb"
+import Breadcrumb from "@/app/components/Breadcrumb"
 import Image from "next/image"
 
 const page = () => {
@@ -171,10 +171,7 @@ const page = () => {
 
   return (
     <section className=''>
-      <div className="h-40 bg-[#eaeff2] py-10 px-10">
-        <Breadcrumb />
-        {/* <h2 className="font-aino text-2xl md:text-4xl text-center my-10">Universities in Lithuania</h2> */}
-      </div>
+        <Breadcrumb heading={''}/>
       <div className="px-10 mt-10">
          <h2 className="font-aino text-2xl md:text-4xl">Explore Top Universities in Lithuania</h2>
          <p className="mt-5">Lithuania hosts internationally recognised universities offering quality education, affordable fees,

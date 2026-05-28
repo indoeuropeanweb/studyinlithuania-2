@@ -1,13 +1,11 @@
-import Breadcrumb from '../components/form/Breadcrumb'
+import Breadcrumb from '../components/Breadcrumb'
 import Image from 'next/image'
 import { IoIosArrowForward } from "react-icons/io";
 
 const page = () => {
   return (
     <>
-      <div className='py-4 px-10 bg-[#eaeff2] w-full min-h-40'>
-         <Breadcrumb />
-      </div>
+         <Breadcrumb heading={''}/>
          <div className='py-5 px-5'>
                <h2 className='font-aino text-2xl md:text-4xl'>Why Study in Lithuania?</h2>
                <p className='text-justify font-roboto text-lg mt-3'>Many international students now choose Lithuania for higher education because it offers

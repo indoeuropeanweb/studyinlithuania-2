@@ -7,7 +7,7 @@ const Sidebar = ({menuItems}) => {
   const pathname = usePathname();
 
   return (
-    <aside className="h-full bg-green-800 p-4">
+    <aside className="h-full bg-primary p-4">
       <nav className="space-y-6">
         {menuItems.map((item, index) => {
           if (item.links) {
@@ -27,7 +27,7 @@ const Sidebar = ({menuItems}) => {
                         href={link.href}
                         className={`rounded-lg px-4 py-2 text-sm transition-colors font-aino ${
                           isActive
-                            ? "text-white border-b-2 border-gray-500"
+                            ? "text-white border-b-2 border-secondary"
                             : "text-zinc-300 hover:bg-green-900 hover:text-white"
                         }`}
                       >
@@ -48,7 +48,7 @@ const Sidebar = ({menuItems}) => {
               href={item.href}
               className={`block rounded-lg px-4 py-2 text-sm transition-colors font-aino ${
                 isActive
-                  ? "text-white font-semibold"
+                  ? "text-white font-semibold border-b-2 border-secondary"
                   : "text-zinc-300 hover:bg-green-900 hover:text-white"
               }`}
             >
