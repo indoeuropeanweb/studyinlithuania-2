@@ -55,7 +55,7 @@ international students.</p>
                <div className='my-5'>
                     <h2 className='font-aino text-2xl md:text-4xl my-3'>Study in Lithuania for a Global Future</h2>
                     <p className='text-lg font-inter'>Lithuania combines quality education, affordable costs, modern infrastructure, and international
-    exposure, making it one of the emerging destinations for students planning to study in Europe.</p>
+                     exposure, making it one of the emerging destinations for students planning to study in Europe.</p>
                </div>
          </div>
       </>

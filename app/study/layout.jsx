@@ -21,10 +21,6 @@ const menuItems = [
     href: "/study/admission"
   },
   {
-    heading: "Education System in Lithuania",
-    href: "/study/education-system-in-lithuania"
-  },
-  {
     heading: "Scholarships",
     href: "/study/scholarships"
   }

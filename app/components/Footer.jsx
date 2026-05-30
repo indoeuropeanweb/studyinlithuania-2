@@ -24,6 +24,7 @@ const footer = () => {
           <div className='ms-16'>
             <h3 className='font-aino text-base md:text-lg text-primary'>Home</h3>
            <ul className='mt-3 space-y-3'>
+            <li className='text-md md:text-base hover:underline'><Link href={'/lithuania'}>Lithuania</Link></li>
             <li className='text-md md:text-base hover:underline'><Link href={'/study'}>Study</Link></li>
             <li className='text-md md:text-base hover:underline'><Link href={'/living'}>Living</Link></li>
             <li className='text-md md:text-base hover:underline'><Link href={'/student-ambassadors'}>Student Ambassador</Link></li>
@@ -34,7 +35,7 @@ const footer = () => {
            <ul className='mt-3 space-y-3'>
             <li className='text-md md:text-base hover:underline'><Link href={'/blogs'}>Blogs</Link></li>
             <li className='text-md md:text-base hover:underline'><Link href={'/gallery'}>Gallery</Link></li>
-            <li className='text-md md:text-base hover:underline'><Link href={'/events'}>Events</Link></li>
+            <li className='text-md md:text-base hover:underline'><Link href={'/faq'}>FAQ</Link></li>
            </ul>
           </div>
           <div className=''>
