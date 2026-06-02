@@ -1,13 +1,15 @@
 import React from 'react'
 import Breadcrumb from '../components/Breadcrumb';
 import { IoIosArrowForward } from "react-icons/io";
+import Image from "next/image";
 
 const page = () => {
   return (
     <>
         <Breadcrumb />
         <div className='px-5 py-10'>
-          <div className=''>
+          <div className='grid grid-cols-1 md:grid-cols-2 gap-5 justify-center items-center'>
+            <div>
           <h2 className='text-2xl md:text-4xl font-aino'>Living</h2>
           <p className='text-md font-roboto mt-3'>Lithuania provides an affordable, comfortable, and modern lifestyle for international students in
             the heart of Europe. Lithuania is known for its safe environment, advanced digital facilities, and
@@ -21,6 +23,10 @@ const page = () => {
             and part-time work opportunities. International students are allowed to work while studying,
             helping them gain practical experience and support their daily expenses during their education
             journey.</p>
+            </div>
+            <div className=''>
+              <Image className='rounded-md' width={420} height={320} src="/images/living/living.avif" alt="living in lithuania for indian students" />
+            </div>
             </div>
             <div className='mt-5'>
               <h4 className='font-roboto text-xl md:text-2xl'>Student Life in Lithuania</h4>

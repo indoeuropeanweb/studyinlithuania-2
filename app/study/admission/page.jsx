@@ -1,4 +1,5 @@
 import Breadcrumb from "@/app/components/Breadcrumb"
+import { IoIosArrowForward } from "react-icons/io"
 
 const page = () => {
   return (
@@ -49,17 +50,17 @@ const page = () => {
                      <div className="mt-5">
                      <h4 className="text-lg font-semibold font-roboto">September Intake (Main intake)</h4>
                      <ul className="mt-5 space-y-2">
-                        <li className="text-md font-inter">Applications Start: January–February 2026</li>
-                        <li className="text-md font-inter">Deadline: May–June 2026</li>
-                        <li className="text-md font-inter">Classes Begin: September 2026</li>
+                        <li className="text-md font-inter"><IoIosArrowForward className='size-6 inline-block'/>&nbsp;Applications Start: January–February 2026</li>
+                        <li className="text-md font-inter"><IoIosArrowForward className='size-6 inline-block'/>&nbsp;Deadline: May–June 2026</li>
+                        <li className="text-md font-inter"><IoIosArrowForward className='size-6 inline-block'/>&nbsp;Classes Begin: September 2026</li>
                      </ul>
                      </div>
                      <div className="mt-5">
                      <h4 className="text-lg font-semibold font-roboto text-[#3d3d3d]">February Intake (Limited Courses)</h4>
                      <ul className="mt-5 space-y-2">
-                        <li className="text-md font-inter">Applications Start: October–November 2025</li>
-                        <li className="text-md font-inter">Deadline: December 2025–January 2026</li>
-                        <li className="text-md font-inter">Classes Begin: February 2026</li>
+                        <li className="text-md font-inter"><IoIosArrowForward className='size-6 inline-block'/>&nbsp;Applications Start: October–November 2025</li>
+                        <li className="text-md font-inter"><IoIosArrowForward className='size-6 inline-block'/>&nbsp;Deadline: December 2025–January 2026</li>
+                        <li className="text-md font-inter"><IoIosArrowForward className='size-6 inline-block'/>&nbsp;Classes Begin: February 2026</li>
                      </ul>
                      </div>
                      <p className="text-md font-inter mt-5">Students are advised to apply early for Lithuania intake 2026 to improve admission and visa
@@ -69,22 +70,22 @@ const page = () => {
                 <div className="mt-10">
                   <h4 className="text-xl md:text-2xl font-roboto text-[#3d3d3d]">Documents Required for Lithuania Admission</h4>
                      <ul className="mt-5 space-y-2">
-                        <li className="text-md font-inter">Valid Passport</li>
-                        <li className="text-md font-inter">Academic Certificates &amp; Transcripts</li>
-                        <li className="text-md font-inter">Updated Resume/CV</li>
-                        <li className="text-md font-inter">Statement of Purpose (SOP)</li>
-                        <li className="text-md font-inter">Letter of Recommendation</li>
-                        <li className="text-md font-inter">IELTS or English Proficiency Test Score</li>
-                        <li className="text-md font-inter">Passport-Size Photographs</li>
+                        <li className="text-md font-inter"><IoIosArrowForward className='size-6 inline-block'/>&nbsp;Valid Passport</li>
+                        <li className="text-md font-inter"><IoIosArrowForward className='size-6 inline-block'/>&nbsp;Academic Certificates &amp; Transcripts</li>
+                        <li className="text-md font-inter"><IoIosArrowForward className='size-6 inline-block'/>&nbsp;Updated Resume/CV</li>
+                        <li className="text-md font-inter"><IoIosArrowForward className='size-6 inline-block'/>&nbsp;Statement of Purpose (SOP)</li>
+                        <li className="text-md font-inter"><IoIosArrowForward className='size-6 inline-block'/>&nbsp;Letter of Recommendation</li>
+                        <li className="text-md font-inter"><IoIosArrowForward className='size-6 inline-block'/>&nbsp;IELTS or English Proficiency Test Score</li>
+                        <li className="text-md font-inter"><IoIosArrowForward className='size-6 inline-block'/>&nbsp;Passport-Size Photographs</li>
                      </ul>
                 </div>
                 <div className="mt-10">
                   <h4 className="text-xl md:text-2xl font-roboto text-[#3d3d3d]">Documents Required for Visa Process</h4>
                   <ul className="space-y-3 mt-5">
-                    <li className="text-md font-inter">Financial Proof</li>
-                    <li className="text-md font-inter">Tuition Fee Payment Receipt</li>
-                    <li className="text-md font-inter">Health Insurance</li>
-                    <li className="text-md font-inter">University Offer Letter</li>
+                    <li className="text-md font-inter"><IoIosArrowForward className='size-6 inline-block'/>&nbsp;Financial Proof</li>
+                    <li className="text-md font-inter"><IoIosArrowForward className='size-6 inline-block'/>&nbsp;Tuition Fee Payment Receipt</li>
+                    <li className="text-md font-inter"><IoIosArrowForward className='size-6 inline-block'/>&nbsp;Health Insurance</li>
+                    <li className="text-md font-inter"><IoIosArrowForward className='size-6 inline-block'/>&nbsp;University Offer Letter</li>
                   </ul>
                   <p className="text-md font-inter my-5">Preparing the correct documents on time can make the Lithuania admission process faster and
                     smoother for Indian students.</p>
