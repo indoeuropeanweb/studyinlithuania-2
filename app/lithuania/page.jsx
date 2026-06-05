@@ -7,7 +7,7 @@ const page = () => {
     <>
          <Breadcrumb heading={''}/>
          <div className='py-5 px-5'>
-               <h2 className='font-aino text-2xl md:text-4xl'>Study in Lithuania—explore a smarter way to grow in Europe.</h2>
+               <h2 className='font-aino text-2xl md:text-4xl'>Study in Lithuania — Explore a smarter way to grow in Europe.</h2>
                <p className='text-justify font-roboto text-lg mt-3'>If you are planning to study in Europe and looking for an affordable, globally recognized,
                 and safe destination, Lithuania is an excellent choice for Indian students. Known for its
                 high-quality education and budget-friendly living, Lithuania is becoming one of the most

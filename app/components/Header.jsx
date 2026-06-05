@@ -80,7 +80,7 @@ const Header = () => {
             </Link>
 
             <Link
-              href="/student-ambassador"
+              href="/student-ambassadors"
               className="text-sm font-roboto font-medium text-white hover:text-gray-200 transition"
             >
               Student <br />
@@ -116,7 +116,7 @@ const Header = () => {
             </Link>
 
             <Link
-              href="/contact-lithuania-consultant"
+              href="/contact"
               className="text-sm font-roboto font-medium text-white hover:text-gray-200 transition"
             >
               Contact Us
@@ -199,7 +199,7 @@ const Header = () => {
           </Link>
 
           <Link
-            href="/student-ambassador"
+            href="/student-ambassadors"
             className="block font-medium font-roboto text-gray-100 hover:text-white"
           >
             Student Ambassador
@@ -234,7 +234,7 @@ const Header = () => {
           </Link>
 
           <Link
-            href="/contact-lithuania-consultant"
+            href="/contact"
             className="block font-medium font-roboto text-gray-100 hover:text-white"
           >
             Contact Us

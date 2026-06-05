@@ -42,7 +42,7 @@ const footer = () => {
             <h3 className='font-aino text-lg md:text-xl text-primary'>Contact</h3>
            <ul className='mt-3 space-y-3'>
             <li className='text-md md:text-base hover:underline'><Link href={'/about'}>About Us</Link></li>
-            <li className='text-md md:text-base hover:underline'><Link href={'/contact-us'}>Contact Us</Link></li>
+            <li className='text-md md:text-base hover:underline'><Link href={'/contact'}>Contact Us</Link></li>
            </ul>
           </div>
           </div>
