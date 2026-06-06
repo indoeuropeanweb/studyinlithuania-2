@@ -24,21 +24,21 @@ export default async function BlogPage({ params }) {
           className="w-full rounded-xl"
         />
 
-        <h1 className="text-4xl font-bold mt-8">
+        <h1 className="text-4xl font-bold font-aino mt-8">
           {blog.title}
         </h1>
 
-        <p className="text-gray-500 mt-2">
+        <p className="text-gray-500 mt-2 text-inter">
           {blog.date}
         </p>
 
         {blog.sections.map((section, index) => (
           <div key={index} className="mt-8">
-            <h2 className="text-2xl font-bold">
+            <h2 className="text-2xl font-bold font-aino">
               {section.heading}
             </h2>
 
-            <p className="mt-3">
+            <p className="mt-3 text-justify font-inter">
               {section.content}
             </p>
           </div>
@@ -51,11 +51,11 @@ export default async function BlogPage({ params }) {
 
           {blog.faqs.map((faq, index) => (
             <div key={index} className="mt-4">
-              <h3 className="font-semibold">
+              <h3 className="font-semibold font-roboto">
                 {faq.question}
               </h3>
 
-              <p>{faq.answer}</p>
+              <p className="font-inter text-justify">{faq.answer}</p>
             </div>
           ))}
         </div>

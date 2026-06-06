@@ -8,6 +8,7 @@ import { BsBank } from "react-icons/bs";
 import { SiEuropeanunion } from "react-icons/si";
 import { AiFillSafetyCertificate } from "react-icons/ai";
 import Form from "./components/form/form";
+import { blogs } from "@/public/data/blogs";
 
 const HomeClient = () => {
 
@@ -74,7 +75,7 @@ const HomeClient = () => {
                <div className="relative z-3 flex justify-center items-center flex-col gap-5 px-4 py-6">
                <h4 className="text-white text-2xl md:text-2xl font-aino">Bachelor's</h4>
                <p className="text-white text-sm md:text-md text-center">Bachelor’s programs in Lithuania offer internationally recognised degrees, affordable tuition, and strong academic foundation for global career opportunities.</p>
-               <Link className="text-white px-6 py-2 rounded-full border border-white text-md md:text-base hover:bg-white hover:text-primary duration-300 ease-in-out" href={'/learn-more'}>Learn More <FaArrowRightLong className="size-5 inline-block"/></Link>
+               <Link className="text-white px-6 py-2 rounded-full border border-white text-md md:text-base hover:bg-white hover:text-primary duration-300 ease-in-out" href={'/study/programmes/bachelors'}>Learn More <FaArrowRightLong className="size-5 inline-block"/></Link>
                </div>
             </div>
             <div className="absolute z-2 bottom-0 bg-linear-to-t from-primary via-primary to-tertiary/10 w-full h-full" />
@@ -85,7 +86,7 @@ const HomeClient = () => {
                <div className="relative z-3 flex justify-center items-center flex-col gap-5 px-4 py-6">
                <h4 className="text-white text-lg md:text-2xl font-aino">Master's</h4>
                <p className="text-white text-sm md:text-md text-center">Master’s programs in Lithuania provide advanced knowledge, research opportunities, and industry-focused learning for better international career growth.</p>
-               <Link className="text-white px-6 py-2 rounded-full border border-white text-md md:text-base hover:bg-white hover:text-tertiary duration-300 ease-in-out" href={'/learn-more'}>Learn More <FaArrowRightLong className="size-5 inline-block"/></Link>
+               <Link className="text-white px-6 py-2 rounded-full border border-white text-md md:text-base hover:bg-white hover:text-tertiary duration-300 ease-in-out" href={'/study/programmes/masters'}>Learn More <FaArrowRightLong className="size-5 inline-block"/></Link>
                </div>
             </div>
             <div className="absolute z-2 bottom-0 bg-linear-to-t from-tertiary via-tertiary to-tertiary/10 w-full h-full" />
@@ -96,7 +97,7 @@ const HomeClient = () => {
                <div className="relative z-3 flex justify-center items-center flex-col gap-5 px-4 py-6">
                <h4 className="text-white text-lg md:text-2xl font-aino">PhD</h4>
                <p className="text-white text-sm md:text-md text-center">PhD programs in Lithuania focus on research excellence, academic innovation, and expert guidance in specialised fields across Europe.</p>
-               <Link className="text-white px-6 py-2 rounded-full border border-white text-md md:text-base hover:bg-white hover:text-primary duration-300 ease-in-out" href={'/learn-more'}>Learn More <FaArrowRightLong className="size-5 inline-block"/></Link>
+               <Link className="text-white px-6 py-2 rounded-full border border-white text-md md:text-base hover:bg-white hover:text-primary duration-300 ease-in-out" href={'/study/programmes/phd'}>Learn More <FaArrowRightLong className="size-5 inline-block"/></Link>
                </div>
             </div>
             <div className="absolute z-2 bottom-0 bg-linear-to-t from-primary via-primary to-tertiary/10 w-full h-full" />
@@ -107,7 +108,7 @@ const HomeClient = () => {
                <div className="relative z-3 flex justify-center items-center flex-col gap-5 px-4 py-6">
                <h4 className="text-white text-lg md:text-2xl font-aino">Short Courses</h4>
                <p className="text-white text-sm md:text-md text-center">Short courses in Lithuania help students gain practical skills, flexible learning experience, and quick career development opportunities.</p>
-               <Link className="text-white px-6 py-2 rounded-full border border-white text-md md:text-base hover:bg-white hover:text-tertiary duration-300 ease-in-out" href={'/learn-more'}>Learn More <FaArrowRightLong className="size-5 inline-block"/></Link>
+               <Link className="text-white px-6 py-2 rounded-full border border-white text-md md:text-base hover:bg-white hover:text-tertiary duration-300 ease-in-out" href={'/study/programmes/short-courses'}>Learn More <FaArrowRightLong className="size-5 inline-block"/></Link>
             </div>
             </div>
             <div className="absolute z-2 bottom-0 bg-linear-to-t from-tertiary via-tertiary to-tertiary/10 w-full h-full" />
@@ -120,7 +121,7 @@ const HomeClient = () => {
       <div className="py-12 px-4 flex flex-col justify-center items-center gap-6">
         <h2 className="font-aino text-2xl md:text-4xl">Application deadlines are approaching</h2>
         <p className="font-roboto text-lg md:text-base">Visit our online admission system to apply to Bachelor's, Master's or Doctoral programmes.</p>
-      <Link className="px-6 py-2 bg-primary hover:bg-primary/75 duration-300 ease-in-out text-white text-lg rounded-full" href={'/'}>Go to DreamApply</Link>
+      <Link className="px-6 py-2 bg-primary hover:bg-primary/75 duration-300 ease-in-out text-white text-lg rounded-full" href={'/contact'}>Go to DreamApply</Link>
       </div>
     </section>
     <section className="">
@@ -156,7 +157,7 @@ const HomeClient = () => {
                <div className="relative z-3 flex justify-center items-center flex-col gap-5 px-4 py-6">
                <h4 className="text-white text-2xl md:text-2xl font-aino">Scholarships</h4>
                <p className="text-white text-sm md:text-md text-center">Scholarships in Lithuania help international students reduce tuition fees and study expenses based on academic performance and eligibility criteria.</p>
-               <Link className="text-white px-6 py-2 rounded-full border border-white text-md md:text-base hover:bg-white hover:text-primary duration-300 ease-in-out" href={'/learn-more'}>Learn More <FaArrowRightLong className="size-5 inline-block"/></Link>
+               <Link className="text-white px-6 py-2 rounded-full border border-white text-md md:text-base hover:bg-white hover:text-primary duration-300 ease-in-out" href={'/study/scholarships'}>Learn More <FaArrowRightLong className="size-5 inline-block"/></Link>
                </div>
             </div>
             <div className="absolute z-2 bottom-0 bg-linear-to-t from-primary via-primary to-tertiary/10 w-full h-full" />
@@ -167,7 +168,7 @@ const HomeClient = () => {
                <div className="relative z-3 flex justify-center items-center flex-col gap-5 px-4 py-6">
                <h4 className="text-white text-lg md:text-2xl font-aino">Admission</h4>
                <p className="text-white text-sm md:text-md text-center">Admission in Lithuania universities is simple, requiring academic documents, English proficiency proof, and timely application submission before deadlines.</p>
-               <Link className="text-white px-6 py-2 rounded-full border border-white text-md md:text-base hover:bg-white hover:text-tertiary duration-300 ease-in-out" href={'/learn-more'}>Learn More <FaArrowRightLong className="size-5 inline-block"/></Link>
+               <Link className="text-white px-6 py-2 rounded-full border border-white text-md md:text-base hover:bg-white hover:text-tertiary duration-300 ease-in-out" href={'/study/admission'}>Learn More <FaArrowRightLong className="size-5 inline-block"/></Link>
                </div>
             </div>
             <div className="absolute z-2 bottom-0 bg-linear-to-t from-tertiary via-tertiary to-tertiary/10 w-full h-full" />
@@ -178,7 +179,7 @@ const HomeClient = () => {
                <div className="relative z-3 flex justify-center items-center flex-col gap-5 px-4 py-6">
                <h4 className="text-white text-lg md:text-2xl font-aino">Working</h4>
                <p className="text-white text-sm md:text-md text-center">Students in Lithuania can work part-time during studies, gaining practical experience and supporting their living costs effectively.</p>
-               <Link className="text-white px-6 py-2 rounded-full border border-white text-md md:text-base hover:bg-white hover:text-primary duration-300 ease-in-out" href={'/learn-more'}>Learn More <FaArrowRightLong className="size-5 inline-block"/></Link>
+               <Link className="text-white px-6 py-2 rounded-full border border-white text-md md:text-base hover:bg-white hover:text-primary duration-300 ease-in-out" href={'/living/working'}>Learn More <FaArrowRightLong className="size-5 inline-block"/></Link>
                </div>
             </div>
             <div className="absolute z-2 bottom-0 bg-linear-to-t from-primary via-primary to-tertiary/10 w-full h-full" />
@@ -189,7 +190,7 @@ const HomeClient = () => {
                <div className="relative z-3 flex justify-center items-center flex-col gap-5 px-4 py-6">
                <h4 className="text-white text-lg md:text-2xl font-aino text-center">Visa and Residence Permit</h4>
                <p className="text-white text-sm md:text-md text-center">A student visa and residence permit are required to study in Lithuania, allowing legal stay and smooth access to education benefits.</p>
-               <Link className="text-white px-6 py-2 rounded-full border border-white text-md md:text-base hover:bg-white hover:text-tertiary duration-300 ease-in-out" href={'/learn-more'}>Learn More <FaArrowRightLong className="size-5 inline-block"/></Link>
+               <Link className="text-white px-6 py-2 rounded-full border border-white text-md md:text-base hover:bg-white hover:text-tertiary duration-300 ease-in-out" href={'/living/visa-and-residence-permit'}>Learn More <FaArrowRightLong className="size-5 inline-block"/></Link>
             </div>
             </div>
             <div className="absolute z-2 bottom-0 bg-linear-to-t from-tertiary via-tertiary to-tertiary/10 w-full h-full" />
@@ -200,133 +201,31 @@ const HomeClient = () => {
     </section>
     <section className="max-w-6xl mx-auto">
       <div className="my-12">
-          <h2 className="font-aino text-2xl md:text-4xl">Blogs & Events</h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 mt-10">
+          <h2 className="font-aino text-2xl md:text-4xl">Blogs</h2>
+          <div className="mt-10">
             <div className="">
-              <ul className="space-y-5">
-                <li className="">
-                  <h4 className="font-aino mb-3">Study in Lithuania</h4>
+              <ul className="space-y-10 grid grid-cols-1 md:grid-cols-2 space-x-10">
+                {blogs.slice(0, 6).map((blog, index) => {
+                  return <li key={blog.id}>
+                  {/* <h4 className="font-aino mb-3">{blog.title}</h4> */}
                   <div className="flex justify-center gap-2">
                     <div className="">
-                      <Image className="" height={160} width={200} src={'/images/blogs/blog-1.avif'} alt="study in lithuania" />
+                      <Image className="max-w-50" height={160} width={200} src={`${blog.image}`} alt={`${blog.title}`} />
                     </div>
                     <div className="">
-                         <p className="font-aino">Last chance to apply: Environmental Governance and Landscape Architecture (deadline 20 April)</p>
+                         <h4 className="font-aino">{blog.metaTitle}</h4>
                          <div className="flex justify-between items-center mt-4">
-                          <span className="font-roboto text-sm md:text-md">12 May 2026</span>
-                          <Link className="text-primary hover:underline" href={''}>Read more <FaArrowRightLong className="size-4 inline-block"/></Link>
+                          <span className="font-roboto text-sm md:text-md">{blog.publishDate}</span>
+                          <Link className="text-primary hover:underline" href={`/blogs/${blog.slug}`}>Read more <FaArrowRightLong className="size-4 inline-block"/></Link>
                          </div>
                     </div>
                   </div>
                 </li>
-                <li>
-                  <h4 className="font-aino mb-3">Study in Lithuania</h4>
-                  <div className="flex justify-center gap-2">
-                    <div className="">
-                      <Image className="" height={160} width={200} src={'/images/blogs/blog-1.avif'} alt="study in lithuania" />
-                    </div>
-                    <div className="">
-                         <p className="font-aino">Last chance to apply: Environmental Governance and Landscape Architecture (deadline 20 April)</p>
-                         <div className="flex justify-between items-center mt-4">
-                          <span className="font-roboto text-sm md:text-md">12 May 2026</span>
-                          <Link className="text-primary hover:underline" href={''}>Read more <FaArrowRightLong className="size-4 inline-block"/></Link>
-                         </div>
-                    </div>
-                  </div>
-                </li>
-                <li>
-                  <h4 className="font-aino mb-3">Study in Lithuania</h4>
-                  <div className="flex justify-center gap-2">
-                    <div className="">
-                      <Image className="" height={160} width={200} src={'/images/blogs/blog-1.avif'} alt="study in lithuania" />
-                    </div>
-                    <div className="">
-                         <p className="font-aino">Last chance to apply: Environmental Governance and Landscape Architecture (deadline 20 April)</p>
-                         <div className="flex justify-between items-center mt-4">
-                          <span className="font-roboto text-sm md:text-md">12 May 2026</span>
-                          <Link className="text-primary hover:underline" href={''}>Read more <FaArrowRightLong className="size-4 inline-block"/></Link>
-                         </div>
-                    </div>
-                  </div>
-                </li>
-                <li>
-                  <h4 className="font-aino mb-3">Study in Lithuania</h4>
-                  <div className="flex justify-center gap-2">
-                    <div className="">
-                      <Image className="" height={160} width={200} src={'/images/blogs/blog-1.avif'} alt="study in lithuania" />
-                    </div>
-                    <div className="">
-                         <p className="font-aino">Last chance to apply: Environmental Governance and Landscape Architecture (deadline 20 April)</p>
-                         <div className="flex justify-between items-center mt-4">
-                          <span className="font-roboto text-sm md:text-md">12 May 2026</span>
-                          <Link className="text-primary hover:underline" href={''}>Read more <FaArrowRightLong className="size-4 inline-block"/></Link>
-                         </div>
-                    </div>
-                  </div>
-                </li>
+                })}
               </ul>
           <div className="flex justify-end items-center mt-12">
-            <Link className="px-4 py-2 border-2 border-primary text-primary bg-white rounded-full hover:bg-primary hover:text-white duration-300 ease-in-out" href={'/blogs'}>All Blogs &nbsp;<FaArrowRightLong className="size-6 inline-block"/></Link>
+            <Link className="px-4 py-2 border-2 border-primary text-primary bg-white rounded-full hover:bg-primary hover:text-white duration-300 ease-in-out" href={`/blogs`}>All Blogs &nbsp;<FaArrowRightLong className="size-6 inline-block"/></Link>
           </div>
-            </div>
-            <div className="">
-              <ul className="mt-8">
-                <li className="flex gap-3 justify-center space-y-5">
-                    <span className="font-roboto text-sm md:text-md">May-06</span>
-                    <Link className="text-primary hover:underline" href={''}><p className="font-aino text-sm md:text-md">Study in Europe Fair Moldova 2026</p></Link>
-                </li>
-                <li className="flex gap-3 justify-center space-y-5">
-                    <span className="font-roboto text-sm md:text-md">May-06</span>
-                    <Link className="text-primary hover:underline" href={''}><p className="font-aino text-sm md:text-md">Study in Europe Fair Moldova 2026</p></Link>
-                </li>
-                <li className="flex gap-3 justify-center space-y-5">
-                    <span className="font-roboto text-sm md:text-md">May-06</span>
-                    <Link className="text-primary hover:underline" href={''}><p className="font-aino text-sm md:text-md">Study in Europe Fair Moldova 2026</p></Link>
-                </li>
-                <li className="flex gap-3 justify-center space-y-5">
-                    <span className="font-roboto text-sm md:text-md">May-06</span>
-                    <Link className="text-primary hover:underline" href={''}><p className="font-aino text-sm md:text-md">Study in Europe Fair Moldova 2026</p></Link>
-                </li>
-                <li className="flex gap-3 justify-center space-y-5">
-                    <span className="font-roboto text-sm md:text-md">May-06</span>
-                    <Link className="text-primary hover:underline" href={''}><p className="font-aino text-sm md:text-md">Study in Europe Fair Moldova 2026</p></Link>
-                </li>
-                <li className="flex gap-3 justify-center space-y-5">
-                    <span className="font-roboto text-sm md:text-md">May-06</span>
-                    <Link className="text-primary hover:underline" href={''}><p className="font-aino text-sm md:text-md">Study in Europe Fair Moldova 2026</p></Link>
-                </li>
-                <li className="flex gap-3 justify-center space-y-5">
-                    <span className="font-roboto text-sm md:text-md">May-06</span>
-                    <Link className="text-primary hover:underline" href={''}><p className="font-aino text-sm md:text-md">Study in Europe Fair Moldova 2026</p></Link>
-                </li>
-                <li className="flex gap-3 justify-center space-y-5">
-                    <span className="font-roboto text-sm md:text-md">May-06</span>
-                    <Link className="text-primary hover:underline" href={''}><p className="font-aino text-sm md:text-md">Study in Europe Fair Moldova 2026</p></Link>
-                </li>
-                <li className="flex gap-3 justify-center space-y-5">
-                    <span className="font-roboto text-sm md:text-md">May-06</span>
-                    <Link className="text-primary hover:underline" href={''}><p className="font-aino text-sm md:text-md">Study in Europe Fair Moldova 2026</p></Link>
-                </li>
-                <li className="flex gap-3 justify-center space-y-5">
-                    <span className="font-roboto text-sm md:text-md">May-06</span>
-                    <Link className="text-primary hover:underline" href={''}><p className="font-aino text-sm md:text-md">Study in Europe Fair Moldova 2026</p></Link>
-                </li>
-                <li className="flex gap-3 justify-center space-y-5">
-                    <span className="font-roboto text-sm md:text-md">May-06</span>
-                    <Link className="text-primary hover:underline" href={''}><p className="font-aino text-sm md:text-md">Study in Europe Fair Moldova 2026</p></Link>
-                </li>
-                <li className="flex gap-3 justify-center space-y-5">
-                    <span className="font-roboto text-sm md:text-md">May-06</span>
-                    <Link className="text-primary hover:underline" href={''}><p className="font-aino text-sm md:text-md">Study in Europe Fair Moldova 2026</p></Link>
-                </li>
-                <li className="flex gap-3 justify-center space-y-5">
-                    <span className="font-roboto text-sm md:text-md">May-06</span>
-                    <Link className="text-primary hover:underline" href={''}><p className="font-aino text-sm md:text-md">Study in Europe Fair Moldova 2026</p></Link>
-                </li>
-              </ul>
-              <div className="flex justify-end items-center mt-12">
-              <Link className="px-4 py-2 border-2 border-primary bg-white text-primary hover:bg-primary hover:text-white rounded-full duration-300 ease-in-out" href={'/events'}>All Events <FaArrowRightLong className="size-6 inline-block"/></Link>
-              </div>
             </div>
           </div>
       </div>
