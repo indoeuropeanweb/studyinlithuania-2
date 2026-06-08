@@ -8,7 +8,7 @@ export const blogs = [
   metaDescription:
     "Complete guide to study in Lithuania for Indian students in 2026 including universities, scholarships, visa process, courses, cost of living, and career opportunities.",
 
-  image: "/images/blogs/study-in-lithuania-guide-2026.avif",
+  image: "/images/blogs/study-in-lithuania-guide-2026.webp",
 
   category: "Lithuania",
 
@@ -300,7 +300,7 @@ export const blogs = [
   metaDescription:
     "Explore part-time jobs, student work opportunities, salaries, and career options in Lithuania for international students.",
 
-  image: "/images/blogs/work-opportunities-lithuania.avif",
+  image: "/images/blogs/work-opportunities-lithuania.webp",
 
   category: "Lithuania",
 
@@ -708,7 +708,7 @@ export const blogs = [
   metaDescription:
     "Discover why Lithuania is becoming a top destination for international students with affordable tuition fees, scholarships, globally recognised universities, and career opportunities.",
 
-  image: "/images/blogs/why-study-in-lithuania.avif",
+  image: "/images/blogs/why-study-in-lithuania.webp",
 
   category: "Lithuania",
 
@@ -1098,7 +1098,7 @@ export const blogs = [
   metaDescription:
     "Explore the best Lithuania courses for international students including medicine, engineering, business, IT, scholarships, tuition fees, and career opportunities.",
 
-  image: "/images/blogs/lithuania-courses-2026.avif",
+  image: "/images/blogs/lithuania-courses-2026.webp",
 
   category: "Lithuania",
 
@@ -1549,7 +1549,7 @@ export const blogs = [
     "Explore the best universities in Lithuania offering scholarships, affordable tuition fees, English-taught programs, and globally recognised degrees for international students.",
 
   image:
-    "/images/blogs/best-universities-in-lithuania.avif",
+    "/images/blogs/best-universities-in-lithuania.webp",
 
   category: "Lithuania",
 
@@ -2017,7 +2017,7 @@ export const blogs = [
     "Learn how to apply to Lithuanian universities, admission requirements, scholarships, tuition fees, visa process, and top universities for international students.",
 
   image:
-    "/images/blogs/how-to-apply-lithuanian-universities.avif",
+    "/images/blogs/how-to-apply-lithuanian-universities.webp",
 
   category: "Lithuania",
 
@@ -2414,7 +2414,7 @@ export const blogs = [
     "Complete Lithuania student visa guide for 2026 covering visa requirements, documents, scholarships, universities, courses, and application steps for international students.",
 
   image:
-    "/images/blogs/lithuania-student-visa-guide.avif",
+    "/images/blogs/lithuania-student-visa-guide.webp",
 
   category: "Lithuania",
 
@@ -2948,7 +2948,7 @@ export const blogs = [
     "Explore the best jobs for students in Lithuania including part-time work, internships, salaries, freelancing opportunities, and work opportunities for international students in 2026.",
 
   image:
-    "/images/blogs/jobs-for-students-in-lithuania.avif",
+    "/images/blogs/jobs-for-students-in-lithuania.webp",
 
   category: "Lithuania",
 
@@ -3556,7 +3556,7 @@ export const blogs = [
     "Complete guide to Lithuania study abroad in 2026 including universities, scholarships, student visa process, tuition fees, living costs, jobs, and career opportunities for international students.",
 
   image:
-    "/images/blogs/lithuania-study-abroad-guide.avif",
+    "/images/blogs/lithuania-study-abroad-guide.webp",
 
   category: "Lithuania",
 
@@ -4260,7 +4260,7 @@ export const blogs = [
   "slug": "study-in-lithuania-consultants-in-delhi",
   "metaTitle": "Best Study in Lithuania Consultants in Delhi for Students",
   "metaDescription": "Find expert study in Lithuania consultants in Delhi for admissions, scholarships, visa support, and university guidance for studying in Lithuania.",
-  "image": "/images/blogs/lithuania-consultants-delhi.avif",
+  "image": "/images/blogs/lithuania-consultants-delhi.webp",
   "category": "Lithuania",
   "publishDate": "2026-06-06",
   "readingTime": "11 min read",
@@ -4601,7 +4601,7 @@ export const blogs = [
   "slug": "study-in-lithuania-consultants-in-punjab",
   "metaTitle": "Best Study in Lithuania Consultants in Punjab for Students",
   "metaDescription": "Find trusted study in Lithuania consultants in Punjab for admissions, scholarships, university selection, and student visa guidance for studying in Lithuania.",
-  "image": "/images/blogs/lithuania-consultants-punjab.avif",
+  "image": "/images/blogs/lithuania-consultants-punjab.webp",
   "category": "Lithuania",
   "publishDate": "2026-06-06",
   "readingTime": "10 min read",
@@ -4976,6 +4976,263 @@ export const blogs = [
     {
       "question": "What services do study in Lithuania consultants in Jalandhar offer?",
       "answer": "Students working with study in Lithuania consultants in Jalandhar can receive support for university admissions, course selection, application reviews, visa documentation, pre-departure guidance, and information about studying and living in Lithuania."
+    }
+  ]
+},
+{
+  id: 12,
+  title: "Study in Lithuania Consultants: Start Your Study Abroad Journey Here",
+  slug: "study-in-lithuania-consultants",
+  metaTitle: "Study in Lithuania Consultants | Lithuania Study Abroad Guidance",
+  metaDescription:
+    "Find expert study in Lithuania consultants for university admissions, visa support, scholarships, and complete study abroad guidance for Lithuania.",
+  image: "/images/blogs/lithuania-consultants.webp",
+  category: "Lithuania",
+  publishDate: "2026-06-08",
+  readingTime: "11 min read",
+
+  sections: [
+    {
+      type: "paragraph",
+      content:
+        "Choosing the right country, university, and course is one of the most important decisions in a student’s academic journey. As Lithuania continues to attract international students with its affordable education, globally recognised degrees, and growing career opportunities, many applicants seek professional assistance to simplify the process."
+    },
+
+    {
+      type: "heading",
+      content: "Why Lithuania Is Becoming a Preferred Study Destination"
+    },
+
+    {
+      type: "paragraph",
+      content:
+        "Lithuania has emerged as one of Europe’s most attractive destinations for international education because of affordable tuition fees, internationally recognised universities, English-taught degree programs, and modern academic infrastructure."
+    },
+
+    {
+      type: "list",
+      items: [
+        "Affordable tuition fees",
+        "Internationally recognised universities",
+        "English-taught degree programs",
+        "Safe and welcoming environment",
+        "Modern academic infrastructure",
+        "Growing employment opportunities",
+        "Access to the European education system"
+      ]
+    },
+
+    {
+      type: "heading",
+      content: "Why Students Need Professional Study Abroad Guidance"
+    },
+
+    {
+      type: "paragraph",
+      content:
+        "Studying abroad involves much more than simply submitting a university application. Students often need support with course selection, university shortlisting, application procedures, visa requirements, scholarship opportunities, and financial planning."
+    },
+
+    {
+      type: "list",
+      items: [
+        "Course selection",
+        "University shortlisting",
+        "Application procedures",
+        "Document preparation",
+        "Visa requirements",
+        "Financial planning",
+        "Scholarship opportunities"
+      ]
+    },
+
+    {
+      type: "heading",
+      content: "What Do Study in Lithuania Consultants Do?"
+    },
+
+    {
+      type: "paragraph",
+      content:
+        "Professional study in Lithuania consultants help students identify suitable universities and programs, prepare strong applications, manage documentation, and understand student visa procedures."
+    },
+
+    {
+      type: "heading",
+      content: "University Selection"
+    },
+
+    {
+      type: "paragraph",
+      content:
+        "Experienced Lithuania university admission consultants evaluate academic goals, financial considerations, and career aspirations to recommend suitable institutions and courses."
+    },
+
+    {
+      type: "heading",
+      content: "Application Assistance"
+    },
+
+    {
+      type: "paragraph",
+      content:
+        "Consultants help students review applications, verify documents, ensure accuracy, and meet submission deadlines to reduce the risk of delays or application rejections."
+    },
+
+    {
+      type: "heading",
+      content: "Visa Support"
+    },
+
+    {
+      type: "paragraph",
+      content:
+        "Reliable Lithuania student visa consultants guide students through document preparation, financial requirements, visa application forms, and interview preparation if required."
+    },
+
+    {
+      type: "heading",
+      content: "How Study in Lithuania Consultants Simplify the Admission Process"
+    },
+
+    {
+      type: "list",
+      items: [
+        "Student profile assessment",
+        "Course and university selection",
+        "Application preparation",
+        "Visa guidance",
+        "Pre-departure assistance"
+      ]
+    },
+
+    {
+      type: "heading",
+      content: "Benefits of Working With Lithuania Education Consultants"
+    },
+
+    {
+      type: "paragraph",
+      content:
+        "Professional consultants provide updated information about admission policies, visa regulations, and scholarship opportunities while helping students save time and reduce application errors."
+    },
+
+    {
+      type: "list",
+      items: [
+        "Expert knowledge",
+        "Time-saving guidance",
+        "Reduced application errors",
+        "Personalised support",
+        "Scholarship assistance"
+      ]
+    },
+
+    {
+      type: "heading",
+      content: "Popular Programs Available in Lithuania"
+    },
+
+    {
+      type: "list",
+      items: [
+        "Business and Management",
+        "Information Technology",
+        "Engineering",
+        "Healthcare and Life Sciences",
+        "Social Sciences"
+      ]
+    },
+
+    {
+      type: "heading",
+      content: "Scholarship Opportunities for International Students"
+    },
+
+    {
+      type: "paragraph",
+      content:
+        "Students may explore university scholarships, government scholarships, merit-based awards, and international mobility grants to reduce their study abroad expenses."
+    },
+
+    {
+      type: "heading",
+      content: "Common Mistakes Students Make Without Professional Guidance"
+    },
+
+    {
+      type: "list",
+      items: [
+        "Choosing the wrong program",
+        "Missing application deadlines",
+        "Submitting incomplete documentation",
+        "Poor financial planning"
+      ]
+    },
+
+    {
+      type: "heading",
+      content: "How to Choose the Right Lithuania Consultant"
+    },
+
+    {
+      type: "list",
+      items: [
+        "Industry experience",
+        "Transparent processes",
+        "Strong university partnerships",
+        "Positive student reviews",
+        "Comprehensive support services"
+      ]
+    },
+
+    {
+      type: "heading",
+      content: "Final Thoughts"
+    },
+
+    {
+      type: "paragraph",
+      content:
+        "Professional study in Lithuania consultants provide valuable support by helping students choose the right university, prepare strong applications, understand visa requirements, and successfully transition to student life abroad."
+    }
+  ],
+
+  faqs: [
+    {
+      question: "Why should I use study in Lithuania consultants?",
+      answer:
+        "Study in Lithuania consultants help students choose suitable universities, prepare applications, understand admission requirements, and navigate the student visa process efficiently."
+    },
+
+    {
+      question: "How can Lithuania study abroad consultants help with university admissions?",
+      answer:
+        "Lithuania study abroad consultants assist with university shortlisting, application preparation, document verification, SOP reviews, and admission submissions."
+    },
+
+    {
+      question: "Are Lithuania university admission consultants helpful for international students?",
+      answer:
+        "Yes, Lithuania university admission consultants provide guidance on entry requirements, course selection, application deadlines, and document preparation for international students."
+    },
+
+    {
+      question: "Can consultants help with the Lithuania student visa process?",
+      answer:
+        "Yes, Lithuania student visa consultants guide students through visa documentation, financial proof requirements, health insurance requirements, and application procedures."
+    },
+
+    {
+      question: "How do I choose the best study in Lithuania consultant?",
+      answer:
+        "Students should look for experienced consultants with transparent processes, positive student reviews, university partnerships, and comprehensive support services."
+    },
+
+    {
+      question: "Do Lithuania education consultants help with scholarships?",
+      answer:
+        "Yes, many Lithuania education consultants help students identify scholarship opportunities, understand eligibility criteria, and prepare scholarship applications."
     }
   ]
 }

@@ -1,8 +1,8 @@
 "use client";
 import Image from "next/image";
 import Link from "next/link";
-import { FaXTwitter, FaArrowRightLong, FaRankingStar } from "react-icons/fa6";
-import { FaLinkedinIn, FaFacebookF } from "react-icons/fa";
+import { FaArrowRightLong, FaRankingStar  } from "react-icons/fa6";
+import { FaInstagram, FaYoutube, FaFacebook } from "react-icons/fa";
 import { TbCircleDashedLetterL } from "react-icons/tb";
 import { BsBank } from "react-icons/bs";
 import { SiEuropeanunion } from "react-icons/si";
@@ -13,13 +13,13 @@ import { blogs } from "@/public/data/blogs";
 const HomeClient = () => {
 
   const backgroundHero = {
-   backgroundImage: "url('/images/home/hero-girl.avif')",
+   backgroundImage: "url('/images/home/hero-girl.webp')",
    backgroundSize: "cover",
    backgroundPosition: "center",
    backgroundRepeat: "no-repeat"
 }
   const contactFormBanner = {
-   backgroundImage: "url('/images/home/contact-form-banner.avif')",
+   backgroundImage: "url('/images/home/contact-form-banner.webp')",
    backgroundSize: "cover",
    backgroundPosition: "center",
    backgroundRepeat: "no-repeat"
@@ -41,9 +41,9 @@ const HomeClient = () => {
         <div className="mx-5 flex items-center">
             <p className="text-white text-base">share this page</p>
             <ul className="flex items-center ms-3 gap-2">
-                <li><Link className="" href={''} target="_blank"><FaFacebookF className="size-4 text-white"/></Link></li>
-                <li><Link className="" href={''} target="_blank"><FaXTwitter className="size-6 text-white"/></Link></li>
-                <li><Link className="" href={''} target="_blank"><FaLinkedinIn className="size-5 text-white"/></Link></li>
+                <li><Link className="" href={'https://www.facebook.com/Indoeuropean.in'} target="_blank"><FaFacebook className="size-4 text-white"/></Link></li>
+                <li><Link className="" href={'https://www.instagram.com/indo_european'} target="_blank"><FaInstagram className="size-5 text-white"/></Link></li>
+                <li><Link className="" href={'https://www.youtube.com/IEESIndoEuropean'} target="_blank"><FaYoutube className="size-5 text-white"/></Link></li>
             </ul>
         </div>
        </div>   
@@ -71,7 +71,7 @@ const HomeClient = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 mt-10">
           <div className="relative">
             <div className="">
-               <Image className="w-full h-50 md:h-auto" width={360} height={60} src={'/images/home/bachelors.avif'} alt="bachelors in lithuania" />
+               <Image className="w-full h-50 md:h-auto" width={360} height={60} src={'/images/home/bachelors.webp'} alt="bachelors in lithuania" />
                <div className="relative z-3 flex justify-center items-center flex-col gap-5 px-4 py-6">
                <h4 className="text-white text-2xl md:text-2xl font-aino">Bachelor's</h4>
                <p className="text-white text-sm md:text-md text-center">Bachelor’s programs in Lithuania offer internationally recognised degrees, affordable tuition, and strong academic foundation for global career opportunities.</p>
@@ -82,7 +82,7 @@ const HomeClient = () => {
           </div>
           <div className="relative">
             <div className="">
-               <Image className="w-full h-50 md:h-auto" width={360} height={60} src={'/images/home/masters.avif'} alt="bachelors in lithuania" />
+               <Image className="w-full h-50 md:h-auto" width={360} height={60} src={'/images/home/masters.webp'} alt="bachelors in lithuania" />
                <div className="relative z-3 flex justify-center items-center flex-col gap-5 px-4 py-6">
                <h4 className="text-white text-lg md:text-2xl font-aino">Master's</h4>
                <p className="text-white text-sm md:text-md text-center">Master’s programs in Lithuania provide advanced knowledge, research opportunities, and industry-focused learning for better international career growth.</p>
@@ -93,7 +93,7 @@ const HomeClient = () => {
           </div>
           <div className="relative">
             <div className="">
-               <Image className="w-full h-50 md:h-auto" width={360} height={60} src={'/images/home/doctoral.avif'} alt="bachelors in lithuania" />
+               <Image className="w-full h-50 md:h-auto" width={360} height={60} src={'/images/home/doctoral.webp'} alt="bachelors in lithuania" />
                <div className="relative z-3 flex justify-center items-center flex-col gap-5 px-4 py-6">
                <h4 className="text-white text-lg md:text-2xl font-aino">PhD</h4>
                <p className="text-white text-sm md:text-md text-center">PhD programs in Lithuania focus on research excellence, academic innovation, and expert guidance in specialised fields across Europe.</p>
@@ -104,7 +104,7 @@ const HomeClient = () => {
           </div>
           <div className="relative">
             <div>
-               <Image className="w-full h-50 md:h-auto lg:max-h-47" width={360} height={60} src={'/images/home/short-courses.avif'} alt="bachelors in lithuania" />
+               <Image className="w-full h-50 md:h-auto lg:max-h-47" width={360} height={60} src={'/images/home/short-courses.webp'} alt="bachelors in lithuania" />
                <div className="relative z-3 flex justify-center items-center flex-col gap-5 px-4 py-6">
                <h4 className="text-white text-lg md:text-2xl font-aino">Short Courses</h4>
                <p className="text-white text-sm md:text-md text-center">Short courses in Lithuania help students gain practical skills, flexible learning experience, and quick career development opportunities.</p>
@@ -126,13 +126,13 @@ const HomeClient = () => {
     </section>
     <section className="">
         <div className="relative">
-          <Image className="h-auto w-full max-h-200" width={1080} height={600} src="/images/home/why-lithuania.avif" alt="Study in Lithuania" />
+          <Image className="h-auto w-full max-h-200" width={1080} height={600} src="/images/home/why-lithuania.webp" alt="Study in Lithuania" />
           <div className="absolute z-2 bottom-0 w-full h-full bg-linear-to-t from-primary via-primary to-primary/10" />
           <h2 className="absolute top-12 left-1/2 -translate-x-1/2 z-3 text-2xl md:text-4xl font-aino">why Lithuania?</h2>
           <div className="relative z-3 max-w-6xl mx-auto">
             <div className="grid grid-cols-1 lg:grid-cols-2 justify-center items-center gap-5 px-8">
               <div className="mx-auto">
-                 <Image className="mb-5 rounded-md" width={360} height={480} src="/images/home/map.avif" alt="study abroad lithuania map"/>
+                 <Image className="mb-5 rounded-md" width={360} height={480} src="/images/home/map.webp" alt="study abroad lithuania map"/>
               </div>
               <div className="mb-5">
                  <ul className="pr-5">
@@ -153,7 +153,7 @@ const HomeClient = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
           <div className="relative">
             <div className="">
-               <Image className="w-full h-50 md:h-auto" width={360} height={60} src={'/images/home/scholarships.avif'} alt="scholarships in lithuania" />
+               <Image className="w-full h-50 md:h-auto" width={360} height={60} src={'/images/home/scholarships.webp'} alt="scholarships in lithuania" />
                <div className="relative z-3 flex justify-center items-center flex-col gap-5 px-4 py-6">
                <h4 className="text-white text-2xl md:text-2xl font-aino">Scholarships</h4>
                <p className="text-white text-sm md:text-md text-center">Scholarships in Lithuania help international students reduce tuition fees and study expenses based on academic performance and eligibility criteria.</p>
@@ -164,7 +164,7 @@ const HomeClient = () => {
           </div>
           <div className="relative">
             <div className="">
-               <Image className="w-full h-50 md:h-auto" width={360} height={60} src={'/images/home/admission.avif'} alt="admission in lithuania" />
+               <Image className="w-full h-50 md:h-auto" width={360} height={60} src={'/images/home/admission.webp'} alt="admission in lithuania" />
                <div className="relative z-3 flex justify-center items-center flex-col gap-5 px-4 py-6">
                <h4 className="text-white text-lg md:text-2xl font-aino">Admission</h4>
                <p className="text-white text-sm md:text-md text-center">Admission in Lithuania universities is simple, requiring academic documents, English proficiency proof, and timely application submission before deadlines.</p>
@@ -175,7 +175,7 @@ const HomeClient = () => {
           </div>
           <div className="relative">
             <div className="">
-               <Image className="w-full h-50 md:h-auto" width={360} height={60} src={'/images/home/working.avif'} alt="working in lithuania" />
+               <Image className="w-full h-50 md:h-auto" width={360} height={60} src={'/images/home/working.webp'} alt="working in lithuania" />
                <div className="relative z-3 flex justify-center items-center flex-col gap-5 px-4 py-6">
                <h4 className="text-white text-lg md:text-2xl font-aino">Working</h4>
                <p className="text-white text-sm md:text-md text-center">Students in Lithuania can work part-time during studies, gaining practical experience and supporting their living costs effectively.</p>
@@ -186,7 +186,7 @@ const HomeClient = () => {
           </div>
           <div className="relative">
             <div>
-               <Image className="w-full h-50 md:h-auto lg:max-h-47" width={360} height={60} src={'/images/home/visa-and-residence-permit.avif'} alt="visa and residence permit in lithuania" />
+               <Image className="w-full h-50 md:h-auto lg:max-h-47" width={360} height={60} src={'/images/home/visa-and-residence-permit.webp'} alt="visa and residence permit in lithuania" />
                <div className="relative z-3 flex justify-center items-center flex-col gap-5 px-4 py-6">
                <h4 className="text-white text-lg md:text-2xl font-aino text-center">Visa and Residence Permit</h4>
                <p className="text-white text-sm md:text-md text-center">A student visa and residence permit are required to study in Lithuania, allowing legal stay and smooth access to education benefits.</p>
@@ -200,7 +200,7 @@ const HomeClient = () => {
       </div>
     </section>
     <section className="max-w-6xl mx-auto">
-      <div className="my-12">
+      <div className="my-12 mx-6">
           <h2 className="font-aino text-2xl md:text-4xl">Blogs</h2>
           <div className="mt-10">
             <div className="">
@@ -215,8 +215,8 @@ const HomeClient = () => {
                     <div className="">
                          <h4 className="font-aino">{blog.metaTitle}</h4>
                          <div className="flex justify-between items-center mt-4">
-                          <span className="font-roboto text-sm md:text-md">{blog.publishDate}</span>
-                          <Link className="text-primary hover:underline" href={`/blogs/${blog.slug}`}>Read more <FaArrowRightLong className="size-4 inline-block"/></Link>
+                          {/* <span className="font-roboto text-sm md:text-md">{blog.publishDate}</span> */}
+                          <Link className="text-primary hover:underline text-end ms-auto" href={`/blogs/${blog.slug}`}>Read more <FaArrowRightLong className="size-4 inline-block"/></Link>
                          </div>
                     </div>
                   </div>
@@ -233,7 +233,7 @@ const HomeClient = () => {
     <section className="py-12" style={contactFormBanner}>
       <div className="max-w-6xl mx-auto">
       <h2 className="font-aino text-white text-2xl md:text-4xl ms-6 pb-5">Connect With Us</h2>
-       <div className="grid grid-cols-1 md:grid-cols-3">
+       <div className="grid grid-cols-1 lg:grid-cols-3">
          <div className="col-span-2 p-3">
            <Form />
          </div>
@@ -252,9 +252,9 @@ const HomeClient = () => {
             <div className="flex items-center gap-4">
             <span className="font-aino text-white">Follow us on :</span>
             <ul className="flex items-center gap-2">
-              <li className="text-white"><Link href={''}><FaFacebookF className="size-6 inline-block"/></Link></li>
-              <li className="text-white"><Link href={''}><FaXTwitter className="size-6 inline-block"/></Link></li>
-              <li className="text-white"><Link href={''}><FaLinkedinIn className="size-6 inline-block"/></Link></li>
+              <li className="text-white"><Link href={'https://www.facebook.com/Indoeuropean.in'}><FaFacebook className="size-6 inline-block"/></Link></li>
+              <li className="text-white"><Link href={'https://www.instagram.com/indo_european'}><FaInstagram className="size-6 inline-block"/></Link></li>
+              <li className="text-white"><Link href={'https://www.youtube.com/IEESIndoEuropean'}><FaYoutube className="size-6 inline-block"/></Link></li>
             </ul>
            </div>
          </div>

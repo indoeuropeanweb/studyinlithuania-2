@@ -11,9 +11,9 @@ const page = () => {
         <h2 className='text-2xl md:text-4xl font-aino'>Unique Culture</h2>
         <div className='grid grid-cols-1 md:grid-cols-2 gap-5'>
         <p className='text-md font-roboto mt-3 text-justify'>
-          Lithuania has a rich cultural heritage influenced by European traditions, history, art, and folklore. The country is known for its traditional music, folk dances, colorful festivals, and strong connection to nature. Lithuanian people highly value family, education, and cultural traditions, which can be seen in their celebrations and daily lifestyle. Along with preserving its old traditions, Lithuania also has a modern and welcoming culture that makes international students feel comfortable and accepted.
+          Lithuania has a rich cultural heritage influenced by European traditions, history, art, and folklore. The country is known for its traditional music, folk dances, colorful festivals, and strong connection to nature. Lithuanian people highly value family, education, and cultural traditions, which can be seen in their celebrations and daily lifestyle. Along with preserving its old traditions, Lithuania also has a modern and welcoming culture that makes indian students feel comfortable and accepted.
         </p>
-        <Image className="rounded-md" width={320} height={240} src="/images/lithuania/culture/culture.avif" alt="Culture of Lithuania"/>
+        <Image className="rounded-md" width={320} height={240} src="/images/lithuania/culture/culture.webp" alt="Culture of Lithuania"/>
         </div>
         <div className='mt-10'>
             <h2 className='text-xl md:text-2xl font-roboto text-[#5d5b5b]'>Interesting Facts About Lithuanian Culture</h2>

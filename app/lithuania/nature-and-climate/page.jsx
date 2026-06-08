@@ -16,7 +16,7 @@ const page = () => {
             winters can be snowy and cold. Changing seasons provide international learners with a
             unique experience.
         </p>
-        <Image className="rounded-md" width={320} height={140} src="/images/lithuania/nature-and-weather/nature-and-weather.avif" alt="nature and weather of lithuania"/>
+        <Image className="rounded-md" width={320} height={140} src="/images/lithuania/nature-and-weather/nature-and-weather.webp" alt="nature and weather of lithuania"/>
         </div>
         <div className='mt-10'>
             <h2 className='text-xl md:text-2xl font-roboto text-[#5d5b5b]'>Key highlights of Lithuania&#39;s Weather and Climate</h2>

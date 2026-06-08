@@ -22,7 +22,7 @@ const page = () => {
             programs, advanced research opportunities, and welcoming communities have made
             Lithuania more and more popular among Indian and international students.
         </p>
-        <Image className="rounded-md" width={400} height={240} src="/images/lithuania/state/lithuania-state.avif" alt="lithuania state of study"/>
+        <Image className="rounded-md" width={400} height={240} src="/images/lithuania/state/lithuania-state.webp" alt="lithuania state of study"/>
         </div>
         <div className='mt-10'>
             <h2 className='text-xl md:text-2xl font-roboto text-[#5d5b5b]'>Quick Facts About Lithuania</h2>

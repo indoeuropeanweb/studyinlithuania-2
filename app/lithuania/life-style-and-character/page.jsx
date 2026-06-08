@@ -12,7 +12,7 @@ const page = () => {
          Lithuania is a country where traditional values and modern European living come together naturally. Life here is peaceful, organized, and closely connected to nature. From beautiful forests and historic towns to modern cities and digital innovation, Lithuania offers a lifestyle that feels both calm and progressive at the same time. People value education, personal space, hard work, and a balanced routine, which creates a comfortable environment for international students.
          <br />Lithuanians are known for being practical, disciplined, and thoughtful in their daily lives. The country has preserved its cultural roots and traditions for generations while also adapting to modern technology and global trends. This unique combination of history, simplicity, innovation, and strong community values makes Lithuania an attractive place to live, study, and experience European culture.
         </p>
-        <Image className="rounded-md" width={540} height={320} src="/images/lithuania/lifestyle/lifestyle.avif" alt="Lifestyle of Lithuania"/>
+        <Image className="rounded-md" width={540} height={320} src="/images/lithuania/lifestyle/lifestyle.webp" alt="Lifestyle of Lithuania"/>
         </div>
         <div className='mt-10'>
             <h2 className='text-xl md:text-2xl font-roboto text-[#5d5b5b]'>Distinct Features of Lithuanian Lifestyle and Character page </h2>

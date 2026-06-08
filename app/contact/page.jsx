@@ -50,7 +50,7 @@ const page = () => {
                     <li className='text-lg font-roboto'><IoIosArrowForward className='inline-block size-6'/>&nbsp;Interview preparation</li>
                     <li className='text-lg font-roboto'><IoIosArrowForward className='inline-block size-6'/>&nbsp;Pre-departure assistance</li>
                 </ul>
-                <Image className="rounded-md" width={380} height={180} src="/images/contact/our-expert.avif" alt="Meet Our Experts" />
+                <Image className="rounded-md" width={380} height={180} src="/images/contact/our-expert.webp" alt="Meet Our Experts" />
                 </div>
                 <p className='text-base text-inter mt-3 text-justify'>We help students make informed decisions and prepare for a successful academic future in
                     Lithuania.</p>

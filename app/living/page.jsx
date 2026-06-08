@@ -25,7 +25,7 @@ const page = () => {
             journey.</p>
             </div>
             <div className=''>
-              <Image className='rounded-md' width={420} height={320} src="/images/living/living.avif" alt="living in lithuania for indian students" />
+              <Image className='rounded-md' width={420} height={320} src="/images/living/living.webp" alt="living in lithuania for indian students" />
             </div>
             </div>
             <div className='mt-5'>

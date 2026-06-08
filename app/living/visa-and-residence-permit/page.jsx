@@ -11,11 +11,11 @@ const page = () => {
           <div className='grid grid-cols-1 md:grid-cols-2 gap-5 justify-center items-center'>
             <div className=''>
              <h2 className='text-2xl md:text-4xl font-aino'>Visa & Residence Permit for Lithuania </h2>
-             <p className='text-md font-roboto mt-3 text-justify'>Students planning to study in Lithuania must understand the visa and residence permit process before traveling. International students who are not citizens of EU/EEA countries or Switzerland generally need a national visa (Type D) and, in some cases, a temporary residence permit depending on the duration of their studies.</p>
+             <p className='text-md font-roboto mt-3 text-justify'>Students planning to study in Lithuania must understand the visa and residence permit process before traveling. Indian students who are not citizens of EU/EEA countries or Switzerland generally need a national visa (Type D) and, in some cases, a temporary residence permit depending on the duration of their studies.</p>
              <p className='text-md font-roboto mt-2 text-justify'>The application process usually begins after receiving an official admission letter from a Lithuanian university. Once the university confirms admission, students can start preparing their visa documents and book an appointment at the nearest Lithuanian embassy or consulate.</p>
              </div>
              <div>
-              <Image className='rounded-md' height={320} width={420} src="/images/living/visa-and-residence-permit/visa-and-residence-permit.avif" alt="visa and residence permit for indian students" />
+              <Image className='rounded-md' height={320} width={420} src="/images/living/visa-and-residence-permit/visa-and-residence-permit.webp" alt="visa and residence permit for indian students" />
              </div>
             </div>
             <div className='mt-5'>
@@ -31,8 +31,8 @@ const page = () => {
               </div>
               <div className='mt-5'>
                 <h5 className='font-roboto text-lg md:text-xl'>Shared Apartments</h5>
-                <p className='mt-2 text-inter text-md text-justify'>Shared flats are another popular option among international students in Lithuania. Students
-                    often share apartments with friends or fellow international students to reduce living expenses
+                <p className='mt-2 text-inter text-md text-justify'>Shared flats are another popular option among indian students in Lithuania. Students
+                    often share apartments with friends or fellow indian students to reduce living expenses
                     and enjoy more independence.</p>
                 <p className='mt-3 text-inter text-md text-justify'>Shared accommodation usually includes:</p>
                 <ul className='space-y-2 mt-2'>
@@ -82,8 +82,8 @@ const page = () => {
                 <p className='mt-2 text-inter text-md text-justify'>In some cases, students may bring family members under specific conditions. Rules depend on the duration of stay and legal requirements. Each application is evaluated individually based on eligibility criteria.</p>
               </div>
               <div className='mt-5'>
-                <h5 className='font-roboto text-lg md:text-xl'>Support for International Students</h5>
-                <p className='mt-2 text-inter text-md text-justify'>Lithuanian authorities also provide support services to help international students adjust smoothly. These services guide students regarding:</p>
+                <h5 className='font-roboto text-lg md:text-xl'>Support for Indian Students</h5>
+                <p className='mt-2 text-inter text-md text-justify'>Lithuanian authorities also provide support services to help indian students adjust smoothly. These services guide students regarding:</p>
                 <p className='mt-3 text-inter text-md text-justify'>To apply, students must:</p>
                 <ul className='space-y-2 mt-2'>
                     <li><IoIosArrowForward className='inline-block size-5'/>&nbsp;Visa and residence permit rules</li>

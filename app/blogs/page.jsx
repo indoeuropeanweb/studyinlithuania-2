@@ -1,12 +1,13 @@
 import Link from "next/link";
 import { blogs } from "@/public/data/blogs";
 import Breadcrumb from "../components/Breadcrumb";
+import Image from "next/image";
 
 export default function Blogs() {
   return (
     <>
     <Breadcrumb heading="Blogs" />
-    <div className="max-w-6xl mx-auto py-10">
+    <div className="max-w-6xl mx-auto py-10 px-5">
       <h1 className="text-2xl md:text-4xl font-aino mt-5">Study in Lithuania Blogs & Student Guides</h1>
       <p className="text-base font-roboto mt-3 mb-10">Explore the latest updates, expert guidance, and student resources about studying in Lithuania. From university admissions and Lithuania student visa processes to scholarships, accommodation, career opportunities, and student life, our blogs are designed to help international students make informed decisions about their study abroad journey. Stay updated with valuable insights, practical tips, and real experiences to successfully plan your education in Lithuania.</p>
       <div className="grid md:grid-cols-3 gap-6">
@@ -16,10 +17,12 @@ export default function Blogs() {
             key={blog.id}
             className="border rounded-xl overflow-hidden hover:scale-102 duration-500 ease-in-out"
           >
-          <img
+          <Image
               src={blog.image}
               alt={blog.title}
               className="w-full h-52 object-cover"
+              width={480}
+              height={320}
           />
           <div className="p-4">
             <h3 className="font-semibold font-aino text-base md:text-xl">
@@ -32,7 +35,7 @@ export default function Blogs() {
               >
                 Read More →
               </div>
-              <p className="font-roboto text-sm md:text-md text-end">{blog.publishDate}</p>
+              {/* <p className="font-roboto text-sm md:text-md text-end">{blog.publishDate}</p> */}
             </div>
           </Link>
         ))}

@@ -10,17 +10,17 @@ const page = () => {
         <div className='px-5 py-10'>
           <div className='grid grid-cols-1 md:grid-cols-2 gap-5 justify-center items-center'>
           <div className=''>
-             <h2 className='text-2xl md:text-4xl font-aino'>Work Opportunities in Lithuania for International Students</h2>
-             <p className='text-md font-roboto mt-3 text-justify'>Lithuania is becoming a preferred destination for international students not only because of affordable education but also because of growing career opportunities. International students in Lithuania are allowed to work while studying, helping them gain professional experience and manage their living expenses during their education journey.<br /><br />Students can work part-time during their studies as long as their job does not affect academic performance. Many students successfully balance studies and work by choosing flexible jobs and managing their schedules properly.</p>
+             <h2 className='text-2xl md:text-4xl font-aino'>Work Opportunities in Lithuania for Indian Students</h2>
+             <p className='text-md font-roboto mt-3 text-justify'>Lithuania is becoming a preferred destination for indian students not only because of affordable education but also because of growing career opportunities. International students in Lithuania are allowed to work while studying, helping them gain professional experience and manage their living expenses during their education journey.<br /><br />Students can work part-time during their studies as long as their job does not affect academic performance. Many students successfully balance studies and work by choosing flexible jobs and managing their schedules properly.</p>
             </div>
             <div>
-              <Image className='rounded-md' width={420} height={320} src={'/images/living/working/working.avif'} alt="working in lithuania for indian students" />
+              <Image className='rounded-md' width={420} height={320} src={'/images/living/working/working.webp'} alt="working in lithuania for indian students" />
             </div>
             </div>
             <div className='mt-5'>
               <h4 className='font-roboto text-xl md:text-2xl'>Part-Time Jobs in Lithuania for Students</h4>
               <div className='mt-2'>
-                <p className='mt-2 text-inter text-md text-justify'>There are different types of jobs available for international students in Lithuania depending on language skills, experience, and location.</p>
+                <p className='mt-2 text-inter text-md text-justify'>There are different types of jobs available for indian students in Lithuania depending on language skills, experience, and location.</p>
                 <p className='mt-3 text-inter text-md font-medium text-justify'>Popular student jobs in Lithuania include:</p>
                 <ul className='space-y-2 mt-2'>
                     <li><IoIosArrowForward className='inline-block size-5'/>&nbsp;Cafes and restaurants</li>
@@ -36,11 +36,11 @@ const page = () => {
               <div className='mt-5'>
                 <h5 className='font-roboto text-lg md:text-xl'>Average Salary and Working Hours</h5>
                 <p className='mt-2 text-inter text-md text-justify'>The salary in Lithuania depends on the type of work, skills, and working hours. Many students work part-time to support accommodation, food, and personal expenses while studying abroad.</p>
-                <p className='mt-2 text-inter text-md text-justify'>International students can usually manage both studies and work comfortably with proper time management. However, universities always recommend prioritising academic performance during the study period.</p>
+                <p className='mt-2 text-inter text-md text-justify'>Indian students can usually manage both studies and work comfortably with proper time management. However, universities always recommend prioritising academic performance during the study period.</p>
               </div>
               <div className='mt-5'>
                 <h5 className='font-roboto text-lg md:text-xl'>How to Find Jobs in Lithuania</h5>
-                <p className='mt-2 text-inter text-md text-justify'>International students can search for jobs through:</p>
+                <p className='mt-2 text-inter text-md text-justify'>Indian students can search for jobs through:</p>
                 <ul className='space-y-2 mt-2'>
                     <li><IoIosArrowForward className='inline-block size-5'/>&nbsp;University career centres</li>
                     <li><IoIosArrowForward className='inline-block size-5'/>&nbsp;Online job portals</li>
@@ -51,8 +51,8 @@ const page = () => {
                 <p className='text-inter text-md my-5 text-justify'>Creating a professional CV and preparing for interviews can improve job opportunities for students in Lithuania.</p>
               </div>
               <div className='mt-5'>
-                <h5 className='font-roboto text-lg md:text-xl'>Career Support for International Students</h5>
-                <p className='mt-2 text-inter text-md text-justify'>Many universities in Lithuania provide career guidance and student support services to help international students prepare for future careers.</p>
+                <h5 className='font-roboto text-lg md:text-xl'>Career Support for Indian Students</h5>
+                <p className='mt-2 text-inter text-md text-justify'>Many universities in Lithuania provide career guidance and student support services to help indian students prepare for future careers.</p>
                 <p className='mt-3 text-inter text-md text-justify'>University career services may include:</p>
                 <ul className='space-y-2 mt-2'>
                     <li><IoIosArrowForward className='inline-block size-5'/>&nbsp;CV and resume guidance</li>
@@ -65,7 +65,7 @@ const page = () => {
               </div>
               <div className='mt-5'>
                 <h5 className='font-roboto text-lg md:text-xl'>Work Opportunities After Graduation</h5>
-                <p className='mt-2 text-inter text-md text-justify'>Lithuania also offers career opportunities for international graduates after completing their studies. Students may explore jobs in sectors such as:</p>
+                <p className='mt-2 text-inter text-md text-justify'>Lithuania also offers career opportunities for indian graduates after completing their studies. Students may explore jobs in sectors such as:</p>
                 <ul className='space-y-2 mt-2'>
                     <li><IoIosArrowForward className='inline-block size-5'/>&nbsp;Information Technology</li>
                     <li><IoIosArrowForward className='inline-block size-5'/>&nbsp;Engineering</li>

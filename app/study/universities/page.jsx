@@ -7,7 +7,7 @@ const page = () => {
   {
     "id": 1,
     "name": "Vilnius University",
-    "img_url": "/images/universities/vilnius-university.avif",
+    "img_url": "/images/universities/vilnius-university.webp",
     "rankingRecognition": "Ranked #1 university in Lithuania in most global ranking systems (QS/THE national listings). It is also the oldest university in Lithuania (founded 1579) and one of the most recognised in Eastern Europe.",
     "academicStrength": [
       "Medicine",
@@ -20,7 +20,7 @@ const page = () => {
   {
     "id": 2,
     "name": "Kaunas University of Technology",
-    "img_url": "/images/universities/kausan-university.avif",
+    "img_url": "/images/universities/kausan-university.webp",
     "rankingRecognition": "Consistently ranked among the top 3 technical universities in Lithuania, known for engineering and innovation-focused education.",
     "academicStrength": [
       "IT",
@@ -33,7 +33,7 @@ const page = () => {
   {
     "id": 3,
     "name": "Vytautas Magnus University",
-    "img_url": "/images/universities/vyantus-university.avif",
+    "img_url": "/images/universities/vyantus-university.webp",
     "rankingRecognition": "Recognised as a top Lithuanian university for humanities and social sciences, with strong international collaboration programs.",
     "academicStrength": [
       "Marketing",
@@ -46,7 +46,7 @@ const page = () => {
   {
     "id": 4,
     "name": "Lithuanian University of Health Sciences",
-    "img_url": "/images/universities/lithuanian-university-of-health-sciences.avif",
+    "img_url": "/images/universities/lithuanian-university-of-health-sciences.webp",
     "rankingRecognition": "One of the leading medical universities in Lithuania and the Baltic region, especially known for clinical training and healthcare education.",
     "academicStrength": [
       "Medicine",
@@ -59,7 +59,7 @@ const page = () => {
   {
     "id": 5,
     "name": "Vilnius Gediminas Technical University",
-    "img_url": "/images/universities/vilnius-gediminas-technical-university.avif",
+    "img_url": "/images/universities/vilnius-gediminas-technical-university.webp",
     "rankingRecognition": "Ranked among the top engineering and architecture universities in Lithuania, with strong focus on applied sciences and innovation.",
     "academicStrength": [
       "Civil Engineering",
@@ -72,7 +72,7 @@ const page = () => {
   {
     "id": 6,
     "name": "ISM University of Management and Economics",
-    "img_url": "/images/universities/ism-university-of-management-and-economics.avif",
+    "img_url": "/images/universities/ism-university-of-management-and-economics.webp",
     "rankingRecognition": "One of the top private business universities in Lithuania, focused on management and economics education.",
     "academicStrength": [
       "Business Administration",
@@ -84,7 +84,7 @@ const page = () => {
   {
     "id": 7,
     "name": "Klaipėda University",
-    "img_url": "/images/universities/klaipeda-university.avif",
+    "img_url": "/images/universities/klaipeda-university.webp",
     "rankingRecognition": "Known for marine science and environmental studies, with strong regional academic importance.",
     "academicStrength": [
       "Marine Science",
@@ -96,7 +96,7 @@ const page = () => {
   {
     "id": 8,
     "name": "Mykolas Romeris University",
-    "img_url": "/images/universities/mykolas-romeris-university.avif",
+    "img_url": "/images/universities/mykolas-romeris-university.webp",
     "rankingRecognition": "Strong reputation in law, public administration, and social sciences in Lithuania.",
     "academicStrength": [
       "Law",
@@ -108,7 +108,7 @@ const page = () => {
   {
     "id": 9,
     "name": "LCC International University",
-    "img_url": "/images/universities/lcc-international-university.avif",
+    "img_url": "/images/universities/lcc-international-university.webp",
     "rankingRecognition": "A small international liberal arts university with English-taught programs and global student intake.",
     "academicStrength": [
       "Business",
@@ -120,7 +120,7 @@ const page = () => {
   {
     "id": 10,
     "name": "Kazimieras Simonavičius University (KSU)",
-    "img_url": "/images/universities/kazimieras-simonavicius-university.avif",
+    "img_url": "/images/universities/kazimieras-simonavicius-university.webp",
     "rankingRecognition": "An emerging private university, focused on entrepreneurship, aviation, and creative industries.",
     "academicStrength": [
       "Business",
@@ -133,7 +133,7 @@ const page = () => {
   {
     "id": 11,
     "name": "Vilnius Academy of Arts",
-    "img_url": "/images/universities/vilnius-academy-of-arts.avif",
+    "img_url": "/images/universities/vilnius-academy-of-arts.webp",
     "rankingRecognition": "Top arts and design institution in Lithuania, highly specialised in creative education.",
     "academicStrength": [
       "Fine Arts",
@@ -145,7 +145,7 @@ const page = () => {
   {
     "id": 12,
     "name": "Lithuanian Academy of Music and Theatre",
-    "img_url": "/images/universities/lithuanian-academy-of-music-and-theatre.avif",
+    "img_url": "/images/universities/lithuanian-academy-of-music-and-theatre.webp",
     "rankingRecognition": "Leading national-level institution for music, theatre, and performing arts education.",
     "academicStrength": [
       "Music",
@@ -158,7 +158,7 @@ const page = () => {
   {
     "id": 13,
     "name": "Šiauliai Academy (Vilnius University branch)",
-    "img_url": "/images/universities/siauliai-academy.avif",
+    "img_url": "/images/universities/siauliai-academy.webp",
     "rankingRecognition": "A regional branch of Vilnius University, focused on accessible education and regional development.",
     "academicStrength": [
       "Education",

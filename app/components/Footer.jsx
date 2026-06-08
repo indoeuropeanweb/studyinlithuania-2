@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import Link from 'next/link'
-import { FaFacebookF, FaYoutube, FaInstagram, FaXTwitter, FaLinkedinIn } from 'react-icons/fa6'
+import { FaFacebook, FaYoutube, FaInstagram} from 'react-icons/fa'
 
 const footer = () => {
   return (
@@ -12,11 +12,11 @@ const footer = () => {
             <div className='flex gap-5 mt-3'>
               <span className=''>Follow us on</span>
               <ul className='flex gap-3'>
-                <li><Link href={''}><FaFacebookF className="size-6 text-primary hover:scale-110 duration-300 ease-in-out" /></Link></li>
-                <li><Link href={''}><FaYoutube className="hover:scale-110 size-6 text-primary duration-300 ease-in-out" /></Link></li>
-                <li><Link href={''}><FaInstagram className="hover:scale-110 size-6 text-primary duration-300 ease-in-out" /></Link></li>
-                <li><Link href={''}><FaXTwitter className="hover:scale-110 size-6 text-primary duration-300 ease-in-out" /></Link></li>
-                <li><Link href={''}><FaLinkedinIn className="hover:scale-110 size-6 text-primary duration-300 ease-in-out" /></Link></li>
+                <li><Link href={'https://www.facebook.com/Indoeuropean.in'}><FaFacebook className="size-6 text-primary hover:scale-110 duration-300 ease-in-out" /></Link></li>
+                <li><Link href={'https://www.instagram.com/indo_european'}><FaInstagram className="hover:scale-110 size-6 text-primary duration-300 ease-in-out" /></Link></li>
+                <li><Link href={'https://www.youtube.com/IEESIndoEuropean'}><FaYoutube className="hover:scale-110 size-6 text-primary duration-300 ease-in-out" /></Link></li>
+                {/* <li><Link href={''}><FaXTwitter className="hover:scale-110 size-6 text-primary duration-300 ease-in-out" /></Link></li> */}
+                {/* <li><Link href={''}><FaLinkedinIn className="hover:scale-110 size-6 text-primary duration-300 ease-in-out" /></Link></li> */}
               </ul>
             </div>
           </div>

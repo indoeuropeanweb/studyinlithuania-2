@@ -112,7 +112,7 @@ academic goals with confidence. Explore their experiences, insights, and success
 learn what studying and living in Lithuania is really like from the students themselves."/>
      <section className='max-w-6xl mx-auto'>
        <div className='py-10 px-5'>
-        <div className="grid grid-cols-1 xl:grid-cols-2 gap-5 lg:gap-8">
+        <div className="grid grid-cols-1 gap-5 lg:gap-8">
         {students.map((student, index) => {
             return (
             <div

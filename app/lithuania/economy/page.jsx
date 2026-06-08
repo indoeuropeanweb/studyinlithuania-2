@@ -22,7 +22,7 @@ const page = () => {
             friendly environment, which makes it attractive for international students and
             professionals looking for career growth in Europe.
         </p>
-        <Image className="rounded-md" width={280} height={540} src="/images/lithuania/economy/economy.avif" alt="Economy of Lithuania"/>
+        <Image className="rounded-md" width={280} height={540} src="/images/lithuania/economy/economy.webp" alt="Economy of Lithuania"/>
         </div>
       </div>
     </div>

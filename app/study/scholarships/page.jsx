@@ -51,11 +51,9 @@ const page = () => {
                     </div>
 
                     <div className="relative">
-                      {/* Timeline Line */}
                       <div className="absolute left-5 top-0 h-full w-1 bg-[#048D4E]/20 rounded-full"></div>
 
                       <div className="space-y-6">
-                        {/* Step 1 */}
                         <div className="relative flex gap-5">
                           <div className="relative z-10 flex items-center justify-center w-10 h-10 rounded-full bg-[#048D4E] text-white font-bold shadow-lg">
                             1
@@ -72,7 +70,6 @@ const page = () => {
                           </div>
                         </div>
 
-                        {/* Step 2 */}
                         <div className="relative flex gap-5">
                           <div className="relative z-10 flex items-center justify-center w-10 h-10 rounded-full bg-[#FFB81C] text-[#3d3d3d] font-bold shadow-lg">
                             2
@@ -89,7 +86,6 @@ const page = () => {
                           </div>
                         </div>
 
-                        {/* Step 3 */}
                         <div className="relative flex gap-5">
                           <div className="relative z-10 flex items-center justify-center w-10 h-10 rounded-full bg-[#BE3A34] text-white font-bold shadow-lg">
                             3

@@ -32,7 +32,7 @@ const page = () => {
                             they can have the knowledge of the international work process and support
                             themselves.</li>
                       </ul>
-                   <Image className="h-auto w-auto rounded-md" src="/images/lithuania/study-in-lithuania.avif" width={480} height={250} alt="study abroad lithuania" />
+                   <Image className="h-auto w-auto rounded-md" src="/images/lithuania/study-in-lithuania.webp" width={480} height={250} alt="study abroad lithuania" />
                  </div>
                  <div className=''>
                   <ul className='mt-3 space-y-3'>

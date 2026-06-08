@@ -22,7 +22,7 @@ const page = () => {
                          <li className='font-roboto text-justify'><IoIosArrowForward className='size-6 inline-block'/>&nbsp;Modern universities with advanced research and practical learning facilities</li>
                          <li className='font-roboto text-justify'><IoIosArrowForward className='size-6 inline-block'/>&nbsp;Growing hub for technology, innovation, business, and healthcare studies</li>
                       </ul>
-                   <Image className="h-auto w-auto rounded-md" src="/images/study/lithuania-01.avif" width={400} height={250} alt="study abroad lithuania" />
+                   <Image className="h-auto w-auto rounded-md" src="/images/study/lithuania-01.webp" width={400} height={250} alt="study abroad lithuania" />
                  </div>
                  <div className=''>
                   <ul className='mt-3 space-y-3'>

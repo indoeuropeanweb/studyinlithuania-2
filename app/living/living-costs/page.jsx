@@ -10,13 +10,13 @@ const page = () => {
         <div className='px-5 py-10'>
           <div className='grid grid-cols-1 md:grid-cols-2 gap-5 justify-center items-center'>
           <div className=''>
-          <h2 className='text-2xl md:text-4xl font-aino'>Living Cost in Lithuania for International Students</h2>
-          <p className='text-md font-roboto mt-3 text-justify'>Understanding the living cost in Lithuania is an important part of planning your study abroad journey. Lithuania is considered one of the more affordable European destinations, offering a good balance between quality education and reasonable lifestyle expenses for international students.<br />
+          <h2 className='text-2xl md:text-4xl font-aino'>Living Cost in Lithuania for Indian Students</h2>
+          <p className='text-md font-roboto mt-3 text-justify'>Understanding the living cost in Lithuania is an important part of planning your study abroad journey. Lithuania is considered one of the more affordable European destinations, offering a good balance between quality education and reasonable lifestyle expenses for Indian students.<br />
             On average, a student can manage monthly expenses in Lithuania within €350–€700, depending on lifestyle, city, and accommodation type. Cities like Vilnius and Kaunas may be slightly higher in cost compared to smaller towns, but overall Lithuania remains budget-friendly for students.
             </p>
             </div>
             <div>
-              <Image className="rounded-md" width={420} height={320} src="/images/living/living-cost/living-cost.avif" alt="living cost in lithuania while studying" />
+              <Image className="rounded-md" width={420} height={320} src="/images/living/living-cost/living-cost.webp" alt="living cost in lithuania while studying" />
             </div>
             </div>
             <div className='mt-5'>

@@ -6,8 +6,8 @@ const page = () => {
     const faqData = [
   {
     "id": 1,
-    "question": "1. Is Lithuania good for international students?",
-    "answer": "Yes, Lithuania is becoming a popular destination for international students because of its affordable education, globally recognized universities, safe environment, and English-taught programs."
+    "question": "1. Is Lithuania good for Indian students?",
+    "answer": "Yes, Lithuania is becoming a popular destination for Indian students because of its affordable education, globally recognized universities, safe environment, and English-taught programs."
   },
   {
     "id": 2,
@@ -27,7 +27,7 @@ const page = () => {
   {
     "id": 5,
     "question": "5. What are the top universities in Lithuania?",
-    "answer": "Some popular universities in Lithuania include universities located in Vilnius and Kaunas that offer internationally recognized degrees."
+    "answer": "Some popular universities in Lithuania include universities located in Vilnius and Kaunas that offer Indianly recognized degrees."
   },
   {
     "id": 6,
@@ -37,7 +37,7 @@ const page = () => {
   {
     "id": 7,
     "question": "7. Can students work while studying in Lithuania?",
-    "answer": "International students in Lithuania are generally allowed to work part-time during their studies according to visa regulations."
+    "answer": "Indian students in Lithuania are generally allowed to work part-time during their studies according to visa regulations."
   },
   {
     "id": 8,
@@ -47,11 +47,11 @@ const page = () => {
   {
     "id": 9,
     "question": "9. Are English-taught programs available in Lithuania?",
-    "answer": "Yes, many universities in Lithuania offer bachelor's and master's programs in English for international students."
+    "answer": "Yes, many universities in Lithuania offer bachelor's and master's programs in English for Indian students."
   },
   {
     "id": 10,
-    "question": "10. Is Lithuania safe for international students?",
+    "question": "10. Is Lithuania safe for Indian students?",
     "answer": "Lithuania is considered one of the safer European countries with a peaceful and student-friendly environment."
   },
   {
@@ -86,18 +86,18 @@ const page = () => {
   },
   {
     "id": 17,
-    "question": "17. Is accommodation available for international students in Lithuania?",
+    "question": "17. Is accommodation available for Indian students in Lithuania?",
     "answer": "Yes, universities usually provide hostel facilities, and private accommodation options are also available."
   },
   {
     "id": 18,
     "question": "18. Do universities in Lithuania provide scholarships?",
-    "answer": "Some Lithuanian universities and government programs offer scholarships for international students based on eligibility."
+    "answer": "Some Lithuanian universities and government programs offer scholarships for Indian students based on eligibility."
   },
   {
     "id": 19,
     "question": "19. Why do students choose Lithuania for higher education?",
-    "answer": "Students choose Lithuania because of quality education, affordable costs, international exposure, and European career opportunities."
+    "answer": "Students choose Lithuania because of quality education, affordable costs, Indian exposure, and European career opportunities."
   },
   {
     "id": 20,
