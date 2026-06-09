@@ -3,12 +3,11 @@
 import { useState, useEffect } from "react";
 import Image from "next/image";
 import Link from "next/link";
-import { FaCaretDown } from "react-icons/fa";
+// import { FaCaretDown } from "react-icons/fa";
 import { usePathname } from "next/navigation";
 
 const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
-  const [mobileStudyOpen, setMobileStudyOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
 
   const pathname = usePathname();
@@ -57,7 +56,7 @@ const Header = () => {
             />
           </Link>
 
-          <nav className="hidden md:flex items-center gap-8 xl:gap-10 font-medium">
+          <nav className="hidden lg:flex items-center gap-8 xl:gap-10 font-medium">
             <Link
               href="/lithuania"
               className="text-sm font-roboto font-medium text-white hover:text-gray-200 transition"
@@ -123,7 +122,7 @@ const Header = () => {
             </Link>
           </nav>
 
-          <div className="hidden md:flex items-center gap-4 bg-white px-2 py-1 rounded-lg animate-zoomInOut">
+          <div className="hidden lg:flex items-center gap-4 bg-white px-2 py-1 rounded-lg animate-zoomInOut">
             <Link
               href="https://zoom.us/j/91022278457#success"
               target="_blank"
@@ -140,7 +139,7 @@ const Header = () => {
             </Link>
           </div>
           <button
-            className="md:hidden text-2xl text-white transition duration-300"
+            className="lg:hidden text-2xl text-white transition duration-300"
             onClick={() => setMenuOpen(!menuOpen)}
           >
             ☰
@@ -149,56 +148,31 @@ const Header = () => {
       </div>
 
       {menuOpen && (
-        <div className="md:hidden bg-primary shadow-md px-4 py-5 space-y-4 text-base sm:text-lg transition duration-300">
-          <div>
-            <button
-              onClick={() => setMobileStudyOpen(!mobileStudyOpen)}
-              className="w-full flex items-center text-left font-roboto font-medium text-gray-100 hover:text-white transition duration-300"
-            >
-              Study&nbsp;<FaCaretDown className="size-4" />
-            </button>
-
-            {mobileStudyOpen && (
-              <div className="flex flex-col ml-4 mt-2 space-y-2 text-sm transition duration-300">
-                <Link
-                  href="/study-in-lithuania-courses"
-                  className="font-medium font-roboto text-gray-100 hover:text-white"
-                >
-                  Courses
-                </Link>
-
-                <Link
-                  href="/study-in-lithuania-admission"
-                  className="font-medium font-roboto text-gray-100 hover:text-white"
-                >
-                  Admission
-                </Link>
-
-                <Link
-                  href="/study-and-work-in-lithuania"
-                  className="font-medium font-roboto text-gray-100 hover:text-white"
-                >
-                  Working
-                </Link>
-
-                <Link
-                  href="/lithuania-visa-and-residence-permit"
-                  className="font-medium font-roboto text-gray-100 hover:text-white"
-                >
-                  Visa & PR
-                </Link>
-              </div>
-            )}
-          </div>
-
+        <div className="lg:hidden bg-primary shadow-md px-4 py-5 space-y-4 text-base sm:text-lg transition duration-300">
           <Link
-            href="/living-in-lithuania"
+            onClick={() => setMenuOpen(false)}
+            href="/lithuania"
+            className="block text-gray-100 font-roboto hover:text-white"
+          >
+            Lithuania
+          </Link>
+          <Link
+            onClick={() => setMenuOpen(false)}
+            href="/study"
+            className="block text-gray-100 font-roboto hover:text-white"
+          >
+            Study
+          </Link>
+          <Link
+            onClick={() => setMenuOpen(false)}
+            href="/living"
             className="block text-gray-100 font-roboto hover:text-white"
           >
             Living
           </Link>
 
           <Link
+            onClick={() => setMenuOpen(false)}
             href="/student-ambassadors"
             className="block font-medium font-roboto text-gray-100 hover:text-white"
           >
@@ -206,6 +180,7 @@ const Header = () => {
           </Link>
 
           <Link
+            onClick={() => setMenuOpen(false)}
             href="/blogs"
             className="block font-medium font-roboto text-gray-100 hover:text-white"
           >
@@ -213,6 +188,7 @@ const Header = () => {
           </Link>
 
           <Link
+            onClick={() => setMenuOpen(false)}
             href="/gallery"
             className="block font-medium font-roboto text-gray-100 hover:text-white"
           >
@@ -220,6 +196,7 @@ const Header = () => {
           </Link>
 
           <Link
+            onClick={() => setMenuOpen(false)}
             href="/faq"
             className="block font-medium font-roboto text-gray-100 hover:text-white"
           >
@@ -227,6 +204,7 @@ const Header = () => {
           </Link>
 
           <Link
+            onClick={() => setMenuOpen(false)}
             href="/about"
             className="block font-medium font-roboto text-gray-100 hover:text-white"
           >
@@ -234,13 +212,13 @@ const Header = () => {
           </Link>
 
           <Link
+            onClick={() => setMenuOpen(false)}
             href="/contact"
             className="block font-medium font-roboto text-gray-100 hover:text-white"
           >
             Contact Us
           </Link>
 
-          {/* Mobile Zoom */}
           <div className="inline-block gap-4 bg-white px-2 py-1 rounded-lg animate-zoomInOut">
             <Link
               href="https://zoom.us/j/91022278457#success"

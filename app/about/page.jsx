@@ -28,7 +28,7 @@ const page = () => {
                 admission and visa process.</p>
               <div className='mt-10'>
                 <h2 className='font-roboto text-xl md:text-2xl'>What We Offer</h2>
-                <div className='grid grid-cols-2 justify-center mt-4 gap-3'>
+                <div className='grid grid-cols-1 md:grid-cols-2 justify-center mt-4 gap-3'>
                       <ul className='mt-3 space-y-3'>
                          <li className='font-roboto text-justify'><IoIosArrowForward className='size-6 inline-block'/>&nbsp;University admission guidance</li>
                          <li className='font-roboto text-justify'><IoIosArrowForward className='size-6 inline-block'/>&nbsp;Scholarship assistance</li>

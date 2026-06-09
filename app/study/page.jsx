@@ -13,7 +13,7 @@ const page = () => {
                 in a safe environment.</p>
               <div className='mt-2'>
                 <h4 className='text-lg font-inter'>Here’s why Lithuania is becoming a popular study destination in Europe:</h4>
-                <div className='grid grid-cols-2 justify-center mt-4 gap-3'>
+                <div className='grid grid-cols-1 md:grid-cols-2 justify-center mt-4 gap-3'>
                       <ul className='mt-3 space-y-3'>
                          <li className='font-roboto text-justify'><IoIosArrowForward className='size-6 inline-block'/>&nbsp;Member of the European Union and Schengen Area</li>
                          <li className='font-roboto text-justify'><IoIosArrowForward className='size-6 inline-block'/>&nbsp;Affordable tuition fees and living costs compared to many European countries</li>

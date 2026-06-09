@@ -30,10 +30,10 @@ const StudyLayout = ({children}) => {
 
   return (
     <section className='grid grid-cols-5'>
-        <div className='col-span-1'>
+        <div className='hidden lg:block lg:col-span-1'>
            <Sidebar menuItems={menuItems}/>
         </div>
-        <div className='col-span-4'>
+        <div className='col-span-5 lg:col-span-4'>
            {children}
         </div>
     </section>
