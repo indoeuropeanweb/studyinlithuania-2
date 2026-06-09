@@ -8,7 +8,7 @@ const page = () => {
          <Breadcrumb heading={''}/>
          <div className='py-5 px-5'>
                <h2 className='font-aino text-2xl md:text-4xl'>Why Study in Lithuania?</h2>
-               <p className='text-justify font-roboto text-lg mt-3'>Many international students now choose Lithuania for higher education because it offers
+               <p className='text-justify font-roboto text-lg mt-3'>Many indian students now choose Lithuania for higher education because it offers
                 affordable European education, globally recognised degrees, and modern learning opportunities
                 in a safe environment.</p>
               <div className='mt-2'>
@@ -17,7 +17,7 @@ const page = () => {
                       <ul className='mt-3 space-y-3'>
                          <li className='font-roboto text-justify'><IoIosArrowForward className='size-6 inline-block'/>&nbsp;Member of the European Union and Schengen Area</li>
                          <li className='font-roboto text-justify'><IoIosArrowForward className='size-6 inline-block'/>&nbsp;Affordable tuition fees and living costs compared to many European countries</li>
-                         <li className='font-roboto text-justify'><IoIosArrowForward className='size-6 inline-block'/>&nbsp;More than 500+ English-taught programs available for international students</li>
+                         <li className='font-roboto text-justify'><IoIosArrowForward className='size-6 inline-block'/>&nbsp;More than 500+ English-taught programs available for indian students</li>
                          <li className='font-roboto text-justify'><IoIosArrowForward className='size-6 inline-block'/>&nbsp;Degrees recognised across Europe and many other countries</li>
                          <li className='font-roboto text-justify'><IoIosArrowForward className='size-6 inline-block'/>&nbsp;Modern universities with advanced research and practical learning facilities</li>
                          <li className='font-roboto text-justify'><IoIosArrowForward className='size-6 inline-block'/>&nbsp;Growing hub for technology, innovation, business, and healthcare studies</li>
@@ -28,7 +28,7 @@ const page = () => {
                   <ul className='mt-3 space-y-3'>
                          <li className='font-roboto text-justify'><IoIosArrowForward className='size-6 inline-block'/>&nbsp;Safe, peaceful, and student-friendly environment</li>
                          <li className='font-roboto text-justify'><IoIosArrowForward className='size-6 inline-block'/>&nbsp;Opportunity to travel across Schengen countries during studies</li>
-                         <li className='font-roboto text-justify'><IoIosArrowForward className='size-6 inline-block'/>&nbsp;International student community from different parts of the world</li>
+                         <li className='font-roboto text-justify'><IoIosArrowForward className='size-6 inline-block'/>&nbsp;Indian student community from different parts of the world</li>
                          <li className='font-roboto text-justify'><IoIosArrowForward className='size-6 inline-block'/>&nbsp;Part-time work opportunities available for students</li>
                          <li className='font-roboto text-justify'><IoIosArrowForward className='size-6 inline-block'/>&nbsp;Post-study career opportunities in Lithuania and Europe</li>
                          <li className='font-roboto text-justify'><IoIosArrowForward className='size-6 inline-block'/>&nbsp;Strong focus on innovation, digital learning, and research-based education</li>
@@ -38,7 +38,7 @@ const page = () => {
                <div className='mt-5'>
                       <h2 className='font-aino text-2xl md:text-4xl my-5'>Why Choose Lithuanian Universities?</h2>
                       <p className='font-inter text-base'>Lithuanian universities provide high-quality education with affordable study options for
-international students.</p>
+indian students.</p>
                       <ul className='space-y-3 mt-5'>
                           <li className='font-roboto text-justify'><IoIosArrowForward className='size-6 inline-block'/>&nbsp;Internationally recognised universities and diplomas</li>
                           <li className='font-roboto text-justify'><IoIosArrowForward className='size-6 inline-block'/>&nbsp;English widely spoken in universities and major cities</li>
@@ -54,7 +54,7 @@ international students.</p>
                </div>
                <div className='my-5'>
                     <h2 className='font-aino text-2xl md:text-4xl my-3'>Study in Lithuania for a Global Future</h2>
-                    <p className='text-lg font-inter'>Lithuania combines quality education, affordable costs, modern infrastructure, and international
+                    <p className='text-lg font-inter'>Lithuania combines quality education, affordable costs, modern infrastructure, and indian
                      exposure, making it one of the emerging destinations for students planning to study in Europe.</p>
                </div>
          </div>
