@@ -1,6 +1,35 @@
 import Breadcrumb from "@/app/components/Breadcrumb"
 import Image from "next/image"
 
+export const metadata = {
+  title: "Universities in Lithuania  | Top Lithuanian Universities for International Students",
+  description: "Explore the top universities in Lithuania for international students. Compare programs, tuition fees, rankings, admission requirements, scholarships, and study opportunities at leading Lithuanian universities for Bachelor's, Master's, and PhD studies. Supported by globally recognized degrees and English-taught programs",
+  keywords: ["Universities in Lithuania", "Lithuania Universities", "Study in Lithuania Universities", "Top Universities in Lithuania", "Lithuanian Universities", "Lithuania Higher Education", "Best Universities in Lithuania", "Vilnius University", "VILNIUS TECH", "Kaunas University of Technology", "Vytautas Magnus University", "Mykolas Romeris University", "ISM University", "Klaipeda University", "SMK University", "Kauno Kolegija", "Study in Europe", "International Students Lithuania", "English Taught Programs Lithuania", "Lithuania Education"],
+  alternates: {
+    canonical: "https://www.studyinlithuania.in/study/universities"
+  },
+  robots: {
+    index: true,
+    follow: true,
+  },
+  openGraph: {
+    type: "website",
+    locale: "en_US",
+    url: "https://www.studyinlithuania.in/study/universities/",
+    siteName: "Study in Lithuania",
+    title:
+    "Universities in Lithuania 2026 | Top Lithuanian Universities for International Students",
+    description:
+    "Explore the best universities in Lithuania offering Bachelor's, Master's and PhD programs for international students.",
+    images: [
+    {
+    url: "https://www.studyinlithuania.in/images/study/lithuania-01.webp",
+    alt: "Top Universities in Lithuania",
+    },
+  ],
+},
+}
+
 const page = () => {
 
   const univeristiesData = [
@@ -169,9 +198,176 @@ const page = () => {
   }
 ]
 
+const schema = {
+      "@context": "https://schema.org",
+      "@graph": [
+      {
+      "@type": "Organization",
+      "@id": "https://www.studyinlithuania.in/#organization",
+      name: "Study in Lithuania",
+      url: "https://www.studyinlithuania.in",
+      logo: {
+      "@type": "ImageObject",
+      url: "https://www.studyinlithuania.in/images/study/lithuania-01.webp",
+      },
+      },
+      {
+      "@type": "WebSite",
+      "@id": "https://www.studyinlithuania.in/#website",
+      url: "https://www.studyinlithuania.in",
+      name: "Study in Lithuania",
+      publisher: {
+      "@id": "https://www.studyinlithuania.in/#organization",
+      },
+      potentialAction: {
+      "@type": "SearchAction",
+      target:
+      "https://www.studyinlithuania.in/?s={search_term_string}",
+      "query-input": "required name=search_term_string",
+      },
+      },
+      {
+      "@type": "WebPage",
+      "@id":
+      "https://www.studyinlithuania.in/study/universities/#webpage",
+      url: "https://www.studyinlithuania.in/study/universities/",
+      name: "Universities in Lithuania",
+      description:
+      "Explore top universities in Lithuania offering Bachelor's, Master's and PhD programs for international students.",
+      isPartOf: {
+      "@id": "https://www.studyinlithuania.in/#website",
+      },
+      breadcrumb: {
+      "@id":
+      "https://www.studyinlithuania.in/study/universities/#breadcrumb",
+      },
+      inLanguage: "en",
+      },
+      {
+      "@type": "CollectionPage",
+      "@id":
+      "https://www.studyinlithuania.in/study/universities/#collectionpage",
+      url: "https://www.studyinlithuania.in/study/universities/",
+      name: "Universities in Lithuania",
+      description:
+      "A comprehensive list of universities and colleges in Lithuania for international students.",
+      mainEntity: {
+      "@id":
+      "https://www.studyinlithuania.in/study/universities/#itemlist",
+      },
+      },
+      {
+      "@type": "Article",
+      "@id":
+      "https://www.studyinlithuania.in/study/universities/#article",
+      headline:
+      "Top Universities in Lithuania for International Students",
+      description:
+      "Explore Lithuania's leading universities, admission requirements, tuition fees, scholarships and study opportunities.",
+      mainEntityOfPage: {
+      "@id":
+      "https://www.studyinlithuania.in/study/universities/#webpage",
+      },
+      publisher: {
+      "@id": "https://www.studyinlithuania.in/#organization",
+      },
+      author: {
+      "@type": "Organization",
+      name: "Study in Lithuania",
+      },
+      datePublished: "2026-06-11",
+      dateModified: "2026-06-11",
+      },
+      {
+      "@type": "BreadcrumbList",
+      "@id":
+      "https://www.studyinlithuania.in/study/universities/#breadcrumb",
+      itemListElement: [
+      {
+      "@type": "ListItem",
+      position: 1,
+      name: "Home",
+      item: "https://www.studyinlithuania.in/",
+      },
+      {
+      "@type": "ListItem",
+      position: 2,
+      name: "Study",
+      item: "https://www.studyinlithuania.in/study/",
+      },
+      {
+      "@type": "ListItem",
+      position: 3,
+      name: "Universities",
+      item: "https://www.studyinlithuania.in/study/universities/",
+      },
+      ],
+      },
+      {
+      "@type": "ItemList",
+      "@id":
+      "https://www.studyinlithuania.in/study/universities/#itemlist",
+      name: "Top Universities in Lithuania",
+      itemListElement: [
+      {
+      "@type": "CollegeOrUniversity",
+      position: 1,
+      name: "Vilnius University",
+      },
+      {
+      "@type": "CollegeOrUniversity",
+      position: 2,
+      name: "Vilnius Gediminas Technical University (VILNIUS TECH)",
+      },
+      {
+      "@type": "CollegeOrUniversity",
+      position: 3,
+      name: "Kaunas University of Technology",
+      },
+      {
+      "@type": "CollegeOrUniversity",
+      position: 4,
+      name: "Vytautas Magnus University",
+      },
+      {
+      "@type": "CollegeOrUniversity",
+      position: 5,
+      name: "Mykolas Romeris University",
+      },
+      {
+      "@type": "CollegeOrUniversity",
+      position: 6,
+      name: "Lithuanian University of Health Sciences",
+      },
+      {
+      "@type": "CollegeOrUniversity",
+      position: 7,
+      name: "ISM University of Management and Economics",
+      },
+      {
+      "@type": "CollegeOrUniversity",
+      position: 8,
+      name: "Klaipeda University",
+      },
+      ],
+      },
+      {
+      "@type": "ImageObject",
+      "@id":
+      "https://www.studyinlithuania.in/study/universities/#image",
+      contentUrl:
+      "https://www.studyinlithuania.in/study/lithuania-01.webp",
+      caption:
+      "Top Universities in Lithuania for International Students",
+      representativeOfPage: true,
+      },
+      ],
+};
+
+
   return (
-    <section className=''>
-        <Breadcrumb heading={''}/>
+    <>
+        <Breadcrumb heading={'Explore Top Universities of Lithuania'}/>
       <div className="px-10 mt-10">
          <h2 className="font-aino text-2xl md:text-4xl">Explore Top Universities in Lithuania</h2>
          <p className="mt-5">Lithuania hosts internationally recognised universities offering quality education, affordable fees,
@@ -250,7 +446,13 @@ const page = () => {
           </div>
           </div>
       </div>
-    </section>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(schema),
+        }}
+      />
+    </>
   )
 }
 

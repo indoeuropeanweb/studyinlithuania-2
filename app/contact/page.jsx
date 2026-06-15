@@ -6,7 +6,168 @@ import Link from 'next/link';
 import { FaFacebook, FaInstagram, FaYoutube } from "react-icons/fa";
 import Image from 'next/image';
 
+
+export const metadata = {
+  title: "Contact Study in Lithuania Centre | Lithuania Education Consultants in India",
+  description: "Contact Study in Lithuania Centre for expert guidance on Lithuanian university admissions, scholarships, student visas, course selection, and study abroad support for Indian students",
+  keywords: ["contact Study in Lithuania Centre", "Lithuania education consultants India", "study in Lithuania contact", "Lithuania admission consultants", "Lithuania visa consultants", "study abroad Lithuania consultants", "Lithuania university admission India", "Indian students Lithuania", "Lithuania counselling", "study in Lithuania support"],
+  alternates: {
+    canonical: "https://www.studyinlithuania.in/contact"
+  },
+    robots: {
+    index: true,
+    follow: true,
+  },
+   openGraph: {
+    type: "website",
+    title:
+      "Contact Study in Lithuania Centre | Lithuania Education Consultants in India",
+    description:
+      "Get expert support for Lithuania university admissions, scholarships, student visas, and study abroad counselling.",
+    url: "https://www.studyinlithuania.in/contact/",
+    siteName: "Study in Lithuania Centre",
+    images: [
+      {
+        url: "https://www.studyinlithuania.in/assets/images/contact/our-expert.webp",
+        width: 1200,
+        height: 630,
+        alt: "Contact Study in Lithuania Centre",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title:
+      "Contact Study in Lithuania Centre | Lithuania Education Consultants in India",
+    description:
+      "Contact our Lithuania education consultants for admissions, scholarships, student visa guidance, and course selection support.",
+    images: [
+      "https://www.studyinlithuania.in/assets/images/contact/our-expert.webp",
+    ],
+  },
+}
+
 const page = () => {
+
+   const schema = {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Organization",
+        "@id": "https://www.studyinlithuania.in/#organization",
+        name: "Study in Lithuania Centre",
+        url: "https://www.studyinlithuania.in/",
+        logo: {
+          "@type": "ImageObject",
+          url: "https://www.studyinlithuania.in/images/logos/logo.png",
+        },
+        contactPoint: {
+          "@type": "ContactPoint",
+          telephone: "+919650133355",
+          contactType: "student admissions support",
+          areaServed: "IN",
+          availableLanguage: ["English", "Hindi"],
+        },
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://www.studyinlithuania.in/#website",
+        url: "https://www.studyinlithuania.in/",
+        name: "Study in Lithuania Centre",
+        publisher: {
+          "@id": "https://www.studyinlithuania.in/#organization",
+        },
+      },
+      {
+        "@type": "ContactPage",
+        "@id":
+          "https://www.studyinlithuania.in/contact/#contactpage",
+        url: "https://www.studyinlithuania.in/contact/",
+        name: "Contact Study in Lithuania Centre",
+        description:
+          "Contact page for students seeking guidance on Lithuania university admissions, scholarships, student visas, and study abroad counselling.",
+        isPartOf: {
+          "@id": "https://www.studyinlithuania.in/#website",
+        },
+        about: {
+          "@id": "https://www.studyinlithuania.in/#organization",
+        },
+      },
+      {
+        "@type": "EducationalOrganization",
+        "@id":
+          "https://www.studyinlithuania.in/#educationalorganization",
+        name: "Study in Lithuania Centre",
+        url: "https://www.studyinlithuania.in/",
+        description:
+          "Education consultancy helping Indian students study in Lithuania.",
+        areaServed: {
+          "@type": "Country",
+          name: "India",
+        },
+      },
+
+      {
+        "@type": "LocalBusiness",
+        "@id":
+          "https://www.studyinlithuania.in/contact/#localbusiness",
+        name: "Study in Lithuania Centre",
+        url: "https://www.studyinlithuania.in/",
+        image: "https://www.studyinlithuania.in/images/logos/logo.png",
+        telephone: "+919650133355",
+        email: "info@studyinlithuania.in",
+        address: {
+          "@type": "PostalAddress",
+          streetAddress: "First Floor, 18/1 -A, Jail Road, Opposite Tilak Nagar Metro Station Gate no - 4, Above Sona Baker, New Delhi-110058.",
+          addressLocality: "Tilak Nagar",
+          addressRegion: "Delhi",
+          postalCode: "110058",
+          addressCountry: "IN",
+        },
+        areaServed: {
+          "@type": "Country",
+          name: "India",
+        },
+        priceRange: "$$",
+      },
+
+      {
+        "@type": "Service",
+        "@id": "https://www.studyinlithuania.in/contact/#service",
+        name: "Lithuania Study Abroad Consultation",
+        serviceType: "Education Consultancy",
+        provider: {
+          "@id": "https://www.studyinlithuania.in/#organization",
+        },
+        areaServed: {
+          "@type": "Country",
+          name: "India",
+        },
+        description:
+          "Student counselling, university selection, application support, scholarship guidance, visa documentation support, and pre-departure assistance for studying in Lithuania.",
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id":
+          "https://www.studyinlithuania.in/contact/#breadcrumb",
+        itemListElement: [
+          {
+            "@type": "ListItem",
+            position: 1,
+            name: "Home",
+            item: "https://www.studyinlithuania.in/",
+          },
+          {
+            "@type": "ListItem",
+            position: 2,
+            name: "Contact",
+            item: "https://www.studyinlithuania.in/contact/",
+          },
+        ],
+      },
+    ],
+  };
+
   return (
     <>
       <Breadcrumb heading="We would be happy to answer all of your questions. Please fill in the contact form."/>
@@ -85,6 +246,12 @@ const page = () => {
               </div>
          </div>
       </section>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(schema),
+        }}
+      />
     </>
   )
 }

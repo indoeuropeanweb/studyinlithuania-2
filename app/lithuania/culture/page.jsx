@@ -3,10 +3,171 @@ import React from 'react'
 import { IoIosArrowForward } from 'react-icons/io';
 import Image from 'next/image';
 
+export const metadata = {
+    title: "Lithuanian Culture Guide | Traditions, Festivals, Language, Food & Lifestyle",
+    description: "Discover Lithuania's rich cultural heritage, traditions, festivals, language, cuisine, arts, music, and modern lifestyle. Learn about Lithuanian customs, student life, and cultural experiences in one of Europe's most vibrant Baltic nations.",
+    keywords: ["Lithuanian Culture", "Lithuania Culture", "Lithuanian Traditions", "Lithuania Festivals", "Lithuanian Language", "Lithuania Lifestyle", "Lithuanian Heritage", "Lithuania Customs", "Lithuanian Food", "Lithuania Cuisine", "Lithuania Arts and Music", "Lithuania Cultural Heritage", "Lithuania Student Life", "Baltic Culture", "Lithuania Society", "Study in Lithuania", "Lithuanian Celebrations", "Lithuania Folk Traditions", "Lithuania History and Culture", "Culture of Lithuania"],
+    alternates: {
+      canonical: "https://www.studyinlithuania.in/lithuania/culture"
+    },
+    robots: {
+      index: true,
+      follow: true,
+    },
+      openGraph: {
+    type: "article",
+    locale: "en_US",
+    url: "https://www.studyinlithuania.in/lithuania/culture/",
+    siteName: "Study in Lithuania",
+    title:
+      "Lithuanian Culture Guide 2026 | Traditions, Festivals, Language, Food & Lifestyle",
+    description:
+      "Explore Lithuania's traditions, festivals, language, cuisine, arts, music and cultural heritage. Learn about student life and everyday culture in Lithuania.",
+    images: [
+      {
+        url: "https://www.studyinlithuania.in/images/culture/culture.webp",
+        alt: "Lithuanian Culture",
+      },
+    ],
+  },
+
+  twitter: {
+    card: "summary_large_image",
+    title:
+      "Lithuanian Culture Guide 2026 | Traditions, Festivals, Language, Food & Lifestyle",
+    description:
+      "Explore Lithuania's traditions, festivals, language, cuisine, arts, music and cultural heritage.",
+    images: [
+      "https://www.studyinlithuania.in/images/culture/culture.webp",
+    ],
+  },
+}
+
 const page = () => {
+
+  const schema = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://www.studyinlithuania.in/#organization",
+      name: "Study in Lithuania",
+      url: "https://www.studyinlithuania.in",
+      logo: {
+        "@type": "ImageObject",
+        url: "https://www.studyinlithuania.in/wp-content/uploads/logo.png",
+      },
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://www.studyinlithuania.in/#website",
+      url: "https://www.studyinlithuania.in",
+      name: "Study in Lithuania",
+      publisher: {
+        "@id": "https://www.studyinlithuania.in/#organization",
+      },
+      potentialAction: {
+        "@type": "SearchAction",
+        target:
+          "https://www.studyinlithuania.in/?s={search_term_string}",
+        "query-input": "required name=search_term_string",
+      },
+    },
+    {
+      "@type": "WebPage",
+      "@id":
+        "https://www.studyinlithuania.in/lithuania/culture/#webpage",
+      url: "https://www.studyinlithuania.in/lithuania/culture/",
+      name: "Lithuanian Culture",
+      description:
+        "Explore Lithuania's traditions, language, festivals, cuisine, arts, music, and cultural heritage.",
+      isPartOf: {
+        "@id": "https://www.studyinlithuania.in/#website",
+      },
+      breadcrumb: {
+        "@id":
+          "https://www.studyinlithuania.in/lithuania/culture/#breadcrumb",
+      },
+      about: {
+        "@id":
+          "https://www.studyinlithuania.in/lithuania/culture/#country",
+      },
+      inLanguage: "en",
+    },
+    {
+      "@type": "Article",
+      "@id":
+        "https://www.studyinlithuania.in/lithuania/culture/#article",
+      headline: "Culture of Lithuania",
+      description:
+        "A complete guide to Lithuanian culture, traditions, language, festivals, arts, cuisine, and lifestyle.",
+      mainEntityOfPage: {
+        "@id":
+          "https://www.studyinlithuania.in/lithuania/culture/#webpage",
+      },
+      publisher: {
+        "@id": "https://www.studyinlithuania.in/#organization",
+      },
+      author: {
+        "@type": "Organization",
+        name: "Study in Lithuania",
+      },
+      datePublished: "2026-06-11",
+      dateModified: "2026-06-11",
+      image: {
+        "@type": "ImageObject",
+        url: "https://www.studyinlithuania.in/wp-content/uploads/lithuania-culture.jpg",
+      },
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id":
+        "https://www.studyinlithuania.in/lithuania/culture/#breadcrumb",
+      itemListElement: [
+        {
+          "@type": "ListItem",
+          position: 1,
+          name: "Home",
+          item: "https://www.studyinlithuania.in/",
+        },
+        {
+          "@type": "ListItem",
+          position: 2,
+          name: "Lithuania",
+          item: "https://www.studyinlithuania.in/lithuania/",
+        },
+        {
+          "@type": "ListItem",
+          position: 3,
+          name: "Culture",
+          item: "https://www.studyinlithuania.in/lithuania/culture/",
+        },
+      ],
+    },
+    {
+      "@type": "Country",
+      "@id":
+        "https://www.studyinlithuania.in/lithuania/culture/#country",
+      name: "Lithuania",
+      description:
+        "Lithuania is known for its rich cultural heritage, folk traditions, song festivals, unique Baltic language, historic customs, vibrant arts scene, and modern European lifestyle.",
+    },
+    {
+      "@type": "ImageObject",
+      "@id":
+        "https://www.studyinlithuania.in/lithuania/culture/#image",
+      contentUrl:
+        "https://www.studyinlithuania.in/wp-content/uploads/lithuania-culture.jpg",
+      caption:
+        "Traditional Lithuanian culture, heritage, music, festivals and lifestyle",
+      representativeOfPage: true,
+    },
+  ],
+};
+
   return (
-    <div className=''>
-      <Breadcrumb heading={''} />
+    <>
+      <Breadcrumb heading={'Culture of Lithuania'} />
       <div className='px-5 py-5'>
         <h2 className='text-2xl md:text-4xl font-aino'>Unique Culture</h2>
         <div className='grid grid-cols-1 md:grid-cols-2 gap-5'>
@@ -31,7 +192,13 @@ const page = () => {
             </ul>
         </div>
       </div>
-    </div>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(schema),
+        }}
+      />
+    </>
   )
 }
 

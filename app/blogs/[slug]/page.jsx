@@ -1,6 +1,7 @@
 import { blogs } from "@/public/data/blogs";
 import { notFound } from "next/navigation";
 import Image from "next/image";
+import Script from "next/script";
 
 export async function generateStaticParams() {
   return blogs.map((blog) => ({
@@ -8,8 +9,56 @@ export async function generateStaticParams() {
   }));
 }
 
-export default async function BlogPage({ params }) {
+export async function generateMetadata({ params }) {
+  const { slug } = await params;
 
+  const blog = blogs.find((item) => item.slug === slug);
+
+  if (!blog) {
+    return {};   
+  }
+
+  return {
+    title: blog.metaTitle || blog.title,
+    description: blog.metaDescription,
+    keywords: blog.keywords,
+
+    alternates: {
+      canonical: `https://www.studyinlithuania.in/blogs/${slug}`,
+    },
+
+    openGraph: {
+      title: blog.metaTitle || blog.title,
+      description: blog.metaDescription,
+      url: `https://www.studyinlithuania.in/blogs/${slug}`,
+      type: "article",
+      images: [
+        {
+          url: blog.image,
+          width: 1200,
+          height: 630,
+          alt: blog.title,
+        },
+      ],
+    },
+
+    twitter: {
+      card: "summary_large_image",
+      title: blog.metaTitle || blog.title,
+      description: blog.metaDescription,
+      images: [blog.image],
+    },
+
+    robots: {
+      index: true,
+      follow: true,
+    },
+  };
+}
+
+
+
+export default async function BlogPage({ params }) {
   const { slug } = await params;
 
   const blog = blogs.find(
@@ -20,7 +69,76 @@ export default async function BlogPage({ params }) {
     notFound();
   }
 
+  const blogSchema = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "@id": `https://www.studyinlithuania.in/blogs/${slug}#article`,
+      headline: blog.title,
+      description: blog.metaDescription,
+      image: [blog.image],
+      author: {
+        "@type": "Organization",
+        name: "Study in Lithuania",
+      },
+      publisher: {
+        "@type": "Organization",
+        name: "Study in Lithuania",
+        logo: {
+          "@type": "ImageObject",
+          url: "https://www.studyinlithuania.in/logo.png",
+        },
+      },
+      datePublished: blog.date,
+      dateModified: blog.date,
+      mainEntityOfPage: {
+        "@type": "WebPage",
+        "@id": `https://www.studyinlithuania.in/blogs/${slug}`,
+      },
+    },
+
+    {
+      "@type": "BreadcrumbList",
+      "@id": `https://www.studyinlithuania.in/blogs/${slug}#breadcrumb`,
+      itemListElement: [
+        {
+          "@type": "ListItem",
+          position: 1,
+          name: "Home",
+          item: "https://www.studyinlithuania.in",
+        },
+        {
+          "@type": "ListItem",
+          position: 2,
+          name: "Blogs",
+          item: "https://www.studyinlithuania.in/blogs",
+        },
+        {
+          "@type": "ListItem",
+          position: 3,
+          name: blog.title,
+          item: `https://www.studyinlithuania.in/blogs/${slug}`,
+        },
+      ],
+    },
+
+    {
+      "@type": "FAQPage",
+      mainEntity: blog.faqs.map((faq) => ({
+        "@type": "Question",
+        name: faq.question,
+        acceptedAnswer: {
+          "@type": "Answer",
+          text: faq.answer,
+        },
+      })),
+    },
+  ],
+};
+
   return (
+    <>
     <section className="py-10 px-5">
       <div className="container mx-auto max-w-4xl">
 
@@ -56,7 +174,7 @@ export default async function BlogPage({ params }) {
           return (
             <h3
               key={index}
-              className="mt-6 text-xl md:text-2xl font-semibold font-aino text-[#BE3A34]"
+              className="mt-6 text-xl md:text-2xl font-semibold font-aino"
             >
               {section.content}
             </h3>
@@ -100,7 +218,7 @@ export default async function BlogPage({ params }) {
     })}
 
         <div className="mt-10">
-          <h2 className="text-2xl font-bold">
+          <h2 className="mt-10 text-2xl md:text-3xl font-semibold font-aino text-[#048D4E]">
             FAQs
           </h2>
 
@@ -119,5 +237,13 @@ export default async function BlogPage({ params }) {
 
       </div>
     </section>
+      <Script
+        id="blog-schema"
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(blogSchema),
+        }}
+      />
+    </>
   );
 }

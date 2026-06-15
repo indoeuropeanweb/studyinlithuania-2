@@ -239,7 +239,7 @@ const HomeClient = () => {
          </div>
          <div className="space-y-4 col-span-1 p-6">
            <h4 className="font-aino text-xl md:text-2xl text-white">Contact</h4>
-            <div className="relative w-90 h-60">
+            <div className="relative w-60 h-45 sm:w-90 sm:h-60">
               <iframe
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10724.278781509209!2d77.07865525541992!3d28.635596400000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d04bee270eea1%3A0xa4b0610ae05bae2d!2sIndo%20European%20%7C%20Study%20Abroad%20Consultants%20-%20Head%20Office!5e1!3m2!1sen!2sin!4v1779533148044!5m2!1sen!2sin"
                 className="w-full h-full rounded-xl"
@@ -252,9 +252,9 @@ const HomeClient = () => {
             <div className="flex items-center gap-4">
             <span className="font-aino text-white">Follow us on :</span>
             <ul className="flex items-center gap-2">
-              <li className="text-white"><Link href={'https://www.facebook.com/Indoeuropean.in'}><FaFacebook className="size-6 inline-block"/></Link></li>
-              <li className="text-white"><Link href={'https://www.instagram.com/indo_european'}><FaInstagram className="size-6 inline-block"/></Link></li>
-              <li className="text-white"><Link href={'https://www.youtube.com/IEESIndoEuropean'}><FaYoutube className="size-6 inline-block"/></Link></li>
+              <li className="text-white"><Link target="_blank" href={'https://www.facebook.com/Indoeuropean.in'}><FaFacebook className="size-6 inline-block"/></Link></li>
+              <li className="text-white"><Link target="_blank" href={'https://www.instagram.com/indo_european'}><FaInstagram className="size-6 inline-block"/></Link></li>
+              <li className="text-white"><Link target="_blank" href={'https://www.youtube.com/IEESIndoEuropean'}><FaYoutube className="size-6 inline-block"/></Link></li>
             </ul>
            </div>
          </div>

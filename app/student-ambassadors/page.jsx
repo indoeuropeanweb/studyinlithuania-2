@@ -1,10 +1,51 @@
-import React from 'react'
 import Breadcrumb from '../components/Breadcrumb'
 import Image from 'next/image'
 
+export const metadata = {
+  title: "Student Experiences in Lithuania | Study in Lithuania Centre Ambassadors",
+  description: "Discover real student experiences in Lithuania through Study in Lithuania Centre Ambassadors. Learn about university life, academics, accommodation, culture, career opportunities, and student success stories from Indian students studying in Lithuania",
+  keywords: ["student experiences in Lithuania", "Study in Lithuania Centre ambassadors", "Indian students in Lithuania", "Lithuania student testimonials", "Lithuania success stories", "study in Lithuania experiences", "student life in Lithuania", "Lithuania student stories", "Lithuania education experiences", "study abroad Lithuania"],
+  alternates: {
+    canonical: "https://www.studyinlithuania.in/student-ambassadors"
+  },
+  robots: {
+    index: true,
+    follow: true,
+  },
+    openGraph: {
+    type: "article",
+    title:
+      "Student Experiences in Lithuania | Study in Lithuania Centre Ambassadors",
+    description:
+      "Read real experiences and success stories from students studying in Lithuania.",
+    url:
+      "https://www.studyinlithuania.in/student-ambassadors/",
+    siteName: "Study in Lithuania Centre",
+    images: [
+      {
+        url:
+          "https://www.studyinlithuania.in/images/student-ambassadors/student-01.webp",
+        width: 1200,
+        height: 630,
+        alt: "Student Experiences in Lithuania",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title:
+      "Student Experiences in Lithuania | Study in Lithuania Centre Ambassadors",
+    description:
+      "Read real experiences and success stories from students studying in Lithuania.",
+    images: [
+      "https://www.studyinlithuania.in/images/student-ambassadors/student-01.webp",
+    ],
+  },
+}
+
 const page = () => {
 
-    const students = [
+  const students = [
   {
     "name": "Lovepreet Singh",
     "university": "SMK University of Applied Social Sciences",
@@ -103,6 +144,92 @@ const page = () => {
   }
 ]
 
+  const schemaData = {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Organization",
+        "@id": "https://www.studyinlithuania.in/",
+        "name": "Study in Lithuania Centre",
+        "url": "https://www.studyinlithuania.in/",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://www.studyinlithuania.in/images/logos/logo.png"
+        }
+      },
+      {
+        "@type": "WebPage",
+        "@id":
+          "https://www.studyinlithuania.in/student-ambassadors/",
+        "url":
+          "https://www.studyinlithuania.in/student-ambassadors/",
+        "name": "Student Experiences in Lithuania",
+        "description":
+          "Read real experiences and success stories from international students studying in Lithuania."
+      },
+      {
+        "@type": "Article",
+        "@id":
+          "https://www.studyinlithuania.in/student-ambassadors/",
+        "headline":
+          "Student Experiences in Lithuania",
+        "description":
+          "Real stories and experiences shared by students studying in Lithuania.",
+        "mainEntityOfPage": {
+          "@id":
+            "https://www.studyinlithuania.in/student-ambassadors/"
+        }
+      },
+      {
+        "@type": "Review",
+        "@id":
+          "https://www.studyinlithuania.in/student-ambassadors/",
+        "author": {
+          "@type": "Person",
+          "name": "Student Ambassador"
+        },
+        "reviewBody":
+          "Studying in Lithuania has been a life-changing experience.",
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": "5",
+          "bestRating": "5"
+        },
+        "itemReviewed": {
+          "@type": "Thing",
+          "name": "Study Experience in Lithuania"
+        }
+      },
+      {
+        "@type": "FAQPage",
+        "@id":
+          "https://www.studyinlithuania.in/faq",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name":
+              "What can I learn from student ambassadors in Lithuania?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text":
+                "Student ambassadors share real-life experiences about academics, accommodation and student life."
+            }
+          },
+          {
+            "@type": "Question",
+            "name":
+              "Can I contact students currently studying in Lithuania?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text":
+                "Yes, prospective students can connect with ambassadors for first-hand insights."
+            }
+          }
+        ]
+      }
+    ]
+  };
+
   return (
     <>
      <Breadcrumb heading="Discover the inspiring journeys of students who chose Lithuania as their study destination and
@@ -164,6 +291,12 @@ learn what studying and living in Lithuania is really like from the students the
         </div>
        </div>
      </section>
+     <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(schemaData),
+        }}
+      />
     </>
   )
 }

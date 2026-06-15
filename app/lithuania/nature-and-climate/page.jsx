@@ -2,10 +2,185 @@ import Breadcrumb from '@/app/components/Breadcrumb'
 import { IoIosArrowForward } from 'react-icons/io';
 import Image from 'next/image';
 
+export const metadata = {
+  title: "Nature and Climate of Lithuania | Weather, Seasons & Student Life",
+  description: "Explore Lithuania's nature and climate, from beautiful forests and lakes to its four distinct seasons. Learn about weather conditions, temperatures, and student life in Lithuania",
+  keywords: ["Lithuania nature and climate", "Lithuania weather", "climate in Lithuania", "Lithuania seasons", "Lithuania forests", "Lithuania lakes", "Lithuania environment", "Lithuania student life", "study in Lithuania", "Lithuania weather for students"],
+  alternates: {
+    canonical: "https://www.studyinlithuania.in/lithuania/nature-and-climate"
+  },
+  robots: {
+    index: true,
+    follow: true,
+  },
+    openGraph: {
+    type: "article",
+    title:
+      "Nature and Climate of Lithuania | Weather, Seasons & Student Life",
+    description:
+      "Explore Lithuania's nature and climate, from beautiful forests and lakes to its four distinct seasons. Learn about weather conditions, temperatures, and student life in Lithuania.",
+    url: "https://www.studyinlithuania.in/lithuania/nature-and-climate/",
+    siteName: "Study in Lithuania",
+    images: [
+      {
+        url: "https://www.studyinlithuania.in/images/nature-and-weather/nature-and-weather.webp",
+        width: 1200,
+        height: 630,
+        alt: "Nature and Climate of Lithuania",
+      },
+    ],
+  },
+
+  twitter: {
+    card: "summary_large_image",
+    title:
+      "Nature and Climate of Lithuania | Weather, Seasons & Student Life",
+    description:
+      "Explore Lithuania's nature and climate, from beautiful forests and lakes to its four distinct seasons.",
+    images: [
+      "https://www.studyinlithuania.in/images/nature-and-weather/nature-and-weather.webp",
+    ],
+  },
+}
+
 const page = () => {
+
+ const schema = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://www.studyinlithuania.in/#organization",
+      name: "Study in Lithuania",
+      url: "https://www.studyinlithuania.in",
+      logo: {
+        "@type": "ImageObject",
+        url: "https://www.studyinlithuania.in/images/logos/logo.png",
+      },
+      sameAs: [
+        "https://www.facebook.com/",
+        "https://www.instagram.com/",
+        "https://www.linkedin.com/",
+      ],
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://www.studyinlithuania.in/#website",
+      url: "https://www.studyinlithuania.in",
+      name: "Study in Lithuania",
+      publisher: {
+        "@id": "https://www.studyinlithuania.in/#organization",
+      },
+      potentialAction: {
+        "@type": "SearchAction",
+        target:
+          "https://www.studyinlithuania.in/?s={search_term_string}",
+        "query-input": "required name=search_term_string",
+      },
+    },
+    {
+      "@type": "WebPage",
+      "@id":
+        "https://www.studyinlithuania.in/lithuania/nature-and-climate/#webpage",
+      url:
+        "https://www.studyinlithuania.in/lithuania/nature-and-climate/",
+      name: "Lithuania Nature and Climate",
+      isPartOf: {
+        "@id": "https://www.studyinlithuania.in/#website",
+      },
+      about: {
+        "@id":
+          "https://www.studyinlithuania.in/lithuania/nature-and-climate/#country",
+      },
+      description:
+        "Learn about Lithuania's climate, seasons, forests, lakes, biodiversity, and natural landscapes. Explore why Lithuania is considered one of Europe's greenest countries.",
+      breadcrumb: {
+        "@id":
+          "https://www.studyinlithuania.in/lithuania/nature-and-climate/#breadcrumb",
+      },
+      inLanguage: "en",
+    },
+    {
+      "@type": "Article",
+      "@id":
+        "https://www.studyinlithuania.in/lithuania/nature-and-climate/#article",
+      headline: "Nature and Climate in Lithuania",
+      description:
+        "Comprehensive guide to Lithuania's weather, seasons, forests, lakes, national parks, and natural environment.",
+      mainEntityOfPage: {
+        "@id":
+          "https://www.studyinlithuania.in/lithuania/nature-and-climate/#webpage",
+      },
+      publisher: {
+        "@id": "https://www.studyinlithuania.in/#organization",
+      },
+      author: {
+        "@type": "Organization",
+        name: "Study in Lithuania",
+      },
+      datePublished: "2026-06-10",
+      dateModified: "2026-06-10",
+      image: {
+        "@type": "ImageObject",
+        url:
+          "https://www.studyinlithuania.in/images/lithuania/nature-and-weather/nature-and-weather.webp",
+      },
+      about: {
+        "@id":
+          "https://www.studyinlithuania.in/lithuania/nature-and-climate/#country",
+      },
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id":
+        "https://www.studyinlithuania.in/lithuania/nature-and-climate/#breadcrumb",
+      itemListElement: [
+        {
+          "@type": "ListItem",
+          position: 1,
+          name: "Home",
+          item: "https://www.studyinlithuania.in/",
+        },
+        {
+          "@type": "ListItem",
+          position: 2,
+          name: "Lithuania",
+          item: "https://www.studyinlithuania.in/lithuania/",
+        },
+        {
+          "@type": "ListItem",
+          position: 3,
+          name: "Nature and Climate",
+          item:
+            "https://www.studyinlithuania.in/lithuania/nature-and-climate/",
+        },
+      ],
+    },
+    {
+      "@type": "Country",
+      "@id":
+        "https://www.studyinlithuania.in/lithuania/nature-and-climate/#country",
+      name: "Lithuania",
+      description:
+        "Lithuania is a Baltic country known for its extensive forests, over 3,000 lakes, national parks, rich biodiversity, and four distinct seasons.",
+      url:
+        "https://www.studyinlithuania.in/lithuania/nature-and-climate/",
+    },
+    {
+      "@type": "ImageObject",
+      "@id":
+        "https://www.studyinlithuania.in/lithuania/nature-and-climate/#image",
+      contentUrl:
+        "https://www.studyinlithuania.in/wp-content/uploads/lithuania-nature-climate.jpg",
+      caption: "Forests, lakes and natural landscapes of Lithuania",
+      representativeOfPage: true,
+    },
+  ],
+};
+
   return (
-    <div className=''>
-      <Breadcrumb heading={''} />
+    <>
+      <Breadcrumb heading={'Nature and Climate of Lithuania'} />
       <div className='px-5 py-5'>
         <h2 className='text-2xl md:text-4xl font-aino'>Nature and Weather</h2>
         <div className='grid grid-cols-1 md:grid-cols-2 gap-5'>
@@ -35,7 +210,13 @@ const page = () => {
             </ul>
         </div>
       </div>
-    </div>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(schema),
+        }}
+      />
+    </>
   )
 }
 

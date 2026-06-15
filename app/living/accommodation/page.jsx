@@ -3,10 +3,200 @@ import Breadcrumb from '@/app/components/Breadcrumb';
 import { IoIosArrowForward } from "react-icons/io";
 import Image from "next/image";
 
+export const metadata = {
+  title: "Student Accommodation in Lithuania  | Housing, Dormitories & Living Costs for Indian Students",
+  description: "Find student accommodation in Lithuania, including university dormitories, private apartments, shared housing, and living costs. Discover affordable and comfortable housing options for international students studying in Lithuania",
+  keywords: ["Student Accommodation Lithuania", "Accommodation in Lithuania", "Student Housing Lithuania", "Lithuania Dormitories", "University Accommodation Lithuania", "Private Accommodation Lithuania", "Living in Lithuania", "Student Apartments Lithuania", "Lithuania Student Residence", "Housing for International Students Lithuania", "Lithuania Living Costs", "Lithuania Dorm Rooms", "Shared Accommodation Lithuania", "Study in Lithuania Accommodation", "Affordable Housing Lithuania", "Lithuania Student Life", "Lithuania Universities Accommodation", "International Students Lithuania", "Lithuania Housing Guide", "Living Expenses Lithuania"],
+  alternates: {
+    canonical: "https://www.studyinlithuania.in/living/accommodation"
+  },
+  robots: {
+    index: true,
+    follow: true,
+  },
+   openGraph: {
+    type: "website",
+    url: "https://www.studyinlithuania.in/living/accommodation/",
+    siteName: "Study in Lithuania",
+    title:
+      "Student Accommodation in Lithuania 2026 | Housing, Dormitories & Living Costs",
+    description:
+      "Explore student accommodation options in Lithuania including dormitories, private apartments, shared housing and living costs.",
+    images: [
+      {
+        url: "https://www.studyinlithuania.in/images/living/accommodation/accommodation.webp",
+        width: 1200,
+        height: 630,
+        alt: "Student Accommodation in Lithuania",
+      },
+    ],
+    locale: "en_US",
+  },
+
+  twitter: {
+    card: "summary_large_image",
+    title:
+      "Student Accommodation in Lithuania 2026 | Housing, Dormitories & Living Costs",
+    description:
+      "Explore student accommodation options in Lithuania including dormitories, private apartments, shared housing and living costs.",
+    images: [
+      "https://www.studyinlithuania.in/images/living/accommodation/accommodation.webp",
+    ],
+  },
+}
+
 const page = () => {
+
+  const schema = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://www.studyinlithuania.in/#organization",
+      name: "Study in Lithuania",
+      url: "https://www.studyinlithuania.in",
+      logo: {
+        "@type": "ImageObject",
+        url: "https://www.studyinlithuania.in/images/logos/logo.webp",
+      },
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://www.studyinlithuania.in/#website",
+      url: "https://www.studyinlithuania.in",
+      name: "Study in Lithuania",
+      publisher: {
+        "@id": "https://www.studyinlithuania.in/#organization",
+      },
+      potentialAction: {
+        "@type": "SearchAction",
+        target:
+          "https://www.studyinlithuania.in/?s={search_term_string}",
+        "query-input": "required name=search_term_string",
+      },
+    },
+    {
+      "@type": "WebPage",
+      "@id":
+        "https://www.studyinlithuania.in/living/accommodation/#webpage",
+      url:
+        "https://www.studyinlithuania.in/living/accommodation/",
+      name: "Student Accommodation in Lithuania",
+      description:
+        "Explore accommodation options in Lithuania including university dormitories, student residences, private apartments and shared housing.",
+      isPartOf: {
+        "@id": "https://www.studyinlithuania.in/#website",
+      },
+      inLanguage: "en",
+    },
+    {
+      "@type": "Article",
+      "@id":
+        "https://www.studyinlithuania.in/living/accommodation/#article",
+      headline: "Student Accommodation in Lithuania",
+      description:
+        "Complete guide to student housing, university dormitories, private rentals, accommodation costs and living arrangements in Lithuania.",
+      mainEntityOfPage: {
+        "@id":
+          "https://www.studyinlithuania.in/living/accommodation/#webpage",
+      },
+      publisher: {
+        "@id": "https://www.studyinlithuania.in/#organization",
+      },
+      author: {
+        "@type": "Organization",
+        name: "Study in Lithuania",
+      },
+      datePublished: "2026-06-12",
+      dateModified: "2026-06-12",
+      image: {
+        "@type": "ImageObject",
+        url: "hhttps://www.studyinlithuania.in/images/living/accommodation/accommodation.webp",
+      },
+    },
+    {
+      "@type": "BreadcrumbList",
+      itemListElement: [
+        {
+          "@type": "ListItem",
+          position: 1,
+          name: "Home",
+          item: "https://www.studyinlithuania.in/",
+        },
+        {
+          "@type": "ListItem",
+          position: 2,
+          name: "Living",
+          item: "https://www.studyinlithuania.in/living/",
+        },
+        {
+          "@type": "ListItem",
+          position: 3,
+          name: "Accommodation",
+          item:
+            "https://www.studyinlithuania.in/living/accommodation/",
+        },
+      ],
+    },
+    {
+      "@type": "Residence",
+      name: "Student Accommodation in Lithuania",
+      description:
+        "Accommodation options available for international students including university dormitories, student residences, shared apartments and private housing.",
+    },
+    {
+      "@type": "FAQPage",
+      mainEntity: [
+        {
+          "@type": "Question",
+          name: "Do Lithuanian universities provide accommodation?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "Yes. Most Lithuanian universities offer dormitories and student residences with modern facilities and internet access.",
+          },
+        },
+        {
+          "@type": "Question",
+          name: "What types of accommodation are available in Lithuania?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "Students can choose university dormitories, shared apartments, private rentals, student residences and short-term housing options.",
+          },
+        },
+        {
+          "@type": "Question",
+          name: "Is accommodation affordable in Lithuania?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "Yes. Lithuania is considered one of the most affordable study destinations in Europe, with reasonable housing and living costs.",
+          },
+        },
+        {
+          "@type": "Question",
+          name: "Can international students rent private apartments in Lithuania?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "Yes. International students can rent private apartments or shared accommodation through local housing platforms and rental agencies.",
+          },
+        },
+      ],
+    },
+    {
+      "@type": "ImageObject",
+      "@id":
+        "https://www.studyinlithuania.in/living/accommodation/#image",
+      contentUrl:
+        "https://www.studyinlithuania.in/images/living/accommodation/accommodation.webp",
+      caption:
+        "Student Accommodation and Housing Options in Lithuania",
+      representativeOfPage: true,
+    },
+  ],
+};
+
   return (
     <>
-        <Breadcrumb />
+        <Breadcrumb heading={"Lithuania offers a variety of accommodation options for international students, including university dormitories, student residences, shared apartments, and private rentals. Most universities provide affordable on-campus housing equipped with modern facilities, internet access, study spaces, and common kitchens. Students can also choose private apartments or shared housing in major cities such as Vilnius, Kaunas, and Klaipėda. With reasonable rental prices and a relatively low cost of living compared to many Western European countries, Lithuania remains one of the most affordable study destinations in Europe."}/>
         <div className='px-5 py-10'>
           <div className='grid grid-cols-1 md:grid-cols-2 gap-5 justify-center items-center'>
           <div>
@@ -65,6 +255,12 @@ const page = () => {
                 environment and begin their education journey without unnecessary stress.</p>
             </div>
         </div>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify(schema),
+          }}
+        />
     </>
   )
 }

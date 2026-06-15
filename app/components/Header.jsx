@@ -131,7 +131,7 @@ const Header = () => {
                 height={45}
                 width={110}
                 src={"/images/logos/meet-exp.png"}
-                alt="study in lithuania consultants"
+                alt="connect with our experts through zoom"
               />
               <span className="text-md font-semibold text-[#2766e0]">
                 Join Via Zoom
@@ -226,10 +226,10 @@ const Header = () => {
             >
               <Image
                 className="inline-block"
-                height={60}
-                width={110}
+                height={30}
+                width={60}
                 src={"/images/logos/meet-exp.png"}
-                alt="study in lithuania consultants"
+                alt="connect with our experts through zoom"
               />
 
               <span className="ms-3 text-lg font-semibold text-[#2766e0]">

@@ -1,9 +1,51 @@
 import Breadcrumb from '../components/Breadcrumb';
 import FAQ from '../components/FAQ';
 
+
+export const metadata = {
+  title: "Frequently Asked Questions About Studying in Lithuania | Study in Lithuania Centre",
+  description: "Find answers to the most frequently asked questions about studying in Lithuania. Learn about admissions, universities, tuition fees, scholarships, student visas, accommodation, work opportunities, and student life in Lithuania.",
+  keywords: ["study in Lithuania FAQ", "Lithuania student visa FAQ", "Lithuania university admission questions", "scholarships in Lithuania", "study in Lithuania for Indian students", "Lithuania tuition fees", "Lithuania accommodation", "Lithuania student life", "Lithuania universities FAQ", "Study in Lithuania Centre"],
+  alternates: {
+    canonical: "https://www.studyinlithuania.in/faq"
+  },
+    robots: {
+    index: true,
+    follow: true,
+  },
+   openGraph: {
+    type: "website",
+    title:
+      "Frequently Asked Questions About Studying in Lithuania | Study in Lithuania Centre",
+    description:
+      "Get answers to common questions about studying and living in Lithuania.",
+    url: "https://www.studyinlithuania.in/faq/",
+    siteName: "Study in Lithuania Centre",
+    images: [
+      {
+        url:
+          "https://www.studyinlithuania.in/images/logos/logo.png",
+        width: 1200,
+        height: 630,
+        alt: "Study in Lithuania FAQ",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title:
+      "Frequently Asked Questions About Studying in Lithuania | Study in Lithuania Centre",
+    description:
+      "Explore answers to common questions about studying in Lithuania.",
+    images: [
+      "https://www.studyinlithuania.in/images/logos/logo.png",
+    ],
+  },
+}
+
 const page = () => {
 
-    const faqData = [
+const faqData = [
   {
     "id": 1,
     "question": "1. Is Lithuania good for Indian students?",
@@ -106,6 +148,101 @@ const page = () => {
   }
 ]
 
+ const schemaData = {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Organization",
+        "@id": "https://www.studyinlithuania.in/",
+        "name": "Study in Lithuania Centre",
+        "url": "https://www.studyinlithuania.in/",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://www.studyinlithuania.in/images/logos/logo.png"
+        }
+      },
+      {
+        "@type": "WebPage",
+        "@id":
+          "https://www.studyinlithuania.in/",
+        "url":
+          "https://www.studyinlithuania.in/faq/",
+        "name":
+          "Frequently Asked Questions About Studying in Lithuania",
+        "description":
+          "Answers to common questions about studying and living in Lithuania."
+      },
+      {
+        "@type": "FAQPage",
+        "@id":
+          "https://www.studyinlithuania.in/faq/",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name":
+              "Why should I study in Lithuania?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text":
+                "Lithuania offers affordable European education and internationally recognized degrees."
+            }
+          },
+          {
+            "@type": "Question",
+            "name":
+              "Can Indian students study in Lithuania?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text":
+                "Yes, Indian students can apply to Lithuanian universities for English-taught programs."
+            }
+          },
+          {
+            "@type": "Question",
+            "name":
+              "Do I need a student visa to study in Lithuania?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text":
+                "Yes, non-EU students need a student visa or temporary residence permit."
+            }
+          },
+          {
+            "@type": "Question",
+            "name":
+              "Can students work while studying in Lithuania?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text":
+                "Yes, international students are generally allowed to work during studies."
+            }
+          }
+        ]
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id":
+          "https://www.studyinlithuania.in/faq/",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item":
+              "https://www.studyinlithuania.in/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "FAQ",
+            "item":
+              "https://www.studyinlithuania.in/faq/"
+          }
+        ]
+      }
+    ]
+  };
+
   return (
     <>
          <Breadcrumb heading={'Frequently Asked Questions'}/>
@@ -116,6 +253,12 @@ const page = () => {
                })}
             </div>
          </div>
+        <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(schemaData),
+        }}
+      />
     </>
   )
 }

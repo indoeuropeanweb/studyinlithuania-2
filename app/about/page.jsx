@@ -1,4 +1,3 @@
-import React from 'react'
 import Breadcrumb from '../components/Breadcrumb'
 import { IoIosArrowForward } from 'react-icons/io'
 import Image from "next/image";
@@ -11,10 +10,172 @@ import {
   FaGlobeEurope,
 } from "react-icons/fa";
 
+export const metadata = {
+  title: "About Study in Lithuania Centre | Trusted Lithuania Education Consultants",
+  description: "Learn about Study in Lithuania Centre, a trusted education consultancy helping Indian students secure admissions, scholarships, visa guidance, and career opportunities in Lithuania.",
+  keywords: ["Study in Lithuania Centre", "about Study in Lithuania", "Lithuania education consultants", "study in Lithuania consultants India", "Lithuania admission guidance", "Lithuania visa consultants", "study abroad Lithuania", "Indian students in Lithuania", "Lithuania university admission", "Lithuania scholarship guidance"],
+  alternates: {
+    canonical: "https://www.studyinlithuania.in/about"
+  },
+    robots: {
+    index: true,
+    follow: true,
+  },
+   openGraph: {
+    type: "website",
+    title:
+      "About Study in Lithuania Centre | Trusted Lithuania Education Consultants",
+    description:
+      "Discover how Study in Lithuania Centre helps Indian students with admissions and visa guidance.",
+    url: "https://www.studyinlithuania.in/about/",
+    siteName: "Study in Lithuania Centre",
+    images: [
+      {
+        url:
+          "https://www.studyinlithuania.in/images/contact/our-expert.webp",
+        width: 1200,
+        height: 630,
+        alt: "About Study in Lithuania Centre",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title:
+      "About Study in Lithuania Centre | Trusted Lithuania Education Consultants",
+    description:
+      "Learn how Study in Lithuania Centre supports Indian students.",
+    images: [
+      "https://www.studyinlithuania.in/images/contact/our-expert.webp",
+    ],
+  },
+}
+
 const page = () => {
+
+  const schemaData = {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Organization",
+        "@id": "https://www.studyinlithuania.in/",
+        "name": "Study in Lithuania Centre",
+        "url": "https://www.studyinlithuania.in/",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://www.studyinlithuania.in/images/logos/logo.png"
+        },
+        "description":
+          "Study in Lithuania Centre helps Indian students with admissions, scholarships, visa guidance, and study abroad support."
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://www.studyinlithuania.in/#website",
+        "url": "https://www.studyinlithuania.in/",
+        "name": "Study in Lithuania Centre"
+      },
+      {
+        "@type": "AboutPage",
+        "@id":
+          "https://www.studyinlithuania.in/about/#aboutpage",
+        "url":
+          "https://www.studyinlithuania.in/about/",
+        "name":
+          "About Study in Lithuania Centre",
+        "description":
+          "Trusted education consultancy supporting Indian students studying in Lithuania.",
+        "isPartOf": {
+          "@id":
+            "https://www.studyinlithuania.in/#website"
+        },
+        "about": {
+          "@id":
+            "https://www.studyinlithuania.in/#organization"
+        }
+      },
+      {
+        "@type": "Service",
+        "@id":
+          "https://www.studyinlithuania.in/about/#service",
+        "name":
+          "Lithuania Study Abroad Consultation",
+        "serviceType":
+          "Education Consultancy",
+        "provider": {
+          "@id":
+            "https://www.studyinlithuania.in/#organization"
+        },
+        "areaServed": {
+          "@type": "Country",
+          "name": "India"
+        },
+        "description":
+          "Counselling, university selection, application support, scholarship guidance and visa assistance."
+      },
+      {
+        "@type": "FAQPage",
+        "@id":
+          "https://www.studyinlithuania.in/about/#faq",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name":
+              "What is Study in Lithuania Centre?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text":
+                "Study in Lithuania Centre is an education consultancy helping Indian students study in Lithuania."
+            }
+          },
+          {
+            "@type": "Question",
+            "name":
+              "How does Study in Lithuania Centre help students?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text":
+                "The consultancy supports students with counselling, applications, scholarships and visa guidance."
+            }
+          },
+          {
+            "@type": "Question",
+            "name":
+              "Does Study in Lithuania Centre help with visas?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text":
+                "Yes, guidance is provided for Lithuania student visa applications."
+            }
+          }
+        ]
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id":
+          "https://www.studyinlithuania.in/about/#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item":
+              "https://www.studyinlithuania.in/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "About",
+            "item":
+              "https://www.studyinlithuania.in/about/"
+          }
+        ]
+      }
+    ]
+  };
+
   return (
     <>
-     <Breadcrumb heading={'About Us'}/>
+     <Breadcrumb heading={'Learn more about us'}/>
      <div className='mx-auto max-w-6xl'>
          <div className='py-10 px-5'>
                <h2 className='font-aino text-2xl md:text-4xl'>Who We Are?</h2>
@@ -76,7 +237,7 @@ environment for indian students.</p>
                     </p>
                   </div>
 
-                  <div className="grid grid-cols-2 lg:grid-cols-3 gap-5">
+                  <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
                     <div className="bg-white border rounded-2xl p-6 text-center shadow-sm hover:shadow-lg transition">
                       <FaUniversity className="mx-auto text-3xl text-primary mb-3" />
                       <h3 className="text-3xl font-bold text-primary">20+</h3>
@@ -136,6 +297,12 @@ environment for indian students.</p>
                 </div>
          </div>
          </div>
+        <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(schemaData),
+        }}
+      />
     </>
   )
 }

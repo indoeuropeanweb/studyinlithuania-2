@@ -1,10 +1,24 @@
 import Breadcrumb from '@/app/components/Breadcrumb'
 import Image from 'next/image';
 
+
+export const metadata = {
+    title: "Lifestyle and Character of Lithuania | Culture, Values, Student Life & Living Experience",
+    description: "Explore the lifestyle and character of Lithuania, including its friendly people, safety, work-life balance, modern European lifestyle, student-friendly environment, cultural values, and quality of life for international students. Lithuania offers a peaceful, affordable, and welcoming atmosphere in the heart of Europe.",
+    keywords: ["Lithuania lifestyle", "Lithuania character", "life in Lithuania", "Lithuanian people", "Lithuania student life", "Lithuania quality of life", "Lithuania culture and lifestyle", "living in Lithuania", "Lithuania work life balance", "Lithuania international students", "Lithuania safety", "Lithuania European lifestyle", "Lithuania society", "Lithuania living experience", "Lithuania student experience", "Lithuania affordable living", "Lithuania friendly people", "Lithuania modern lifestyle", "study in Lithuania", "Lithuania daily life"],
+    alternates: {
+        canonical: "https://www.studyinlithuania.in/lithuania/life-style-and-character"
+    },
+    robots: {
+      index: true,
+      follow: true,
+    },
+}
+
 const page = () => {
   return (
     <div className=''>
-      <Breadcrumb heading={''} />
+      <Breadcrumb heading={'Life style and character in character'} />
       <div className='px-5 py-5'>
         <h2 className='text-2xl md:text-4xl font-aino'>The Way of Life in Lithuania</h2>
         <div className='grid grid-cols-1 md:grid-cols-2 gap-5'>

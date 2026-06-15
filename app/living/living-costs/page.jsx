@@ -3,10 +3,198 @@ import Breadcrumb from '@/app/components/Breadcrumb';
 import { IoIosArrowForward } from "react-icons/io";
 import Image from "next/image";
 
+
+export const metadata = {
+  title: "Cost of Living in Lithuania  | Student Expenses, Accommodation & Monthly Budget",
+  description: "Discover the cost of living in Lithuania for international students, including accommodation, food, transportation, utilities, and monthly expenses. Learn how Lithuania offers an affordable European lifestyle with excellent student benefits",
+  keywords: ["Cost of Living in Lithuania", "Lithuania Living Costs", "Student Expenses Lithuania", "Living Expenses Lithuania", "Study in Lithuania Cost", "Lithuania Monthly Budget", "Accommodation Cost Lithuania", "Food Cost Lithuania", "Transportation Cost Lithuania", "International Students Lithuania", "Lithuania Student Life", "Affordable Living Europe", "Lithuania Cost of Living for Students", "Lithuania Daily Expenses", "Lithuania Student Budget", "Lithuania Living Guide", "Lithuania Education Costs", "Lithuania Housing Costs", "Lithuania Affordable Study Destination", "Living in Lithuania"],
+  alternates: {
+    canonical: "https://www.studyinlithuania.in/living/living-costs"
+  },
+  robots: {
+    index: true,
+    follow: true,
+  },
+   openGraph: {
+    type: "article",
+    url: "https://www.studyinlithuania.in/living/living-costs/",
+    siteName: "Study in Lithuania",
+    title:
+      "Cost of Living in Lithuania 2026 | Student Expenses, Accommodation & Monthly Budget",
+    description:
+      "Explore living costs in Lithuania including accommodation, food, transportation, utilities and monthly student expenses.",
+    images: [
+      {
+        url: "https://www.studyinlithuania.in/images/living/living-cost/living-cost.webp",
+        width: 1200,
+        height: 630,
+        alt: "Cost of Living in Lithuania",
+      },
+    ],
+    locale: "en_US",
+  },
+
+  twitter: {
+    card: "summary_large_image",
+    title:
+      "Cost of Living in Lithuania 2026 | Student Expenses, Accommodation & Monthly Budget",
+    description:
+      "Explore living costs in Lithuania including accommodation, food, transportation, utilities and monthly student expenses.",
+    images: [
+      "https://www.studyinlithuania.in/images/living/living-cost/living-cost.webp",
+    ],
+  },
+}
+
 const page = () => {
+
+  const schema = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://www.studyinlithuania.in/#organization",
+      name: "Study in Lithuania",
+      url: "https://www.studyinlithuania.in",
+      logo: {
+        "@type": "ImageObject",
+        url: "https://www.studyinlithuania.in/images/logoa/logo.webp",
+      },
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://www.studyinlithuania.in/#website",
+      url: "https://www.studyinlithuania.in",
+      name: "Study in Lithuania",
+      publisher: {
+        "@id": "https://www.studyinlithuania.in/#organization",
+      },
+      potentialAction: {
+        "@type": "SearchAction",
+        target:
+          "https://www.studyinlithuania.in/?s={search_term_string}",
+        "query-input": "required name=search_term_string",
+      },
+    },
+    {
+      "@type": "WebPage",
+      "@id":
+        "https://www.studyinlithuania.in/living/living-costs/#webpage",
+      url:
+        "https://www.studyinlithuania.in/living/living-costs/",
+      name: "Cost of Living in Lithuania",
+      description:
+        "Learn about student living expenses in Lithuania, including accommodation, food, transportation, utilities and monthly budgets.",
+      isPartOf: {
+        "@id": "https://www.studyinlithuania.in/#website",
+      },
+      inLanguage: "en",
+    },
+    {
+      "@type": "Article",
+      "@id":
+        "https://www.studyinlithuania.in/living/living-costs/#article",
+      headline:
+        "Cost of Living in Lithuania for International Students",
+      description:
+        "Comprehensive guide to accommodation costs, food expenses, transportation, utilities and overall student living costs in Lithuania.",
+      mainEntityOfPage: {
+        "@id":
+          "https://www.studyinlithuania.in/living/living-costs/#webpage",
+      },
+      publisher: {
+        "@id": "https://www.studyinlithuania.in/#organization",
+      },
+      author: {
+        "@type": "Organization",
+        name: "Study in Lithuania",
+      },
+      datePublished: "2026-06-12",
+      dateModified: "2026-06-12",
+      image: {
+        "@type": "ImageObject",
+        url: "https://www.studyinlithuania.in/images/living/living-cost/living-cost.webp",
+      },
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id":
+        "https://www.studyinlithuania.in/living/living-costs/#breadcrumb",
+      itemListElement: [
+        {
+          "@type": "ListItem",
+          position: 1,
+          name: "Home",
+          item: "https://www.studyinlithuania.in/",
+        },
+        {
+          "@type": "ListItem",
+          position: 2,
+          name: "Living",
+          item: "https://www.studyinlithuania.in/living/",
+        },
+        {
+          "@type": "ListItem",
+          position: 3,
+          name: "Living Costs",
+          item:
+            "https://www.studyinlithuania.in/living/living-costs/",
+        },
+      ],
+    },
+    {
+      "@type": "FAQPage",
+      mainEntity: [
+        {
+          "@type": "Question",
+          name: "How much does it cost to live in Lithuania as a student?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "International students typically spend between €400 and €900 per month depending on their city, accommodation type and lifestyle.",
+          },
+        },
+        {
+          "@type": "Question",
+          name: "Is Lithuania affordable for international students?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "Yes. Lithuania is considered one of the most affordable countries in Europe for international students, with lower living and accommodation costs than many Western European countries.",
+          },
+        },
+        {
+          "@type": "Question",
+          name: "How much does student accommodation cost in Lithuania?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "University dormitories generally cost between €80 and €250 per month, while private apartments may range from €250 to €600 per month depending on location.",
+          },
+        },
+        {
+          "@type": "Question",
+          name: "Do students receive discounts in Lithuania?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "Yes. Students can benefit from discounted public transportation, cultural events, museums and various student services.",
+          },
+        },
+      ],
+    },
+    {
+      "@type": "ImageObject",
+      "@id":
+        "https://www.studyinlithuania.in/living/living-costs/#image",
+      contentUrl:
+       "https://www.studyinlithuania.in/images/living/living-cost/living-cost.webp",
+      caption:
+        "Cost of Living in Lithuania for International Students",
+      representativeOfPage: true,
+    },
+  ],
+};
+
   return (
     <>
-        <Breadcrumb />
+        <Breadcrumb heading={"Living Costs of Lithuania"}/>
         <div className='px-5 py-10'>
           <div className='grid grid-cols-1 md:grid-cols-2 gap-5 justify-center items-center'>
           <div className=''>
@@ -67,6 +255,12 @@ const page = () => {
               <p className='font-inter text-md mt-3 text-justify'>Overall, Lithuania offers an affordable and student-friendly cost of living compared to many other European countries. With proper budgeting, students can easily manage their monthly expenses while enjoying a comfortable and active student life in Europe.</p>
             </div>
         </div>
+        <script
+            type="application/ld+json"
+            dangerouslySetInnerHTML={{
+              __html: JSON.stringify(schema),
+            }}
+          />
     </>
   )
 }

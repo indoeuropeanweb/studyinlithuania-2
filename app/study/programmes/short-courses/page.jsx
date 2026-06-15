@@ -2,10 +2,215 @@ import Breadcrumb from '@/app/components/Breadcrumb'
 import React from 'react'
 import { IoIosArrowForward } from 'react-icons/io'
 
+export const metadata = {
+  title: "Short Courses in Lithuania  | Certificate, Diploma & Professional Courses",
+  description: "Explore short courses in Lithuania for international students. Gain industry-focused skills through certificate, diploma, and professional programs.",
+  keywords: ["Short Courses in Lithuania", "Lithuania Certificate Courses", "Professional Courses Lithuania", "Diploma Courses Lithuania", "Study Short Courses in Lithuania", "Lithuania Training Programs", "Lithuania Professional Development", "Skill Development Courses Lithuania", "International Students Lithuania", "Lithuania Education", "Short Term Courses Europe", "Online Courses Lithuania", "Technical Courses Lithuania", "Business Courses Lithuania", "IT Courses Lithuania", "Study in Lithuania", "Lithuania Career Development", "European Certification Courses", "Lithuania Learning Programs", "Lithuania Higher Education"],
+  alternates: {
+    canonical: "https://www.studyinlithuania.in/study/programmes/short-courses"
+  },
+  robots: {
+    index: true,
+    follow: true,
+  },
+   openGraph: {
+    type: "website",
+    url: "https://www.studyinlithuania.in/study/programmes/short-courses/",
+    siteName: "Study in Lithuania",
+    title:
+      "Short Courses in Lithuania 2026 | Certificate, Diploma & Professional Courses",
+    description:
+      "Explore short courses, certificate programs, diploma courses and professional training opportunities in Lithuania.",
+    images: [
+      {
+        url: "https://www.studyinlithuania.in/images/study/lithuania-01.webp",
+        width: 1200,
+        height: 630,
+        alt: "Short Courses in Lithuania",
+      },
+    ],
+    locale: "en_US",
+  },
+
+  twitter: {
+    card: "summary_large_image",
+    title:
+      "Short Courses in Lithuania 2026 | Certificate, Diploma & Professional Courses",
+    description:
+      "Explore short courses, certificate programs, diploma courses and professional training opportunities in Lithuania.",
+    images: [
+      "https://www.studyinlithuania.in/images/study/lithuania-01.webp",
+    ],
+  },
+}
+
 const page = () => {
+
+  const schema = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://www.studyinlithuania.in/#organization",
+      name: "Study in Lithuania",
+      url: "https://www.studyinlithuania.in",
+      logo: {
+        "@type": "ImageObject",
+        url: "https://www.studyinlithuania.in/images/logos/logo.webp",
+      },
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://www.studyinlithuania.in/#website",
+      url: "https://www.studyinlithuania.in",
+      name: "Study in Lithuania",
+      publisher: {
+        "@id": "https://www.studyinlithuania.in/#organization",
+      },
+      potentialAction: {
+        "@type": "SearchAction",
+        target:
+          "https://www.studyinlithuania.in/?s={search_term_string}",
+        "query-input": "required name=search_term_string",
+      },
+    },
+    {
+      "@type": "WebPage",
+      "@id":
+        "https://www.studyinlithuania.in/study/programmes/short-courses/#webpage",
+      url:
+        "https://www.studyinlithuania.in/study/programmes/short-courses/",
+      name: "Short Courses in Lithuania",
+      description:
+        "Explore short courses, certificate programs, diploma courses and professional training opportunities in Lithuania.",
+      isPartOf: {
+        "@id": "https://www.studyinlithuania.in/#website",
+      },
+      inLanguage: "en",
+    },
+    {
+      "@type": "CollectionPage",
+      "@id":
+        "https://www.studyinlithuania.in/study/programmes/short-courses/#collectionpage",
+      url:
+        "https://www.studyinlithuania.in/study/programmes/short-courses/",
+      name: "Short Courses in Lithuania",
+      description:
+        "Browse short-term certificate, diploma and professional development courses available in Lithuania.",
+    },
+    {
+      "@type": "Article",
+      "@id":
+        "https://www.studyinlithuania.in/study/programmes/short-courses/#article",
+      headline:
+        "Short Courses in Lithuania for International Students",
+      description:
+        "Guide to short courses, professional certifications, diploma programs and skill development opportunities in Lithuania.",
+      mainEntityOfPage: {
+        "@id":
+          "https://www.studyinlithuania.in/study/programmes/short-courses/#webpage",
+      },
+      publisher: {
+        "@id": "https://www.studyinlithuania.in/#organization",
+      },
+      author: {
+        "@type": "Organization",
+        name: "Study in Lithuania",
+      },
+      datePublished: "2026-06-12",
+      dateModified: "2026-06-12",
+      image: {
+        "@type": "ImageObject",
+        url: "https://www.studyinlithuania.in/images/study/lithuania-01.webp",
+      },
+    },
+    {
+      "@type": "BreadcrumbList",
+      itemListElement: [
+        {
+          "@type": "ListItem",
+          position: 1,
+          name: "Home",
+          item: "https://www.studyinlithuania.in/",
+        },
+        {
+          "@type": "ListItem",
+          position: 2,
+          name: "Study",
+          item: "https://www.studyinlithuania.in/study/",
+        },
+        {
+          "@type": "ListItem",
+          position: 3,
+          name: "Programmes",
+          item: "https://www.studyinlithuania.in/study/programmes/",
+        },
+        {
+          "@type": "ListItem",
+          position: 4,
+          name: "Short Courses",
+          item:
+            "https://www.studyinlithuania.in/study/programmes/short-courses/",
+        },
+      ],
+    },
+    {
+      "@type": "EducationalOccupationalProgram",
+      name: "Short Courses in Lithuania",
+      educationalLevel: "Certificate and Professional Training",
+      occupationalCategory: "Professional Education",
+      provider: {
+        "@type": "Organization",
+        name: "Lithuanian Universities and Training Institutes",
+      },
+      description:
+        "Short-term professional, technical, business, IT, language and skill-development courses designed for students and working professionals.",
+    },
+    {
+      "@type": "FAQPage",
+      mainEntity: [
+        {
+          "@type": "Question",
+          name: "What are short courses in Lithuania?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "Short courses are specialized training or certificate programs that focus on practical skills and professional development, usually lasting from a few weeks to several months.",
+          },
+        },
+        {
+          "@type": "Question",
+          name: "Can international students enroll in short courses in Lithuania?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "Yes, many Lithuanian institutions offer short courses and professional certification programs for international students.",
+          },
+        },
+        {
+          "@type": "Question",
+          name: "What fields are available for short courses in Lithuania?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "Popular areas include Information Technology, Business, Management, Engineering, Digital Marketing, Languages, Healthcare, and Professional Development.",
+          },
+        },
+      ],
+    },
+    {
+      "@type": "ImageObject",
+      "@id":
+        "https://www.studyinlithuania.in/study/programmes/short-courses/#image",
+      contentUrl:
+        "https://www.studyinlithuania.in/images/study/lithuania-01.webp",
+      caption:
+        "Short Courses and Professional Training Programs in Lithuania",
+      representativeOfPage: true,
+    },
+  ],
+};
+
   return (
-    <div className=''>
-      <Breadcrumb heading={'Short Course Studies in Lithuania'}/>
+    <>
+      <Breadcrumb heading={'Lithuania offers a variety of short-term courses, certificate programs, and professional training opportunities for international students and working professionals. These courses are designed to enhance practical skills, industry knowledge, and career prospects in areas such as Information Technology, Business Management, Digital Marketing, Engineering, Healthcare, Languages, and Entrepreneurship. With affordable fees, modern learning facilities, and internationally recognized certifications, Lithuania is becoming an attractive destination for skill development and professional growth in Europe.'}/>
       <div className='py-12 px-10'>
         <h2 className='text-2xl md:text-4xl font-aino'>Short Courses in Lithuania</h2>
         <p className='mt-3 text-justify text-roboto'>Short courses in Lithuania are designed to help students and professionals gain practical skills,
@@ -43,7 +248,13 @@ const page = () => {
             </ul>
         </div>
       </div>
-    </div>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(schema),
+        }}
+      />
+    </>
   )
 }
 

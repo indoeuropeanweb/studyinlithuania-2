@@ -12,11 +12,9 @@ const footer = () => {
             <div className='flex gap-5 mt-3'>
               <span className=''>Follow us on</span>
               <ul className='flex gap-3'>
-                <li><Link href={'https://www.facebook.com/Indoeuropean.in'}><FaFacebook className="size-6 text-primary hover:scale-110 duration-300 ease-in-out" /></Link></li>
-                <li><Link href={'https://www.instagram.com/indo_european'}><FaInstagram className="hover:scale-110 size-6 text-primary duration-300 ease-in-out" /></Link></li>
-                <li><Link href={'https://www.youtube.com/IEESIndoEuropean'}><FaYoutube className="hover:scale-110 size-6 text-primary duration-300 ease-in-out" /></Link></li>
-                {/* <li><Link href={''}><FaXTwitter className="hover:scale-110 size-6 text-primary duration-300 ease-in-out" /></Link></li> */}
-                {/* <li><Link href={''}><FaLinkedinIn className="hover:scale-110 size-6 text-primary duration-300 ease-in-out" /></Link></li> */}
+                <li><Link href={'https://www.facebook.com/Indoeuropean.in'} target='_blank'><FaFacebook className="size-6 text-primary hover:scale-110 duration-300 ease-in-out" /></Link></li>
+                <li><Link href={'https://www.instagram.com/indo_european'} target='_blank'><FaInstagram className="hover:scale-110 size-6 text-primary duration-300 ease-in-out" /></Link></li>
+                <li><Link href={'https://www.youtube.com/IEESIndoEuropean'} target='_blank'><FaYoutube className="hover:scale-110 size-6 text-primary duration-300 ease-in-out" /></Link></li>
               </ul>
             </div>
           </div>

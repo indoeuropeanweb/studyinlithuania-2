@@ -1,10 +1,189 @@
 import Breadcrumb from "@/app/components/Breadcrumb";
 import { IoIosArrowForward } from 'react-icons/io'
 
+
+export const metadata = {
+  title: "Scholarships in Lithuania  | Study Grants, Tuition Waivers & Funding for indian Students",
+  description: "Explore scholarships in Lithuania for international students, including tuition fee waivers, government grants, university scholarships, and financial aid opportunities for Bachelor's, Master's, and PhD programs.",
+  keywords: ["Scholarships in Lithuania", "Lithuania Scholarships", "Study in Lithuania Scholarships", "Lithuania Government Scholarships", "Lithuania University Scholarships", "International Student Scholarships Lithuania", "Bachelor's Scholarships Lithuania", "Master's Scholarships Lithuania", "PhD Scholarships Lithuania", "Tuition Fee Waiver Lithuania", "Financial Aid Lithuania", "VILNIUS TECH Scholarship", "Vilnius University Scholarship", "Study Abroad Scholarships", "European Scholarships", "Lithuania Education Funding", "Lithuania Study Grants", "Fully Funded Scholarships Lithuania", "Merit Scholarships Lithuania", "International Students Lithuania"],
+  alternates: {
+    canonical: "https://www.studyinlithuania.in/study/scholarships"
+  },
+  robots: {
+    index: true,
+    follow: true,
+  },
+  openGraph: {
+    type: "website",
+    locale: "en_US",
+    url: "https://www.studyinlithuania.in/study/scholarships/",
+    siteName: "Study in Lithuania",
+    title:
+      "Scholarships in Lithuania 2026 | Study Grants, Tuition Waivers & Funding",
+    description:
+      "Discover scholarships, grants, tuition fee waivers and financial aid opportunities for international students studying in Lithuania.",
+    images: [
+      {
+        url: "https://www.studyinlithuania.in/images/study/lithuania-01.webp",
+        alt: "Scholarships in Lithuania",
+      },
+    ],
+  },
+}
+
 const page = () => {
+
+    const schema = {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Organization",
+          "@id": "https://www.studyinlithuania.in/#organization",
+          name: "Study in Lithuania",
+          url: "https://www.studyinlithuania.in",
+          logo: {
+            "@type": "ImageObject",
+            url: "https://www.studyinlithuania.in/",
+          },
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://www.studyinlithuania.in/#website",
+          url: "https://www.studyinlithuania.in",
+          name: "Study in Lithuania",
+          publisher: {
+            "@id": "https://www.studyinlithuania.in/#organization",
+          },
+          potentialAction: {
+            "@type": "SearchAction",
+            target:
+              "https://www.studyinlithuania.in/?s={search_term_string}",
+            "query-input": "required name=search_term_string",
+          },
+        },
+        {
+          "@type": "WebPage",
+          "@id":
+            "https://www.studyinlithuania.in/study/scholarships/#webpage",
+          url: "https://www.studyinlithuania.in/study/scholarships/",
+          name: "Scholarships in Lithuania",
+          description:
+            "Explore scholarships, grants, tuition fee waivers and funding opportunities available for international students studying in Lithuania.",
+          isPartOf: {
+            "@id": "https://www.studyinlithuania.in/#website",
+          },
+          breadcrumb: {
+            "@id":
+              "https://www.studyinlithuania.in/study/scholarships/#breadcrumb",
+          },
+          inLanguage: "en",
+        },
+        {
+          "@type": "Article",
+          "@id":
+            "https://www.studyinlithuania.in/study/scholarships/#article",
+          headline:
+            "Scholarships in Lithuania for International Students",
+          description:
+            "Complete guide to scholarships, grants, tuition waivers and financial aid opportunities available for Bachelor's, Master's and PhD students in Lithuania.",
+          mainEntityOfPage: {
+            "@id":
+              "https://www.studyinlithuania.in/study/scholarships/#webpage",
+          },
+          publisher: {
+            "@id": "https://www.studyinlithuania.in/#organization",
+          },
+          author: {
+            "@type": "Organization",
+            name: "Study in Lithuania",
+          },
+          datePublished: "2026-06-11",
+          dateModified: "2026-06-11",
+        },
+        {
+          "@type": "BreadcrumbList",
+          "@id":
+            "https://www.studyinlithuania.in/study/scholarships/#breadcrumb",
+          itemListElement: [
+            {
+              "@type": "ListItem",
+              position: 1,
+              name: "Home",
+              item: "https://www.studyinlithuania.in/",
+            },
+            {
+              "@type": "ListItem",
+              position: 2,
+              name: "Study",
+              item: "https://www.studyinlithuania.in/study/",
+            },
+            {
+              "@type": "ListItem",
+              position: 3,
+              name: "Scholarships",
+              item: "https://www.studyinlithuania.in/study/scholarships/",
+            },
+          ],
+        },
+        {
+          "@type": "FinancialAid",
+          name: "Scholarships in Lithuania",
+          description:
+            "Financial support opportunities including tuition fee waivers, government scholarships, university grants, merit-based scholarships and research funding for international students.",
+        },
+        {
+          "@type": "FAQPage",
+          mainEntity: [
+            {
+              "@type": "Question",
+              name: "Can international students get scholarships in Lithuania?",
+              acceptedAnswer: {
+                "@type": "Answer",
+                text: "Yes. Lithuanian universities and government organizations offer scholarships, tuition fee waivers and grants for international students based on academic merit and eligibility.",
+              },
+            },
+            {
+              "@type": "Question",
+              name: "Are scholarships available for Bachelor's students in Lithuania?",
+              acceptedAnswer: {
+                "@type": "Answer",
+                text: "Yes. Several Lithuanian universities offer tuition fee reductions, partial scholarships and full tuition waivers for eligible Bachelor's degree students.",
+              },
+            },
+            {
+              "@type": "Question",
+              name: "Are there scholarships for Master's and PhD students?",
+              acceptedAnswer: {
+                "@type": "Answer",
+                text: "Yes. Master's and PhD students can apply for university scholarships, research grants, government-funded scholarships and tuition support programs.",
+              },
+            },
+            {
+              "@type": "Question",
+              name: "How much scholarship can I get in Lithuania?",
+              acceptedAnswer: {
+                "@type": "Answer",
+                text: "Scholarships vary by university and program. Students may receive partial tuition discounts, full tuition waivers or monthly stipends depending on eligibility.",
+              },
+            },
+          ],
+        },
+        {
+          "@type": "ImageObject",
+          "@id":
+            "https://www.studyinlithuania.in/study/scholarships/#image",
+          contentUrl:
+            "https://www.studyinlithuania.in/images/study/lithuania-01.webp",
+          caption:
+            "Scholarships and Financial Aid Opportunities in Lithuania",
+          representativeOfPage: true,
+        },
+      ],
+    };
+
   return (
     <>
-         <Breadcrumb heading={''}/>
+         <Breadcrumb heading={"Lithuanian universities actively support international students through a range of scholarship programs. Institutions such as Vilnius University and VILNIUS TECH offer merit-based scholarships, tuition fee reductions, and financial aid packages. In addition, Lithuania's national scholarship schemes provide grants that can cover tuition fees and offer monthly stipends to eligible students pursuing higher education in Lithuania"}/>
          <div className='py-5 px-5'>
            <h2 className='font-aino text-2xl md:text-4xl'>Scholarships in Lithuania for Indian Students</h2>
                <p className='text-justify font-roboto text-md mt-3'>Looking for affordable study options in Europe? Lithuania offers scholarships for Indian students
@@ -107,6 +286,12 @@ const page = () => {
                   </div>
                 </div>
          </div>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(schema),
+        }}
+      />
       </>
   )
 }
