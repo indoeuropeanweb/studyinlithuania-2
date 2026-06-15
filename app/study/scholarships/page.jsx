@@ -1,6 +1,7 @@
 import Breadcrumb from "@/app/components/Breadcrumb";
 import { IoIosArrowForward } from 'react-icons/io'
-
+import Link from 'next/link';
+import { FaArrowRightLong } from 'react-icons/fa6';
 
 export const metadata = {
   title: "Scholarships in Lithuania  | Study Grants, Tuition Waivers & Funding for indian Students",
@@ -284,6 +285,9 @@ const page = () => {
                       </div>
                     </div>
                   </div>
+                </div>
+                <div className="flex justify-end items-end mt-5">
+                    <Link href={'/living'} className="text-blue-500 font-roboto hover:underline">Read about living in lithuania <FaArrowRightLong className="inline-block"/></Link>
                 </div>
          </div>
       <script

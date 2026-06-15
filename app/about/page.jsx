@@ -9,6 +9,8 @@ import {
   FaLanguage,
   FaGlobeEurope,
 } from "react-icons/fa";
+import Link from 'next/link';
+import { FaArrowRightLong } from 'react-icons/fa6';
 
 export const metadata = {
   title: "About Study in Lithuania Centre | Trusted Lithuania Education Consultants",
@@ -296,6 +298,9 @@ environment for indian students.</p>
                   </div>
                 </div>
          </div>
+          <div className="flex justify-end items-end">
+               <Link href={'/contact'} className="text-blue-500 font-roboto hover:underline">Contact Us<FaArrowRightLong className="inline-block"/></Link>
+          </div>
          </div>
         <script
         type="application/ld+json"

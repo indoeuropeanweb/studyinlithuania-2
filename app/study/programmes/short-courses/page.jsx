@@ -1,6 +1,8 @@
 import Breadcrumb from '@/app/components/Breadcrumb'
 import React from 'react'
-import { IoIosArrowForward } from 'react-icons/io'
+import { IoIosArrowForward } from 'react-icons/io';
+import Link from 'next/link';
+import { FaArrowRightLong } from 'react-icons/fa6';
 
 export const metadata = {
   title: "Short Courses in Lithuania  | Certificate, Diploma & Professional Courses",
@@ -246,6 +248,9 @@ const page = () => {
             <li><IoIosArrowForward className='size-6 inline-block'/>&nbsp;English proficiency (if required)</li>
             <li><IoIosArrowForward className='size-6 inline-block'/>&nbsp;Valid passport and documents</li>
             </ul>
+        </div>
+        <div className="flex justify-end items-end">
+            <Link href={'/study/admission'} className="text-blue-500 font-roboto hover:underline">Read about admission <FaArrowRightLong className="inline-block"/></Link>
         </div>
       </div>
       <script

@@ -2,6 +2,7 @@ import Link from "next/link";
 import { blogs } from "@/public/data/blogs";
 import Breadcrumb from "../components/Breadcrumb";
 import Image from "next/image";
+import { FaArrowRightLong } from "react-icons/fa6";
 
 
 export const metadata = {
@@ -194,6 +195,9 @@ const schema = {
           </Link>
         ))}
       </div>
+      <div className="flex justify-end items-end mt-5">
+          <Link href={'/gallery'} className="text-blue-500 font-roboto hover:underline">Check our gallery <FaArrowRightLong className="inline-block"/></Link>
+       </div>
     </div>
     <script
         type="application/ld+json"

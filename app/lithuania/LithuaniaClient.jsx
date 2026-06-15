@@ -1,6 +1,8 @@
 import Breadcrumb from '../components/Breadcrumb'
 import Image from 'next/image'
 import { IoIosArrowForward } from "react-icons/io";
+import Link from 'next/link';
+import { FaArrowRightLong } from 'react-icons/fa6';
 
 const LithuaniaClient = () => {
   return (
@@ -69,6 +71,9 @@ const LithuaniaClient = () => {
                       </ul>
                       <p className='mt-5 text-justify'>Lithuanian study consultants in Delhi don’t just guide you, but they also become a part
                         of your journey to easily study abroad.</p>
+               </div>
+               <div className="flex justify-end items-end">
+                  <Link href={'/lithuania/state'} className="text-blue-500 font-roboto hover:underline">Read about state <FaArrowRightLong className="inline-block"/></Link>
                </div>
          </div>
       </>

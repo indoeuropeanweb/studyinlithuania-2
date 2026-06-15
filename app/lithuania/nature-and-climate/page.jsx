@@ -1,6 +1,8 @@
 import Breadcrumb from '@/app/components/Breadcrumb'
 import { IoIosArrowForward } from 'react-icons/io';
 import Image from 'next/image';
+import Link from 'next/link';
+import { FaArrowRightLong } from 'react-icons/fa6';
 
 export const metadata = {
   title: "Nature and Climate of Lithuania | Weather, Seasons & Student Life",
@@ -208,6 +210,9 @@ const page = () => {
              <li><IoIosArrowForward className='size-6 inline-block'/>&nbsp;<b>Winter Snow:</b> Typical December through February</li>
              <li><IoIosArrowForward className='size-6 inline-block'/>&nbsp;<b>Daylight:</b> Longer days in summer, shorter days in winter</li>
             </ul>
+        </div>
+        <div className="flex justify-end items-end mt-5">
+            <Link href={'/lithuania/economy'} className="text-blue-500 font-roboto hover:underline">Read about economy <FaArrowRightLong className="inline-block"/></Link>
         </div>
       </div>
       <script

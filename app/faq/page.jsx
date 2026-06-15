@@ -1,6 +1,7 @@
 import Breadcrumb from '../components/Breadcrumb';
 import FAQ from '../components/FAQ';
-
+import Link from 'next/link';
+import { FaArrowRightLong } from 'react-icons/fa6';
 
 export const metadata = {
   title: "Frequently Asked Questions About Studying in Lithuania | Study in Lithuania Centre",
@@ -251,6 +252,9 @@ const faqData = [
                {faqData?.map((faq, index) => {
                 return <FAQ panelNo={faq.id} key={index} question={faq.question} answer={faq.answer}/>
                })}
+            </div>
+            <div className="flex justify-end items-end mt-5">
+               <Link href={'/about'} className="text-blue-500 font-roboto hover:underline">Read about us<FaArrowRightLong className="inline-block"/></Link>
             </div>
          </div>
         <script

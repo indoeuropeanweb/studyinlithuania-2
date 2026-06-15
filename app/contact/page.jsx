@@ -1,11 +1,9 @@
-import React from 'react';
 import Breadcrumb from '../components/Breadcrumb';
 import Form from '../components/form/form';
 import { IoIosArrowForward } from "react-icons/io";
 import Link from 'next/link';
 import { FaFacebook, FaInstagram, FaYoutube } from "react-icons/fa";
 import Image from 'next/image';
-
 
 export const metadata = {
   title: "Contact Study in Lithuania Centre | Lithuania Education Consultants in India",

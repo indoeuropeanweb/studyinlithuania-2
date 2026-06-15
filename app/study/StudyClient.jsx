@@ -1,6 +1,8 @@
 import Breadcrumb from '../components/Breadcrumb'
 import Image from 'next/image'
 import { IoIosArrowForward } from "react-icons/io";
+import Link from 'next/link';
+import { FaArrowRightLong } from 'react-icons/fa6';
 
 const StudyClient = () => {
   return (
@@ -56,6 +58,9 @@ indian students.</p>
                     <h2 className='font-aino text-2xl md:text-4xl my-3'>Study in Lithuania for a Global Future</h2>
                     <p className='text-lg font-inter'>Lithuania combines quality education, affordable costs, modern infrastructure, and indian
                      exposure, making it one of the emerging destinations for students planning to study in Europe.</p>
+               </div>
+                <div className="flex justify-end items-end">
+                  <Link href={'/study/universities'} className="text-blue-500 font-roboto hover:underline">Read about Universities <FaArrowRightLong className="inline-block"/></Link>
                </div>
          </div>
       </>

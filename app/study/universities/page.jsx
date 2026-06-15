@@ -1,5 +1,7 @@
 import Breadcrumb from "@/app/components/Breadcrumb"
 import Image from "next/image"
+import Link from 'next/link';
+import { FaArrowRightLong } from 'react-icons/fa6';
 
 export const metadata = {
   title: "Universities in Lithuania  | Top Lithuanian Universities for International Students",
@@ -367,7 +369,7 @@ const schema = {
 
   return (
     <>
-        <Breadcrumb heading={'Explore Top Universities of Lithuania'}/>
+      <Breadcrumb heading={'Explore Top Universities of Lithuania'}/>
       <div className="px-10 mt-10">
          <h2 className="font-aino text-2xl md:text-4xl">Explore Top Universities in Lithuania</h2>
          <p className="mt-5">Lithuania hosts internationally recognised universities offering quality education, affordable fees,
@@ -444,6 +446,9 @@ const schema = {
                     ))}
                   </div>
           </div>
+          </div>
+          <div className="flex justify-end items-end">
+              <Link href={'/study/programmes/bachelors'} className="text-blue-500 font-roboto hover:underline">Read about bachelor programme <FaArrowRightLong className="inline-block"/></Link>
           </div>
       </div>
       <script

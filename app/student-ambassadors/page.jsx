@@ -1,5 +1,7 @@
 import Breadcrumb from '../components/Breadcrumb'
 import Image from 'next/image'
+import Link from 'next/link';
+import { FaArrowRightLong } from 'react-icons/fa6';
 
 export const metadata = {
   title: "Student Experiences in Lithuania | Study in Lithuania Centre Ambassadors",
@@ -289,6 +291,9 @@ learn what studying and living in Lithuania is really like from the students the
             );
         })}
         </div>
+       </div>
+       <div className="flex justify-end items-end">
+          <Link href={'/blogs'} className="text-blue-500 font-roboto hover:underline">Read blogs<FaArrowRightLong className="inline-block"/></Link>
        </div>
      </section>
      <script

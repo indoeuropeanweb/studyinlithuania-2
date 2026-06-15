@@ -2,6 +2,8 @@ import Breadcrumb from '@/app/components/Breadcrumb'
 import React from 'react'
 import { IoIosArrowForward } from 'react-icons/io';
 import Image from 'next/image';
+import Link from 'next/link';
+import { FaArrowRightLong } from 'react-icons/fa6';
 
 export const metadata = {
   title: "Study in Lithuania | Universities, Education System, Cost of Living & Student Life",
@@ -212,6 +214,9 @@ const page = () => {
                 making it easier for international students to study without language barriers.</p>
             </div>
           </div>
+        <div className="flex justify-end items-end">
+            <Link href={'/lithuania/nature-and-climate'} className="text-blue-500 font-roboto hover:underline">Read about nature and climate <FaArrowRightLong className="inline-block"/></Link>
+        </div>
       </div>
       <script
         type="application/ld+json"

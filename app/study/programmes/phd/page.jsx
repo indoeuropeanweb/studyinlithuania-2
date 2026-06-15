@@ -1,5 +1,8 @@
-import Breadcrumb from '@/app/components/Breadcrumb'
-import { IoIosArrowForward } from 'react-icons/io'
+import Breadcrumb from '@/app/components/Breadcrumb';
+import { IoIosArrowForward } from 'react-icons/io';
+import Link from 'next/link';
+import { FaArrowRightLong } from 'react-icons/fa6';
+
 
 export const metadata = {
   title: "PhD Programs in Lithuania  | Doctoral Studies in Lithuania for Indian Students",
@@ -256,6 +259,9 @@ const page = () => {
             <p className='mt-5'>Lithuania is becoming a growing destination for international researchers and doctoral students
             because of its affordable education, modern universities, and strong focus on innovation and
             research development.</p>
+        </div>
+        <div className="flex justify-end items-end mt-5">
+            <Link href={'/study/programmes/short-courses'} className="text-blue-500 font-roboto hover:underline">Read about short course programme <FaArrowRightLong className="inline-block"/></Link>
         </div>
       </div>
       <script

@@ -1,7 +1,9 @@
 import Breadcrumb from '@/app/components/Breadcrumb'
 import React from 'react'
 import { IoIosArrowForward } from 'react-icons/io'
-import Script from 'next/script'
+import Script from 'next/script';
+import Link from 'next/link';
+import { FaArrowRightLong } from 'react-icons/fa6';
 
 export const metadata = {
   title: "Master’s Programs in Lithuania  | Study Master's Degree in Lithuania for Indian Students",
@@ -248,6 +250,9 @@ years and focus on specialised knowledge and career development.</p>
             <li><IoIosArrowForward className='size-6 inline-block'/>&nbsp;English proficiency (IELTS or equivalent if required)</li>
             <li><IoIosArrowForward className='size-6 inline-block'/>&nbsp;Valid passport and academic documents</li>
             </ul>
+        </div>
+        <div className="flex justify-end items-end">
+            <Link href={'/study/programmes/phd'} className="text-blue-500 font-roboto hover:underline">Read about PhD programme <FaArrowRightLong className="inline-block"/></Link>
         </div>
       </div>
       <Script

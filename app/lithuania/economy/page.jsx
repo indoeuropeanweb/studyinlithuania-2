@@ -1,5 +1,7 @@
 import Breadcrumb from '@/app/components/Breadcrumb'
 import Image from 'next/image';
+import Link from 'next/link';
+import { FaArrowRightLong } from 'react-icons/fa6';
 
 export const metadata = {
   title: "Lithuania Economy Guide 2026 | GDP, Industries, Business Environment & Economic Growth",
@@ -194,6 +196,9 @@ const page = () => {
             professionals looking for career growth in Europe.
         </p>
         <Image className="rounded-md" width={280} height={540} src="/images/lithuania/economy/economy.webp" alt="Economy of Lithuania"/>
+        </div>
+        <div className="flex justify-end items-end">
+            <Link href={'/lithuania/culture'} className="text-blue-500 font-roboto hover:underline">Read about culture <FaArrowRightLong className="inline-block"/></Link>
         </div>
       </div>
       <script

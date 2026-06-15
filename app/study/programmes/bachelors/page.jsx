@@ -1,7 +1,9 @@
 import Breadcrumb from '@/app/components/Breadcrumb'
 import React from 'react'
 import { IoIosArrowForward } from 'react-icons/io'
-import Script from 'next/script'
+import Script from 'next/script';
+import Link from 'next/link';
+import { FaArrowRightLong } from 'react-icons/fa6';
 
 
 export const metadata = {
@@ -183,7 +185,7 @@ const page = () => {
 
   return (
     <>
-      <Breadcrumb heading={'Lithuania offers a wide range of Bachelor&#39;s degree programs for international students in fields such as Engineering, Information Technology, Business, Health Sciences, Aviation, Social Sciences, and Creative Arts. Most undergraduate programs are taught entirely in English and typically last 3–4 years. With affordable tuition fees, globally recognized degrees, scholarship opportunities, and excellent career prospects across Europe, Lithuania has become one of the fastest-growing study destinations for Indian students. Additionally, many universities accept the Medium of Instruction (MOI), allowing students to apply without IELTS in eligible cases.'}/>
+      <Breadcrumb heading={"Lithuania offers a wide range of Bachelor's degree programs for international students in fields such as Engineering, Information Technology, Business, Health Sciences, Aviation, Social Sciences, and Creative Arts. Most undergraduate programs are taught entirely in English and typically last 3–4 years. With affordable tuition fees, globally recognized degrees, scholarship opportunities, and excellent career prospects across Europe, Lithuania has become one of the fastest-growing study destinations for Indian students. Additionally, many universities accept the Medium of Instruction (MOI), allowing students to apply without IELTS in eligible cases."}/>
       <div className='py-12 px-10'>
         <h2 className='text-2xl md:text-4xl font-aino'>Bachelor’s Courses in Lithuania</h2>
         <p className='mt-3 text-justify text-roboto'>Bachelor’s degree programs in Lithuania usually last 3–4 years and provide quality education
@@ -208,6 +210,9 @@ with practical learning.</p>
             <li><IoIosArrowForward className='size-6 inline-block'/>&nbsp;English proficiency (if required)</li>
             <li><IoIosArrowForward className='size-6 inline-block'/>&nbsp;Valid passport</li>
           </ul>
+        </div>
+        <div className="flex justify-end items-end">
+            <Link href={'/study/programmes/masters'} className="text-blue-500 font-roboto hover:underline">Read about masters programme <FaArrowRightLong className="inline-block"/></Link>
         </div>
       </div>
       <Script

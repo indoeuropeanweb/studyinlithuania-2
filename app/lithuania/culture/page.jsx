@@ -2,6 +2,8 @@ import Breadcrumb from '@/app/components/Breadcrumb'
 import React from 'react'
 import { IoIosArrowForward } from 'react-icons/io';
 import Image from 'next/image';
+import Link from 'next/link';
+import { FaArrowRightLong } from 'react-icons/fa6';
 
 export const metadata = {
     title: "Lithuanian Culture Guide | Traditions, Festivals, Language, Food & Lifestyle",
@@ -190,6 +192,9 @@ const page = () => {
                 <li><IoIosArrowForward className='size-6 inline-block'/>&nbsp;  The country has a close relationship with nature, woods, and country traditions.</li>
                 <li><IoIosArrowForward className='size-6 inline-block'/>&nbsp;	Lithuania is a mix of a modern European way of life and historical traditions. </li>
             </ul>
+        </div>
+        <div className="flex justify-end items-end">
+            <Link href={'/lithuania/life-style-and-character'} className="text-blue-500 font-roboto hover:underline">Read about life style and character <FaArrowRightLong className="inline-block"/></Link>
         </div>
       </div>
       <script

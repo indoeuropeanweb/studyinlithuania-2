@@ -2,6 +2,8 @@ import React from 'react'
 import Breadcrumb from '../components/Breadcrumb';
 import { IoIosArrowForward } from "react-icons/io";
 import Image from "next/image";
+import Link from 'next/link';
+import { FaArrowRightLong } from 'react-icons/fa6';
 
 const LivingClient = () => {
   return (
@@ -46,6 +48,9 @@ const LivingClient = () => {
                 <p className='text-inter text-md mt-2'>At the beginning of each academic year, universities also introduce new international students
                 to campus facilities, academic systems, faculty members, and city life. This support helps
                 students feel more comfortable and confident while starting their education in Lithuania.</p>
+            </div>
+            <div className="flex justify-end items-end">
+               <Link href={'/living/accommodation'} className="text-blue-500 font-roboto hover:underline">Read Accommodation <FaArrowRightLong className="inline-block"/></Link>
             </div>
         </div>
     </>

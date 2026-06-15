@@ -2,6 +2,8 @@ import React from 'react'
 import Breadcrumb from '@/app/components/Breadcrumb';
 import { IoIosArrowForward } from "react-icons/io";
 import Image from "next/image";
+import Link from 'next/link';
+import { FaArrowRightLong } from 'react-icons/fa6';
 
 export const metadata = {
   title: "Student Accommodation in Lithuania  | Housing, Dormitories & Living Costs for Indian Students",
@@ -254,6 +256,9 @@ const page = () => {
                 before the academic session begins. This helps students settle comfortably into their new
                 environment and begin their education journey without unnecessary stress.</p>
             </div>
+          <div className="flex justify-end items-end mt-5">
+               <Link href={'/living/living-costs'} className="text-blue-500 font-roboto hover:underline">Read about living costs <FaArrowRightLong className="inline-block"/></Link>
+          </div>
         </div>
         <script
           type="application/ld+json"

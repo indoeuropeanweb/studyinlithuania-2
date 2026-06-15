@@ -1,6 +1,7 @@
 import Breadcrumb from '@/app/components/Breadcrumb'
 import Image from 'next/image';
-
+import Link from 'next/link';
+import { FaArrowRightLong } from 'react-icons/fa6';
 
 export const metadata = {
     title: "Lifestyle and Character of Lithuania | Culture, Values, Student Life & Living Experience",
@@ -56,6 +57,9 @@ const page = () => {
                     <p className='text-md text-justify font-inter'>Lithuania combines the best of old with the best of new, history with business and technology, and international culture. </p>
                 </li>
              </ul>
+        </div>
+        <div className="flex justify-end items-end mt-5">
+            <Link href={'/lithuania/language'} className="text-blue-500 font-roboto hover:underline">Read about Language <FaArrowRightLong className="inline-block"/></Link>
         </div>
       </div>
     </div>

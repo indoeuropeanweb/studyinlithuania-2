@@ -1,8 +1,8 @@
-import React from 'react'
 import Breadcrumb from '@/app/components/Breadcrumb';
 import { IoIosArrowForward } from "react-icons/io";
 import Image from "next/image";
-
+import Link from 'next/link';
+import { FaArrowRightLong } from 'react-icons/fa6';
 
 export const metadata = {
   title: "Cost of Living in Lithuania  | Student Expenses, Accommodation & Monthly Budget",
@@ -253,6 +253,9 @@ const page = () => {
             <div className='mt-5'>
               <h4 className='font-roboto text-xl md:text-2xl'>Final Overview</h4>
               <p className='font-inter text-md mt-3 text-justify'>Overall, Lithuania offers an affordable and student-friendly cost of living compared to many other European countries. With proper budgeting, students can easily manage their monthly expenses while enjoying a comfortable and active student life in Europe.</p>
+            </div>
+            <div className="flex justify-end items-end mt-5">
+               <Link href={'/living/visa-and-residence-permit'} className="text-blue-500 font-roboto hover:underline">Read about visa and residence permit <FaArrowRightLong className="inline-block"/></Link>
             </div>
         </div>
         <script

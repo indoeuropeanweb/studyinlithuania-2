@@ -1,4 +1,6 @@
-import Breadcrumb from '@/app/components/Breadcrumb'
+import Breadcrumb from '@/app/components/Breadcrumb';
+import Link from 'next/link';
+import { FaArrowRightLong } from 'react-icons/fa6';
 
 export const metadata = {
   title: "Lithuanian Language Guide  | Official Language of Lithuania, Usage & Student Life",
@@ -170,6 +172,9 @@ const page = () => {
         <p className='text-md font-roboto mt-3 text-justify'>
           Lithuania has a unique linguistic heritage, and the official language of the country is Lithuanian. It is considered one of the oldest living languages in Europe and holds great cultural importance in Lithuanian society. While Lithuanian is mainly used in daily life and local communication, English is widely spoken among students and young people, especially in cities and universities. This makes communication easier for international students studying in Lithuania.
         </p>
+        </div>
+        <div className="flex justify-end items-end mt-5">
+            <Link href={'/study'} className="text-blue-500 font-roboto hover:underline">Read about study <FaArrowRightLong className="inline-block"/></Link>
         </div>
       </div>
       <script

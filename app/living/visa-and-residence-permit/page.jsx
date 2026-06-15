@@ -1,8 +1,8 @@
-import React from 'react'
 import Breadcrumb from '@/app/components/Breadcrumb';
 import { IoIosArrowForward } from "react-icons/io";
 import Image from "next/image";
-
+import Link from 'next/link';
+import { FaArrowRightLong } from 'react-icons/fa6';
 
 export const metadata = {
   title: "Lithuania Student Visa & Residence Permit  | Visa Requirements, TRP & Application Process",
@@ -319,6 +319,9 @@ const page = () => {
             <div className='mt-5'>
               <h4 className='font-roboto text-xl md:text-2xl'>Final Note</h4>
               <p className='font-inter text-md mt-3 text-justify'>Understanding the visa and residence permit process is an important step before starting your education in Lithuania. Proper documentation, timely application, and following official guidelines help ensure a smooth transition to student life in Europe.</p>
+            </div>
+            <div className="flex justify-end items-end mt-5">
+               <Link href={'/living/working'} className="text-blue-500 font-roboto hover:underline">Read about working in lithuania<FaArrowRightLong className="inline-block"/></Link>
             </div>
         </div>
         <script

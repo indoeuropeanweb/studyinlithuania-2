@@ -1,5 +1,7 @@
-import Breadcrumb from "@/app/components/Breadcrumb"
-import { IoIosArrowForward } from "react-icons/io"
+import Breadcrumb from "@/app/components/Breadcrumb";
+import { IoIosArrowForward } from "react-icons/io";
+import Link from "next/link";
+import { FaArrowRightLong } from "react-icons/fa6";
 
 
 export const metadata = {
@@ -302,6 +304,9 @@ const page = () => {
                   <p className="text-md font-inter my-5">Preparing the correct documents on time can make the Lithuania admission process faster and
                     smoother for Indian students.</p>
                 </div>
+        <div className="flex justify-end items-end">
+            <Link href={'/study/scholarships'} className="text-blue-500 font-roboto hover:underline">Read about scholarships <FaArrowRightLong className="inline-block"/></Link>
+        </div>
          </div>
          <script
           type="application/ld+json"
