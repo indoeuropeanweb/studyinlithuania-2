@@ -246,7 +246,7 @@ const faqData = [
 
   return (
     <>
-         <Breadcrumb heading={'Frequently Asked Questions'}/>
+         <Breadcrumb heading={'Frequently Asked Questions About Studying in Lithuania'}/>
          <div className='max-w-6xl mx-auto'>
             <div className='px-5 py-10'>
                {faqData?.map((faq, index) => {

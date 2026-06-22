@@ -8,7 +8,7 @@ import { FaArrowRightLong } from 'react-icons/fa6';
 const LivingClient = () => {
   return (
     <>
-        <Breadcrumb heading={"Important topics to Live in Lithuania"}/>
+        <Breadcrumb heading={"Living in Lithuania: A Comfortable, Affordable and Student-Friendly European Experience"}/>
         <div className='px-5 py-10'>
           <div className='grid grid-cols-1 md:grid-cols-2 gap-5 justify-center items-center'>
             <div>

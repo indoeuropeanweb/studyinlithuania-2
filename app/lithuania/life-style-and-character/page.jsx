@@ -19,7 +19,7 @@ export const metadata = {
 const page = () => {
   return (
     <div className=''>
-      <Breadcrumb heading={'Life style and character in character'} />
+      <Breadcrumb heading={'Lifestyle and Character of Lithuania: Where Tradition Meets Modern European Living'} />
       <div className='px-5 py-5'>
         <h2 className='text-2xl md:text-4xl font-aino'>The Way of Life in Lithuania</h2>
         <div className='grid grid-cols-1 md:grid-cols-2 gap-5'>

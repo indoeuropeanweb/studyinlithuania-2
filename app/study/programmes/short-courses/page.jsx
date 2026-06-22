@@ -212,7 +212,7 @@ const page = () => {
 
   return (
     <>
-      <Breadcrumb heading={'Lithuania offers a variety of short-term courses, certificate programs, and professional training opportunities for international students and working professionals. These courses are designed to enhance practical skills, industry knowledge, and career prospects in areas such as Information Technology, Business Management, Digital Marketing, Engineering, Healthcare, Languages, and Entrepreneurship. With affordable fees, modern learning facilities, and internationally recognized certifications, Lithuania is becoming an attractive destination for skill development and professional growth in Europe.'}/>
+      <Breadcrumb heading={'Professional Training Programs in Lithuania.'}/>
       <div className='py-12 px-10'>
         <h2 className='text-2xl md:text-4xl font-aino'>Short Courses in Lithuania</h2>
         <p className='mt-3 text-justify text-roboto'>Short courses in Lithuania are designed to help students and professionals gain practical skills,

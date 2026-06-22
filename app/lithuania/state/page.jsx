@@ -150,7 +150,7 @@ const page = () => {
 
   return (
     <>
-      <Breadcrumb heading={'States of Lithuania'} />
+      <Breadcrumb heading={"States and Regions of Lithuania: Discover the Diverse Cities and Areas of the Country"} />
       <div className='px-5 py-5'>
         <h2 className='text-2xl md:text-4xl font-aino'>Lithuania</h2>
         <div className='grid grid-cols-1 md:grid-cols-2 gap-3'>

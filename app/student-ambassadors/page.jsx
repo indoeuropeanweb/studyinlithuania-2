@@ -234,11 +234,7 @@ const page = () => {
 
   return (
     <>
-     <Breadcrumb heading="Discover the inspiring journeys of students who chose Lithuania as their study destination and
-successfully started their international education experience. From securing university
-admissions and student visas to adapting to life in Lithuania, these students have achieved their
-academic goals with confidence. Explore their experiences, insights, and success stories to
-learn what studying and living in Lithuania is really like from the students themselves."/>
+     <Breadcrumb heading="Student​‍​‌‍​‍‌ Success Stories: Real Experiences from ​‍​‌‍​‍‌Lithuania"/>
      <section className='max-w-6xl mx-auto'>
        <div className='py-10 px-5'>
         <div className="grid grid-cols-1 gap-5 lg:gap-8">

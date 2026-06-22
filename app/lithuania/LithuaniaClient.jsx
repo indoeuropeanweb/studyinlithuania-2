@@ -7,7 +7,7 @@ import { FaArrowRightLong } from 'react-icons/fa6';
 const LithuaniaClient = () => {
   return (
     <>
-         <Breadcrumb heading={'Information About Lithuania'}/>
+         <Breadcrumb heading={"Cost of Studying in Lithuania for Indian Students: Tuition Fees, Living Expenses & Budget Guide"}/>
          <div className='py-5 px-5'>
                <h2 className='font-aino text-2xl md:text-4xl'>Study in Lithuania — Explore a smarter way to grow in Europe.</h2>
                <p className='text-justify font-roboto text-lg mt-3'>If you are planning to study in Europe and looking for an affordable, globally recognized,

@@ -369,7 +369,7 @@ const schema = {
 
   return (
     <>
-      <Breadcrumb heading={'Explore Top Universities of Lithuania'}/>
+      <Breadcrumb heading={'Top Universities in Lithuania: Explore Leading Institutions for Indian Students'}/>
       <div className="px-10 mt-10">
          <h2 className="font-aino text-2xl md:text-4xl">Explore Top Universities in Lithuania</h2>
          <p className="mt-5">Lithuania hosts internationally recognised universities offering quality education, affordable fees,

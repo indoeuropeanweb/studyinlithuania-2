@@ -18,7 +18,7 @@ export const metadata = {
    openGraph: {
     type: "article",
     url: "https://www.studyinlithuania.in/living/visa-and-residence-permit/",
-    siteName: "Study in Lithuania",
+    siteName: "Study in Lithuania Centre",
     title:
       "Lithuania Student Visa & Residence Permit 2026 | TRP & Application Process",
     description:
@@ -54,7 +54,7 @@ const page = () => {
     {
       "@type": "Organization",
       "@id": "https://www.studyinlithuania.in/#organization",
-      name: "Study in Lithuania",
+      name: "Study in Lithuania Centre",
       url: "https://www.studyinlithuania.in",
       logo: {
         "@type": "ImageObject",
@@ -65,7 +65,7 @@ const page = () => {
       "@type": "WebSite",
       "@id": "https://www.studyinlithuania.in/#website",
       url: "https://www.studyinlithuania.in",
-      name: "Study in Lithuania",
+      name: "Study in Lithuania Centre",
       publisher: {
         "@id": "https://www.studyinlithuania.in/#organization",
       },
@@ -111,7 +111,7 @@ const page = () => {
       },
       author: {
         "@type": "Organization",
-        name: "Study in Lithuania",
+        name: "Study in Lithuania Centre",
       },
       datePublished: "2026-06-12",
       dateModified: "2026-06-12",
@@ -184,7 +184,7 @@ const page = () => {
           name: "Do international students need a visa to study in Lithuania?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "Students from non-EU and non-EEA countries generally need a National Visa (D) or a Temporary Residence Permit to study in Lithuania.",
+            text: "Students from non-EU and non-EEA countries generally need a National Visa (D) or a Temporary Residence Permit to study in Lithuania Centre.",
           },
         },
         {
@@ -228,7 +228,7 @@ const page = () => {
 
   return (
     <>
-        <Breadcrumb heading={"Visa and Residence Permit"}/>
+        <Breadcrumb heading={"Lithuania Student Visa and Residence Permit: A Complete Guide for Indian Students"}/>
         <div className='px-5 py-10'>
           <div className='grid grid-cols-1 md:grid-cols-2 gap-5 justify-center items-center'>
             <div className=''>

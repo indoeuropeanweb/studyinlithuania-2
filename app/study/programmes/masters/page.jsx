@@ -214,7 +214,7 @@ const page = () => {
 
   return (
     <>
-      <Breadcrumb heading={"Lithuania has become one of Europe's most attractive destinations for international students seeking affordable and globally recognized Master's degrees. Universities offer English-taught programs in Engineering, Information Technology, Business, Management, Data Science, Health Sciences, and Social Sciences. With tuition fees starting from around €2,000 per year, strong industry connections, and post-study career opportunities across the European Union, Lithuania provides excellent value for postgraduate education."}/>
+      <Breadcrumb heading={"Study Master's Degrees in Lithuania"}/>
       <div className='py-12 px-10'>
         <h2 className='text-2xl md:text-4xl font-aino'>Master’s Courses in Lithuania</h2>
         <p className='mt-3 text-justify text-roboto'>Master’s degree programs in Lithuania are advanced study programs that usually last 1–2

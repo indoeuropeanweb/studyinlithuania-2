@@ -19,7 +19,7 @@ const Breadcrumb = ({heading}) => {
             {thirdPath && <>&nbsp;<IoIosArrowForward />&nbsp;<li><Link href={`/${firstPath}/${secondPath}/${thirdPath}`} className={`${pathname === `/${firstPath}/${secondPath}/${thirdPath}` ? "text-gray-500": "text-gray-800 hover:underline"}`}>{thirdPath}</Link></li></>}
         </ul>
         <div className='mt-10 flex justify-center items-center'>
-          {heading && <h1 className='font-aino text-sm md:text-md font-bold'>{heading}</h1>}
+          {heading && <h1 className='font-aino text-md md:text-base font-bold'>{heading}</h1>}
         </div>
         </div>
         </div>

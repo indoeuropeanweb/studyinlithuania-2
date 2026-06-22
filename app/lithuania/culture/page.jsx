@@ -169,7 +169,7 @@ const page = () => {
 
   return (
     <>
-      <Breadcrumb heading={'Culture of Lithuania'} />
+      <Breadcrumb heading={'Culture of Lithuania: Traditions, Festivals and Modern European Lifestyle'} />
       <div className='px-5 py-5'>
         <h2 className='text-2xl md:text-4xl font-aino'>Unique Culture</h2>
         <div className='grid grid-cols-1 md:grid-cols-2 gap-5'>

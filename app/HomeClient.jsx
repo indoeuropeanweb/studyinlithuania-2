@@ -136,11 +136,11 @@ const HomeClient = () => {
               </div>
               <div className="mb-5">
                  <ul className="pr-5">
-                  <li className="flex items-center gap-1 text-white my-10"><TbCircleDashedLetterL className="inline-block size-10 shrink-0" />&nbsp;<p className="text-sm md:text-md">A student visa and residence permit are required to study in Lithuania, allowing legal stay and smooth access to education benefits.</p></li>
-                  <li className="flex items-center gap-1 text-white my-10"><BsBank className="inline-block size-10 shrink-0" />&nbsp;<p className="text-sm md:text-md">A student visa and residence permit are required to study in Lithuania, allowing legal stay and smooth access to education benefits.</p></li>
-                  <li className="flex items-center gap-1 text-white my-10"><SiEuropeanunion className="inline-block size-10 shrink-0" />&nbsp;<p className="text-sm md:text-md">A student visa and residence permit are required to study in Lithuania, allowing legal stay and smooth access to education benefits.</p></li>
-                  <li className="flex items-center gap-1 text-white my-10"><AiFillSafetyCertificate className="inline-block size-10 shrink-0" />&nbsp;<p className="text-sm md:text-md">A student visa and residence permit are required to study in Lithuania, allowing legal stay and smooth access to education benefits.</p></li>
-                  <li className="flex items-center gap-1 text-white my-10"><FaRankingStar className="inline-block size-10 shrink-0" />&nbsp;<p className="text-sm md:text-md">A student visa and residence permit are required to study in Lithuania, allowing legal stay and smooth access to education benefits.</p></li>
+                  <li className="flex items-center gap-1 text-white my-10"><TbCircleDashedLetterL className="inline-block size-10 shrink-0" />&nbsp;<p className="text-sm md:text-md">Lithuanian universities follow European education standards, offering modern teaching methods and quality academic programs.</p></li>
+                  <li className="flex items-center gap-1 text-white my-10"><BsBank className="inline-block size-10 shrink-0" />&nbsp;<p className="text-sm md:text-md">Students can choose from a wide range of courses including management, IT, engineering, business studies, and healthcare fields.</p></li>
+                  <li className="flex items-center gap-1 text-white my-10"><SiEuropeanunion className="inline-block size-10 shrink-0" />&nbsp;<p className="text-sm md:text-md">International students are allowed to work part-time during their studies, helping them gain experience and support their living expenses.</p></li>
+                  <li className="flex items-center gap-1 text-white my-10"><AiFillSafetyCertificate className="inline-block size-10 shrink-0" />&nbsp;<p className="text-sm md:text-md">After completing their degree, students can explore career opportunities in Lithuania or other European countries.</p></li>
+                  <li className="flex items-center gap-1 text-white my-10"><FaRankingStar className="inline-block size-10 shrink-0" />&nbsp;<p className="text-sm md:text-md">Studying in Lithuania allows students to interact with people from different countries and gain valuable international exposure.</p></li>
                  </ul>
               </div>
             </div>

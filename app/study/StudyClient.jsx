@@ -7,7 +7,7 @@ import { FaArrowRightLong } from 'react-icons/fa6';
 const StudyClient = () => {
   return (
     <>
-         <Breadcrumb heading={'Study in Lithuania'}/>
+         <Breadcrumb heading={"Study in Lithuania: Affordable European Education for a Global Future"}/>
          <div className='py-5 px-5'>
                <h2 className='font-aino text-2xl md:text-4xl'>Why Study in Lithuania?</h2>
                <p className='text-justify font-roboto text-lg mt-3'>Many indian students now choose Lithuania for higher education because it offers

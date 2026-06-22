@@ -140,7 +140,7 @@ const page = () => {
 
   return (
     <>
-     <Breadcrumb heading={'Our Students Eperience'}/>
+     <Breadcrumb heading={'Student Experiences in Lithuania: Real Stories, Success Journeys and Study Abroad Experiences'}/>
      <section className='mx-auto max-w-6xl'>
        <div className='py-10 px-5'>
          <h2 className='text-2xl md:text-4xl font-aino'>Student Experiences in Lithuania</h2>

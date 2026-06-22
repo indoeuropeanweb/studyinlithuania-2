@@ -7,7 +7,7 @@ import { FaArrowRightLong } from 'react-icons/fa6';
 export const metadata = {
   title: "Cost of Living in Lithuania  | Student Expenses, Accommodation & Monthly Budget",
   description: "Discover the cost of living in Lithuania for international students, including accommodation, food, transportation, utilities, and monthly expenses. Learn how Lithuania offers an affordable European lifestyle with excellent student benefits",
-  keywords: ["Cost of Living in Lithuania", "Lithuania Living Costs", "Student Expenses Lithuania", "Living Expenses Lithuania", "Study in Lithuania Cost", "Lithuania Monthly Budget", "Accommodation Cost Lithuania", "Food Cost Lithuania", "Transportation Cost Lithuania", "International Students Lithuania", "Lithuania Student Life", "Affordable Living Europe", "Lithuania Cost of Living for Students", "Lithuania Daily Expenses", "Lithuania Student Budget", "Lithuania Living Guide", "Lithuania Education Costs", "Lithuania Housing Costs", "Lithuania Affordable Study Destination", "Living in Lithuania"],
+  keywords: ["Cost of Living in Lithuania", "Lithuania Living Costs", "Student Expenses Lithuania", "Living Expenses Lithuania", "Study in Lithuania Centre Cost", "Lithuania Monthly Budget", "Accommodation Cost Lithuania", "Food Cost Lithuania", "Transportation Cost Lithuania", "International Students Lithuania", "Lithuania Student Life", "Affordable Living Europe", "Lithuania Cost of Living for Students", "Lithuania Daily Expenses", "Lithuania Student Budget", "Lithuania Living Guide", "Lithuania Education Costs", "Lithuania Housing Costs", "Lithuania Affordable Study Destination", "Living in Lithuania"],
   alternates: {
     canonical: "https://www.studyinlithuania.in/living/living-costs"
   },
@@ -18,7 +18,7 @@ export const metadata = {
    openGraph: {
     type: "article",
     url: "https://www.studyinlithuania.in/living/living-costs/",
-    siteName: "Study in Lithuania",
+    siteName: "Study in Lithuania Centre",
     title:
       "Cost of Living in Lithuania 2026 | Student Expenses, Accommodation & Monthly Budget",
     description:
@@ -54,7 +54,7 @@ const page = () => {
     {
       "@type": "Organization",
       "@id": "https://www.studyinlithuania.in/#organization",
-      name: "Study in Lithuania",
+      name: "Study in Lithuania Centre",
       url: "https://www.studyinlithuania.in",
       logo: {
         "@type": "ImageObject",
@@ -65,7 +65,7 @@ const page = () => {
       "@type": "WebSite",
       "@id": "https://www.studyinlithuania.in/#website",
       url: "https://www.studyinlithuania.in",
-      name: "Study in Lithuania",
+      name: "Study in Lithuania Centre",
       publisher: {
         "@id": "https://www.studyinlithuania.in/#organization",
       },
@@ -107,7 +107,7 @@ const page = () => {
       },
       author: {
         "@type": "Organization",
-        name: "Study in Lithuania",
+        name: "Study in Lithuania Centre",
       },
       datePublished: "2026-06-12",
       dateModified: "2026-06-12",
@@ -194,7 +194,7 @@ const page = () => {
 
   return (
     <>
-        <Breadcrumb heading={"Living Costs of Lithuania"}/>
+        <Breadcrumb heading={"Living Costs in Lithuania: A Budget-Friendly Study Destination for Indian Students"}/>
         <div className='px-5 py-10'>
           <div className='grid grid-cols-1 md:grid-cols-2 gap-5 justify-center items-center'>
           <div className=''>
@@ -235,7 +235,7 @@ const page = () => {
                 <p className='mt-2 text-inter text-md text-justify'>Public transport in Lithuania is well-connected and affordable for students. Cities like Vilnius and Kaunas offer student discounts on monthly transport passes.</p>
                 <ul className='space-y-2 mt-2'>
                     <li><IoIosArrowForward className='inline-block size-5'/>&nbsp;<b>Monthly student transport pass: </b> approx. €5–€15</li>
-                    <li><IoIosArrowForward className='inline-block size-5'/>&nbsp;<b>ingle ticket:</b> around €0.50–€1.00</li>
+                    <li><IoIosArrowForward className='inline-block size-5'/>&nbsp;<b>Single ticket:</b> around €0.50–€1.00</li>
                     <li><IoIosArrowForward className='inline-block size-5'/>&nbsp;<b>Intercity travel (bus/train):</b> €5–€15 depending on distance</li>
                 </ul>
                 <p className='text-inter text-md my-5 text-justify'>Many students prefer public transport or cycling, as most facilities are located within easy reach</p>
@@ -245,7 +245,7 @@ const page = () => {
                 <p className='mt-2 text-inter text-md text-justify'>Apart from basic needs, students also spend on entertainment, social life, and personal activities. Lithuania offers a balanced student lifestyle with reasonable costs.</p>
                 <ul className='space-y-2 mt-2'>
                     <li><IoIosArrowForward className='inline-block size-5'/>&nbsp;<b>Movie tickets: </b> €5–€10</li>
-                    <li><IoIosArrowForward className='inline-block size-5'/>&nbsp;<b>C €20–€50 per month</b></li>
+                    <li><IoIosArrowForward className='inline-block size-5'/>&nbsp;<b>Gym membership: </b> €20–€50 per month</li>
                     <li><IoIosArrowForward className='inline-block size-5'/>&nbsp;<b>Social outings and cafés: </b> €50–€150 monthly (depending on lifestyle)</li>
                 </ul>
                 <p className='text-inter text-md my-5 text-justify'>Students can comfortably enjoy social activities without putting too much pressure on their budget.</p>

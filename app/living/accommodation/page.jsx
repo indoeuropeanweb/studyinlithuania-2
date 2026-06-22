@@ -198,7 +198,7 @@ const page = () => {
 
   return (
     <>
-        <Breadcrumb heading={"Lithuania offers a variety of accommodation options for international students, including university dormitories, student residences, shared apartments, and private rentals. Most universities provide affordable on-campus housing equipped with modern facilities, internet access, study spaces, and common kitchens. Students can also choose private apartments or shared housing in major cities such as Vilnius, Kaunas, and Klaipėda. With reasonable rental prices and a relatively low cost of living compared to many Western European countries, Lithuania remains one of the most affordable study destinations in Europe."}/>
+        <Breadcrumb heading={"Living​‍​‌‍​‍‌ Arrangements for Indian Students in ​‍​‌‍​‍‌Lithuania"}/>
         <div className='px-5 py-10'>
           <div className='grid grid-cols-1 md:grid-cols-2 gap-5 justify-center items-center'>
           <div>

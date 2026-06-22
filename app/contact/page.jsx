@@ -168,7 +168,7 @@ const page = () => {
 
   return (
     <>
-      <Breadcrumb heading="We would be happy to answer all of your questions. Please fill in the contact form."/>
+      <Breadcrumb heading="Contact Us for Expert Guidance on Studying in Lithuania"/>
       <section className='max-w-6xl mx-auto'>
          <div className='px-5 py-10'>
              <div className=''>

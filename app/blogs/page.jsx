@@ -161,7 +161,7 @@ const schema = {
 
   return (
     <>
-    <Breadcrumb heading="Our Blogs" />
+    <Breadcrumb heading="Study in Lithuania Blogs: Expert Guides, Student Resources and Study Abroad Insights" />
     <div className="max-w-6xl mx-auto py-10 px-5">
       <h2 className="text-2xl md:text-4xl font-aino mt-5">Study in Lithuania Blogs & Student Guides</h2>
       <p className="text-base font-roboto mt-3 mb-10">Explore the latest updates, expert guidance, and student resources about studying in Lithuania. From university admissions and Lithuania student visa processes to scholarships, accommodation, career opportunities, and student life, our blogs are designed to help international students make informed decisions about their study abroad journey. Stay updated with valuable insights, practical tips, and real experiences to successfully plan your education in Lithuania.</p>

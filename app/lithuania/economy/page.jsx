@@ -177,7 +177,7 @@ const page = () => {
 
   return (
     <>
-      <Breadcrumb heading={'Economy of Lithuania'} />
+      <Breadcrumb heading={'Economy of Lithuania: Innovation, Growth and Career Opportunities in Europe'} />
       <div className='px-5 py-5'>
         <h2 className='text-2xl md:text-4xl font-aino'>Economy</h2>
         <div className='grid grid-cols-1 md:grid-cols-2 gap-5'>

@@ -184,7 +184,7 @@ const page = () => {
 
   return (
     <>
-         <Breadcrumb heading={"Lithuanian universities actively support international students through a range of scholarship programs. Institutions such as Vilnius University and VILNIUS TECH offer merit-based scholarships, tuition fee reductions, and financial aid packages. In addition, Lithuania's national scholarship schemes provide grants that can cover tuition fees and offer monthly stipends to eligible students pursuing higher education in Lithuania"}/>
+         <Breadcrumb heading={"Discover​‍​‌‍​‍‌ Scholarship Programs That Can Help You Make Your Education in Lithuania More ​‍​‌‍​‍‌Affordable"}/>
          <div className='py-5 px-5'>
            <h2 className='font-aino text-2xl md:text-4xl'>Scholarships in Lithuania for Indian Students</h2>
                <p className='text-justify font-roboto text-md mt-3'>Looking for affordable study options in Europe? Lithuania offers scholarships for Indian students
