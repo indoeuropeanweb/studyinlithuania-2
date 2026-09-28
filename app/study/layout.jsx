@@ -9,12 +9,19 @@ const menuItems = [
   },
   {
     heading: "Programmes",
-    links: [
-      { name: "Bachelor's", href: "/study/programmes/bachelors" },
-      { name: "Master's", href: "/study/programmes/masters" },
-      { name: "PhD", href: "/study/programmes/phd" },
-      { name: "Short courses", href: "/study/programmes/short-courses" },
-    ],
+    href: "/study/programmes"
+  },
+  {
+     heading: "Bachelor's",
+     href: "/study/bachelors"
+  },
+  {
+     heading: "Master's",
+     href: "/study/masters"
+  },
+  {
+     heading: "PhD",
+     href: "/study/phd"
   },
   {
     heading: "Admission",

@@ -261,7 +261,7 @@ const page = () => {
             research development.</p>
         </div>
         <div className="flex justify-end items-end mt-5">
-            <Link href={'/study/programmes/short-courses'} className="text-blue-500 font-roboto hover:underline">Read about short course programme <FaArrowRightLong className="inline-block"/></Link>
+            <Link href={'/study/admission'} className="text-blue-500 font-roboto hover:underline">Read about admission <FaArrowRightLong className="inline-block"/></Link>
         </div>
       </div>
       <script

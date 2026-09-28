@@ -183,26 +183,6 @@ const page = () => {
         }
       },
       {
-        "@type": "Review",
-        "@id":
-          "https://www.studyinlithuania.in/student-ambassadors/",
-        "author": {
-          "@type": "Person",
-          "name": "Student Ambassador"
-        },
-        "reviewBody":
-          "Studying in Lithuania has been a life-changing experience.",
-        "reviewRating": {
-          "@type": "Rating",
-          "ratingValue": "5",
-          "bestRating": "5"
-        },
-        "itemReviewed": {
-          "@type": "Thing",
-          "name": "Study Experience in Lithuania"
-        }
-      },
-      {
         "@type": "FAQPage",
         "@id":
           "https://www.studyinlithuania.in/faq",

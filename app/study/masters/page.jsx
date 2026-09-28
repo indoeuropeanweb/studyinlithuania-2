@@ -10,7 +10,7 @@ export const metadata = {
   description: "Study Master's programs in Lithuania with affordable tuition fees, English-taught courses, scholarships, and globally recognized degrees.",
   keywords: ["Masters in Lithuania", "Master's Programs Lithuania", "Study Masters in Lithuania", "Postgraduate Courses Lithuania", "MSc in Lithuania", "MBA in Lithuania", "Engineering Masters Lithuania", "IT Masters Lithuania", "Business Masters Lithuania", "Lithuania Universities", "Lithuania Higher Education", "International Students Lithuania", "English Taught Masters Lithuania", "Study Abroad Lithuania", "Lithuania Scholarships", "Affordable Masters Europe", "Lithuania Student Visa", "Lithuania Education", "Masters Degree Europe", "Postgraduate Study Lithuania"],
   alternates: {
-    canonical: "https://www.studyinlithuania.in/study/programmes/masters"
+    canonical: "https://www.studyinlithuania.in/study/masters"
   },
   robots: {
     index: true,
@@ -18,7 +18,7 @@ export const metadata = {
   },
     openGraph: {
     type: "website",
-    url: "https://www.studyinlithuania.in/study/programmes/masters/",
+    url: "https://www.studyinlithuania.in/study/masters/",
     siteName: "Study in Lithuania",
     title:
       "Master's Programs in Lithuania 2026 | Study Master's Degree in Lithuania",
@@ -80,9 +80,9 @@ const page = () => {
     {
       "@type": "WebPage",
       "@id":
-        "https://www.studyinlithuania.in/study/programmes/masters/#webpage",
+        "https://www.studyinlithuania.in/study/masters/#webpage",
       url:
-        "https://www.studyinlithuania.in/study/programmes/masters/",
+        "https://www.studyinlithuania.in/study/masters/",
       name: "Master's Programs in Lithuania",
       description:
         "Explore Master's degree programs in Lithuania for international students including admission requirements, tuition fees, scholarships and career opportunities.",
@@ -94,9 +94,9 @@ const page = () => {
     {
       "@type": "CollectionPage",
       "@id":
-        "https://www.studyinlithuania.in/study/programmes/masters/#collectionpage",
+        "https://www.studyinlithuania.in/study/masters/#collectionpage",
       url:
-        "https://www.studyinlithuania.in/study/programmes/masters/",
+        "https://www.studyinlithuania.in/study/masters/",
       name: "Master's Programs in Lithuania",
       description:
         "Browse Master's degree programs offered by Lithuanian universities for international students.",
@@ -104,14 +104,14 @@ const page = () => {
     {
       "@type": "Article",
       "@id":
-        "https://www.studyinlithuania.in/study/programmes/masters/#article",
+        "https://www.studyinlithuania.in/study/masters/#article",
       headline:
         "Master's Programs in Lithuania for International Students",
       description:
         "Comprehensive guide to Master's studies in Lithuania including universities, tuition fees, scholarships, admission requirements and career opportunities.",
       mainEntityOfPage: {
         "@id":
-          "https://www.studyinlithuania.in/study/programmes/masters/#webpage",
+          "https://www.studyinlithuania.in/study/masters/#webpage",
       },
       publisher: {
         "@id": "https://www.studyinlithuania.in/#organization",
@@ -153,7 +153,7 @@ const page = () => {
           position: 4,
           name: "Master's",
           item:
-            "https://www.studyinlithuania.in/study/programmes/masters/",
+            "https://www.studyinlithuania.in/study/masters/",
         },
       ],
     },
@@ -202,7 +202,7 @@ const page = () => {
     {
       "@type": "ImageObject",
       "@id":
-        "https://www.studyinlithuania.in/study/programmes/masters/#image",
+        "https://www.studyinlithuania.in/study/masters/#image",
       contentUrl:
         "https://www.studyinlithuania.in/images/study/lithuania-01.webp",
       caption:
@@ -252,7 +252,7 @@ years and focus on specialised knowledge and career development.</p>
             </ul>
         </div>
         <div className="flex justify-end items-end">
-            <Link href={'/study/programmes/phd'} className="text-blue-500 font-roboto hover:underline">Read about PhD programme <FaArrowRightLong className="inline-block"/></Link>
+            <Link href={'/study/phd'} className="text-blue-500 font-roboto hover:underline">Read about PhD programme <FaArrowRightLong className="inline-block"/></Link>
         </div>
       </div>
       <Script

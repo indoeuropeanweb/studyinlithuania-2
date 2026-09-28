@@ -131,16 +131,23 @@ const handleSubmit = async (e) => {
       "https://crm.indoeuropean.in/WebService/Lead.asmx/OnlineLead"
     );
 
-    if(data?.status){
-    setResData(data?.status);
-    // console.log(data);
-    if (data?.status === "Emaildulicate" || data.data === "Email Id Allready Exist") {
+    // const firstObject = response.match(/^\{.*?\}(?=\{)/)?.[0];
+    
+    // if(firstObject){
+    //   const {status, data} = JSON.parse(firstObject);
+
+    console.log(data, service, status);
+
+    if(status){
+    setResData(status);
+
+    if (status === "Emaildulicate" || data === "Email Id Allready Exist") {
       setErrors({
         email: "Email ID already exists!"
       });
       return; 
     }
-    if (data?.status === "Mobiledulicate" || data.data === "Mobile No Allready Exist") {
+    if (status === "Mobiledulicate" || data === "Mobile No Allready Exist") {
       setErrors({
         phone: "Mobile No. already exists!"
       });
@@ -150,7 +157,6 @@ const handleSubmit = async (e) => {
 
     setUser(initialForm);
     setIsSubmitted(true);
-
   } catch (err) {
     console.error(err);
     setErrors({
@@ -161,7 +167,7 @@ const handleSubmit = async (e) => {
 
   const {data:highestQualification, loading:loadingQualification} = useFetch("https://crm.indoeuropean.in/WebService/Lead.asmx", "GetHighestQualification", "");
   const {data:CallBackTime, loading:loadingCallback} = useFetch("https://crm.indoeuropean.in/WebService/Lead.asmx", "GetPreferredCallBackTime", "");
-  const {data:CourseLevel, loading:loadingLevel} = useFetch("https://crm.indoeuropean.in/WebService/Lead.asmx", "GetLevel", "");
+  const {data:CourseLevel, loading:loadingLevel} = useFetch("https://crm.indoeuropean.in/WebService/Lead.asmx", "GetCourseLevel", "");
   const {data:destinations, loading:loadingDestination} = useFetch("https://crm.indoeuropean.in/WebService/CourseFinder/Programs_api.asmx", "CountryAPI", "");
   const {data:countryID, loading:loadingCountryID} = useFetch("https://crm.indoeuropean.in/webService/lead.asmx", "GetCountryCode", "");
 
@@ -169,12 +175,12 @@ const handleSubmit = async (e) => {
   return (
     <div className="relative overflow-hidden w-full rounded-b-md bg-white">
     <div
-    className={`transition-all duration-700 ease-in-out ${
-      isSubmitted
-        ? "translate-x-full scale-95 opacity-0"
-        : "translate-x-0 scale-100 opacity-100"
-    }`}
-  >
+        className={`transition-all duration-700 ease-in-out ${
+          isSubmitted
+            ? "translate-x-full scale-95 opacity-0"
+            : "translate-x-0 scale-100 opacity-100"
+        }`}
+      >
       <form className="shadow-sm shadow-gray-200 border-2 border-gray-200 px-8 py-8 rounded-sm" onSubmit={handleSubmit}>
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-5 gap-y-4">
         <div className="flex flex-col">
@@ -301,13 +307,12 @@ const handleSubmit = async (e) => {
             {loadingLevel ? (
                 <option value="">No data</option>
             ) : (
-                CourseLevel?.map((course, i) => (
+                CourseLevel.slice(0, 5)?.map((course, i) => (
                 <option value={course.QUALLEVELID} key={i}>
                     {course.QUALDESC}
                 </option>
                 ))
             )}
-            <option value="131">Intermediate (12th)</option>
             </select>
             {errors.CourseLevel && touched.CourseLevel && (
             <p className="text-red-500 text-sm">{errors.CourseLevel}</p>
@@ -371,31 +376,31 @@ const handleSubmit = async (e) => {
         </form>  
         </div>
         <div
-    className={`absolute inset-0 flex flex-col items-center justify-center bg-white transition-all duration-700 ease-in-out ${
-isSubmitted
-  ? "translate-x-0 scale-100 opacity-100"
-  : "-translate-x-full scale-95 opacity-0"
-    }`}
-  >
-    <div className="text-center">
-       <video
-        width="240"
-        autoPlay
-        muted
-        loop
-        className="mx-auto"
-      >
-         <source src="/videos/form-submit-1.mp4" type="video/mp4" />
-      </video>
-      <h2 className="text-2xl font-bold text-green-600">Thank You!</h2>
-      <p className="text-gray-600 mt-2">
-        Your form has been submitted successfully.
-      </p>
-      <p className="text-gray-500">
-        We’ll contact you shortly.
-      </p>
-    </div>
-  </div>
+          className={`absolute inset-0 flex flex-col items-center justify-center bg-white transition-all duration-700 ease-in-out ${
+          isSubmitted
+            ? "translate-x-0 scale-100 opacity-100"
+            : "-translate-x-full scale-95 opacity-0"
+              }`}
+            >
+          <div className="text-center">
+            <video
+              width="240"
+              autoPlay
+              muted
+              loop
+              className="mx-auto"
+            >
+              <source src="/videos/form-submit-1.mp4" type="video/mp4" />
+            </video>
+            <h2 className="text-2xl font-bold text-green-600">Thank You!</h2>
+            <p className="text-gray-600 mt-2">
+              Your form has been submitted successfully.
+            </p>
+            <p className="text-gray-500">
+              We’ll contact you shortly.
+            </p>
+          </div>
+        </div>
     </div>
   )
 }

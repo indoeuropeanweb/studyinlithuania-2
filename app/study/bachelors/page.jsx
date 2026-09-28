@@ -212,7 +212,7 @@ with practical learning.</p>
           </ul>
         </div>
         <div className="flex justify-end items-end">
-            <Link href={'/study/programmes/masters'} className="text-blue-500 font-roboto hover:underline">Read about masters programme <FaArrowRightLong className="inline-block"/></Link>
+            <Link href={'/study/masters'} className="text-blue-500 font-roboto hover:underline">Read about masters programme <FaArrowRightLong className="inline-block"/></Link>
         </div>
       </div>
       <Script

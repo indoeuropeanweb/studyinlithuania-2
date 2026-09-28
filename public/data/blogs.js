@@ -7,15 +7,11 @@ export const blogs = [
     "Step-by-Step Guide to Study in Lithuania for Indian Students  | Admission, Visa & Scholarships",
   metaDescription:
     "Explore part-time jobs and work opportunities in Lithuania for international students. Learn about work rights, salaries, internships, job sectors, and career prospects while studying in Lithuania.",
-
   image: "/images/blogs/study-in-lithuania-guide-2026.webp",
   keywords: ["Study in Lithuania Blogs", "Lithuania Student Blog", "Study in Lithuania Guide", "Lithuania Universities Blog", "Lithuania Admission Guide", "Lithuania Student Visa Blog", "Lithuania Scholarships Blog", "Lithuania Student Life", "Study Abroad Lithuania", "Lithuania Living Costs", "Lithuania Accommodation Guide", "Lithuania Work Opportunities", "Lithuania Career Guide", "Lithuania Education Blog", "International Students Lithuania", "Lithuania Application Process", "Lithuania Universities", "Indian Students Lithuania", "Lithuania Study Tips", "Study in Europe Blog"],
   category: "Lithuania",
-
   publishDate: "2026-06-06",
-
   readingTime: "12 min read",
-
   sections: [
     {
       type: "paragraph",
@@ -5244,9 +5240,447 @@ export const blogs = [
         "Yes, many Lithuania education consultants help students identify scholarship opportunities, understand eligibility criteria, and prepare scholarship applications."
     }
   ]
+},
+{
+  id: 13,
+  title: "Study in Lithuania for Indian Students: Admission Process, Visa & Consultants",
+  slug: "study-in-lithuania-for-indian-students",
+  metaTitle: "Study in Lithuania for Indian Students | Admission, Visa & Consultants",
+  metaDescription:
+    "Planning to study in Lithuania from India? Get guidance on Lithuanian universities, popular courses, admission requirements, student visa process, costs, student life, and study abroad consultants in Delhi.",
+  keywords: [
+    "Study in Lithuania for Indian Students",
+    "Study in Lithuania Consultants for Indian Students",
+    "Study in Lithuania Consultants Delhi",
+    "Study in Lithuania from India",
+    "Lithuania Study Abroad Consultants",
+    "Lithuania Admission Consultants",
+    "Lithuania Student Visa Consultants",
+    "Lithuania Universities for Indian Students",
+    "Study in Lithuania",
+    "Lithuania Student Visa Process",
+    "Lithuania Admission Process",
+    "Lithuania Study Visa",
+    "Cost of Studying in Lithuania",
+    "Popular Courses in Lithuania",
+    "Study Abroad Consultants Delhi",
+    "Study in Europe for Indian Students"
+  ],
+  image: "/images/blogs/study-in-lithuania-for-indian-students.webp",
+  category: "Lithuania",
+  publishDate: "2026-09-28",
+  readingTime: "10 min read",
+  sections: [
+    {
+      type: "paragraph",
+      content:
+        "Lithuania is becoming an increasingly popular destination for Indian students who want to pursue higher education in Europe. The country offers internationally recognised universities, a wide range of English-taught programmes, comparatively affordable study options, and a student-friendly environment."
+    },
+    {
+      type: "paragraph",
+      content:
+        "For students planning to study abroad, choosing the right university and understanding the admission and visa process can be challenging. This is where Study in Lithuania Consultants for Indian Students can help students understand their options and complete the application process correctly."
+    },
+    {
+      type: "paragraph",
+      content:
+        "If you are planning to study in Europe and are looking for professional guidance, working with Study in Lithuania Consultants Delhi can make the process more structured—from selecting a suitable course to preparing documents and applying for a student visa."
+    },
+    {
+      type: "heading",
+      content: "Why Study in Lithuania?"
+    },
+    {
+      type: "paragraph",
+      content:
+        "Lithuania offers students the opportunity to experience European education while living in a relatively affordable country. Its universities and higher education institutions offer programmes in areas such as business, engineering, information technology, finance, life sciences, social sciences, and other popular fields."
+    },
+    {
+      type: "paragraph",
+      content:
+        "One of the key advantages of choosing Lithuania is the availability of programmes taught in English. This allows international students to pursue their education without necessarily needing to learn Lithuanian before starting their studies."
+    },
+    {
+      type: "paragraph",
+      content:
+        "Here are some reasons students consider Lithuania for higher education:"
+    },
+    {
+      type: "list",
+      items: [
+        "English-taught bachelor's and master's programmes",
+        "Internationally recognised higher education institutions",
+        "Variety of academic programmes",
+        "European lifestyle and multicultural environment",
+        "Comparatively affordable living costs",
+        "Opportunities to gain international exposure",
+        "Safe and student-friendly cities",
+        "Access to the wider European environment"
+      ]
+    },
+    {
+      type: "paragraph",
+      content:
+        "Students should always check the latest university requirements, tuition fees, and visa regulations before applying, as these can vary depending on the institution and programme."
+    },
+    {
+      type: "heading",
+      content: "Popular Courses to Study in Lithuania"
+    },
+    {
+      type: "paragraph",
+      content:
+        "Lithuanian universities offer programmes across several academic disciplines. The right course depends on your previous qualification, academic background, career goals, and eligibility."
+    },
+    {
+      type: "paragraph",
+      content:
+        "Some popular areas of study include:"
+    },
+    {
+      type: "heading",
+      content: "Business and Management"
+    },
+    {
+      type: "paragraph",
+      content:
+        "Business Administration, International Business, Finance, Marketing, and Management are popular choices among international students. These programmes can help students develop knowledge of business operations, finance, marketing, entrepreneurship, and management."
+    },
+    {
+      type: "heading",
+      content: "Information Technology"
+    },
+    {
+      type: "paragraph",
+      content:
+        "Students interested in technology can explore programmes related to Computer Science, Software Engineering, Information Systems, Data Science, and other technology-focused areas."
+    },
+    {
+      type: "heading",
+      content: "Engineering"
+    },
+    {
+      type: "paragraph",
+      content:
+        "Lithuania offers engineering programmes in areas such as mechanical engineering, electrical engineering, civil engineering, and related specialisations."
+    },
+    {
+      type: "heading",
+      content: "Social Sciences"
+    },
+
+    {
+      type: "paragraph",
+      content:
+        "Students can also explore programmes in economics, communication, international relations, psychology, and other social science disciplines."
+    },
+    {
+      type: "heading",
+      content: "Life Sciences"
+    },
+    {
+      type: "paragraph",
+      content:
+        "Depending on their academic background and eligibility, students may find programmes related to biotechnology, life sciences, healthcare, and other specialised fields."
+    },
+    {
+      type: "paragraph",
+      content:
+        "Before selecting a programme, students should compare the curriculum, duration, tuition fee, admission requirements, career relevance, and language of instruction."
+    },
+    {
+      type: "heading",
+      content: "Admission Process to Study in Lithuania"
+    },
+    {
+      type: "paragraph",
+      content:
+        "The admission process can vary from one university to another. However, international students generally need to follow a few important steps."
+    },
+    {
+      type: "heading",
+      content: "1. Choose Your Course and University"
+    },
+    {
+      type: "paragraph",
+      content:
+        "Start by identifying the course that matches your academic qualifications and career goals. Research universities offering the programme and compare their entry requirements, tuition fees, programme duration, and application deadlines."
+    },
+    {
+      type: "heading",
+      content: "2. Check Eligibility Requirements"
+    },
+    {
+      type: "paragraph",
+      content:
+        "Universities may have specific academic and language requirements depending on the course. Students should carefully check the eligibility criteria before submitting an application."
+    },
+    {
+      type: "heading",
+      content: "3. Prepare Your Documents"
+    },
+    {
+      type: "paragraph",
+      content:
+        "Commonly required documents may include:"
+    },
+    {
+      type: "list",
+      items: [
+        "Valid passport",
+        "Academic certificates and transcripts",
+        "English-language proficiency evidence, where required",
+        "CV or resume",
+        "Motivation letter",
+        "Passport-size photographs",
+        "Application form",
+        "Other documents requested by the university"
+      ]
+    },
+    {
+      type: "paragraph",
+      content:
+        "Some programmes may require additional documents or assessments."
+    },
+    {
+      type: "heading",
+      content: "4. Submit Your Application"
+    },
+    {
+      type: "paragraph",
+      content:
+        "Once the documents are ready, students can submit their application through the university's designated application system or process."
+    },
+    {
+      type: "paragraph",
+      content:
+        "The university reviews the application and may request additional information or documents before making an admission decision."
+    },
+    {
+      type: "heading",
+      content: "5. Receive the Admission Decision"
+    },
+    {
+      type: "paragraph",
+      content:
+        "If the application is successful, the student receives an admission or acceptance letter. Students should carefully review the conditions mentioned in the offer and complete the required next steps within the specified deadline."
+    },
+    {
+      type: "heading",
+      content: "Lithuania Student Visa Process"
+    },
+    {
+      type: "paragraph",
+      content:
+        "After receiving admission, international students need to complete the appropriate immigration formalities before travelling to Lithuania."
+    },
+    {
+      type: "paragraph",
+      content:
+        "The exact requirements depend on the student's nationality, programme duration, and current Lithuanian immigration rules. Students should therefore verify the latest requirements through official Lithuanian authorities before submitting their application."
+    },
+    {
+      type: "paragraph",
+      content:
+        "The process generally involves preparing documents such as:"
+    },
+    {
+      type: "list",
+      items: [
+        "Valid passport",
+        "University admission or acceptance documents",
+        "Proof of sufficient funds",
+        "Health insurance, where applicable",
+        "Accommodation-related documents, where required",
+        "Educational documents",
+        "Visa or residence permit application",
+        "Photographs and other required supporting documents"
+      ]
+    },
+    {
+      type: "paragraph",
+      content:
+        "Students may also need to provide biometric information and attend an appointment as part of the application process."
+    },
+    {
+      type: "paragraph",
+      content:
+        "Because immigration rules and documentation requirements can change, applicants should use current official guidance rather than relying only on older information available online."
+    },
+    {
+      type: "heading",
+      content: "Cost of Studying in Lithuania"
+    },
+    {
+      type: "paragraph",
+      content:
+        "The total cost of studying in Lithuania depends on the university, programme, city, lifestyle, and accommodation choice."
+    },
+    {
+      type: "paragraph",
+      content:
+        "Tuition fees vary significantly between institutions and programmes. Similarly, living expenses depend on factors such as rent, food, transportation, utilities, and personal spending."
+    },
+    {
+      type: "paragraph",
+      content:
+        "Before applying, students should prepare a realistic budget covering:"
+    },
+    {
+      type: "list",
+      items: [
+        "Tuition fees",
+        "Accommodation",
+        "Food and groceries",
+        "Transportation",
+        "Health insurance",
+        "Study materials",
+        "Visa and application-related expenses",
+        "Personal expenses"
+      ]
+    },
+    {
+      type: "paragraph",
+      content:
+        "Creating a complete financial plan can help students understand the overall investment required for their education abroad."
+    },
+    {
+      type: "heading",
+      content: "Student Life in Lithuania"
+    },
+    {
+      type: "paragraph",
+      content:
+        "Studying in Lithuania is not only about academics. International students can experience European culture, explore historic cities, and interact with people from different countries."
+    },
+    {
+      type: "paragraph",
+      content:
+        "Vilnius, the capital city, is an important centre for education, business, and culture. Other cities also offer opportunities for international students depending on their chosen university and programme."
+    },
+    {
+      type: "paragraph",
+      content:
+        "Students can participate in university societies, cultural activities, sports, academic events, and other student communities. This can help them develop social connections and gain valuable international experience."
+    },
+    {
+      type: "heading",
+      content: "Why Choose Study in Lithuania Consultants in Delhi?"
+    },
+    {
+      type: "paragraph",
+      content:
+        "Planning an international education journey involves several stages, and students may find it difficult to understand every requirement on their own. Study in Lithuania Consultants Delhi can provide guidance throughout the process."
+    },
+    {
+      type: "paragraph",
+      content:
+        "Professional counselling may include:"
+    },
+    {
+      type: "list",
+      items: [
+        "Course and university selection",
+        "Eligibility assessment",
+        "Application guidance",
+        "Document preparation",
+        "Assistance with application submission",
+        "Guidance on financial documentation",
+        "Visa application support",
+        "Pre-departure guidance"
+      ]
+    },
+    {
+      type: "paragraph",
+      content:
+        "A consultant can help students understand the process and avoid common mistakes such as missing deadlines, submitting incomplete documents, or applying for programmes without checking eligibility."
+    },
+    {
+      type: "paragraph",
+      content:
+        "However, students should independently review the official university and immigration requirements before making final decisions."
+    },
+    {
+      type: "heading",
+      content: "Common Mistakes Students Should Avoid"
+    },
+    {
+      type: "list",
+      items: [
+        "Late application deadlines: Universities and courses can have different closing dates. Apply early.",
+        "Picking a course without checking eligibility: Always check if your previous qualification meets the requirements of the program.",
+        "Poor documentation: Missing or inaccurate documentation can hold up an application.",
+        "Disregarding visa requirements: University admission and entry or residence permit in Lithuania are two different processes.",
+        "Not planning finances: Do a calculation of tuition fees and expected living expenses before you commit to a program.",
+        "Using out-of-date information: University requirements and immigration rules are subject to change. Always verify the most recent facts from official sources."
+      ]
+    },
+    {
+      type: "heading",
+      content: "Start Your Journey to Study in Lithuania"
+    },
+    {
+      type: "paragraph",
+      content:
+        "Lithuania offers Indian students an opportunity to pursue higher education in a European setting with a wide range of academic choices. From selecting a suitable programme to completing university applications and preparing for the visa process, careful planning is important at every stage."
+    },
+    {
+      type: "paragraph",
+      content:
+        "If you are searching for Study in Lithuania Consultants for Indian Students, professional guidance can help you understand the admission process, compare suitable study options, and prepare your application systematically."
+    },
+    {
+      type: "paragraph",
+      content:
+        "Students looking to study in Lithuania Consultants Delhi can also seek personalised counselling based on their academic background, preferred course, budget, and future career plans."
+    },
+    {
+      type: "paragraph",
+      content:
+        "Ready to explore your study options in Lithuania? Get in touch with our counselors to discuss your course, university, admission requirements, and next steps for studying in Lithuania."
+    }
+  ],
+  faqs: [
+    {
+      question: "Why should Indian students study in Lithuania?",
+      answer:
+        "Lithuania offers internationally recognised higher education institutions, English-taught programmes, a variety of academic options, comparatively affordable living costs, and opportunities to gain international exposure."
+    },
+    {
+      question: "What are the popular courses to study in Lithuania?",
+      answer:
+        "Popular areas of study include Business and Management, Information Technology, Engineering, Social Sciences, and Life Sciences. Students should choose a programme based on their academic background, eligibility, and career goals."
+    },
+    {
+      question: "What documents are required to study in Lithuania?",
+      answer:
+        "Commonly required documents may include a valid passport, academic certificates and transcripts, English-language proficiency evidence where required, CV, motivation letter, photographs, application form, and other documents requested by the university."
+    },
+    {
+      question: "What is the admission process to study in Lithuania?",
+      answer:
+        "The admission process generally involves choosing a course and university, checking eligibility, preparing documents, submitting the application, and receiving the admission decision."
+    },
+    {
+      question: "What is the Lithuania student visa process?",
+      answer:
+        "After receiving admission, students need to complete the appropriate immigration formalities. This may involve preparing admission documents, proof of funds, health insurance, accommodation documents, educational documents, and the required visa or residence permit application."
+    },
+    {
+      question: "How can Study in Lithuania Consultants Delhi help students?",
+      answer:
+        "Study in Lithuania Consultants Delhi can provide guidance with course and university selection, eligibility assessment, application preparation, document assistance, financial documentation, visa application support, and pre-departure guidance."
+    },
+    {
+      question: "How much does it cost to study in Lithuania?",
+      answer:
+        "The total cost depends on the university, programme, city, lifestyle, and accommodation. Students should budget for tuition fees, accommodation, food, transportation, health insurance, study materials, visa expenses, and personal costs."
+    },
+    {
+      question: "What should students check before applying to Lithuania?",
+      answer:
+        "Students should check the latest university admission requirements, tuition fees, programme details, application deadlines, visa or residence permit requirements, financial requirements, and other official immigration information before applying."
+    }
+  ]
 }
 ];
-
-export const blogsSchema = [
-  
-]

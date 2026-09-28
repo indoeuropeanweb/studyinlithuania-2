@@ -106,8 +106,8 @@ const HomeClient = () => {
             <div>
                <Image className="w-full h-50 md:h-auto lg:max-h-47" width={360} height={60} src={'/images/home/short-courses.webp'} alt="bachelors in lithuania" />
                <div className="relative z-3 flex justify-center items-center flex-col gap-5 px-4 py-6">
-               <h4 className="text-white text-lg md:text-2xl font-aino">Short Courses</h4>
-               <p className="text-white text-sm md:text-md text-center">Short courses in Lithuania help students gain practical skills, flexible learning experience, and quick career development opportunities.</p>
+               <h4 className="text-white text-lg md:text-2xl font-aino">All Programmes</h4>
+               <p className="text-white text-sm md:text-md text-center">Programmes of study in Lithuania offer students from abroad education that not only meets international standards but also helps students to learn through practice as well as in future job ​‍​‌‍​‍‌opportunities.</p>
                <Link className="text-white px-6 py-2 rounded-full border border-white text-md md:text-base hover:bg-white hover:text-tertiary duration-300 ease-in-out" href={'/study/programmes/short-courses'}>Learn More <FaArrowRightLong className="size-5 inline-block"/></Link>
             </div>
             </div>
@@ -121,7 +121,7 @@ const HomeClient = () => {
       <div className="py-12 px-4 flex flex-col justify-center items-center gap-6">
         <h2 className="font-aino text-2xl md:text-4xl">Application deadlines are approaching</h2>
         <p className="font-roboto text-lg md:text-base">Visit our online admission system to apply to Bachelor's, Master's or Doctoral programmes.</p>
-      <Link className="px-6 py-2 bg-primary hover:bg-primary/75 duration-300 ease-in-out text-white text-lg rounded-full" href={'/contact'}>Go to DreamApply</Link>
+      <Link className="px-6 py-2 bg-primary hover:bg-primary/75 duration-300 ease-in-out text-white text-lg rounded-full flex justify-center items-center" href={'/contact'}>Apply Now &nbsp;<FaArrowRightLong className="size-5 inline-block"/></Link>
       </div>
     </section>
     <section className="">

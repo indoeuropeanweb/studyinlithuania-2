@@ -19,7 +19,10 @@ const Sidebar = ({menuItems}) => {
 
                 <div className="flex flex-col gap-1">
                   {item.links.map((link) => {
-                    const isActive = pathname === link.href;
+                    const normalize = (path) => path.replace(/\/$/, "");
+
+                    const isActive =
+                      normalize(pathname) === normalize(link.href);
 
                     return (
                       <Link
@@ -27,8 +30,8 @@ const Sidebar = ({menuItems}) => {
                         href={link.href}
                         className={`rounded-lg px-4 py-2 text-sm transition-colors font-aino ${
                           isActive
-                            ? "text-white border-b-2 border-secondary"
-                            : "text-zinc-300 hover:bg-green-900 hover:text-white"
+                            ? "text-white font-semibold"
+                            : "text-zinc-300 hover:text-white hover:font-semibold"
                         }`}
                       >
                         {link.name}
@@ -40,7 +43,9 @@ const Sidebar = ({menuItems}) => {
             );
           }
 
-          const isActive = pathname === item.href;
+          const normalize = (path) => path.replace(/\/$/, "");
+
+          const isActive = normalize(pathname) === normalize(item.href);
 
           return (
             <Link
@@ -48,8 +53,8 @@ const Sidebar = ({menuItems}) => {
               href={item.href}
               className={`block rounded-lg px-4 py-2 text-sm transition-colors font-aino ${
                 isActive
-                  ? "text-white font-semibold border-b-2 border-secondary"
-                  : "text-zinc-300 hover:bg-green-900 hover:text-white"
+                  ? "text-white font-semibold"
+                  : "text-zinc-300 hover:text-white hover:font-semibold"
               }`}
             >
               {item.name || item.heading}

@@ -93,22 +93,6 @@ const page = () => {
           "https://www.studyinlithuania.in/gallery/"
       },
       {
-        "@type": "Review",
-        "@id":
-          "https://www.studyinlithuania.in/gallery/#review1",
-        "author": {
-          "@type": "Person",
-          "name": "Student"
-        },
-        "reviewBody":
-          "Study in Lithuania Centre helped me secure admission and visa support.",
-        "reviewRating": {
-          "@type": "Rating",
-          "ratingValue": "5",
-          "bestRating": "5"
-        }
-      },
-      {
         "@type": "FAQPage",
         "@id":
           "https://www.studyinlithuania.in/faq",

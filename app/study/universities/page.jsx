@@ -448,7 +448,7 @@ const schema = {
           </div>
           </div>
           <div className="flex justify-end items-end">
-              <Link href={'/study/programmes/bachelors'} className="text-blue-500 font-roboto hover:underline">Read about bachelor programme <FaArrowRightLong className="inline-block"/></Link>
+              <Link href={'/study/programmes'} className="text-blue-500 font-roboto hover:underline">Explore programmes <FaArrowRightLong className="inline-block"/></Link>
           </div>
       </div>
       <script

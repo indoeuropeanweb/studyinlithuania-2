@@ -4,6 +4,8 @@ import "./globals.css";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import Script from "next/script";
+import Link from "next/link";
+import {FaWhatsapp} from "react-icons/fa";
 
 const interSans = Inter({
   variable: "--font-inter",
@@ -65,6 +67,9 @@ export default function RootLayout({ children }) {
         <Header />
         {children}
         <Footer />
+        <Link className="fixed z-5 bottom-10 right-10 bg-green-600 p-2 rounded-full" href="https://wa.link/67ng4e" target="_blank">
+           <FaWhatsapp className="size-8 text-white"/>
+        </Link>
       <Script id="google-analytics" strategy="afterInteractive">
         {`
           window.dataLayer = window.dataLayer || [];
