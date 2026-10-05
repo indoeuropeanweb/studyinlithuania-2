@@ -4,9 +4,20 @@ import Link from 'next/link';
 import { FaArrowRightLong } from 'react-icons/fa6';
 
 export const metadata = {
-    title: "Lifestyle and Character of Lithuania | Culture, Values, Student Life & Living Experience",
-    description: "Explore the lifestyle and character of Lithuania, including its friendly people, safety, work-life balance, modern European lifestyle, student-friendly environment, cultural values, and quality of life for international students. Lithuania offers a peaceful, affordable, and welcoming atmosphere in the heart of Europe.",
-    keywords: ["Lithuania lifestyle", "Lithuania character", "life in Lithuania", "Lithuanian people", "Lithuania student life", "Lithuania quality of life", "Lithuania culture and lifestyle", "living in Lithuania", "Lithuania work life balance", "Lithuania international students", "Lithuania safety", "Lithuania European lifestyle", "Lithuania society", "Lithuania living experience", "Lithuania student experience", "Lithuania affordable living", "Lithuania friendly people", "Lithuania modern lifestyle", "study in Lithuania", "Lithuania daily life"],
+    title: "Lifestyle in Lithuania | Culture, People & Student Life Guide",
+    description: "Explore lifestyle in Lithuania. Learn about local culture, student life, and great work-life balance. Get everything you need to study abroad now.",
+    keywords: [
+        "Lifestyle in Lithuania",
+        "Lithuania Lifestyle",
+        "Student Lifestyle in Lithuania",
+        "Culture of Lithuania",
+        "Life in Lithuania",
+        "Living in Lithuania",
+        "Lithuanian Culture",
+        "Lithuanian People",
+        "Lithuania Student Life",
+        "Study in Lithuania"
+    ],
     alternates: {
         canonical: "https://www.studyinlithuania.in/lithuania/life-style-and-character"
     },
@@ -14,10 +25,93 @@ export const metadata = {
       index: true,
       follow: true,
     },
+      openGraph: {
+    type: "website",
+    title:
+      "Lifestyle in Lithuania | Culture, People & Student Life Guide",
+    description:
+      "Explore Lithuania's nature and climate, from beautiful forests and lakes to its four distinct seasons. Learn about weather conditions, temperatures, and student life in Lithuania.",
+    url: "https://www.studyinlithuania.in/lithuania/life-style-and-character/",
+    siteName: "Study in Lithuania",
+    images: [
+      {
+        url: "https://www.studyinlithuania.in/images/logos/logo.png",
+        width: 1200,
+        height: 630,
+        alt: "Life Style and Character of Lithuania",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title:
+      "Lifestyle in Lithuania | Culture, People & Student Life Guide",
+    description:
+      "Explore Lithuania's nature and climate, from beautiful forests and lakes to its four distinct seasons. Learn about weather conditions, temperatures, and student life in Lithuania.",
+    images: [
+      "https://www.studyinlithuania.in/images/logos/logo.png",
+    ],
+  },
 }
 
 const page = () => {
+
+    const schemaData = {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Organization",
+        "@id": "https://www.studyinlithuania.in/contact",
+        "name": "Study in Lithuania",
+        "url": "https://www.studyinlithuania.in/",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://www.studyinlithuania.in/images/logos/logo.png"
+        }
+      },
+      {
+        "@type": "WebPage",
+        "@id": "https://www.studyinlithuania.in/lithuania/life-style-and-character/",
+        "url": "https://www.studyinlithuania.in/lithuania/life-style-and-character/",
+        "name":
+          "Lifestyle in Lithuania | Culture, People & Student Life Guide",
+        "description":
+          "Explore Lithuania's nature and climate, from beautiful forests and lakes to its four distinct seasons. Learn about weather conditions, temperatures, and student life in Lithuania.",
+        "isPartOf": {
+          "@id": "https://www.studyinlithuania.in/"
+        }
+      },
+     {
+      "@type": "BreadcrumbList",
+      "@id":
+        "https://www.studyinlithuania.in/lithuania/life-style-and-character/#breadcrumb",
+      itemListElement: [
+        {
+          "@type": "ListItem",
+          position: 1,
+          name: "Home",
+          item: "https://www.studyinlithuania.in/",
+        },
+        {
+          "@type": "ListItem",
+          position: 2,
+          name: "Lithuania",
+          item: "https://www.studyinlithuania.in/lithuania/",
+        },
+        {
+          "@type": "ListItem",
+          position: 3,
+          name: "Life Style and Character",
+          item:
+            "https://www.studyinlithuania.in/lithuania/life-style-and-character/",
+        },
+      ],
+    },
+    ]
+  };
+
   return (
+    <>
     <div className=''>
       <Breadcrumb heading={'Lifestyle and Character of Lithuania: Where Tradition Meets Modern European Living'} />
       <div className='px-5 py-5'>
@@ -63,6 +157,13 @@ const page = () => {
         </div>
       </div>
     </div>
+    <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(schemaData),
+        }}
+      />
+    </>
   )
 }
 

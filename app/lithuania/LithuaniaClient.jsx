@@ -60,7 +60,7 @@ const LithuaniaClient = () => {
                       <p className='font-inter text-base'>If it comes to choosing the appropriate guidance, Study in Lithuania Centre is the right place and
                         has made a perfect reputation as the best Lithuanian study consultant in Delhi. We
                         know and understand that initiating one step ahead towards studying abroad is not an
-                        easy decision; that&#39;s why we are here to help you by making it easier.</p>
+                        easy decision; that's why we are here to help you by making it easier.</p>
                       <h4 className='text-lg md:text-xl font-roboto mt-5'>What makes us different?</h4>
                       <ul className='space-y-3 mt-3'>
                           <li className='font-roboto text-justify'><IoIosArrowForward className='size-6 inline-block'/>&nbsp;<b>Individual counselling:</b> Our experts understand your goals, allowing us to provide you with the best options.</li>

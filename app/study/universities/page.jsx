@@ -4,9 +4,25 @@ import Link from 'next/link';
 import { FaArrowRightLong } from 'react-icons/fa6';
 
 export const metadata = {
-  title: "Universities in Lithuania  | Top Lithuanian Universities for International Students",
-  description: "Explore the top universities in Lithuania for international students. Compare programs, tuition fees, rankings, admission requirements, scholarships, and study opportunities at leading Lithuanian universities for Bachelor's, Master's, and PhD studies. Supported by globally recognized degrees and English-taught programs",
-  keywords: ["Universities in Lithuania", "Lithuania Universities", "Study in Lithuania Universities", "Top Universities in Lithuania", "Lithuanian Universities", "Lithuania Higher Education", "Best Universities in Lithuania", "Vilnius University", "VILNIUS TECH", "Kaunas University of Technology", "Vytautas Magnus University", "Mykolas Romeris University", "ISM University", "Klaipeda University", "SMK University", "Kauno Kolegija", "Study in Europe", "International Students Lithuania", "English Taught Programs Lithuania", "Lithuania Education"],
+  title: "Top Universities in Lithuania Admission for Indian Students",
+  description: "Best universities in Lithuania for Student. Compare top-ranked universities, courses, tuition fees, scholarships, admission requirements Contact our expert Now.",
+  keywords: [
+      "Universities in Lithuania",
+      "Lithuania Universities",
+      "Top Universities in Lithuania",
+      "Best Universities in Lithuania",
+      "Lithuania Universities for International Students",
+      "Lithuania Universities for Indian Students",
+      "Best Universities in Lithuania for International Students",
+      "Study in Lithuania",
+      "Higher Education in Lithuania",
+      "Lithuanian Universities",
+      "Public Universities in Lithuania",
+      "English-Taught Universities in Lithuania",
+      "Top Lithuanian Universities",
+      "University Admission in Lithuania",
+      "Study at Lithuanian Universities"
+  ],
   alternates: {
     canonical: "https://www.studyinlithuania.in/study/universities"
   },
@@ -20,9 +36,9 @@ export const metadata = {
     url: "https://www.studyinlithuania.in/study/universities/",
     siteName: "Study in Lithuania",
     title:
-    "Universities in Lithuania 2026 | Top Lithuanian Universities for International Students",
+    "Study Programmes in Lithuania | Bachelor's, Master's & PhD Courses",
     description:
-    "Explore the best universities in Lithuania offering Bachelor's, Master's and PhD programs for international students.",
+    "Explore the best study programmes in Lithuania for Indian students. Compare Bachelor's, Master's, and PhD courses, universities, tuition fees, more, Apply Now",
     images: [
     {
     url: "https://www.studyinlithuania.in/images/study/lithuania-01.webp",
@@ -214,21 +230,6 @@ const schema = {
       },
       },
       {
-      "@type": "WebSite",
-      "@id": "https://www.studyinlithuania.in/#website",
-      url: "https://www.studyinlithuania.in",
-      name: "Study in Lithuania",
-      publisher: {
-      "@id": "https://www.studyinlithuania.in/#organization",
-      },
-      potentialAction: {
-      "@type": "SearchAction",
-      target:
-      "https://www.studyinlithuania.in/?s={search_term_string}",
-      "query-input": "required name=search_term_string",
-      },
-      },
-      {
       "@type": "WebPage",
       "@id":
       "https://www.studyinlithuania.in/study/universities/#webpage",
@@ -244,41 +245,6 @@ const schema = {
       "https://www.studyinlithuania.in/study/universities/#breadcrumb",
       },
       inLanguage: "en",
-      },
-      {
-      "@type": "CollectionPage",
-      "@id":
-      "https://www.studyinlithuania.in/study/universities/#collectionpage",
-      url: "https://www.studyinlithuania.in/study/universities/",
-      name: "Universities in Lithuania",
-      description:
-      "A comprehensive list of universities and colleges in Lithuania for international students.",
-      mainEntity: {
-      "@id":
-      "https://www.studyinlithuania.in/study/universities/#itemlist",
-      },
-      },
-      {
-      "@type": "Article",
-      "@id":
-      "https://www.studyinlithuania.in/study/universities/#article",
-      headline:
-      "Top Universities in Lithuania for International Students",
-      description:
-      "Explore Lithuania's leading universities, admission requirements, tuition fees, scholarships and study opportunities.",
-      mainEntityOfPage: {
-      "@id":
-      "https://www.studyinlithuania.in/study/universities/#webpage",
-      },
-      publisher: {
-      "@id": "https://www.studyinlithuania.in/#organization",
-      },
-      author: {
-      "@type": "Organization",
-      name: "Study in Lithuania",
-      },
-      datePublished: "2026-06-11",
-      dateModified: "2026-06-11",
       },
       {
       "@type": "BreadcrumbList",
@@ -301,67 +267,9 @@ const schema = {
       "@type": "ListItem",
       position: 3,
       name: "Universities",
-      item: "https://www.studyinlithuania.in/study/universities/",
+      item: "https://www.studyinlithuania.in/study/universities",
       },
       ],
-      },
-      {
-      "@type": "ItemList",
-      "@id":
-      "https://www.studyinlithuania.in/study/universities/#itemlist",
-      name: "Top Universities in Lithuania",
-      itemListElement: [
-      {
-      "@type": "CollegeOrUniversity",
-      position: 1,
-      name: "Vilnius University",
-      },
-      {
-      "@type": "CollegeOrUniversity",
-      position: 2,
-      name: "Vilnius Gediminas Technical University (VILNIUS TECH)",
-      },
-      {
-      "@type": "CollegeOrUniversity",
-      position: 3,
-      name: "Kaunas University of Technology",
-      },
-      {
-      "@type": "CollegeOrUniversity",
-      position: 4,
-      name: "Vytautas Magnus University",
-      },
-      {
-      "@type": "CollegeOrUniversity",
-      position: 5,
-      name: "Mykolas Romeris University",
-      },
-      {
-      "@type": "CollegeOrUniversity",
-      position: 6,
-      name: "Lithuanian University of Health Sciences",
-      },
-      {
-      "@type": "CollegeOrUniversity",
-      position: 7,
-      name: "ISM University of Management and Economics",
-      },
-      {
-      "@type": "CollegeOrUniversity",
-      position: 8,
-      name: "Klaipeda University",
-      },
-      ],
-      },
-      {
-      "@type": "ImageObject",
-      "@id":
-      "https://www.studyinlithuania.in/study/universities/#image",
-      contentUrl:
-      "https://www.studyinlithuania.in/study/lithuania-01.webp",
-      caption:
-      "Top Universities in Lithuania for International Students",
-      representativeOfPage: true,
       },
       ],
 };
@@ -377,6 +285,9 @@ const schema = {
           management, and social sciences.<br />
           Universities provide modern campuses, research opportunities, English-taught programs in
           public and private institutions in Vilnius.
+          <br />
+          <br />
+          Students may opt for one of many types of <Link className="font-semibold hover:underline" href="/study/programmes">study programmes</Link>, which in Lithuania offer bachelor’s, master’s, and PhD degrees. A lot of them are lectured in English, mixing the academic with the hands-on. Areas like computer science, engineering, business, healthcare, finance, and social sciences are quite popular among international students since they make it easier for foreigners to find good jobs in Europe after  ‍ ‌‍ ‍‌graduation.
           </p>
           <div className="mt-12">
           <h2 className="font-aino text-2xl md:text-4xl">Discover Leading Universities in Lithuania</h2>

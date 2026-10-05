@@ -19,12 +19,7 @@ const LivingClient = () => {
             public places, daily life in Lithuania is simple and convenient for international students. The
             country is also recognised for its clean cities, peaceful surroundings, and welcoming
             atmosphere, making it easier for students to adjust to a new environment.<br />
-            The affordability of education in Lithuania compared to many other European countries is one of
-            the main reasons why international students prefer studying here. Along with affordable tuition
-            fees, students can comfortably manage their monthly living expenses through student discounts
-            and part-time work opportunities. International students are allowed to work while studying,
-            helping them gain practical experience and support their daily expenses during their education
-            journey.</p>
+            One of the main reasons for international students to choose Lithuania as a destination to study is the affordability of education in the country compared to many other European countries. Apart from affordable tuition fees and <Link className="font-semibold hover:underline" href="/living/accommodation">accommodation</Link>, they can easily manage their monthly expenses with student discounts and part-time job opportunities. International students are allowed to work while studying, which helps them get practical experience and pay for their daily expenses throughout their education.</p>
             </div>
             <div className=''>
               <Image className='rounded-md' width={420} height={320} src="/images/living/living.webp" alt="living in lithuania for indian students" />

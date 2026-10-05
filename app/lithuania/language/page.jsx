@@ -3,28 +3,36 @@ import Link from 'next/link';
 import { FaArrowRightLong } from 'react-icons/fa6';
 
 export const metadata = {
-  title: "Lithuanian Language Guide  | Official Language of Lithuania, Usage & Student Life",
-  description: "Learn about the Lithuanian language, the official language of Lithuania and one of the oldest living Indo-European languages. Discover its importance, usage in daily life, English proficiency, and language opportunities for international students studying in Lithuania.",
-  keywords: ["Lithuanian Language", "Official Language of Lithuania", "Language in Lithuania", "Lithuanian Speaking Population", "Study in Lithuania Language", "English in Lithuania", "Lithuania Language Guide", "Lithuanian Culture and Language", "Lithuanian for International Students", "Lithuania Education Language", "Baltic Languages", "Indo European Languages", "Lithuanian Communication", "Lithuania Student Life", "Learn Lithuanian", "Lithuania Language Course", "Lithuanian Heritage", "Lithuania Living Guide", "Lithuania for International Students", "Lithuanian Language Facts"],
+  title: "Lithuanian Language: Expert Guide for Indian Students",
+  description: "Learn the Lithuanian language before you move. Get basic phrases, pronunciation tips, and student guides. Start your study abroad prep here today.",
+  keywords: [
+      "Lithuanian Language",
+      "Learn Lithuanian Language",
+      "Lithuanian Language Guide",
+      "Lithuanian Language for Students",
+      "Study in Lithuania",
+      "Lithuanian Language Course",
+      "Lithuanian Language Basics"
+  ],
   alternates: {
-    canonical:"https://www.studyinlithuania.in/lithuania/language"
+    canonical:"https://www.studyinlithuania.in/lithuania/language/"
   },
   robots: {
     index: true,
     follow: true,
   },
     openGraph: {
-    type: "article",
+    type: "website",
     locale: "en_US",
     url: "https://www.studyinlithuania.in/lithuania/language/",
     siteName: "Study in Lithuania",
     title:
-      "Lithuanian Language Guide 2026 | Official Language of Lithuania, Usage & Student Life",
+      "Lithuanian Language: Expert Guide for Indian Students",
     description:
-      "Discover the Lithuanian language, its history, significance, English usage, and language opportunities for international students studying in Lithuania.",
+      "Learn the Lithuanian language before you move. Get basic phrases, pronunciation tips, and student guides. Start your study abroad prep here today.",
     images: [
       {
-        url: "https://www.studyinlithuania.in/images/language/language.webp",
+        url: "https://www.studyinlithuania.in/images/logos/logo.png",
         alt: "Lithuanian Language",
       },
     ],
@@ -32,17 +40,16 @@ export const metadata = {
   twitter: {
     card: "summary_large_image",
     title:
-      "Lithuanian Language Guide 2026 | Official Language of Lithuania, Usage & Student Life",
+      "Lithuanian Language: Expert Guide for Indian Students",
     description:
-      "Discover the Lithuanian language, its history, significance, English usage, and language opportunities for international students studying in Lithuania.",
+      "Learn the Lithuanian language before you move. Get basic phrases, pronunciation tips, and student guides. Start your study abroad prep here today.",
     images: [
-      "https://www.studyinlithuania.in/images/language/language.webp",
+      "https://www.studyinlithuania.in/images/logos/logo.png",
     ],
   },
 }
 
 const page = () => {
-
  const schema = {
   "@context": "https://schema.org",
   "@graph": [
@@ -54,21 +61,6 @@ const page = () => {
       logo: {
         "@type": "ImageObject",
         url: "https://www.studyinlithuania.in/wp-content/uploads/logo.png",
-      },
-    },
-    {
-      "@type": "WebSite",
-      "@id": "https://www.studyinlithuania.in/#website",
-      url: "https://www.studyinlithuania.in",
-      name: "Study in Lithuania",
-      publisher: {
-        "@id": "https://www.studyinlithuania.in/#organization",
-      },
-      potentialAction: {
-        "@type": "SearchAction",
-        target:
-          "https://www.studyinlithuania.in/?s={search_term_string}",
-        "query-input": "required name=search_term_string",
       },
     },
     {
@@ -91,31 +83,6 @@ const page = () => {
           "https://www.studyinlithuania.in/lithuania/language/#country",
       },
       inLanguage: "en",
-    },
-    {
-      "@type": "Article",
-      "@id":
-        "https://www.studyinlithuania.in/lithuania/language/#article",
-      headline: "Lithuanian Language",
-      description:
-        "Comprehensive guide to the Lithuanian language, one of the oldest living Indo-European languages, and its role in education, culture, and everyday life in Lithuania.",
-      mainEntityOfPage: {
-        "@id":
-          "https://www.studyinlithuania.in/lithuania/language/#webpage",
-      },
-      publisher: {
-        "@id": "https://www.studyinlithuania.in/#organization",
-      },
-      author: {
-        "@type": "Organization",
-        name: "Study in Lithuania",
-      },
-      datePublished: "2026-06-11",
-      dateModified: "2026-06-11",
-      image: {
-        "@type": "ImageObject",
-        url: "https://www.studyinlithuania.in/wp-content/uploads/lithuanian-language.jpg",
-      },
     },
     {
       "@type": "BreadcrumbList",
@@ -141,24 +108,6 @@ const page = () => {
           item: "https://www.studyinlithuania.in/lithuania/language/",
         },
       ],
-    },
-    {
-      "@type": "Country",
-      "@id":
-        "https://www.studyinlithuania.in/lithuania/language/#country",
-      name: "Lithuania",
-      description:
-        "Lithuanian is the official language of Lithuania and one of the oldest living Indo-European languages. English is widely spoken among students and young professionals, making Lithuania an attractive destination for international students.",
-    },
-    {
-      "@type": "ImageObject",
-      "@id":
-        "https://www.studyinlithuania.in/lithuania/language/#image",
-      contentUrl:
-        "https://www.studyinlithuania.in/wp-content/uploads/lithuanian-language.jpg",
-      caption:
-        "Lithuanian language, culture and education in Lithuania",
-      representativeOfPage: true,
     },
   ],
 };

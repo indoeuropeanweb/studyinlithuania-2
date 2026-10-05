@@ -5,9 +5,21 @@ import { FaArrowRightLong } from 'react-icons/fa6';
 
 
 export const metadata = {
-  title: "PhD Programs in Lithuania  | Doctoral Studies in Lithuania for Indian Students",
-  description: "Pursue a PhD in Lithuania with affordable tuition fees, research opportunities, scholarships, and internationally recognized doctoral degrees.",
-  keywords: ["PhD in Lithuania", "Doctoral Programs Lithuania", "PhD Programs Lithuania", "Study PhD in Lithuania", "Doctorate Lithuania", "Research Programs Lithuania", "PhD Scholarships Lithuania", "Lithuania Universities PhD", "International Students PhD Lithuania", "Doctoral Studies Europe", "Lithuania Research Opportunities", "Engineering PhD Lithuania", "Business PhD Lithuania", "Computer Science PhD Lithuania", "Health Sciences PhD Lithuania", "Study in Lithuania", "Higher Education Lithuania", "Lithuania Research Universities", "PhD Admission Lithuania", "Doctoral Degree Europe"],
+  title: "PhD in Lithuania | Get Top University Admission in Lithuania",
+  description: "Study a PhD in Lithuania as an Indian student. Find top universities, tuition costs, and scholarship tips. with the help of our expert. Contact us",
+  keywords: [
+      "PhD in Lithuania",
+      "Doctoral Programs in Lithuania",
+      "Study PhD in Lithuania",
+      "Lithuania PhD Universities",
+      "PhD Admission in Lithuania",
+      "PhD in Lithuania for Indian Students",
+      "Doctorate in Lithuania",
+      "Research Programs in Lithuania",
+      "Scholarships for PhD in Lithuania",
+      "Lithuania Student Visa",
+      "Study in Lithuania"
+  ],
   alternates: {
     canonical: "https://www.studyinlithuania.in/study/programmes/phd"
   },
@@ -20,9 +32,9 @@ export const metadata = {
     url: "https://www.studyinlithuania.in/study/programmes/phd/",
     siteName: "Study in Lithuania",
     title:
-      "PhD Programs in Lithuania 2026 | Doctoral Studies in Lithuania for International Students",
+      "PhD in Lithuania | Get Top University Admission in Lithuania",
     description:
-      "Explore PhD programs in Lithuania with research opportunities, scholarships, affordable tuition fees, and globally recognized doctoral degrees.",
+      "Study a PhD in Lithuania as an Indian student. Find top universities, tuition costs, and scholarship tips. with the help of our expert. Contact us",
     images: [
       {
         url: "https://www.studyinlithuania.in/images/study/lithuania-01.webp",
@@ -37,9 +49,9 @@ export const metadata = {
   twitter: {
     card: "summary_large_image",
     title:
-      "PhD Programs in Lithuania 2026 | Doctoral Studies in Lithuania for International Students",
+      "PhD in Lithuania | Get Top University Admission in Lithuania",
     description:
-      "Explore PhD programs in Lithuania with research opportunities, scholarships, affordable tuition fees, and globally recognized doctoral degrees.",
+      "Study a PhD in Lithuania as an Indian student. Find top universities, tuition costs, and scholarship tips. with the help of our expert. Contact us",
     images: [
       "https://www.studyinlithuania.in/images/study/lithuania-01.webp",
     ],
@@ -63,21 +75,6 @@ const page = () => {
       },
     },
     {
-      "@type": "WebSite",
-      "@id": "https://www.studyinlithuania.in/#website",
-      url: "https://www.studyinlithuania.in",
-      name: "Study in Lithuania",
-      publisher: {
-        "@id": "https://www.studyinlithuania.in/#organization",
-      },
-      potentialAction: {
-        "@type": "SearchAction",
-        target:
-          "https://www.studyinlithuania.in/?s={search_term_string}",
-        "query-input": "required name=search_term_string",
-      },
-    },
-    {
       "@type": "WebPage",
       "@id":
         "https://www.studyinlithuania.in/study/programmes/phd/#webpage",
@@ -90,42 +87,6 @@ const page = () => {
         "@id": "https://www.studyinlithuania.in/#website",
       },
       inLanguage: "en",
-    },
-    {
-      "@type": "CollectionPage",
-      "@id":
-        "https://www.studyinlithuania.in/study/programmes/phd/#collectionpage",
-      url:
-        "https://www.studyinlithuania.in/study/programmes/phd/",
-      name: "PhD Programs in Lithuania",
-      description:
-        "Browse doctoral and research programs offered by Lithuanian universities.",
-    },
-    {
-      "@type": "Article",
-      "@id":
-        "https://www.studyinlithuania.in/study/programmes/phd/#article",
-      headline:
-        "PhD Programs in Lithuania for International Students",
-      description:
-        "Comprehensive guide to doctoral studies in Lithuania, including universities, research opportunities, scholarships, funding, and admission requirements.",
-      mainEntityOfPage: {
-        "@id":
-          "https://www.studyinlithuania.in/study/programmes/phd/#webpage",
-      },
-      publisher: {
-        "@id": "https://www.studyinlithuania.in/#organization",
-      },
-      author: {
-        "@type": "Organization",
-        name: "Study in Lithuania",
-      },
-      datePublished: "2026-06-12",
-      dateModified: "2026-06-12",
-      image: {
-        "@type": "ImageObject",
-        url: "https://www.studyinlithuania.in/images/study/lithuania-01.webp",
-      },
     },
     {
       "@type": "BreadcrumbList",
@@ -145,69 +106,11 @@ const page = () => {
         {
           "@type": "ListItem",
           position: 3,
-          name: "Programmes",
-          item: "https://www.studyinlithuania.in/study/programmes/",
-        },
-        {
-          "@type": "ListItem",
-          position: 4,
           name: "PhD",
           item:
-            "https://www.studyinlithuania.in/study/programmes/phd/",
+            "https://www.studyinlithuania.in/study/phd/",
         },
       ],
-    },
-    {
-      "@type": "EducationalOccupationalProgram",
-      name: "PhD Programs in Lithuania",
-      educationalLevel: "Doctoral",
-      timeToComplete: "P4Y",
-      occupationalCategory: "Higher Education",
-      provider: {
-        "@type": "Organization",
-        name: "Lithuanian Universities",
-      },
-      description:
-        "Doctoral research programs in Engineering, Information Technology, Business, Economics, Health Sciences, Social Sciences, Natural Sciences, and other disciplines.",
-    },
-    {
-      "@type": "FAQPage",
-      mainEntity: [
-        {
-          "@type": "Question",
-          name: "How long does a PhD take in Lithuania?",
-          acceptedAnswer: {
-            "@type": "Answer",
-            text: "Most PhD programs in Lithuania take approximately four years of full-time study and research.",
-          },
-        },
-        {
-          "@type": "Question",
-          name: "Are scholarships available for PhD students in Lithuania?",
-          acceptedAnswer: {
-            "@type": "Answer",
-            text: "Yes, many Lithuanian universities and government institutions offer scholarships, research grants, and funding opportunities for doctoral students.",
-          },
-        },
-        {
-          "@type": "Question",
-          name: "Can international students pursue a PhD in Lithuania?",
-          acceptedAnswer: {
-            "@type": "Answer",
-            text: "Yes, Lithuania welcomes international researchers and offers several PhD programs conducted in English across multiple disciplines.",
-          },
-        },
-      ],
-    },
-    {
-      "@type": "ImageObject",
-      "@id":
-        "https://www.studyinlithuania.in/study/programmes/phd/#image",
-      contentUrl:
-        "https://www.studyinlithuania.in/images/study/lithuania-01.webp",
-      caption:
-        "PhD Programs and Research Opportunities in Lithuania",
-      representativeOfPage: true,
     },
   ],
 };

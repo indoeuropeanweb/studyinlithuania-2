@@ -1,9 +1,20 @@
 import HomeClient from "./HomeClient";
 
 export const metadata = {
-  title: "Study in Lithuania for Indian Students | Universities, Visa & Admission",
-  description: "Study in Lithuania with expert guidance for Indian students. Explore top Lithuanian universities, admission requirements, tuition fees, scholarships, student visa process, accommodation, and career opportunities.",
-  keywords: ["study in Lithuania", "study in Lithuania for Indian students", "Lithuania universities", "Lithuania admission", "Lithuania student visa", "scholarships in Lithuania", "MBBS in Lithuania", "masters in Lithuania", "bachelors in Lithuania", "study abroad Lithuania", "Lithuania education consultant", "Lithuania education"],
+  title: "Study in Lithuania: Top Universities, Admission & Visa Guide",
+  description: "Study in Lithuania Consultants. Get expert help with top universities, low tuition fees, scholarships, Admission & Visa. Start your application Now.",
+  keywords: [
+      "Study in Lithuania Consultant",
+      "Study in Lithuania Consultants",
+      "Lithuania Education Consultant",
+      "Study in Lithuania for Indian Students",
+      "Lithuania Student Visa Consultant",
+      "Lithuania Admission Consultant",
+      "Study Abroad Lithuania",
+      "Lithuania Universities",
+      "Study in Europe Consultant",
+      "Lithuania Scholarship"
+  ],
   alternates: {
     canonical: "https://www.studyinlithuania.in"
   },
@@ -14,9 +25,9 @@ export const metadata = {
   openGraph: {
     type: "website",
     title:
-      "Study in Lithuania for Indian Students | Admissions, Universities, Visa & Scholarships",
+      "Study in Lithuania: Top Universities, Admission & Visa Guide",
     description:
-      "Explore top Lithuanian universities, admission process, scholarships, tuition fees and student visa guidance for Indian students.",
+      "Study in Lithuania Consultants. Get expert help with top universities, low tuition fees, scholarships, Admission & Visa. Start your application Now.",
     url: "https://www.studyinlithuania.in/",
     siteName: "Study in Lithuania",
     images: [

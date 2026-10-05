@@ -2,9 +2,20 @@ import LivingClient from "./LivingClient";
 
 
 export const metadata = {
-  title: "Living in Lithuania as an Indian Student | Cost, Accommodation & Lifestyle",
-  description: "Learn about student life in Lithuania, including living costs, accommodation, transportation, healthcare, safety, culture, food, and daily expenses for Indian and international students",
-  keywords: ["living in Lithuania", "student life in Lithuania", "cost of living in Lithuania", "accommodation in Lithuania", "Lithuania student housing", "Lithuania lifestyle", "study in Lithuania", "living expenses in Lithuania", "Indian students in Lithuania", "international students Lithuania"],
+  title: "Get Expert Help for Indian Student Accommodation in Lithuania",
+  description: "Get a guide to student accommodation in Lithuania. Explore affordable rooms and university dorms and more. Learn about costs for living there. Contact Us Now",
+  keywords: [
+      "Student Accommodation in Lithuania",
+      "Accommodation in Lithuania for Students",
+      "Student Housing in Lithuania",
+      "University Dormitories in Lithuania",
+      "Affordable Student Accommodation Lithuania",
+      "Lithuania Student Hostel",
+      "Private Accommodation in Lithuania",
+      "Shared Apartments in Lithuania",
+      "Living in Lithuania for Indian Students",
+      "Study in Lithuania"
+  ],
   alternates: {
     canonical: "https://www.studyinlithuania.in/living"
   },
@@ -15,9 +26,9 @@ export const metadata = {
     openGraph: {
     type: "article",
     title:
-      "Living in Lithuania as an International Student | Cost, Accommodation & Lifestyle",
+      "Get Expert Help for Indian Student Accommodation in Lithuania",
     description:
-      "Explore student life in Lithuania including accommodation, living expenses, transportation, healthcare, safety, culture and lifestyle for international students.",
+      "Get a guide to student accommodation in Lithuania. Explore affordable rooms and university dorms and more. Learn about costs for living there. Contact Us Now",
     url: "https://www.studyinlithuania.in/living/",
     siteName: "Study in Lithuania",
     images: [
@@ -33,9 +44,9 @@ export const metadata = {
   twitter: {
     card: "summary_large_image",
     title:
-      "Living in Lithuania as an International Student | Cost, Accommodation & Lifestyle",
+      "Get Expert Help for Indian Student Accommodation in Lithuania",
     description:
-      "Explore student life in Lithuania including accommodation and lifestyle.",
+      "Get a guide to student accommodation in Lithuania. Explore affordable rooms and university dorms and more. Learn about costs for living there. Contact Us Now",
     images: [
       "https://www.studyinlithuania.in/images/living/living.webp",
     ],

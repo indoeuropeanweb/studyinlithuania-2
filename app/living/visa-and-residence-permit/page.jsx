@@ -5,9 +5,17 @@ import Link from 'next/link';
 import { FaArrowRightLong } from 'react-icons/fa6';
 
 export const metadata = {
-  title: "Lithuania Student Visa & Residence Permit  | Visa Requirements, TRP & Application Process",
-  description: "Learn about Lithuania student visa and temporary residence permit (TRP) requirements, application process, documents, fees, processing times, and work rights for international students.",
-  keywords: ["Lithuania Student Visa", "Lithuania Residence Permit", "Lithuania TRP", "Lithuania Study Visa", "Temporary Residence Permit Lithuania", "Lithuania Visa Requirements", "Lithuania Student Visa Process", "Lithuania Immigration", "Lithuania Student Residence Permit", "Study in Lithuania Visa", "Lithuania Visa Documents", "Lithuania Student Permit", "Lithuania Visa Application", "Lithuania International Students", "Lithuania Study Abroad", "Lithuania Visa Guide", "Lithuania Residence Permit Process", "Lithuania Student Immigration", "Lithuania Visa Fees", "Lithuania TRP Application"],
+  title: "Lithuania Student Visa: Fees, Documents and Eligibility",
+  description: "Get your Lithuania student visa fast. Learn about costs, documents, and rules for Indian students. Start your application today for a smooth move.",
+  keywords: [
+      "Lithuania Student Visa",
+      "Lithuania Student Visa for Indian Students",
+      "Study in Lithuania Visa",
+      "Lithuania Student Residence Permit",
+      "Lithuania Visa Requirements",
+      "Lithuania Student Visa Documents",
+      "Lithuania Student Visa Process"
+  ],
   alternates: {
     canonical: "https://www.studyinlithuania.in/living/visa-and-residence-permit"
   },
@@ -20,9 +28,9 @@ export const metadata = {
     url: "https://www.studyinlithuania.in/living/visa-and-residence-permit/",
     siteName: "Study in Lithuania Centre",
     title:
-      "Lithuania Student Visa & Residence Permit 2026 | TRP & Application Process",
+      "Lithuania Student Visa: Fees, Documents and Eligibility",
     description:
-      "Learn about Lithuania student visas, temporary residence permits, required documents, application procedures and work rights.",
+      "Get your Lithuania student visa fast. Learn about costs, documents, and rules for Indian students. Start your application today for a smooth move.",
     images: [
       {
         url: "https://www.studyinlithuania.in/images/living/visa-and-residence-permit/visa-and-residence-permit.webp",
@@ -37,9 +45,9 @@ export const metadata = {
   twitter: {
     card: "summary_large_image",
     title:
-      "Lithuania Student Visa & Residence Permit 2026 | TRP & Application Process",
+      "Lithuania Student Visa: Fees, Documents and Eligibility",
     description:
-      "Learn about Lithuania student visas, temporary residence permits, required documents, application procedures and work rights.",
+      "Get your Lithuania student visa fast. Learn about costs, documents, and rules for Indian students. Start your application today for a smooth move.",
     images: [
       "https://www.studyinlithuania.in/images/living/visa-and-residence-permit/visa-and-residence-permit.webp",
     ],
@@ -62,21 +70,6 @@ const page = () => {
       },
     },
     {
-      "@type": "WebSite",
-      "@id": "https://www.studyinlithuania.in/#website",
-      url: "https://www.studyinlithuania.in",
-      name: "Study in Lithuania Centre",
-      publisher: {
-        "@id": "https://www.studyinlithuania.in/#organization",
-      },
-      potentialAction: {
-        "@type": "SearchAction",
-        target:
-          "https://www.studyinlithuania.in/?s={search_term_string}",
-        "query-input": "required name=search_term_string",
-      },
-    },
-    {
       "@type": "WebPage",
       "@id":
         "https://www.studyinlithuania.in/living/visa-and-residence-permit/#webpage",
@@ -95,32 +88,6 @@ const page = () => {
       inLanguage: "en",
     },
     {
-      "@type": "Article",
-      "@id":
-        "https://www.studyinlithuania.in/living/visa-and-residence-permit/#article",
-      headline:
-        "Lithuania Student Visa and Residence Permit Guide",
-      description:
-        "Everything international students need to know about Lithuania student visas, temporary residence permits, application procedures and immigration requirements.",
-      mainEntityOfPage: {
-        "@id":
-          "https://www.studyinlithuania.in/living/visa-and-residence-permit/#webpage",
-      },
-      publisher: {
-        "@id": "https://www.studyinlithuania.in/#organization",
-      },
-      author: {
-        "@type": "Organization",
-        name: "Study in Lithuania Centre",
-      },
-      datePublished: "2026-06-12",
-      dateModified: "2026-06-12",
-      image: {
-        "@type": "ImageObject",
-        url: "https://www.studyinlithuania.in/images/living/visa-and-residence-permit/visa-and-residence-permit.webp",
-      },
-    },
-    {
       "@type": "BreadcrumbList",
       "@id":
         "https://www.studyinlithuania.in/living/visa-and-residence-permit/#breadcrumb",
@@ -129,99 +96,22 @@ const page = () => {
           "@type": "ListItem",
           position: 1,
           name: "Home",
-          item: "https://www.studyinlithuania.in/",
+          item: "https://www.studyinlithuania.in",
         },
         {
           "@type": "ListItem",
           position: 2,
           name: "Living",
-          item: "https://www.studyinlithuania.in/living/",
+          item: "https://www.studyinlithuania.in/living",
         },
         {
           "@type": "ListItem",
           position: 3,
           name: "Visa and Residence Permit",
           item:
-            "https://www.studyinlithuania.in/living/visa-and-residence-permit/",
+            "https://www.studyinlithuania.in/living/visa-and-residence-permit",
         },
       ],
-    },
-    {
-      "@type": "HowTo",
-      name: "How to Apply for a Lithuania Student Visa and Residence Permit",
-      step: [
-        {
-          "@type": "HowToStep",
-          name: "Receive Admission Letter from a Lithuanian University",
-        },
-        {
-          "@type": "HowToStep",
-          name: "Prepare Required Documents",
-        },
-        {
-          "@type": "HowToStep",
-          name: "Apply for National Visa (D) or TRP",
-        },
-        {
-          "@type": "HowToStep",
-          name: "Submit Biometrics and Supporting Documents",
-        },
-        {
-          "@type": "HowToStep",
-          name: "Receive Visa Approval",
-        },
-        {
-          "@type": "HowToStep",
-          name: "Travel to Lithuania and Register Residence",
-        },
-      ],
-    },
-    {
-      "@type": "FAQPage",
-      mainEntity: [
-        {
-          "@type": "Question",
-          name: "Do international students need a visa to study in Lithuania?",
-          acceptedAnswer: {
-            "@type": "Answer",
-            text: "Students from non-EU and non-EEA countries generally need a National Visa (D) or a Temporary Residence Permit to study in Lithuania Centre.",
-          },
-        },
-        {
-          "@type": "Question",
-          name: "What is a Temporary Residence Permit (TRP)?",
-          acceptedAnswer: {
-            "@type": "Answer",
-            text: "A Temporary Residence Permit allows international students to legally reside in Lithuania for the duration of their studies and can be renewed when required.",
-          },
-        },
-        {
-          "@type": "Question",
-          name: "What documents are required for a Lithuania student visa?",
-          acceptedAnswer: {
-            "@type": "Answer",
-            text: "Students typically need an admission letter, valid passport, proof of financial means, health insurance, accommodation proof, photographs and other supporting documents.",
-          },
-        },
-        {
-          "@type": "Question",
-          name: "Can international students work while studying in Lithuania?",
-          acceptedAnswer: {
-            "@type": "Answer",
-            text: "Yes. International students holding the appropriate residence permit can legally work while studying in Lithuania according to current immigration regulations.",
-          },
-        },
-      ],
-    },
-    {
-      "@type": "ImageObject",
-      "@id":
-        "https://www.studyinlithuania.in/living/visa-and-residence-permit/#image",
-      contentUrl:
-        "https://www.studyinlithuania.in/images/living/visa-and-residence-permit/visa-and-residence-permit.webp",
-      caption:
-        "Lithuania Student Visa and Temporary Residence Permit Guide",
-      representativeOfPage: true,
     },
   ],
 };

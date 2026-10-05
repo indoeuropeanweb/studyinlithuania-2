@@ -24,7 +24,7 @@ const Breadcrumb = ({heading}) => {
     <section className='bg-[#eaeff2] py-5 px-10'>
       <div className='mx-auto max-w-6xl'>
         <div>
-        <ul className='flex items-center'>
+        <ul className='flex items-center' id="breadcrumb">
             <li><Link href={'/'} className={`${pathname === "/" ? "text-gray-500": "text-gray-800 hover:underline"}`}>Home</Link></li>
             {firstPath && <>&nbsp;<IoIosArrowForward />&nbsp;<li><Link href={`/${firstPath}`} className={`${pathname === `/${firstPath}` ? "text-gray-500": "text-gray-800 hover:underline"}`}>{firstPath.replace(/\b\w/g, (char) => char.toUpperCase())}</Link></li></>}
             {secondPath && <>&nbsp;<IoIosArrowForward />&nbsp;<li><Link href={`/${firstPath}/${secondPath}`} className={`${pathname === `/${firstPath}/${secondPath}` ? "text-gray-500": "text-gray-800 hover:underline"}`}>{secondPath.replace(/\b\w/g, (char) => char.toUpperCase())}</Link></li></>}

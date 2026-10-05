@@ -4,9 +4,20 @@ import Link from 'next/link';
 import { FaArrowRightLong } from 'react-icons/fa6';
 
 export const metadata = {
-  title: "Frequently Asked Questions About Studying in Lithuania | Study in Lithuania Centre",
-  description: "Find answers to the most frequently asked questions about studying in Lithuania. Learn about admissions, universities, tuition fees, scholarships, student visas, accommodation, work opportunities, and student life in Lithuania.",
-  keywords: ["study in Lithuania FAQ", "Lithuania student visa FAQ", "Lithuania university admission questions", "scholarships in Lithuania", "study in Lithuania for Indian students", "Lithuania tuition fees", "Lithuania accommodation", "Lithuania student life", "Lithuania universities FAQ", "Study in Lithuania Centre"],
+  title: "Lithuania Study Consultants: Top FAQs for Indian Students",
+  description: "Looking for trusted Study in Lithuania Consultants? Find answers to admission, visa, scholarships, tuition fees, eligibility, and student life in Lithuania.",
+  keywords: [
+      "Study in Lithuania Consultants",
+      "Study in Lithuania Consultant India",
+      "Study in Lithuania FAQ",
+      "Study in Lithuania Admission",
+      "Lithuania Student Visa",
+      "Study in Lithuania for Indian Students",
+      "Lithuania Universities",
+      "Lithuania Scholarship",
+      "Study Abroad Consultants",
+      "Lithuania Education Consultants"
+  ],
   alternates: {
     canonical: "https://www.studyinlithuania.in/faq"
   },
@@ -17,7 +28,7 @@ export const metadata = {
    openGraph: {
     type: "website",
     title:
-      "Frequently Asked Questions About Studying in Lithuania | Study in Lithuania Centre",
+      "Lithuania Study Consultants: Top FAQs for Indian Students",
     description:
       "Get answers to common questions about studying and living in Lithuania.",
     url: "https://www.studyinlithuania.in/faq/",
@@ -35,9 +46,9 @@ export const metadata = {
   twitter: {
     card: "summary_large_image",
     title:
-      "Frequently Asked Questions About Studying in Lithuania | Study in Lithuania Centre",
+      "Lithuania Study Consultants: Top FAQs for Indian Students",
     description:
-      "Explore answers to common questions about studying in Lithuania.",
+      "Get answers to common questions about studying and living in Lithuania.",
     images: [
       "https://www.studyinlithuania.in/images/logos/logo.png",
     ],

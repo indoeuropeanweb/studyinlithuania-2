@@ -6,9 +6,18 @@ import Link from 'next/link';
 import { FaArrowRightLong } from 'react-icons/fa6';
 
 export const metadata = {
-  title: "Master’s Programs in Lithuania  | Study Master's Degree in Lithuania for Indian Students",
-  description: "Study Master's programs in Lithuania with affordable tuition fees, English-taught courses, scholarships, and globally recognized degrees.",
-  keywords: ["Masters in Lithuania", "Master's Programs Lithuania", "Study Masters in Lithuania", "Postgraduate Courses Lithuania", "MSc in Lithuania", "MBA in Lithuania", "Engineering Masters Lithuania", "IT Masters Lithuania", "Business Masters Lithuania", "Lithuania Universities", "Lithuania Higher Education", "International Students Lithuania", "English Taught Masters Lithuania", "Study Abroad Lithuania", "Lithuania Scholarships", "Affordable Masters Europe", "Lithuania Student Visa", "Lithuania Education", "Masters Degree Europe", "Postgraduate Study Lithuania"],
+  title: "Study for a Master's Degree in Lithuania University",
+  description: "Master's courses in Lithuania. Get English-taught degrees from top University with their tuition. Get admission and scholarships. apply your application Now.",
+  keywords: [
+      "Master's Courses in Lithuania",
+      "Masters in Lithuania",
+      "Study Masters in Lithuania",
+      "Lithuania Masters Programs",
+      "Universities in Lithuania for Masters",
+      "MS in Lithuania",
+      "Master's Degree in Lithuania",
+      "Study in Lithuania"
+  ],
   alternates: {
     canonical: "https://www.studyinlithuania.in/study/masters"
   },
@@ -21,9 +30,9 @@ export const metadata = {
     url: "https://www.studyinlithuania.in/study/masters/",
     siteName: "Study in Lithuania",
     title:
-      "Master's Programs in Lithuania 2026 | Study Master's Degree in Lithuania",
+      "Study for a Master's Degree in Lithuania University",
     description:
-      "Explore Master's programs in Lithuania including tuition fees, scholarships, admission requirements, and top universities.",
+      "Master's courses in Lithuania. Get English-taught degrees from top University with their tuition. Get admission and scholarships. apply your application Now.",
     images: [
       {
         url: "https://www.studyinlithuania.in/images/study/lithuania-01.webp",
@@ -38,9 +47,9 @@ export const metadata = {
   twitter: {
     card: "summary_large_image",
     title:
-      "Master's Programs in Lithuania 2026 | Study Master's Degree in Lithuania",
+      "Study for a Master's Degree in Lithuania University",
     description:
-      "Explore Master's programs in Lithuania including tuition fees, scholarships, admission requirements, and top universities.",
+      "Master's courses in Lithuania. Get English-taught degrees from top University with their tuition. Get admission and scholarships. apply your application Now.",
     images: [
       "https://www.studyinlithuania.in/images/study/lithuania-01.webp",
     ],
@@ -63,21 +72,6 @@ const page = () => {
       },
     },
     {
-      "@type": "WebSite",
-      "@id": "https://www.studyinlithuania.in/#website",
-      url: "https://www.studyinlithuania.in",
-      name: "Study in Lithuania",
-      publisher: {
-        "@id": "https://www.studyinlithuania.in/#organization",
-      },
-      potentialAction: {
-        "@type": "SearchAction",
-        target:
-          "https://www.studyinlithuania.in/?s={search_term_string}",
-        "query-input": "required name=search_term_string",
-      },
-    },
-    {
       "@type": "WebPage",
       "@id":
         "https://www.studyinlithuania.in/study/masters/#webpage",
@@ -90,42 +84,6 @@ const page = () => {
         "@id": "https://www.studyinlithuania.in/#website",
       },
       inLanguage: "en",
-    },
-    {
-      "@type": "CollectionPage",
-      "@id":
-        "https://www.studyinlithuania.in/study/masters/#collectionpage",
-      url:
-        "https://www.studyinlithuania.in/study/masters/",
-      name: "Master's Programs in Lithuania",
-      description:
-        "Browse Master's degree programs offered by Lithuanian universities for international students.",
-    },
-    {
-      "@type": "Article",
-      "@id":
-        "https://www.studyinlithuania.in/study/masters/#article",
-      headline:
-        "Master's Programs in Lithuania for International Students",
-      description:
-        "Comprehensive guide to Master's studies in Lithuania including universities, tuition fees, scholarships, admission requirements and career opportunities.",
-      mainEntityOfPage: {
-        "@id":
-          "https://www.studyinlithuania.in/study/masters/#webpage",
-      },
-      publisher: {
-        "@id": "https://www.studyinlithuania.in/#organization",
-      },
-      author: {
-        "@type": "Organization",
-        name: "Study in Lithuania",
-      },
-      datePublished: "2026-06-12",
-      dateModified: "2026-06-12",
-      image: {
-        "@type": "ImageObject",
-        url: "https://www.studyinlithuania.in/images/study/lithuania-01.webp",
-      },
     },
     {
       "@type": "BreadcrumbList",
@@ -145,12 +103,6 @@ const page = () => {
         {
           "@type": "ListItem",
           position: 3,
-          name: "Programmes",
-          item: "https://www.studyinlithuania.in/study/programmes/",
-        },
-        {
-          "@type": "ListItem",
-          position: 4,
           name: "Master's",
           item:
             "https://www.studyinlithuania.in/study/masters/",
@@ -169,45 +121,6 @@ const page = () => {
       },
       description:
         "Master's degree programs offered in English across Engineering, Information Technology, Business, Management, Health Sciences, Social Sciences and other disciplines.",
-    },
-    {
-      "@type": "FAQPage",
-      mainEntity: [
-        {
-          "@type": "Question",
-          name: "How long does a Master's degree take in Lithuania?",
-          acceptedAnswer: {
-            "@type": "Answer",
-            text: "Most Master's degree programs in Lithuania take between 1 and 2 years to complete.",
-          },
-        },
-        {
-          "@type": "Question",
-          name: "Can international students study Master's programs in English in Lithuania?",
-          acceptedAnswer: {
-            "@type": "Answer",
-            text: "Yes, many Lithuanian universities offer Master's degree programs fully taught in English.",
-          },
-        },
-        {
-          "@type": "Question",
-          name: "What are the tuition fees for Master's programs in Lithuania?",
-          acceptedAnswer: {
-            "@type": "Answer",
-            text: "Tuition fees generally range from €2,000 to €6,000 per year depending on the university and program.",
-          },
-        },
-      ],
-    },
-    {
-      "@type": "ImageObject",
-      "@id":
-        "https://www.studyinlithuania.in/study/masters/#image",
-      contentUrl:
-        "https://www.studyinlithuania.in/images/study/lithuania-01.webp",
-      caption:
-        "Master's Programs in Lithuania for International Students",
-      representativeOfPage: true,
     },
   ],
 };

@@ -4,9 +4,20 @@ import Link from 'next/link';
 import { FaArrowRightLong } from 'react-icons/fa6';
 
 export const metadata = {
-  title: "Student Experiences in Lithuania | Study in Lithuania Centre Ambassadors",
-  description: "Discover real student experiences in Lithuania through Study in Lithuania Centre Ambassadors. Learn about university life, academics, accommodation, culture, career opportunities, and student success stories from Indian students studying in Lithuania",
-  keywords: ["student experiences in Lithuania", "Study in Lithuania Centre ambassadors", "Indian students in Lithuania", "Lithuania student testimonials", "Lithuania success stories", "study in Lithuania experiences", "student life in Lithuania", "Lithuania student stories", "Lithuania education experiences", "study abroad Lithuania"],
+  title: "Lithuania Student Ambassador | Real Stories and Success",
+  description: "Connect with our expert for Study in Lithuania. Read real success stories and get visa help from our Lithuania student ambassadors. See how they did it",
+  keywords: [
+      "Student Accommodation in Lithuania",
+      "Accommodation in Lithuania",
+      "Student Housing in Lithuania",
+      "Lithuania Student Dormitories",
+      "Private Accommodation in Lithuania",
+      "International Student Accommodation Lithuania",
+      "Rent Room in Lithuania",
+      "University Accommodation Lithuania",
+      "Student Apartments Lithuania",
+      "Study in Lithuania"
+  ],
   alternates: {
     canonical: "https://www.studyinlithuania.in/student-ambassadors"
   },
@@ -17,9 +28,9 @@ export const metadata = {
     openGraph: {
     type: "article",
     title:
-      "Student Experiences in Lithuania | Study in Lithuania Centre Ambassadors",
+      "Lithuania Student Ambassador | Real Stories and Success",
     description:
-      "Read real experiences and success stories from students studying in Lithuania.",
+      "Connect with our expert for Study in Lithuania. Read real success stories and get visa help from our Lithuania student ambassadors. See how they did it",
     url:
       "https://www.studyinlithuania.in/student-ambassadors/",
     siteName: "Study in Lithuania Centre",
@@ -36,9 +47,9 @@ export const metadata = {
   twitter: {
     card: "summary_large_image",
     title:
-      "Student Experiences in Lithuania | Study in Lithuania Centre Ambassadors",
+      "Lithuania Student Ambassador | Real Stories and Success",
     description:
-      "Read real experiences and success stories from students studying in Lithuania.",
+      "Connect with our expert for Study in Lithuania. Read real success stories and get visa help from our Lithuania student ambassadors. See how they did it",
     images: [
       "https://www.studyinlithuania.in/images/student-ambassadors/student-01.webp",
     ],

@@ -6,28 +6,37 @@ import Link from 'next/link';
 import { FaArrowRightLong } from 'react-icons/fa6';
 
 export const metadata = {
-    title: "Lithuanian Culture Guide | Traditions, Festivals, Language, Food & Lifestyle",
-    description: "Discover Lithuania's rich cultural heritage, traditions, festivals, language, cuisine, arts, music, and modern lifestyle. Learn about Lithuanian customs, student life, and cultural experiences in one of Europe's most vibrant Baltic nations.",
-    keywords: ["Lithuanian Culture", "Lithuania Culture", "Lithuanian Traditions", "Lithuania Festivals", "Lithuanian Language", "Lithuania Lifestyle", "Lithuanian Heritage", "Lithuania Customs", "Lithuanian Food", "Lithuania Cuisine", "Lithuania Arts and Music", "Lithuania Cultural Heritage", "Lithuania Student Life", "Baltic Culture", "Lithuania Society", "Study in Lithuania", "Lithuanian Celebrations", "Lithuania Folk Traditions", "Lithuania History and Culture", "Culture of Lithuania"],
+    title: "Lithuanian Culture: Traditions, Festivals and Student Life",
+    description: "Discover the beauty of the Lithuanian Culture and Food. Learn how the country's deep history supports students from across the globe. Visit us today.",
+    keywords: [
+        "Lithuanian Culture",
+        "Culture of Lithuania",
+        "Lithuanian Traditions",
+        "Lithuanian Festivals",
+        "Lithuania Lifestyle",
+        "Lithuanian Food",
+        "Lithuanian Customs",
+        "Lithuania Heritage"
+    ],
     alternates: {
-      canonical: "https://www.studyinlithuania.in/lithuania/culture"
+      canonical: "https://www.studyinlithuania.in/lithuania/culture/"
     },
     robots: {
       index: true,
       follow: true,
     },
-      openGraph: {
-    type: "article",
+  openGraph: {
+    type: "website",
     locale: "en_US",
     url: "https://www.studyinlithuania.in/lithuania/culture/",
     siteName: "Study in Lithuania",
     title:
-      "Lithuanian Culture Guide 2026 | Traditions, Festivals, Language, Food & Lifestyle",
+      "Lithuanian Culture: Traditions, Festivals and Student Life",
     description:
-      "Explore Lithuania's traditions, festivals, language, cuisine, arts, music and cultural heritage. Learn about student life and everyday culture in Lithuania.",
+      "Discover the beauty of the Lithuanian Culture and Food. Learn how the country's deep history supports students from across the globe. Visit us today.",
     images: [
       {
-        url: "https://www.studyinlithuania.in/images/culture/culture.webp",
+        url: "https://www.studyinlithuania.in/images/logos/logo.png",
         alt: "Lithuanian Culture",
       },
     ],
@@ -36,17 +45,16 @@ export const metadata = {
   twitter: {
     card: "summary_large_image",
     title:
-      "Lithuanian Culture Guide 2026 | Traditions, Festivals, Language, Food & Lifestyle",
+      "Lithuanian Culture: Traditions, Festivals and Student Life",
     description:
-      "Explore Lithuania's traditions, festivals, language, cuisine, arts, music and cultural heritage.",
+      "Discover the beauty of the Lithuanian Culture and Food. Learn how the country's deep history supports students from across the globe. Visit us today.",
     images: [
-      "https://www.studyinlithuania.in/images/culture/culture.webp",
+      "https://www.studyinlithuania.in/images/logos/logo.png",
     ],
   },
 }
 
 const page = () => {
-
   const schema = {
   "@context": "https://schema.org",
   "@graph": [
@@ -58,21 +66,6 @@ const page = () => {
       logo: {
         "@type": "ImageObject",
         url: "https://www.studyinlithuania.in/wp-content/uploads/logo.png",
-      },
-    },
-    {
-      "@type": "WebSite",
-      "@id": "https://www.studyinlithuania.in/#website",
-      url: "https://www.studyinlithuania.in",
-      name: "Study in Lithuania",
-      publisher: {
-        "@id": "https://www.studyinlithuania.in/#organization",
-      },
-      potentialAction: {
-        "@type": "SearchAction",
-        target:
-          "https://www.studyinlithuania.in/?s={search_term_string}",
-        "query-input": "required name=search_term_string",
       },
     },
     {
@@ -95,31 +88,6 @@ const page = () => {
           "https://www.studyinlithuania.in/lithuania/culture/#country",
       },
       inLanguage: "en",
-    },
-    {
-      "@type": "Article",
-      "@id":
-        "https://www.studyinlithuania.in/lithuania/culture/#article",
-      headline: "Culture of Lithuania",
-      description:
-        "A complete guide to Lithuanian culture, traditions, language, festivals, arts, cuisine, and lifestyle.",
-      mainEntityOfPage: {
-        "@id":
-          "https://www.studyinlithuania.in/lithuania/culture/#webpage",
-      },
-      publisher: {
-        "@id": "https://www.studyinlithuania.in/#organization",
-      },
-      author: {
-        "@type": "Organization",
-        name: "Study in Lithuania",
-      },
-      datePublished: "2026-06-11",
-      dateModified: "2026-06-11",
-      image: {
-        "@type": "ImageObject",
-        url: "https://www.studyinlithuania.in/wp-content/uploads/lithuania-culture.jpg",
-      },
     },
     {
       "@type": "BreadcrumbList",
@@ -145,24 +113,6 @@ const page = () => {
           item: "https://www.studyinlithuania.in/lithuania/culture/",
         },
       ],
-    },
-    {
-      "@type": "Country",
-      "@id":
-        "https://www.studyinlithuania.in/lithuania/culture/#country",
-      name: "Lithuania",
-      description:
-        "Lithuania is known for its rich cultural heritage, folk traditions, song festivals, unique Baltic language, historic customs, vibrant arts scene, and modern European lifestyle.",
-    },
-    {
-      "@type": "ImageObject",
-      "@id":
-        "https://www.studyinlithuania.in/lithuania/culture/#image",
-      contentUrl:
-        "https://www.studyinlithuania.in/wp-content/uploads/lithuania-culture.jpg",
-      caption:
-        "Traditional Lithuanian culture, heritage, music, festivals and lifestyle",
-      representativeOfPage: true,
     },
   ],
 };

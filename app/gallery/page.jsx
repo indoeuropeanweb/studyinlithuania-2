@@ -4,9 +4,20 @@ import Link from 'next/link';
 import { FaArrowRightLong } from 'react-icons/fa6';
 
 export const metadata = {
-  title: "Student Success Stories & Video Reviews | Study in Lithuania Centre",
-  description: "Hear directly from students who successfully secured admissions, scholarships, and visas to study in Lithuania. Watch their video reviews and explore moments from their international education journey.",
-  keywords: ["Study in Lithuania Centre reviews", "student success stories Lithuania", "Lithuania student video reviews", "Lithuania visa success stories", "Lithuania scholarship success", "Indian students in Lithuania", "study in Lithuania testimonials", "Lithuania admission success", "study abroad student reviews", "Lithuania education journey"],
+  title: "Student Life in Lithuania: Watch & Make Your Own Stories",
+  description: "See what student life in Lithuania looks like. Browse our gallery for campus views, dorms, and fun events. Get a real feel for your future study trip here.",
+  keywords: [
+      "Student Life in Lithuania",
+      "Study in Lithuania",
+      "Lithuania Student Life",
+      "International Students in Lithuania",
+      "Student Experience in Lithuania",
+      "Lithuania University Campus",
+      "Study Abroad Lithuania",
+      "Lithuania Campus Life",
+      "Student Activities in Lithuania",
+      "Lithuania Education Consultants"
+  ],
   alternates: {
     canonical: "https://www.studyinlithuania.in/gallery"
   },
@@ -17,9 +28,9 @@ export const metadata = {
   openGraph: {
   type: "website",
   title:
-    "Student Success Stories & Video Reviews | Study in Lithuania Centre",
+    "Student Life in Lithuania: Watch & Make Your Own Stories",
   description:
-    "Watch real student video reviews and success stories from students studying in Lithuania.",
+    "See what student life in Lithuania looks like. Browse our gallery for campus views, dorms, and fun events. Get a real feel for your future study trip here.",
   url: "https://www.studyinlithuania.in/gallery/",
   siteName: "Study in Lithuania Centre",
   images: [
@@ -35,9 +46,9 @@ export const metadata = {
 twitter: {
   card: "summary_large_image",
   title:
-    "Student Success Stories & Video Reviews | Study in Lithuania Centre",
+    "Student Life in Lithuania: Watch & Make Your Own Stories",
   description:
-    "Watch student success stories and video reviews.",
+    "See what student life in Lithuania looks like. Browse our gallery for campus views, dorms, and fun events. Get a real feel for your future study trip here.",
   images: [
     "https://www.studyinlithuania.in/images/logos/logo.png",
   ],

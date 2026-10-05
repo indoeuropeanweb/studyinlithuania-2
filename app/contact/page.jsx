@@ -6,9 +6,20 @@ import { FaFacebook, FaInstagram, FaYoutube } from "react-icons/fa";
 import Image from 'next/image';
 
 export const metadata = {
-  title: "Contact Study in Lithuania Centre | Lithuania Education Consultants in India",
-  description: "Contact Study in Lithuania Centre for expert guidance on Lithuanian university admissions, scholarships, student visas, course selection, and study abroad support for Indian students",
-  keywords: ["contact Study in Lithuania Centre", "Lithuania education consultants India", "study in Lithuania contact", "Lithuania admission consultants", "Lithuania visa consultants", "study abroad Lithuania consultants", "Lithuania university admission India", "Indian students Lithuania", "Lithuania counselling", "study in Lithuania support"],
+  title: "Study in Lithuania Consultants | Expert Admission Help",
+  description: "Get help from expert Study in Lithuania consultants. We handle university admission, scholarships, and visa forms. Contact Us & Start your application Now",
+  keywords: [
+      "Study in Lithuania Consultants",
+      "Study in Lithuania Consultant",
+      "Lithuania Education Consultants",
+      "Study in Lithuania Consultants India",
+      "Study in Lithuania Consultants Delhi",
+      "Study Abroad Consultants",
+      "Lithuania Student Visa Consultant",
+      "Lithuania Admission Consultants",
+      "Study in Lithuania Guidance",
+      "Study in Lithuania Experts"
+  ],
   alternates: {
     canonical: "https://www.studyinlithuania.in/contact"
   },
@@ -19,9 +30,9 @@ export const metadata = {
    openGraph: {
     type: "website",
     title:
-      "Contact Study in Lithuania Centre | Lithuania Education Consultants in India",
+      "Study in Lithuania Consultants | Expert Admission Help",
     description:
-      "Get expert support for Lithuania university admissions, scholarships, student visas, and study abroad counselling.",
+      "Get help from expert Study in Lithuania consultants. We handle university admission, scholarships, and visa forms. Contact Us & Start your application Now",
     url: "https://www.studyinlithuania.in/contact/",
     siteName: "Study in Lithuania Centre",
     images: [
@@ -36,9 +47,9 @@ export const metadata = {
   twitter: {
     card: "summary_large_image",
     title:
-      "Contact Study in Lithuania Centre | Lithuania Education Consultants in India",
+      "Study in Lithuania Consultants | Expert Admission Help",
     description:
-      "Contact our Lithuania education consultants for admissions, scholarships, student visa guidance, and course selection support.",
+      "Get help from expert Study in Lithuania consultants. We handle university admission, scholarships, and visa forms. Contact Us & Start your application Now",
     images: [
       "https://www.studyinlithuania.in/assets/images/contact/our-expert.webp",
     ],
@@ -46,7 +57,6 @@ export const metadata = {
 }
 
 const page = () => {
-
    const schema = {
     "@context": "https://schema.org",
     "@graph": [

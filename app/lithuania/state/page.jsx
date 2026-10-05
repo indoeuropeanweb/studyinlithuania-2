@@ -6,47 +6,62 @@ import Link from 'next/link';
 import { FaArrowRightLong } from 'react-icons/fa6';
 
 export const metadata = {
-  title: "Study in Lithuania | Universities, Education System, Cost of Living & Student Life",
-  description: "Discover Lithuania, one of Europe's fastest-growing study destinations. Explore top universities, affordable tuition fees, scholarships, student life, safe cities, and globally recognized degrees for international students.&quot;",
-  keywordds: ["Discover Lithuania – a top European study destination offering quality education", "affordable tuition fees", "internationally recognized degrees", "scholarships", "safe living conditions and excellent career opportunities for international students."],
+  title: "Best Universities in Lithuania: The Complete Student Guide",
+  description: "Get a guide to the best state universities in Lithuania. Learn about low tuition fees and top courses. See how student life feels and start your journey.",
+  keywords: [
+      "State of Lithuania",
+      "Lithuania States and Regions",
+      "Regions of Lithuania",
+      "Cities in Lithuania",
+      "Lithuania Country Facts",
+      "Study in Lithuania",
+      "Lithuania Education System",
+      "Lithuania for International Students",
+      "Lithuania Geography",
+      "Major Cities in Lithuania",
+      "Lithuania Administrative Regions",
+      "Lithuania Population and Geography",
+      "Lithuania Country Information",
+      "Living in Lithuania for International Students",
+      "Lithuania for Indian Students"
+  ],
   alternates: {
     canonical: "https://www.studyinlithuania.in/lithuania/state"
   },
-      robots: {
+  robots: {
     index: true,
     follow: true,
   },
-     openGraph: {
+  openGraph: {
     type: "website",
     title:
-      "Study in Lithuania | Universities, Education System, Cost of Living & Student Life",
+      "Best Universities in Lithuania: The Complete Student Guide",
     description:
-      "Get expert support for Lithuania university admissions, scholarships, student visas, and study abroad counselling.",
-    url: "https://www.studyinlithuania.in/contact/",
+      "Get a guide to the best state universities in Lithuania. Learn about low tuition fees and top courses. See how student life feels and start your journey",
+    url: "https://www.studyinlithuania.in/lithuania/state/",
     siteName: "Study in Lithuania Centre",
     images: [
       {
-        url: "https://www.studyinlithuania.in/images/contact/our-expert.webp",
+        url: "https://www.studyinlithuania.in/images/logos/logo.png",
         width: 1200,
         height: 630,
-        alt: "Contact Study in Lithuania Centre",
+        alt: "Study in Lithuania Centre - State Universities in Lithuania",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
     title:
-      "Contact Study in Lithuania Centre | Lithuania Education Consultants in India",
+      "Best Universities in Lithuania: The Complete Student Guide",
     description:
-      "Contact our Lithuania education consultants for admissions, scholarships, student visa guidance, and course selection support.",
+      "Get a guide to the best state universities in Lithuania. Learn about low tuition fees and top courses. See how student life feels and start your journey",
     images: [
-      "https://www.studyinlithuania.in/images/contact/our-expert.webp",
+      "https://www.studyinlithuania.in/images/logos/logo.png",
     ],
   },
 }
 
 const page = () => {
-
   const schema = {
   "@context": "https://schema.org",
   "@graph": [
@@ -58,15 +73,6 @@ const page = () => {
       "logo": {
         "@type": "ImageObject",
         "url": "https://www.studyinlithuania.in/wp-content/uploads/logo.png"
-      }
-    },
-    {
-      "@type": "WebSite",
-      "@id": "https://www.studyinlithuania.in/#website",
-      "url": "https://www.studyinlithuania.in/",
-      "name": "Study in Lithuania",
-      "publisher": {
-        "@id": "https://www.studyinlithuania.in/#organization"
       }
     },
     {
@@ -82,39 +88,6 @@ const page = () => {
       "about": {
         "@id": "https://www.studyinlithuania.in/lithuania/state/#country"
       }
-    },
-    {
-      "@type": "Article",
-      "@id": "https://www.studyinlithuania.in/lithuania/state/#article",
-      "headline": "Study in Lithuania",
-      "description":
-        "Lithuania is one of Europe's leading destinations for international students seeking quality education at an affordable cost.",
-      "mainEntityOfPage": {
-        "@id": "https://www.studyinlithuania.in/lithuania/state/#webpage"
-      },
-      "author": {
-        "@id": "https://www.studyinlithuania.in/#organization"
-      },
-      "publisher": {
-        "@id": "https://www.studyinlithuania.in/#organization"
-      }
-    },
-    {
-      "@type": "Country",
-      "@id": "https://www.studyinlithuania.in/lithuania/state/#country",
-      "name": "Lithuania",
-      "alternateName": "Republic of Lithuania",
-      "url": "https://www.studyinlithuania.in/lithuania/state/",
-      "description":
-        "Lithuania is a Baltic nation known for affordable higher education, safe cities, vibrant student life, and internationally recognized universities."
-    },
-    {
-      "@type": "ImageObject",
-      "@id": "https://www.studyinlithuania.in/lithuania/state/#image",
-      "contentUrl":
-        "https://www.studyinlithuania.in/wp-content/uploads/lithuania.jpg",
-      "name": "Study in Lithuania",
-      "caption": "Lithuania - European Study Destination"
     },
     {
       "@type": "BreadcrumbList",
@@ -140,11 +113,6 @@ const page = () => {
         }
       ]
     },
-    {
-      "@type": "SpeakableSpecification",
-      "@id": "https://www.studyinlithuania.in/lithuania/state/#speakable",
-      "cssSelector": ["h1", ".entry-content p"]
-    }
   ]
 };
 

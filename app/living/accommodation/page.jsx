@@ -6,9 +6,20 @@ import Link from 'next/link';
 import { FaArrowRightLong } from 'react-icons/fa6';
 
 export const metadata = {
-  title: "Student Accommodation in Lithuania  | Housing, Dormitories & Living Costs for Indian Students",
-  description: "Find student accommodation in Lithuania, including university dormitories, private apartments, shared housing, and living costs. Discover affordable and comfortable housing options for international students studying in Lithuania",
-  keywords: ["Student Accommodation Lithuania", "Accommodation in Lithuania", "Student Housing Lithuania", "Lithuania Dormitories", "University Accommodation Lithuania", "Private Accommodation Lithuania", "Living in Lithuania", "Student Apartments Lithuania", "Lithuania Student Residence", "Housing for International Students Lithuania", "Lithuania Living Costs", "Lithuania Dorm Rooms", "Shared Accommodation Lithuania", "Study in Lithuania Accommodation", "Affordable Housing Lithuania", "Lithuania Student Life", "Lithuania Universities Accommodation", "International Students Lithuania", "Lithuania Housing Guide", "Living Expenses Lithuania"],
+  title: "Best Student Accommodation Lithuania: Budget Friendly Options",
+  description: "Find student accommodation in Lithuania. Compare dorms, private flats, and costs. Get budget tips and find your perfect home. Start your search today.",
+  keywords: [
+      "Student Accommodation in Lithuania",
+      "Accommodation in Lithuania",
+      "Student Housing in Lithuania",
+      "Lithuania Student Accommodation",
+      "Student Apartments in Lithuania",
+      "University Dormitories in Lithuania",
+      "Private Accommodation in Lithuania",
+      "Affordable Student Accommodation in Lithuania",
+      "International Student Housing Lithuania",
+      "Living in Lithuania"
+  ],
   alternates: {
     canonical: "https://www.studyinlithuania.in/living/accommodation"
   },
@@ -21,9 +32,9 @@ export const metadata = {
     url: "https://www.studyinlithuania.in/living/accommodation/",
     siteName: "Study in Lithuania",
     title:
-      "Student Accommodation in Lithuania 2026 | Housing, Dormitories & Living Costs",
+      "Best Student Accommodation Lithuania: Budget Friendly Options",
     description:
-      "Explore student accommodation options in Lithuania including dormitories, private apartments, shared housing and living costs.",
+      "Find student accommodation in Lithuania. Compare dorms, private flats, and costs. Get budget tips and find your perfect home. Start your search today.",
     images: [
       {
         url: "https://www.studyinlithuania.in/images/living/accommodation/accommodation.webp",
@@ -38,9 +49,9 @@ export const metadata = {
   twitter: {
     card: "summary_large_image",
     title:
-      "Student Accommodation in Lithuania 2026 | Housing, Dormitories & Living Costs",
+      "Best Student Accommodation Lithuania: Budget Friendly Options",
     description:
-      "Explore student accommodation options in Lithuania including dormitories, private apartments, shared housing and living costs.",
+      "Find student accommodation in Lithuania. Compare dorms, private flats, and costs. Get budget tips and find your perfect home. Start your search today.",
     images: [
       "https://www.studyinlithuania.in/images/living/accommodation/accommodation.webp",
     ],
@@ -48,7 +59,6 @@ export const metadata = {
 }
 
 const page = () => {
-
   const schema = {
   "@context": "https://schema.org",
   "@graph": [
@@ -60,21 +70,6 @@ const page = () => {
       logo: {
         "@type": "ImageObject",
         url: "https://www.studyinlithuania.in/images/logos/logo.webp",
-      },
-    },
-    {
-      "@type": "WebSite",
-      "@id": "https://www.studyinlithuania.in/#website",
-      url: "https://www.studyinlithuania.in",
-      name: "Study in Lithuania",
-      publisher: {
-        "@id": "https://www.studyinlithuania.in/#organization",
-      },
-      potentialAction: {
-        "@type": "SearchAction",
-        target:
-          "https://www.studyinlithuania.in/?s={search_term_string}",
-        "query-input": "required name=search_term_string",
       },
     },
     {
@@ -90,31 +85,6 @@ const page = () => {
         "@id": "https://www.studyinlithuania.in/#website",
       },
       inLanguage: "en",
-    },
-    {
-      "@type": "Article",
-      "@id":
-        "https://www.studyinlithuania.in/living/accommodation/#article",
-      headline: "Student Accommodation in Lithuania",
-      description:
-        "Complete guide to student housing, university dormitories, private rentals, accommodation costs and living arrangements in Lithuania.",
-      mainEntityOfPage: {
-        "@id":
-          "https://www.studyinlithuania.in/living/accommodation/#webpage",
-      },
-      publisher: {
-        "@id": "https://www.studyinlithuania.in/#organization",
-      },
-      author: {
-        "@type": "Organization",
-        name: "Study in Lithuania",
-      },
-      datePublished: "2026-06-12",
-      dateModified: "2026-06-12",
-      image: {
-        "@type": "ImageObject",
-        url: "hhttps://www.studyinlithuania.in/images/living/accommodation/accommodation.webp",
-      },
     },
     {
       "@type": "BreadcrumbList",
@@ -146,53 +116,6 @@ const page = () => {
       description:
         "Accommodation options available for international students including university dormitories, student residences, shared apartments and private housing.",
     },
-    {
-      "@type": "FAQPage",
-      mainEntity: [
-        {
-          "@type": "Question",
-          name: "Do Lithuanian universities provide accommodation?",
-          acceptedAnswer: {
-            "@type": "Answer",
-            text: "Yes. Most Lithuanian universities offer dormitories and student residences with modern facilities and internet access.",
-          },
-        },
-        {
-          "@type": "Question",
-          name: "What types of accommodation are available in Lithuania?",
-          acceptedAnswer: {
-            "@type": "Answer",
-            text: "Students can choose university dormitories, shared apartments, private rentals, student residences and short-term housing options.",
-          },
-        },
-        {
-          "@type": "Question",
-          name: "Is accommodation affordable in Lithuania?",
-          acceptedAnswer: {
-            "@type": "Answer",
-            text: "Yes. Lithuania is considered one of the most affordable study destinations in Europe, with reasonable housing and living costs.",
-          },
-        },
-        {
-          "@type": "Question",
-          name: "Can international students rent private apartments in Lithuania?",
-          acceptedAnswer: {
-            "@type": "Answer",
-            text: "Yes. International students can rent private apartments or shared accommodation through local housing platforms and rental agencies.",
-          },
-        },
-      ],
-    },
-    {
-      "@type": "ImageObject",
-      "@id":
-        "https://www.studyinlithuania.in/living/accommodation/#image",
-      contentUrl:
-        "https://www.studyinlithuania.in/images/living/accommodation/accommodation.webp",
-      caption:
-        "Student Accommodation and Housing Options in Lithuania",
-      representativeOfPage: true,
-    },
   ],
 };
 
@@ -207,7 +130,7 @@ const page = () => {
             Lithuania. indian students can choose from different housing options based on their
             budget, lifestyle, and university location. Most students prefer university dormitories or shared
             apartments because they are affordable and convenient for daily travel.<br />
-            Accommodation costs in Lithuania are generally lower than in many other European countries.
+            <Link className="font-semibold hover:underline" href="/living/living-costs">Living costs</Link> in Lithuania are generally lower than in many other European countries.
             Monthly housing expenses may vary depending on the city, room type, and facilities available.
             On average, students may spend around €120–300 per month for university dormitories, while
             private apartments or shared flats can cost between €250–650 per month.</p>

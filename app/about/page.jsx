@@ -13,9 +13,20 @@ import Link from 'next/link';
 import { FaArrowRightLong } from 'react-icons/fa6';
 
 export const metadata = {
-  title: "About Study in Lithuania Centre | Trusted Lithuania Education Consultants",
-  description: "Learn about Study in Lithuania Centre, a trusted education consultancy helping Indian students secure admissions, scholarships, visa guidance, and career opportunities in Lithuania.",
-  keywords: ["Study in Lithuania Centre", "about Study in Lithuania", "Lithuania education consultants", "study in Lithuania consultants India", "Lithuania admission guidance", "Lithuania visa consultants", "study abroad Lithuania", "Indian students in Lithuania", "Lithuania university admission", "Lithuania scholarship guidance"],
+  title: "Study in Lithuania Consultants | About Us",
+  description: "Study in Lithuania consultants with 20 years of experience. We help Indian students get visas, scholarships, and admissions. Book a free consultation today.",
+  keywords: [
+      "Study in Lithuania Consultants",
+      "Lithuania Education Consultants",
+      "Study in Lithuania Consultant India",
+      "Lithuania Admission Consultants",
+      "Overseas Education Consultants",
+      "Lithuania Student Visa Consultants",
+      "Study Abroad Consultants India",
+      "Lithuania Universities",
+      "Study in Lithuania",
+      "Indo European"
+  ],
   alternates: {
     canonical: "https://www.studyinlithuania.in/about"
   },
@@ -26,9 +37,9 @@ export const metadata = {
    openGraph: {
     type: "website",
     title:
-      "About Study in Lithuania Centre | Trusted Lithuania Education Consultants",
+      "Study in Lithuania Consultants | About Us",
     description:
-      "Discover how Study in Lithuania Centre helps Indian students with admissions and visa guidance.",
+      "Study in Lithuania consultants with 20 years of experience. We help Indian students get visas, scholarships, and admissions. Book a free consultation today.",
     url: "https://www.studyinlithuania.in/about/",
     siteName: "Study in Lithuania Centre",
     images: [
@@ -44,9 +55,9 @@ export const metadata = {
   twitter: {
     card: "summary_large_image",
     title:
-      "About Study in Lithuania Centre | Trusted Lithuania Education Consultants",
+      "Study in Lithuania Consultants | About Us",
     description:
-      "Learn how Study in Lithuania Centre supports Indian students.",
+      "Study in Lithuania consultants with 20 years of experience. We help Indian students get visas, scholarships, and admissions. Book a free consultation today.",
     images: [
       "https://www.studyinlithuania.in/images/contact/our-expert.webp",
     ],

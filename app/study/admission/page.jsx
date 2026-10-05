@@ -5,9 +5,17 @@ import { FaArrowRightLong } from "react-icons/fa6";
 
 
 export const metadata = {
-  title: "Study in Lithuania Admission  | Admission Requirements, Documents & Application Process",
-  description: "Apply to study in Lithuania with ease. Learn about admission requirements, required documents, application process, English requirements, and university deadlines for Bachelor's, Master's, and PhD programs.",
-  keywords: ["Study in Lithuania Admission", "Lithuania Admission Process", "Lithuania University Admission", "Admission Requirements Lithuania", "Apply to Study in Lithuania", "Lithuania Student Visa", "Lithuania Universities Admission", "Documents Required for Lithuania Admission", "Bachelor's Admission Lithuania", "Master's Admission Lithuania", "PhD Admission Lithuania", "Lithuania Application Process", "Study Abroad Lithuania", "International Students Lithuania", "Lithuania Education", "Lithuania Universities", "Lithuania Admission Requirements", "Lithuania Scholarships", "Lithuania Intake 2026", "Lithuania Student Application"],
+  title: "Lithuania University Admission Process for Indian Students",
+  description: "Apply for Lithuania universities Admission with confidence. We cover intakes and admission steps for Indian students. Contact our experts to start your journey.",
+  keywords: [
+      "Lithuania University Admission",
+      "Lithuania Admission Process",
+      "Study in Lithuania Admission",
+      "Lithuania University Admission for Indian Students",
+      "Lithuania University Application",
+      "Admission in Lithuania Universities",
+      "Lithuania Intake 2027"
+  ],
   alternates: {
     canonical: "https://www.studyinlithuania.in/study/admission"
   },
@@ -21,9 +29,9 @@ export const metadata = {
   url: "https://www.studyinlithuania.in/study/admission/",
   siteName: "Study in Lithuania",
   title:
-    "Study in Lithuania Admission 2026 | Admission Requirements & Application Process",
+    "Lithuania University Admission Process for Indian Students",
   description:
-    "Learn about Lithuania admission requirements, application process, eligibility criteria, required documents and student visa procedures.",
+    "Apply for Lithuania universities Admission with confidence. We cover intakes and admission steps for Indian students. Contact our experts to start your journey.",
   images: [
     {
       url: "https://www.studyinlithuania.in/images/study/lithuania-01.webp",
@@ -49,21 +57,6 @@ const page = () => {
       },
     },
     {
-      "@type": "WebSite",
-      "@id": "https://www.studyinlithuania.in/#website",
-      url: "https://www.studyinlithuania.in",
-      name: "Study in Lithuania",
-      publisher: {
-        "@id": "https://www.studyinlithuania.in/#organization",
-      },
-      potentialAction: {
-        "@type": "SearchAction",
-        target:
-          "https://www.studyinlithuania.in/?s={search_term_string}",
-        "query-input": "required name=search_term_string",
-      },
-    },
-    {
       "@type": "WebPage",
       "@id":
         "https://www.studyinlithuania.in/study/admission/#webpage",
@@ -79,27 +72,6 @@ const page = () => {
           "https://www.studyinlithuania.in/study/admission/#breadcrumb",
       },
       inLanguage: "en",
-    },
-    {
-      "@type": "Article",
-      "@id":
-        "https://www.studyinlithuania.in/study/admission/#article",
-      headline: "Admission Process for Studying in Lithuania",
-      description:
-        "Complete guide to admission requirements, documents, application process, visa procedures and eligibility criteria for international students in Lithuania.",
-      mainEntityOfPage: {
-        "@id":
-          "https://www.studyinlithuania.in/study/admission/#webpage",
-      },
-      publisher: {
-        "@id": "https://www.studyinlithuania.in/#organization",
-      },
-      author: {
-        "@type": "Organization",
-        name: "Study in Lithuania",
-      },
-      datePublished: "2026-06-11",
-      dateModified: "2026-06-11",
     },
     {
       "@type": "BreadcrumbList",
@@ -126,93 +98,6 @@ const page = () => {
         },
       ],
     },
-    {
-      "@type": "HowTo",
-      name: "How to Apply for Admission in Lithuania",
-      description:
-        "Step-by-step admission process for international students applying to Lithuanian universities.",
-      step: [
-        {
-          "@type": "HowToStep",
-          name: "Choose a University and Program",
-        },
-        {
-          "@type": "HowToStep",
-          name: "Check Eligibility Requirements",
-        },
-        {
-          "@type": "HowToStep",
-          name: "Prepare Academic Documents",
-        },
-        {
-          "@type": "HowToStep",
-          name: "Submit Online Application",
-        },
-        {
-          "@type": "HowToStep",
-          name: "Attend Interview or English Test (if required)",
-        },
-        {
-          "@type": "HowToStep",
-          name: "Receive Admission Offer Letter",
-        },
-        {
-          "@type": "HowToStep",
-          name: "Pay Tuition Fees",
-        },
-        {
-          "@type": "HowToStep",
-          name: "Apply for Visa and Residence Permit",
-        },
-      ],
-    },
-    {
-      "@type": "FAQPage",
-      mainEntity: [
-        {
-          "@type": "Question",
-          name: "What documents are required for admission in Lithuania?",
-          acceptedAnswer: {
-            "@type": "Answer",
-            text: "Students generally need academic transcripts, degree certificates, passport copy, English proficiency proof or MOI, SOP, recommendation letters and passport-size photographs.",
-          },
-        },
-        {
-          "@type": "Question",
-          name: "Can I study in Lithuania without IELTS?",
-          acceptedAnswer: {
-            "@type": "Answer",
-            text: "Many Lithuanian universities accept a Medium of Instruction (MOI) certificate or conduct their own English assessment instead of IELTS.",
-          },
-        },
-        {
-          "@type": "Question",
-          name: "How long does the admission process take?",
-          acceptedAnswer: {
-            "@type": "Answer",
-            text: "The admission process typically takes between 2 and 8 weeks depending on the university, program and document verification process.",
-          },
-        },
-        {
-          "@type": "Question",
-          name: "Can international students apply directly to Lithuanian universities?",
-          acceptedAnswer: {
-            "@type": "Answer",
-            text: "Yes, international students can apply directly through the university admission portal or with the assistance of authorized admission partners.",
-          },
-        },
-      ],
-    },
-    {
-      "@type": "ImageObject",
-      "@id":
-        "https://www.studyinlithuania.in/study/admission/#image",
-      contentUrl:
-        "https://www.studyinlithuania.in/wp-content/uploads/study-in-lithuania-admission.jpg",
-      caption:
-        "Admission Process for International Students in Lithuania",
-      representativeOfPage: true,
-    },
   ],
 };
 
@@ -223,7 +108,10 @@ const page = () => {
            <h2 className='font-aino text-2xl md:text-4xl'>Lithuania Admission Process for Indian Students</h2>
                <p className='text-justify font-roboto text-md mt-3'>Many international students now choose Lithuania for higher education because it offers
                 affordable European education, globally recognised degrees, and modern learning opportunities
-                in a safe environment.</p>
+                in a safe environment.
+                <br />
+                Discover universities that provide <Link className="font-semibold hover:underline" href="/study/scholarships">scholarships</Link> to assist international students in lowering tuition costs and making education in Lithuania more accessible.
+                </p>
                 <div className="mt-10">
                   <h4 className="text-xl md:text-2xl font-roboto text-[#3d3d3d]">Lithuania Admission Process – Step by Step</h4>
                   <ul className="space-y-4 mt-5">

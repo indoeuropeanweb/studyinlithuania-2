@@ -5,9 +5,22 @@ import Link from 'next/link';
 import { FaArrowRightLong } from 'react-icons/fa6';
 
 export const metadata = {
-  title: "Working in Lithuania  | Student Jobs, Part-Time Work & Career Opportunities",
-  description: "Discover working opportunities in Lithuania for international students, including part-time jobs, work rights, salaries, internships, and post-study employment opportunities.",
-  keywords: ["Working in Lithuania", "Student Jobs Lithuania", "Part Time Jobs Lithuania", "Work While Studying Lithuania", "Lithuania Student Employment", "Jobs in Lithuania for International Students", "Lithuania Work Permit", "Lithuania Career Opportunities", "Lithuania Internship Opportunities", "Lithuania Graduate Jobs", "Lithuania Student Work Rights", "Lithuania Job Market", "Lithuania Employment Guide", "Work in Europe", "Lithuania Post Study Work", "Lithuania Work and Study", "Lithuania Student Life", "Lithuania Salaries", "International Students Lithuania", "Lithuania Career Development"],
+  title: "Work While Studying in Lithuania: Top Jobs for Students",
+  description: "Looking for student jobs in Lithuania? Get expert tips on post-study work permits and hiring trends. See how much you can earn and find your next role now.",
+  keywords: [
+      "Jobs in Lithuania",
+      "Jobs in Lithuania for International Students",
+      "Jobs in Lithuania for Indians",
+      "Work in Lithuania",
+      "Part Time Jobs in Lithuania",
+      "Study and Work in Lithuania",
+      "Post Study Work in Lithuania",
+      "Lithuania Work Permit",
+      "Career Opportunities in Lithuania",
+      "Employment in Lithuania",
+      "Lithuania Student Jobs",
+      "Working While Studying in Lithuania"
+  ],
   alternates: {
     canonical: "https://www.studyinlithuania.in/living/working"
   },
@@ -15,14 +28,14 @@ export const metadata = {
     index: true,
     follow: true,
   },
-   openGraph: {
+  openGraph: {
     type: "article",
-    url: "https://www.studyinlithuania.in/living/working/",
+    url: "https://www.studyinlithuania.in/living/working",
     siteName: "Study in Lithuania",
     title:
-      "Working in Lithuania 2026 | Student Jobs, Part-Time Work & Career Opportunities",
+      "Work While Studying in Lithuania: Top Jobs for Students",
     description:
-      "Explore student jobs, internships, work rights, salaries and career opportunities in Lithuania for international students.",
+      "Looking for student jobs in Lithuania? Get expert tips on post-study work permits and hiring trends. See how much you can earn and find your next role now.",
     images: [
       {
         url: "https://www.studyinlithuania.in/images/living/working/working.webp",
@@ -37,9 +50,9 @@ export const metadata = {
   twitter: {
     card: "summary_large_image",
     title:
-      "Working in Lithuania 2026 | Student Jobs, Part-Time Work & Career Opportunities",
+      "Work While Studying in Lithuania: Top Jobs for Students",
     description:
-      "Explore student jobs, internships, work rights, salaries and career opportunities in Lithuania for international students.",
+      "Looking for student jobs in Lithuania? Get expert tips on post-study work permits and hiring trends. See how much you can earn and find your next role now.",
     images: [
       "https://www.studyinlithuania.in/images/living/working/working.webp",
     ],
@@ -62,21 +75,6 @@ const page = () => {
         },
       },
       {
-        "@type": "WebSite",
-        "@id": "https://www.studyinlithuania.in/#website",
-        url: "https://www.studyinlithuania.in",
-        name: "Study in Lithuania",
-        publisher: {
-          "@id": "https://www.studyinlithuania.in/#organization",
-        },
-        potentialAction: {
-          "@type": "SearchAction",
-          target:
-            "https://www.studyinlithuania.in/?s={search_term_string}",
-          "query-input": "required name=search_term_string",
-        },
-      },
-      {
         "@type": "WebPage",
         "@id": "https://www.studyinlithuania.in/living/working/#webpage",
         url: "https://www.studyinlithuania.in/living/working/",
@@ -93,30 +91,6 @@ const page = () => {
         inLanguage: "en",
       },
       {
-        "@type": "Article",
-        "@id": "https://www.studyinlithuania.in/living/working/#article",
-        headline: "Working in Lithuania for International Students",
-        description:
-          "Comprehensive guide to part-time work, internships, work rights, salaries and career opportunities in Lithuania.",
-        mainEntityOfPage: {
-          "@id":
-            "https://www.studyinlithuania.in/living/working/#webpage",
-        },
-        publisher: {
-          "@id": "https://www.studyinlithuania.in/#organization",
-        },
-        author: {
-          "@type": "Organization",
-          name: "Study in Lithuania",
-        },
-        datePublished: "2026-06-12",
-        dateModified: "2026-06-12",
-        image: {
-          "@type": "ImageObject",
-          url: "https://www.studyinlithuania.in/images/living/working/working.webp",
-        },
-      },
-      {
         "@type": "BreadcrumbList",
         "@id":
           "https://www.studyinlithuania.in/living/working/#breadcrumb",
@@ -125,96 +99,21 @@ const page = () => {
             "@type": "ListItem",
             position: 1,
             name: "Home",
-            item: "https://www.studyinlithuania.in/",
+            item: "https://www.studyinlithuania.in",
           },
           {
             "@type": "ListItem",
             position: 2,
             name: "Living",
-            item: "https://www.studyinlithuania.in/living/",
+            item: "https://www.studyinlithuania.in/living",
           },
           {
             "@type": "ListItem",
             position: 3,
             name: "Working",
-            item: "https://www.studyinlithuania.in/living/working/",
+            item: "https://www.studyinlithuania.in/living/working",
           },
         ],
-      },
-      {
-        "@type": "HowTo",
-        name: "How to Find a Student Job in Lithuania",
-        step: [
-          {
-            "@type": "HowToStep",
-            name: "Obtain Your Student Residence Permit",
-          },
-          {
-            "@type": "HowToStep",
-            name: "Prepare a European-Style CV",
-          },
-          {
-            "@type": "HowToStep",
-            name: "Search for Part-Time Jobs and Internships",
-          },
-          {
-            "@type": "HowToStep",
-            name: "Attend Interviews",
-          },
-          {
-            "@type": "HowToStep",
-            name: "Sign an Employment Contract",
-          },
-          {
-            "@type": "HowToStep",
-            name: "Start Working Legally in Lithuania",
-          },
-        ],
-      },
-      {
-        "@type": "FAQPage",
-        mainEntity: [
-          {
-            "@type": "Question",
-            name: "Can international students work while studying in Lithuania?",
-            acceptedAnswer: {
-              "@type": "Answer",
-              text: "Yes. International students are permitted to work while studying in Lithuania, subject to current immigration and residence permit regulations.",
-            },
-          },
-          {
-            "@type": "Question",
-            name: "Do students need a work permit in Lithuania?",
-            acceptedAnswer: {
-              "@type": "Answer",
-              text: "Students holding the appropriate temporary residence permit for studies can work without obtaining a separate work permit.",
-            },
-          },
-          {
-            "@type": "Question",
-            name: "What jobs are available for students in Lithuania?",
-            acceptedAnswer: {
-              "@type": "Answer",
-              text: "Students commonly find opportunities in customer service, hospitality, retail, logistics, IT, administration, internships and university-related roles.",
-            },
-          },
-          {
-            "@type": "Question",
-            name: "Can students stay and work in Lithuania after graduation?",
-            acceptedAnswer: {
-              "@type": "Answer",
-              text: "Yes. Graduates may apply for residence permits that allow them to remain in Lithuania and seek employment after completing their studies.",
-            },
-          },
-        ],
-      },
-      {
-        "@type": "ImageObject",
-        "@id": "https://www.studyinlithuania.in/living/working/#image",
-        contentUrl:
-          "https://www.studyinlithuania.in/images/living/working/working.webp",
-        caption: "Working in Lithuania for International Students",
-        representativeOfPage: true,
       },
     ],
   };

@@ -7,9 +7,18 @@ import { FaArrowRightLong } from 'react-icons/fa6';
 
 
 export const metadata = {
-  title: "Bachelor’s Programs in Lithuania  | Study Undergraduate Degrees in Lithuania",
-  description: "Study Bachelor's programs in Lithuania with affordable fees, English-taught courses, scholarships, and globally recognized degrees.",
-  keywords: ["Bachelors in Lithuania", "Bachelor Programs in Lithuania", "Undergraduate Degree Lithuania", "Study Bachelors in Lithuania", "Lithuania Bachelor Courses", "Engineering in Lithuania", "Computer Science Lithuania", "Business Studies Lithuania", "International Students Lithuania", "English Taught Programs Lithuania", "Lithuania Universities", "Study in Europe", "Lithuania Higher Education", "Bachelor Degree Europe", "Lithuania Admission Requirements", "Lithuania Scholarships", "Affordable Education Europe", "Lithuania Student Visa", "Lithuania Undergraduate Programs", "Study Abroad Lithuania"],
+  title: "Bachelor Degree in Lithuania: Best Universities for Indians",
+  description: "Study for a Bachelor degree in Lithuania. Find English programs, low tuition fees, and scholarships for Indian students. Get expert admission help today.",
+  keywords: [
+      "Bachelor Degree in Lithuania",
+      "Study Bachelor Degree in Lithuania",
+      "Bachelor's in Lithuania",
+      "Study in Lithuania",
+      "Lithuania Universities",
+      "Bachelor Programs in Lithuania",
+      "Undergraduate Study in Lithuania",
+      "Lithuania Education"
+  ],
   alternates: {
     canonical: "https://www.studyinlithuania.in/study/programmes/bachelors"
   },
@@ -22,9 +31,9 @@ export const metadata = {
     url: "https://www.studyinlithuania.in/study/programmes/bachelors/",
     siteName: "Study in Lithuania",
     title:
-      "Bachelor's Programs in Lithuania 2026 | Study Undergraduate Degrees in Lithuania",
+      "Bachelor Degree in Lithuania: Best Universities for Indians",
     description:
-      "Explore Bachelor's programs in Lithuania including tuition fees, admission requirements, scholarships, and top universities for international students.",
+      "Study for a Bachelor degree in Lithuania. Find English programs, low tuition fees, and scholarships for Indian students. Get expert admission help today.",
     images: [
       {
         url: "https://www.studyinlithuania.in/images/study/lithuania-01.webp",
@@ -38,9 +47,9 @@ export const metadata = {
   twitter: {
     card: "summary_large_image",
     title:
-      "Bachelor's Programs in Lithuania 2026 | Study Undergraduate Degrees in Lithuania",
+      "Bachelor Degree in Lithuania: Best Universities for Indians",
     description:
-      "Explore Bachelor's programs in Lithuania including tuition fees, admission requirements, scholarships, and top universities for international students.",
+      "Study for a Bachelor degree in Lithuania. Find English programs, low tuition fees, and scholarships for Indian students. Get expert admission help today.",
     images: [
       "https://www.studyinlithuania.in/images/study/lithuania-01.webp",
     ],
@@ -64,15 +73,6 @@ const page = () => {
       },
     },
     {
-      "@type": "WebSite",
-      "@id": "https://www.studyinlithuania.in/#website",
-      url: "https://www.studyinlithuania.in",
-      name: "Study in Lithuania",
-      publisher: {
-        "@id": "https://www.studyinlithuania.in/#organization",
-      },
-    },
-    {
       "@type": "WebPage",
       "@id":
         "https://www.studyinlithuania.in/study/programmes/bachelors/#webpage",
@@ -85,70 +85,6 @@ const page = () => {
         "@id": "https://www.studyinlithuania.in/#website",
       },
       inLanguage: "en",
-    },
-    {
-      "@type": "EducationalOccupationalProgram",
-      name: "Bachelor's Degree Programs in Lithuania",
-      educationalLevel: "Undergraduate",
-      timeToComplete: "P3Y-P4Y",
-      occupationalCategory: "Higher Education",
-      provider: {
-        "@type": "Organization",
-        name: "Lithuanian Universities",
-      },
-      description:
-        "Undergraduate degree programs offered in English across Engineering, IT, Business, Health Sciences, Social Sciences and other disciplines.",
-    },
-    {
-      "@type": "Article",
-      "@id":
-        "https://www.studyinlithuania.in/study/programmes/bachelors/#article",
-      headline:
-        "Bachelor's Programs in Lithuania for International Students",
-      description:
-        "Comprehensive guide to Bachelor's studies in Lithuania including tuition fees, admission requirements, universities and career opportunities.",
-      author: {
-        "@type": "Organization",
-        name: "Study in Lithuania",
-      },
-      publisher: {
-        "@id": "https://www.studyinlithuania.in/#organization",
-      },
-      datePublished: "2026-06-12",
-      dateModified: "2026-06-12",
-      image: {
-        "@type": "ImageObject",
-        url: "https://www.studyinlithuania.in/images/logos/lithuania-01.webp",
-      },
-    },
-    {
-      "@type": "FAQPage",
-      mainEntity: [
-        {
-          "@type": "Question",
-          name: "How long is a Bachelor's degree in Lithuania?",
-          acceptedAnswer: {
-            "@type": "Answer",
-            text: "Most Bachelor's degree programs in Lithuania take 3 to 4 years to complete.",
-          },
-        },
-        {
-          "@type": "Question",
-          name: "Can international students study in English?",
-          acceptedAnswer: {
-            "@type": "Answer",
-            text: "Yes, many Lithuanian universities offer Bachelor's programs fully taught in English.",
-          },
-        },
-        {
-          "@type": "Question",
-          name: "What are the tuition fees?",
-          acceptedAnswer: {
-            "@type": "Answer",
-            text: "Tuition fees generally range from €1,300 to €4,000 per year.",
-          },
-        },
-      ],
     },
     {
       "@type": "BreadcrumbList",
@@ -168,15 +104,9 @@ const page = () => {
         {
           "@type": "ListItem",
           position: 3,
-          name: "Programmes",
-          item: "https://www.studyinlithuania.in/study/programmes/",
-        },
-        {
-          "@type": "ListItem",
-          position: 4,
           name: "Bachelor's",
           item:
-            "https://www.studyinlithuania.in/study/programmes/bachelors/",
+            "https://www.studyinlithuania.in/study/bachelors/",
         },
       ],
     },

@@ -2,9 +2,21 @@ import LithuaniaClient from "./LithuaniaClient";
 
 
 export const metadata = {
-  title: "Study in Lithuania for Indian Students | Benefits, Universities & Career",
-  description: "Discover why Indian students choose Lithuania for higher education. Learn about affordable universities, European degrees, part-time work, career opportunities, lifestyle, and expert study abroad guidance.",
-  keywords: ["study in Lithuania", "study in Lithuania for Indian students", "Lithuania education", "Lithuanian universities", "study abroad Lithuania", "Lithuania study consultant", "Lithuanian study consultants in Delhi", "benefits of studying in Lithuania", "Europe study abroad", "affordable study in Europe"],
+  title: "Get Study in Lithuania Consultant for Student By Our Expert",
+  description: "Get expert help from a study in Lithuania consultant. We guide you for University admission, choose courses and more. Contact us to start your application now.",
+  keywords: [
+    "Why Study in Lithuania",
+    "Study in Lithuania",
+    "Study in Lithuania for Indian Students",
+    "Benefits of Studying in Lithuania",
+    "Lithuania Universities",
+    "Lithuania Education",
+    "Lithuania Student Visa",
+    "Affordable Study in Europe",
+    "Lithuania Scholarships",
+    "European Universities",
+    "Higher Education in Lithuania"
+  ],
   alternates: {
     canonical: "https://www.studyinlithuania.in/lithuania"
   },
@@ -13,11 +25,11 @@ export const metadata = {
     follow: true,
   },
    openGraph: {
-    type: "article",
+    type: "website",
     title:
-      "Study in Lithuania for Indian Students | Benefits, Universities & Career",
+      "Get Study in Lithuania Consultant for Student By Our Expert",
     description:
-      "Explore the advantages of studying in Lithuania, including affordable education, European universities, part-time work options, global exposure, and career opportunities.",
+      "Get expert help from a study in Lithuania consultant. We guide you for University admission, choose courses and more. Contact us to start your application now.",
     url: "https://www.studyinlithuania.in/lithuania/",
     siteName: "Study in Lithuania",
     images: [
@@ -32,9 +44,9 @@ export const metadata = {
   twitter: {
     card: "summary_large_image",
     title:
-      "Study in Lithuania for Indian Students | Benefits, Universities & Career",
+      "Get Study in Lithuania Consultant for Student By Our Expert",
     description:
-      "Explore the advantages of studying in Lithuania.",
+      "Get expert help from a study in Lithuania consultant. We guide you for University admission, choose courses and more. Contact us to start your application now.",
     images: [
       "https://www.studyinlithuania.in/images/logos/logo.png",
     ],
@@ -61,38 +73,29 @@ export default function Home() {
         "@id": "https://www.studyinlithuania.in/lithuania/#webpage",
         "url": "https://www.studyinlithuania.in/lithuania/",
         "name":
-          "Study in Lithuania for Indian Students | Benefits, Universities & Career",
+          "Get Study in Lithuania Consultant for Student By Our Expert",
         "description":
-          "Discover why Indian students choose Lithuania for higher education."
+          "Get expert help from a study in Lithuania consultant. We guide you for University admission, choose courses and more. Contact us to start your application now."
       },
-      {
-        "@type": "Article",
-        "@id": "https://www.studyinlithuania.in/lithuania/#article",
-        "headline":
-          "Study in Lithuania — Explore a Smarter Way to Grow in Europe",
-        "description":
-          "Information for Indian students about studying in Lithuania.",
-        "mainEntityOfPage": {
-          "@id":
-            "https://www.studyinlithuania.in/lithuania/#webpage"
-        }
-      },
-      {
-        "@type": "FAQPage",
-        "@id": "https://www.studyinlithuania.in/lithuania/#faq",
-        "mainEntity": [
+            {
+        "@type": "BreadcrumbList",
+        "@id":
+          "https://www.studyinlithuania.in/lithuania/#breadcrumb",
+        itemListElement: [
           {
-            "@type": "Question",
-            "name":
-              "Why should Indian students study in Lithuania?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text":
-                "Lithuania offers affordable European education and globally recognized degrees."
-            }
-          }
-        ]
-      }
+            "@type": "ListItem",
+            position: 1,
+            name: "Home",
+            item: "https://www.studyinlithuania.in",
+          },
+          {
+            "@type": "ListItem",
+            position: 2,
+            name: "Lithuania",
+            item: "https://www.studyinlithuania.in/lithuania",
+          },
+        ],
+      },
     ]
   };
 

@@ -5,27 +5,40 @@ import Link from 'next/link';
 import { FaArrowRightLong } from 'react-icons/fa6';
 
 export const metadata = {
-  title: "Nature and Climate of Lithuania | Weather, Seasons & Student Life",
-  description: "Explore Lithuania's nature and climate, from beautiful forests and lakes to its four distinct seasons. Learn about weather conditions, temperatures, and student life in Lithuania",
-  keywords: ["Lithuania nature and climate", "Lithuania weather", "climate in Lithuania", "Lithuania seasons", "Lithuania forests", "Lithuania lakes", "Lithuania environment", "Lithuania student life", "study in Lithuania", "Lithuania weather for students"],
+  title: "Guide to Seasons and Nature, Climate in Lithuania For Student",
+  description: "Explore Climate in Lithuania and four seasons. Learn about weather conditions, temperatures, and student life in Latvia. Plan your move with our expert guide.",
+  keywords: [
+      "Climate in Lithuania",
+      "Lithuania Climate",
+      "Weather in Lithuania",
+      "Lithuania Weather",
+      "Seasons in Lithuania",
+      "Nature in Lithuania",
+      "Lithuania Temperature",
+      "Lithuania Winter",
+      "Lithuania Summer",
+      "Study in Lithuania",
+      "Lithuania for International Students",
+      "Lithuania Environment"
+  ],
   alternates: {
-    canonical: "https://www.studyinlithuania.in/lithuania/nature-and-climate"
+    canonical: "https://www.studyinlithuania.in/lithuania/nature-and-climate/"
   },
   robots: {
     index: true,
     follow: true,
   },
-    openGraph: {
-    type: "article",
+  openGraph: {
+    type: "website",
     title:
-      "Nature and Climate of Lithuania | Weather, Seasons & Student Life",
+      "Guide to Seasons and Nature, Climate in Lithuania For Student",
     description:
       "Explore Lithuania's nature and climate, from beautiful forests and lakes to its four distinct seasons. Learn about weather conditions, temperatures, and student life in Lithuania.",
     url: "https://www.studyinlithuania.in/lithuania/nature-and-climate/",
     siteName: "Study in Lithuania",
     images: [
       {
-        url: "https://www.studyinlithuania.in/images/nature-and-weather/nature-and-weather.webp",
+        url: "https://www.studyinlithuania.in/images/logos/logo.png",
         width: 1200,
         height: 630,
         alt: "Nature and Climate of Lithuania",
@@ -36,17 +49,16 @@ export const metadata = {
   twitter: {
     card: "summary_large_image",
     title:
-      "Nature and Climate of Lithuania | Weather, Seasons & Student Life",
+      "Guide to Seasons and Nature, Climate in Lithuania For Student",
     description:
-      "Explore Lithuania's nature and climate, from beautiful forests and lakes to its four distinct seasons.",
+      "Explore Lithuania's nature and climate, from beautiful forests and lakes to its four distinct seasons. Learn about weather conditions, temperatures, and student life in Lithuania.",
     images: [
-      "https://www.studyinlithuania.in/images/nature-and-weather/nature-and-weather.webp",
+      "https://www.studyinlithuania.in/images/logos/logo.png",
     ],
   },
 }
 
 const page = () => {
-
  const schema = {
   "@context": "https://schema.org",
   "@graph": [
@@ -58,26 +70,6 @@ const page = () => {
       logo: {
         "@type": "ImageObject",
         url: "https://www.studyinlithuania.in/images/logos/logo.png",
-      },
-      sameAs: [
-        "https://www.facebook.com/",
-        "https://www.instagram.com/",
-        "https://www.linkedin.com/",
-      ],
-    },
-    {
-      "@type": "WebSite",
-      "@id": "https://www.studyinlithuania.in/#website",
-      url: "https://www.studyinlithuania.in",
-      name: "Study in Lithuania",
-      publisher: {
-        "@id": "https://www.studyinlithuania.in/#organization",
-      },
-      potentialAction: {
-        "@type": "SearchAction",
-        target:
-          "https://www.studyinlithuania.in/?s={search_term_string}",
-        "query-input": "required name=search_term_string",
       },
     },
     {
@@ -101,36 +93,6 @@ const page = () => {
           "https://www.studyinlithuania.in/lithuania/nature-and-climate/#breadcrumb",
       },
       inLanguage: "en",
-    },
-    {
-      "@type": "Article",
-      "@id":
-        "https://www.studyinlithuania.in/lithuania/nature-and-climate/#article",
-      headline: "Nature and Climate in Lithuania",
-      description:
-        "Comprehensive guide to Lithuania's weather, seasons, forests, lakes, national parks, and natural environment.",
-      mainEntityOfPage: {
-        "@id":
-          "https://www.studyinlithuania.in/lithuania/nature-and-climate/#webpage",
-      },
-      publisher: {
-        "@id": "https://www.studyinlithuania.in/#organization",
-      },
-      author: {
-        "@type": "Organization",
-        name: "Study in Lithuania",
-      },
-      datePublished: "2026-06-10",
-      dateModified: "2026-06-10",
-      image: {
-        "@type": "ImageObject",
-        url:
-          "https://www.studyinlithuania.in/images/lithuania/nature-and-weather/nature-and-weather.webp",
-      },
-      about: {
-        "@id":
-          "https://www.studyinlithuania.in/lithuania/nature-and-climate/#country",
-      },
     },
     {
       "@type": "BreadcrumbList",
@@ -157,25 +119,6 @@ const page = () => {
             "https://www.studyinlithuania.in/lithuania/nature-and-climate/",
         },
       ],
-    },
-    {
-      "@type": "Country",
-      "@id":
-        "https://www.studyinlithuania.in/lithuania/nature-and-climate/#country",
-      name: "Lithuania",
-      description:
-        "Lithuania is a Baltic country known for its extensive forests, over 3,000 lakes, national parks, rich biodiversity, and four distinct seasons.",
-      url:
-        "https://www.studyinlithuania.in/lithuania/nature-and-climate/",
-    },
-    {
-      "@type": "ImageObject",
-      "@id":
-        "https://www.studyinlithuania.in/lithuania/nature-and-climate/#image",
-      contentUrl:
-        "https://www.studyinlithuania.in/wp-content/uploads/lithuania-nature-climate.jpg",
-      caption: "Forests, lakes and natural landscapes of Lithuania",
-      representativeOfPage: true,
     },
   ],
 };

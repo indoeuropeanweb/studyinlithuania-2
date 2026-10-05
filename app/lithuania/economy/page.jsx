@@ -4,29 +4,41 @@ import Link from 'next/link';
 import { FaArrowRightLong } from 'react-icons/fa6';
 
 export const metadata = {
-  title: "Lithuania Economy Guide 2026 | GDP, Industries, Business Environment & Economic Growth",
-  description: "Explore Lithuania's economy, major industries, GDP, technology sector, exports, manufacturing, investment opportunities, and economic growth. Learn why Lithuania is one of Europe's fastest-growing and most innovative economies",
-  keywords: ["Lithuania economy", "Lithuania GDP", "Lithuania economic growth", "Lithuania industries", "Lithuania business environment", "Lithuania technology sector", "Lithuania manufacturing industry", "Lithuania exports", "Lithuania investment opportunities", "Lithuania startup ecosystem", "Lithuania ICT sector", "Lithuania biotech industry", "Lithuania laser technology", "Lithuania service sector", "Lithuania economic development", "Lithuania business opportunities", "study in Lithuania", "Lithuania market overview", "Lithuania innovation economy", "Lithuania trade and exports"],
+  title: "Explore Lithuania Economy: GDP, Growth and Business for Students",
+  description: "Analyze the economy of Lithuania. Study GDP, trade, and top industries. Find out why it's a top spot for students and investors. Start your research here.",
+  keywords: [
+      "Economy of Lithuania",
+      "Lithuania Economy",
+      "Lithuania GDP",
+      "Lithuania Industries",
+      "Lithuania Economic Growth",
+      "Lithuania Business",
+      "Lithuania Trade",
+      "Lithuania Investment",
+      "Lithuania Employment",
+      "Lithuania Export Economy",
+      "Economy in Lithuania",
+      "Study in Lithuania"
+  ],
   alternates: {
-    canonical: "https://www.studyinlithuania.in/lithuania/economy"
+    canonical: "https://www.studyinlithuania.in/lithuania/economy/"
   },
   robots: {
     index: true,
     follow: true,
   },
-
   openGraph: {
-    type: "article",
+    type: "website",
     title:
-      "Lithuania Economy Guide 2026 | GDP, Industries, Business Environment & Economic Growth",
+      "Explore Lithuania Economy: GDP, Growth and Business for Students",
     description:
-      "Discover Lithuania's economy, major industries, exports, manufacturing, technology sector, startups, and economic growth opportunities.",
+      "Analyze the economy of Lithuania. Study GDP, trade, and top industries. Find out why it's a top spot for students and investors. Start your research here.",
     url: "https://www.studyinlithuania.in/lithuania/economy/",
     siteName: "Study in Lithuania",
     locale: "en_US",
     images: [
       {
-        url: "https://www.studyinlithuania.in/images/economy/economy/economy.webp",
+        url: "https://www.studyinlithuania.in/images/logos/logo.png",
         alt: "Lithuania Economy",
       },
     ],
@@ -35,11 +47,11 @@ export const metadata = {
   twitter: {
     card: "summary_large_image",
     title:
-      "Lithuania Economy Guide 2026 | GDP, Industries, Business Environment & Economic Growth",
+      "Explore Lithuania Economy: GDP, Growth and Business for Students",
     description:
-      "Discover Lithuania's economy, major industries, exports, manufacturing, technology sector, startups, and economic growth opportunities.",
+      "Analyze the economy of Lithuania. Study GDP, trade, and top industries. Find out why it's a top spot for students and investors. Start your research here.",
     images: [
-      "https://www.studyinlithuania.in/images/economy/economy/economy.webp",
+      "https://www.studyinlithuania.in/images/logos/logo.png",
     ],
   },
 }
@@ -65,21 +77,6 @@ const page = () => {
       ],
     },
     {
-      "@type": "WebSite",
-      "@id": "https://www.studyinlithuania.in/#website",
-      url: "https://www.studyinlithuania.in",
-      name: "Study in Lithuania",
-      publisher: {
-        "@id": "https://www.studyinlithuania.in/#organization",
-      },
-      potentialAction: {
-        "@type": "SearchAction",
-        target:
-          "https://www.studyinlithuania.in/?s={search_term_string}",
-        "query-input": "required name=search_term_string",
-      },
-    },
-    {
       "@type": "WebPage",
       "@id":
         "https://www.studyinlithuania.in/lithuania/economy/#webpage",
@@ -99,35 +96,6 @@ const page = () => {
           "https://www.studyinlithuania.in/lithuania/economy/#country",
       },
       inLanguage: "en",
-    },
-    {
-      "@type": "Article",
-      "@id":
-        "https://www.studyinlithuania.in/lithuania/economy/#article",
-      headline: "Economy of Lithuania",
-      description:
-        "Comprehensive guide covering Lithuania's economy, GDP, industries, exports, technology sector, manufacturing, innovation, and business opportunities.",
-      mainEntityOfPage: {
-        "@id":
-          "https://www.studyinlithuania.in/lithuania/economy/#webpage",
-      },
-      publisher: {
-        "@id": "https://www.studyinlithuania.in/#organization",
-      },
-      author: {
-        "@type": "Organization",
-        name: "Study in Lithuania",
-      },
-      datePublished: "2026-06-10",
-      dateModified: "2026-06-10",
-      image: {
-        "@type": "ImageObject",
-        url: "https://www.studyinlithuania.in/wp-content/uploads/lithuania-economy.jpg",
-      },
-      about: {
-        "@id":
-          "https://www.studyinlithuania.in/lithuania/economy/#country",
-      },
     },
     {
       "@type": "BreadcrumbList",
@@ -153,24 +121,6 @@ const page = () => {
           item: "https://www.studyinlithuania.in/lithuania/economy/",
         },
       ],
-    },
-    {
-      "@type": "Country",
-      "@id":
-        "https://www.studyinlithuania.in/lithuania/economy/#country",
-      name: "Lithuania",
-      description:
-        "Lithuania has a modern, high-income European economy driven by services, manufacturing, information technology, biotechnology, laser technology, exports, and innovation. The country is recognized as one of the most digitalized and startup-friendly economies in Europe.",
-    },
-    {
-      "@type": "ImageObject",
-      "@id":
-        "https://www.studyinlithuania.in/lithuania/economy/#image",
-      contentUrl:
-        "https://www.studyinlithuania.in/wp-content/uploads/lithuania-economy.jpg",
-      caption:
-        "Lithuania's modern economy, business districts and innovation ecosystem",
-      representativeOfPage: true,
     },
   ],
 };

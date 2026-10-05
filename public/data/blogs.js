@@ -4,11 +4,20 @@ export const blogs = [
   title: "Step-by-Step Guide to Study in Lithuania for Indian Students in 2026",
   slug: "step-by-step-guide-to-study-in-lithuania-for-indian-students",
   metaTitle:
-    "Step-by-Step Guide to Study in Lithuania for Indian Students  | Admission, Visa & Scholarships",
+    "Study in Lithuania for Indian Students 2026: Complete Guide",
   metaDescription:
-    "Explore part-time jobs and work opportunities in Lithuania for international students. Learn about work rights, salaries, internships, job sectors, and career prospects while studying in Lithuania.",
+    "Want to study in Lithuania? Explore universities, admission, visa, scholarships, costs, courses and work options for Indian students in 2026.",
   image: "/images/blogs/study-in-lithuania-guide-2026.webp",
-  keywords: ["Study in Lithuania Blogs", "Lithuania Student Blog", "Study in Lithuania Guide", "Lithuania Universities Blog", "Lithuania Admission Guide", "Lithuania Student Visa Blog", "Lithuania Scholarships Blog", "Lithuania Student Life", "Study Abroad Lithuania", "Lithuania Living Costs", "Lithuania Accommodation Guide", "Lithuania Work Opportunities", "Lithuania Career Guide", "Lithuania Education Blog", "International Students Lithuania", "Lithuania Application Process", "Lithuania Universities", "Indian Students Lithuania", "Lithuania Study Tips", "Study in Europe Blog"],
+  keywords: [
+      "Study in Lithuania for Indian Students",
+      "Study in Lithuania 2026",
+      "Lithuania Study Guide",
+      "Lithuania Universities for Indian Students",
+      "Lithuania Student Visa",
+      "Study in Lithuania",
+      "Lithuania Admission Process",
+      "Lithuania Scholarships"
+  ],
   category: "Lithuania",
   publishDate: "2026-06-06",
   readingTime: "12 min read",
@@ -285,27 +294,28 @@ export const blogs = [
 },
 {
   id: 2,
-
   title: "Part-Time Jobs & Work Opportunities in Lithuania for Students",
-
   slug: "part-time-jobs-and-work-opportunities-in-lithuania",
-
   metaTitle:
-    "Part-Time Jobs and Work Opportunities in Lithuania for Indian Students 2026",
-
+    "Part Time Jobs in Lithuania for International Students – 2026",
   metaDescription:
-    "Explore part-time jobs in Lithuania for international students. Learn about salaries, work rights, internships, career opportunities, and post-study employment options.",
-
-  keywords: ["Part Time Jobs in Lithuania", "Work Opportunities in Lithuania", "Student Jobs Lithuania", "International Students Lithuania", "Work While Studying Lithuania", "Lithuania Student Employment", "Lithuania Part Time Work", "Jobs for Indian Students in Lithuania", "Lithuania Student Salary", "Lithuania Career Opportunities", "Lithuania Internships", "Work Rights Lithuania", "Lithuania Job Market", "Study and Work in Lithuania", "Lithuania Student Life", "Lithuania Graduate Jobs", "Lithuania Work Permit", "Lithuania Employment Opportunities", "Lithuania Student Residence Permit", "Lithuania Careers"],
-
+    "Wondering how to earn while studying in Lithuania? Explore part-time jobs, salaries, work opportunities, popular roles and tips for international students.",
+  keywords: [
+      "Part Time Jobs in Lithuania for International Students",
+      "Part Time Jobs in Lithuania",
+      "Student Jobs in Lithuania",
+      "Jobs for International Students in Lithuania",
+      "Work Opportunities in Lithuania",
+      "Lithuania Jobs for Students",
+      "Part Time Work in Lithuania",
+      "Work and Study in Lithuania",
+      "Student Jobs for Indian Students",
+      "Lithuania Job Opportunities"
+  ],
   image: "/images/blogs/work-opportunities-lithuania.webp",
-
   category: "Lithuania",
-
   publishDate: "2026-06-06",
-
   readingTime: "11 min read",
-
   sections: [
     {
       type: "paragraph",
@@ -695,27 +705,28 @@ export const blogs = [
 },
 {
   id: 3,
-
   title: "Why Study in Lithuania Is Becoming the Top Choice for Students Abroad",
-
   slug: "why-study-in-lithuania-is-becoming-the-top-choice-for-students-abroad",
-
   metaTitle:
-    "Why Study in Lithuania? Top Reasons Indian Students Choose Lithuania in 2026",
-
+    "Why Study in Lithuania? 10 Reasons to Choose Lithuania",
   metaDescription:
-    "Discover why Lithuania is becoming a top study destination for international students with affordable tuition fees, scholarships, globally recognized universities, and excellent career opportunities.",
-
-  keywords: ["Why Study in Lithuania", "Study in Lithuania", "Lithuania for International Students", "Lithuania for Indian Students", "Benefits of Studying in Lithuania", "Lithuania Universities", "Lithuania Scholarships", "Affordable Education Europe", "Study Abroad Lithuania", "Lithuania Student Visa", "Lithuania Higher Education", "Lithuania Career Opportunities", "Lithuania Student Life", "European Education", "Lithuania Admission Process", "Lithuania Living Costs", "Lithuania Work Opportunities", "Lithuania Degree Recognition", "Best Study Destination Europe", "Lithuania Education"],
-  
+    "Why is Lithuania becoming a top study-abroad choice? Explore tuition costs, universities, scholarships, student life, visas and career opportunities.",
+  keywords: [
+      "Why Study in Lithuania",
+      "Study in Lithuania",
+      "Study in Lithuania for Indian Students",
+      "Benefits of Studying in Lithuania",
+      "Study in Lithuania 2026",
+      "Lithuania Study Abroad",
+      "Lithuania Universities",
+      "Lithuania Scholarships",
+      "Lithuania Student Visa",
+      "Affordable Study in Europe"
+  ],
   image: "/images/blogs/why-study-in-lithuania.webp",
-
   category: "Lithuania",
-
   publishDate: "2026-06-06",
-
   readingTime: "12 min read",
-
   sections: [
     {
       type: "paragraph",
@@ -1087,27 +1098,26 @@ export const blogs = [
 },
 {
   id: 4,
-
   title: "Lithuania Courses in 2026: Find the Perfect Program for Your Career Goals",
-
   slug: "lithuania-courses-2026-find-the-perfect-program-for-your-career-goals",
-
   metaTitle:
-    "Lithuania Courses  | Find the Perfect Program for Your Career Goals",
-
+    "Lithuania Courses 2026: Which Program Fits Your Career?",
   metaDescription:
-    "Explore top Lithuania courses for 2026, including Bachelor's, Master's, IT, Business, Engineering, Health Sciences, Aviation, and more for Indian students.",
-
-  keywords: ["Lithuania Courses 2026", "Study in Lithuania Courses", "Courses in Lithuania for Indian Students", "Lithuania Programs for International Students", "Bachelor's Courses Lithuania", "Master's Courses Lithuania", "IT Courses Lithuania", "Engineering Courses Lithuania", "Business Courses Lithuania", "Health Sciences Lithuania", "Aviation Courses Lithuania", "Lithuania Universities", "English Taught Courses Lithuania", "Study in Europe", "Lithuania Admission 2026", "Lithuania Career Courses", "Best Courses in Lithuania", "Lithuania Degree Programs", "Study Abroad Lithuania", "Lithuania Higher Education"],
-
+    "Which Lithuania courses in 2026 can actually match your career goals? Explore top programs, fees, English-taught courses, scholarships, and universities.",
+  keywords: [
+      "Lithuania Courses 2026",
+      "Best Courses in Lithuania",
+      "Lithuania Courses for International Students",
+      "Study Courses in Lithuania",
+      "Best Courses to Study in Lithuania",
+      "Lithuania University Courses",
+      "English Taught Courses in Lithuania",
+      "Lithuania Study Programs"
+  ],
   image: "/images/blogs/lithuania-courses-2026.webp",
-
   category: "Lithuania",
-
   publishDate: "2026-06-06",
-
   readingTime: "13 min read",
-
   sections: [
     {
       type: "paragraph",
@@ -1537,37 +1547,38 @@ export const blogs = [
 },
 {
   id: 5,
-
   title:
     "Best Universities in Lithuania Offering Scholarships & Affordable Tuition",
-
   slug:
     "best-universities-in-lithuania-offering-scholarships-affordable-tuition",
-
   metaTitle:
-    "Best Universities in Lithuania Offering Scholarships & Affordable Tuition",
-
+    "Top Universities in Lithuania: Scholarships & Affordable Fees",
   metaDescription:
-    "Explore the best universities in Lithuania offering scholarships, affordable tuition fees, English-taught programs, and globally recognized degrees for Indian students.",
-
-  keywords: ["Best Universities in Lithuania", "Lithuania Universities with Scholarships", "Affordable Universities in Lithuania", "Study in Lithuania", "Lithuania Scholarships", "Lithuania Tuition Fees", "Universities in Lithuania for Indian Students", "Top Lithuanian Universities", "English Taught Programs Lithuania", "Lithuania Higher Education", "Vilnius University", "VILNIUS TECH", "Kaunas University of Technology", "Vytautas Magnus University", "ISM University", "Lithuanian University Scholarships", "Affordable Tuition Lithuania", "Study in Europe", "International Students Lithuania", "Lithuania Admission 2026"],
-
+    "Find affordable universities in Lithuania and learn how scholarships can lower tuition fees. Review funding options for international students before applying.",
+  keywords: [
+      "Best Universities in Lithuania",
+      "Top Universities in Lithuania",
+      "Universities in Lithuania with Scholarships",
+      "Affordable Universities in Lithuania",
+      "Lithuania Universities for International Students",
+      "Lithuania Universities for Indian Students",
+      "Affordable Tuition Fees in Lithuania",
+      "Scholarships in Lithuania",
+      "Study in Lithuania",
+      "Lithuania University Tuition Fees",
+      "Best Lithuania Universities"
+  ],
   image:
     "/images/blogs/best-universities-in-lithuania.webp",
-
   category: "Lithuania",
-
   publishDate: "2026-06-06",
-
   readingTime: "14 min read",
-
   sections: [
     {
       type: "paragraph",
       content:
         "Lithuania has become one of the fastest-growing study destinations in Europe for international students. With affordable tuition fees, globally recognised degrees, modern campuses, and excellent career opportunities, many students are now choosing this Baltic country for higher education."
     },
-
     {
       type: "paragraph",
       content:
@@ -2007,21 +2018,23 @@ export const blogs = [
 },
 {
   id: 6,
-
   title:
     "How to Apply to Lithuanian Universities",
-
   slug:
     "how-to-apply-to-lithuanian-universities",
-
   metaTitle:
-    "How to Apply to Lithuanian Universities  | Complete Admission Guide for Indian Students",
-
+    "Jobs for Students in Lithuania 2026 – Top 10 Options",
   metaDescription:
-    "Learn how to apply to Lithuanian universities in 2026. Explore eligibility, required documents, admission process, application deadlines, scholarships, and student visa requirements for Indian students.",
-
-  keywords: ["How to Apply to Lithuanian Universities", "Lithuania University Admission", "Study in Lithuania Application Process", "Lithuania Admission Guide", "Lithuanian Universities for Indian Students", "Lithuania Student Visa", "Lithuania Scholarships", "Lithuania Universities Admission Requirements", "Study in Lithuania 2026", "Lithuania Application Deadlines", "Lithuania MOI Accepted", "Study Abroad Lithuania", "Lithuania Bachelor's Admission", "Lithuania Master's Admission", "Lithuania PhD Admission", "Lithuania Universities", "Lithuania Education", "Lithuania Student Residence Permit", "International Students Lithuania", "Lithuania Admission Process"],
-
+    "Find jobs for students in Lithuania with 10 part-time options, salary insights and internship tips. See how international students can work in 2026.",
+  keywords: [
+      "Jobs for Students in Lithuania",
+      "Part-Time Jobs in Lithuania for Students",
+      "Student Jobs in Lithuania",
+      "Jobs in Lithuania for International Students",
+      "Part-Time Work in Lithuania",
+      "Best Jobs for Students in Lithuania",
+      "Lithuania Student Jobs 2026"
+  ],
   image:
     "/images/blogs/how-to-apply-lithuanian-universities.webp",
 
@@ -2406,30 +2419,29 @@ export const blogs = [
 },
 {
   id: 7,
-
   title:
     "10 Essential Steps for a Lithuania Student Visa Application in 2026",
-
   slug:
     "lithuania-student-visa-application-guide-2026",
-
   metaTitle:
-    "Lithuania Student Visa Application Guide  | Complete Visa & TRP Process for Indian Students",
-
+    "Looking for Lithuania Consultants in Delhi? Start Here",
   metaDescription:
-    "Learn the complete Lithuania student visa application process for 2026. Discover visa requirements, documents, TRP application, financial proof, processing times, and travel preparation for Indian students",
-
-  keywords: ["Lithuania Student Visa 2026", "Lithuania Visa Application Guide", "Lithuania Student Visa for Indian Students", "Lithuania TRP Process", "Lithuania Residence Permit", "Lithuania Study Visa", "Lithuania Visa Requirements", "Lithuania Visa Documents", "Lithuania Student Immigration", "Lithuania Student Residence Permit", "Lithuania Admission and Visa", "Lithuania Student Permit", "Lithuania Visa Processing Time", "Lithuania Student Visa Documents", "Lithuania Education Visa", "Study in Lithuania", "Lithuania Student Guide", "Lithuania TRP Application", "Lithuania Visa Success Tips", "Lithuania International Students"],
-
+    "Studying in Lithuania from Delhi? Compare universities, check entry rules, prepare key documents and learn what to know before you apply for a student visa.",
+  keywords: [
+      "Study in Lithuania Consultants in Delhi",
+      "Lithuania Study Consultants in Delhi",
+      "Lithuania Education Consultants in Delhi",
+      "Study in Lithuania Consultants Delhi",
+      "Lithuania University Consultants in Delhi",
+      "Lithuania Study Abroad Consultants",
+      "Lithuania Student Visa Consultants in Delhi",
+      "Lithuania Admission Consultants in Delhi"
+  ],
   image:
     "/images/blogs/lithuania-student-visa-guide.webp",
-
   category: "Lithuania",
-
   publishDate: "2026-06-06",
-
   readingTime: "13 min read",
-
   sections: [
     {
       type: "paragraph",
@@ -4261,9 +4273,16 @@ export const blogs = [
   "id": 10,
   "title": "Study in Lithuania Consultants in Delhi: Expert Help for Your European Education Journey",
   "slug": "study-in-lithuania-consultants-in-delhi",
-  "metaTitle": "Study in Lithuania Consultants in Delhi | Trusted Lithuania Education Consultants",
-  "metaDescription": "Looking for the best Study in Lithuania consultants in Delhi? Get expert guidance on university admissions, scholarships, visas, accommodation, and career opportunities in Lithuania",
-  "keywords": ["Study in Lithuania Consultants in Delhi", "Lithuania Education Consultants Delhi", "Lithuania Study Visa Consultants", "Lithuania Admission Consultants", "Study Abroad Consultants Delhi", "Lithuania Universities Admission", "Lithuania Student Visa Delhi", "Lithuania Scholarships", "Lithuania Education Consultants India", "Lithuania Universities for Indian Students", "Study in Europe Consultants", "Lithuania Admission Process", "Lithuania Student Visa Assistance", "Lithuania Overseas Education Consultants", "Lithuania Career Guidance", "Lithuania University Applications", "Best Lithuania Consultants Delhi", "Study in Lithuania India", "Lithuania Education Abroad", "Lithuania Student Counselling"],
+  "metaTitle": "Study in Lithuania Consultants in Delhi – Expert Guidance",
+  "metaDescription": "Searching for Lithuania education consultants in Delhi? Learn what to check for university selection, admission support, visa guidance and scholarships.",
+  "keywords": [
+      "Study in Lithuania Consultants in Delhi",
+      "Lithuania Study Consultants Delhi",
+      "Lithuania Education Consultants",
+      "Lithuania University Consultants",
+      "Lithuania Student Visa Consultants",
+      "Study in Lithuania for Indian Students"
+  ],
   "image": "/images/blogs/lithuania-consultants-delhi.webp",
   "category": "Lithuania",
   "publishDate": "2026-06-06",
@@ -4603,9 +4622,17 @@ export const blogs = [
   "id": 11,
   "title": "Study in Lithuania Consultants in Punjab",
   "slug": "study-in-lithuania-consultants-in-punjab",
-  "metaTitle": "Study in Lithuania Consultants in Punjab | Lithuania Admission & Visa Assistance",
-  "metaDescription": "Looking for the best study in Lithuania consultants in Punjab? Get expert guidance for university admissions, scholarships, student visas, accommodation, and career opportunities in Lithuania. Start your study abroad journey with trusted Lithuania education consultants.",
-  "keywords": ["Study in Lithuania Consultants Punjab", "Lithuania Education Consultants Punjab", "Study Abroad Lithuania Punjab", "Lithuania Student Visa Punjab", "Lithuania University Admission Punjab", "Lithuania Consultants India", "Study in Europe from Punjab", "Lithuania Scholarships for Indian Students", "Lithuania Admission Assistance", "Overseas Education Consultants Punjab"],
+  "metaTitle": "Study in Lithuania Consultants in Punjab | Admission & Visa",
+  "metaDescription": "Study in Lithuania consultants in Punjab help students find scholarships, choose a university and prepare visa papers. Plan your next step with expert advice.",
+  "keywords": [
+      "Study in Lithuania Consultants in Punjab",
+      "Lithuania Education Consultants in Punjab",
+      "Lithuania Study Visa Consultants",
+      "Lithuania Admission Consultants",
+      "Study Abroad Consultants in Punjab",
+      "Study in Lithuania Consultants",
+      "Lithuania Student Visa Assistance"
+  ],
   "image": "/images/blogs/lithuania-consultants-punjab.webp",
   "category": "Lithuania",
   "publishDate": "2026-06-06",
@@ -4988,10 +5015,18 @@ export const blogs = [
   id: 12,
   title: "Study in Lithuania Consultants: Start Your Study Abroad Journey Here",
   slug: "study-in-lithuania-consultants",
-  metaTitle: "Study in Lithuania Consultants India | Lithuania Admission & Visa Experts",
+  metaTitle: "Study in Lithuania Consultants – Are You Ready to Apply?",
   metaDescription:
-    "Looking for the best Study in Lithuania Consultants in India? Get expert guidance for university admissions, student visas, scholarships, accommodation, and career opportunities in Lithuania. Apply to top Lithuanian universities with trusted education consultants.",
-  keywords: ["Study in Lithuania Consultants India", "Best Study in Lithuania Consultants India", "Lithuania Education Consultants India", "Study in Lithuania from India", "Lithuania Admission Consultants", "Lithuania Student Visa Consultants India", "Overseas Education Consultants India", "Lithuania Universities for Indian Students", "Lithuania Scholarship Consultants", "Lithuania Visa Assistance India", "Study Abroad Lithuania", "Lithuania Higher Education", "Lithuania Admission Guidance", "Lithuania Student Recruitment", "Lithuania University Application Support", "Study in Europe from India"],
+    "Planning to study in Lithuania? Discover how the right consultants can simplify university selection, admission, scholarships and student visa guidance.",
+  keywords: [
+      "Study in Lithuania Consultants",
+      "Lithuania Study Abroad Consultants",
+      "Lithuania Education Consultants",
+      "Lithuania University Admission Consultants",
+      "Lithuania Student Visa Consultants",
+      "Study in Lithuania for Indian Students",
+      "Lithuania Admission Consultants"
+  ],
   image: "/images/blogs/lithuania-consultants.webp",
   category: "Lithuania",
   publishDate: "2026-06-08",
@@ -5245,26 +5280,18 @@ export const blogs = [
   id: 13,
   title: "Study in Lithuania for Indian Students: Admission Process, Visa & Consultants",
   slug: "study-in-lithuania-for-indian-students",
-  metaTitle: "Study in Lithuania for Indian Students | Admission, Visa & Consultants",
+  metaTitle: "Study in Lithuania for Indian Students: Is It Worth It in 2027?",
   metaDescription:
-    "Planning to study in Lithuania from India? Get guidance on Lithuanian universities, popular courses, admission requirements, student visa process, costs, student life, and study abroad consultants in Delhi.",
+    "What makes Lithuania an emerging choice for Indian students? Explore study options, university life, costs, scholarships and opportunities before making your move.",
   keywords: [
-    "Study in Lithuania for Indian Students",
-    "Study in Lithuania Consultants for Indian Students",
-    "Study in Lithuania Consultants Delhi",
-    "Study in Lithuania from India",
-    "Lithuania Study Abroad Consultants",
-    "Lithuania Admission Consultants",
-    "Lithuania Student Visa Consultants",
-    "Lithuania Universities for Indian Students",
-    "Study in Lithuania",
-    "Lithuania Student Visa Process",
-    "Lithuania Admission Process",
-    "Lithuania Study Visa",
-    "Cost of Studying in Lithuania",
-    "Popular Courses in Lithuania",
-    "Study Abroad Consultants Delhi",
-    "Study in Europe for Indian Students"
+      "Study in Lithuania for Indian Students",
+      "Study in Lithuania",
+      "Lithuania for Indian Students",
+      "Lithuania Universities",
+      "Study in Lithuania Cost",
+      "Lithuania Scholarships",
+      "Lithuania Student Visa",
+      "Study Abroad in Lithuania"
   ],
   image: "/images/blogs/study-in-lithuania-for-indian-students.webp",
   category: "Lithuania",

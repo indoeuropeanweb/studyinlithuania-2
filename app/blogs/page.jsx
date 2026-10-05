@@ -6,9 +6,20 @@ import { FaArrowRightLong } from "react-icons/fa6";
 
 
 export const metadata = {
-  title: "Study in Lithuania Blogs | Student Guides, Visa Tips, Universities & Scholarships",
-  description: "Explore expert blogs on studying in Lithuania. Get insights on universities, admissions, visas, scholarships, student life, accommodation, and career opportunities for Indian students.",
-  keywords: ["Study in Lithuania Blogs", "Lithuania Student Blog", "Study in Lithuania Guide", "Lithuania Universities Blog", "Lithuania Admission Guide", "Lithuania Student Visa Blog", "Lithuania Scholarships Blog", "Lithuania Student Life", "Study Abroad Lithuania", "Lithuania Living Costs", "Lithuania Accommodation Guide", "Lithuania Work Opportunities", "Lithuania Career Guide", "Lithuania Education Blog", "International Students Lithuania", "Lithuania Application Process", "Lithuania Universities", "Indian Students Lithuania", "Lithuania Study Tips", "Study in Europe Blog"],
+  title: "Get Study in Lithuania Consultants Blogs For Indian Student",
+  description: "Explore study in Lithuania blog for Indian students. Get the latest on visas, scholarships, and top universities. Start your application process Now.",
+  keywords: [
+      "Lithuania Blog",
+      "Study in Lithuania Blog",
+      "Study in Lithuania Articles",
+      "Lithuania Student Blog",
+      "Study Abroad Lithuania",
+      "Lithuania Universities",
+      "Study in Lithuania for Indian Students",
+      "Lithuania Student Visa",
+      "Lithuania Scholarships",
+      "Lithuania Admission Guide"
+  ],
   alternates: {
     canonical: "https://www.studyinlithuania.in/blogs"
   },
@@ -20,9 +31,9 @@ export const metadata = {
     type: "website",
     url: "https://www.studyinlithuania.in/blogs/",
     title:
-      "Study in Lithuania Blogs | Student Guides, Visa Tips & University Updates",
+      "Get Study in Lithuania Consultants Blogs For Indian Student",
     description:
-      "Read expert blogs on Lithuanian universities, admissions, scholarships, visas, accommodation, student life and career opportunities.",
+      "Explore study in Lithuania blog for Indian students. Get the latest on visas, scholarships, and top universities. Start your application process Now.",
     siteName: "Study in Lithuania",
     locale: "en_US",
     images: [
