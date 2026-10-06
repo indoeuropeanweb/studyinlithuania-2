@@ -7,7 +7,7 @@ const footer = () => {
     <footer className='max-w-6xl mx-auto'>
         <div className='py-6 grid grid-cols-1 md:grid-cols-4 gap-5 px-6'>
           <div className='max-w-100 col-span-1'>
-            <Link className='' href={'/'}><Image className="" width={140} height={70} src='/images/logos/logo.webp' alt="study in lithuania centre" /></Link>
+            <Link className='' href={'/'}><Image className="w-[160px] h-[75px]" width={140} height={70} src='/images/logos/logo.webp' alt="study in lithuania centre" /></Link>
             <p className='mt-3'>Study​‍​‌‍​‍‌ in Lithuania at low cost while obtaining a globally recognized education in Europe, Receive guidance from professionals for university admissions as well as student ​‍​‌‍​‍‌visa.</p>
             <div className='flex gap-5 mt-3'>
               <span className=''>Follow us on</span>

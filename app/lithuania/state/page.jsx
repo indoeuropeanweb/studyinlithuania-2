@@ -181,8 +181,12 @@ const page = () => {
               <p className='mt-2 text-roboto'>Many universities in Lithuania offer bachelor’s and master’s programs in English,
                 making it easier for international students to study without language barriers.</p>
             </div>
+            <div className='mt-3'>
+              <h4 className='text-lg md:text-xl text-roboto'>Beautiful Nature and Climate of Lithuania</h4>
+              <p className='mt-2 text-roboto'>Lithuania brings together a very nice mix of <Link className="font-semibold hover:underline" href="/lithuania/nature-and-climate">nature and climate</Link>, offering green woods, beautiful lakes, quiet villages, and changing seasons that can be clearly noticed. <br /> Students from other countries will find this great environment as it offers them the possibility to study, travel around the country and get a relaxed life at the same time.</p>
+            </div>
           </div>
-        <div className="flex justify-end items-end">
+        <div className="flex justify-end items-end mt-5">
             <Link href={'/lithuania/nature-and-climate'} className="text-blue-500 font-roboto hover:underline">Read about nature and climate <FaArrowRightLong className="inline-block"/></Link>
         </div>
       </div>

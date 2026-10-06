@@ -153,12 +153,12 @@ const page = () => {
 
                       <div className="space-y-6">
                         <div className="relative flex gap-5">
-                          <div className="relative z-10 flex items-center justify-center w-10 h-10 rounded-full bg-[#048D4E] text-white font-bold shadow-lg">
+                          <div className="relative z-10 flex items-center justify-center w-10 h-10 rounded-full bg-[#BE3A34] text-white font-bold shadow-lg">
                             1
                           </div>
 
-                          <div className="flex-1 bg-white border border-[#048D4E]/15 rounded-2xl p-5 shadow-sm hover:shadow-md transition-all duration-300">
-                            <h5 className="text-lg font-semibold text-[#15803D]">
+                          <div className="flex-1 bg-white border text-[#BE3A34] border-[#048D4E]/15 rounded-2xl p-5 shadow-sm hover:shadow-md transition-all duration-300">
+                            <h5 className="text-lg font-semibold">
                               Choose Your University
                             </h5>
                             <p className="mt-2 text-gray-600 text-sm leading-relaxed">
@@ -174,7 +174,7 @@ const page = () => {
                           </div>
 
                           <div className="flex-1 bg-white border border-[#FFB81C]/20 rounded-2xl p-5 shadow-sm hover:shadow-md transition-all duration-300">
-                            <h5 className="text-lg font-semibold text-[#3d3d3d]">
+                            <h5 className="text-lg font-semibold text-[#FFB81C]">
                               Check Scholarship Availability
                             </h5>
                             <p className="mt-2 text-gray-600 text-sm leading-relaxed">
@@ -185,12 +185,12 @@ const page = () => {
                         </div>
 
                         <div className="relative flex gap-5">
-                          <div className="relative z-10 flex items-center justify-center w-10 h-10 rounded-full bg-[#BE3A34] text-white font-bold shadow-lg">
+                          <div className="relative z-10 flex items-center justify-center w-10 h-10 rounded-full bg-[#15803D] text-white font-bold shadow-lg">
                             3
                           </div>
 
                           <div className="flex-1 bg-white border border-[#BE3A34]/20 rounded-2xl p-5 shadow-sm hover:shadow-md transition-all duration-300">
-                            <h5 className="text-lg font-semibold text-[#BE3A34]">
+                            <h5 className="text-lg font-semibold text-[#15803D]">
                               Submit Required Documents
                             </h5>
                             <p className="mt-2 text-gray-600 text-sm leading-relaxed">

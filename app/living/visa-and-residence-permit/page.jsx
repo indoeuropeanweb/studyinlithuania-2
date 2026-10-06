@@ -203,6 +203,7 @@ const page = () => {
                     <li><IoIosArrowForward className='inline-block size-5'/>&nbsp;Document preparation</li>
                     <li><IoIosArrowForward className='inline-block size-5'/>&nbsp;Living and registration procedures</li>
                 </ul>
+                <p className='text-inter text-md my-5 text-justify'>International students can also look for part-time jobs and <Link href={'/living/working'} className="font-semibold hover:underline">work opportunities in Lithuania</Link>  and understand how they can get work experience while studying.</p>
                 <p className='text-inter text-md my-5 text-justify'>Support is usually available through official migration and immigration departments, ensuring students receive proper guidance during their stay in Lithuania.</p>
               </div>
             </div>

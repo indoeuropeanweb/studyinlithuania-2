@@ -35,8 +35,7 @@ export const metadata = {
   siteName: "Study in Lithuania Centre",
   images: [
     {
-      url:
-        "https://www.studyinlithuania.in/images/logos/logo.png",
+      url: "https://www.studyinlithuania.in/images/logos/logo.png",
       width: 1200,
       height: 630,
       alt: "Student Success Stories",
@@ -103,33 +102,6 @@ const page = () => {
         "contentUrl":
           "https://www.studyinlithuania.in/gallery/"
       },
-      {
-        "@type": "FAQPage",
-        "@id":
-          "https://www.studyinlithuania.in/faq",
-        "mainEntity": [
-          {
-            "@type": "Question",
-            "name":
-              "What can I see on the gallery page?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text":
-                "The gallery page includes student video reviews and success stories."
-            }
-          },
-          {
-            "@type": "Question",
-            "name":
-              "Are the student reviews about studying in Lithuania?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text":
-                "Yes, the reviews feature students studying in Lithuania."
-            }
-          }
-        ]
-      }
     ]
   };
 

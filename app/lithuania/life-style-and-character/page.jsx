@@ -56,7 +56,7 @@ export const metadata = {
 
 const page = () => {
 
-    const schemaData = {
+  const schemaData = {
     "@context": "https://schema.org",
     "@graph": [
       {
@@ -132,7 +132,7 @@ const page = () => {
                 </li>
                 <li className='space-y-2'>
                     <h4 className='text-lg md:text-xl font-roboto'>Strong Cultural Identity</h4>
-                    <p className='text-md text-justify font-inter'>The Lithuanians are proud of their language, traditions, music, and historical heritage, which can still be found in modern society today. </p>
+                    <p className='text-md text-justify font-inter'>The Lithuanians are proud of <Link className="font-semibold hover:underline" href="/lithuania/language">East-Baltic language</Link>, traditions, music, and historical heritage, which can still be found in modern society today. </p>
                 </li>
                 <li className='space-y-2'>
                     <h4 className='text-lg md:text-xl font-roboto'>Modern Yet Peaceful Living</h4>

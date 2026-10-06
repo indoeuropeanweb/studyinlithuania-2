@@ -42,20 +42,19 @@ const Header = () => {
       <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-18 lg:h-24">
           <Link href="/" className="flex items-center">
-            <Image
-              src={
-                darkHeader
-                  ? "/images/logos/light-logo.webp"
-                  : "/images/logos/logo.webp"
-              }
-              alt="Study in Lithuania"
-              width={120}
-              height={45}
-              loading="lazy"
-              className="transition duration-300"
-            />
+          <Image
+            src={
+              darkHeader
+                ? "/images/logos/light-logo.webp"
+                : "/images/logos/logo.webp"
+            }
+            alt="Study in Lithuania"
+            width={150}
+            height={50}
+            loading="lazy"
+            className="w-full h-auto max-w-37.5 transition duration-300"
+          />
           </Link>
-
           <nav className="hidden lg:flex items-center gap-8 xl:gap-10 font-medium">
             <Link
               href="/lithuania"
@@ -128,10 +127,11 @@ const Header = () => {
               target="_blank"
             >
               <Image
+                className="h-auto"
                 height={45}
                 width={110}
-                src={"/images/logos/meet-exp.png"}
-                alt="connect with our experts through zoom"
+                src="/images/logos/meet-exp.png"
+                alt="Connect with our experts through Zoom"
               />
               <span className="text-md font-semibold text-[#2766e0]">
                 Join Via Zoom
@@ -224,14 +224,13 @@ const Header = () => {
               href="https://zoom.us/j/91022278457#success"
               target="_blank"
             >
-              <Image
-                className="inline-block"
-                height={30}
-                width={60}
-                src={"/images/logos/meet-exp.png"}
-                alt="connect with our experts through zoom"
-              />
-
+            <Image
+              className="inline-block h-auto"
+              height={30}
+              width={60}
+              src="/images/logos/meet-exp.png"
+              alt="Connect with our experts through Zoom"
+            />
               <span className="ms-3 text-lg font-semibold text-[#2766e0]">
                 Join Via Zoom
               </span>

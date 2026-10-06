@@ -17,14 +17,14 @@ export const metadata = {
       "Study in Lithuania"
   ],
   alternates: {
-    canonical: "https://www.studyinlithuania.in/living"
+    canonical: "https://www.studyinlithuania.in/living/"
   },
   robots: {
     index: true,
     follow: true,
   },
     openGraph: {
-    type: "article",
+    type: "website",
     title:
       "Get Expert Help for Indian Student Accommodation in Lithuania",
     description:
@@ -67,12 +67,6 @@ export const metadata = {
         }
       },
       {
-        "@type": "WebSite",
-        "@id": "https://www.studyinlithuania.in/",
-        "url": "https://www.studyinlithuania.in/",
-        "name": "Study in Lithuania"
-      },
-      {
         "@type": "WebPage",
         "@id": "https://www.studyinlithuania.in/living/",
         "url": "https://www.studyinlithuania.in/living/",
@@ -84,50 +78,23 @@ export const metadata = {
           "@id": "https://www.studyinlithuania.in/"
         }
       },
-      {
-        "@type": "Article",
-        "@id": "https://www.studyinlithuania.in/living/#article",
-        "headline":
-          "Living in Lithuania as an International Student",
-        "mainEntityOfPage": {
-          "@id":
-            "https://www.studyinlithuania.in/living/"
-        },
-        "publisher": {
-          "@id":
-            "https://www.studyinlithuania.in/"
-        },
-        "author": {
-          "@id":
-            "https://www.studyinlithuania.in/"
-        }
-      },
-      {
-        "@type": "FAQPage",
-        "@id": "https://www.studyinlithuania.in/faq",
-        "mainEntity": [
           {
-            "@type": "Question",
-            "name":
-              "What is the cost of living in Lithuania for students?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text":
-                "Lithuania is considered one of the more affordable European countries for international students."
-            }
-          },
-          {
-            "@type": "Question",
-            "name":
-              "Is Lithuania safe for international students?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text":
-                "Lithuania is generally regarded as a safe and welcoming country."
-            }
-          }
-        ]
-      }
+      "@type": "BreadcrumbList",
+      itemListElement: [
+        {
+          "@type": "ListItem",
+          position: 1,
+          name: "Home",
+          item: "https://www.studyinlithuania.in/",
+        },
+        {
+          "@type": "ListItem",
+          position: 2,
+          name: "living",
+          item: "https://www.studyinlithuania.in/living/",
+        },
+      ],
+    },
     ]
   };
 

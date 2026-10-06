@@ -5,7 +5,7 @@ import Link from 'next/link';
 import { FaArrowRightLong } from 'react-icons/fa6';
 
 export const metadata = {
-  title: "Guide to Seasons and Nature, Climate in Lithuania For Student",
+  title: "Guide to Nature and Climate, Lithuania For Indian Students",
   description: "Explore Climate in Lithuania and four seasons. Learn about weather conditions, temperatures, and student life in Latvia. Plan your move with our expert guide.",
   keywords: [
       "Climate in Lithuania",
@@ -31,7 +31,7 @@ export const metadata = {
   openGraph: {
     type: "website",
     title:
-      "Guide to Seasons and Nature, Climate in Lithuania For Student",
+      "Guide to Nature and Climate, Lithuania For Indian Students",
     description:
       "Explore Lithuania's nature and climate, from beautiful forests and lakes to its four distinct seasons. Learn about weather conditions, temperatures, and student life in Lithuania.",
     url: "https://www.studyinlithuania.in/lithuania/nature-and-climate/",
@@ -49,7 +49,7 @@ export const metadata = {
   twitter: {
     card: "summary_large_image",
     title:
-      "Guide to Seasons and Nature, Climate in Lithuania For Student",
+      "Guide to Nature and Climate, Lithuania For Indian Students",
     description:
       "Explore Lithuania's nature and climate, from beautiful forests and lakes to its four distinct seasons. Learn about weather conditions, temperatures, and student life in Lithuania.",
     images: [
@@ -127,7 +127,7 @@ const page = () => {
     <>
       <Breadcrumb heading={'Nature and Climate of Lithuania: A Perfect Blend of Green Landscapes and Four Beautiful Seasons'} />
       <div className='px-5 py-5'>
-        <h2 className='text-2xl md:text-4xl font-aino'>Nature and Weather</h2>
+        <h2 className='text-2xl md:text-4xl font-aino'>Nature and Climate</h2>
         <div className='grid grid-cols-1 md:grid-cols-2 gap-5'>
         <p className='text-md font-roboto mt-3 text-justify'>
             Lithuania is famous for its delightful natural scenery, tranquil environment, and hygienic
@@ -139,7 +139,7 @@ const page = () => {
         <Image className="rounded-md" width={320} height={140} src="/images/lithuania/nature-and-weather/nature-and-weather.webp" alt="nature and weather of lithuania"/>
         </div>
         <div className='mt-10'>
-            <h2 className='text-xl md:text-2xl font-roboto text-[#5d5b5b]'>Key highlights of Lithuania&#39;s Weather and Climate</h2>
+            <h2 className='text-xl md:text-2xl font-roboto text-[#5d5b5b]'>Key highlights of Lithuania's Nature and Climate</h2>
             <ul className='mt-5 space-y-2'>
              <li><IoIosArrowForward className='size-6 inline-block'/>&nbsp;<b>Forest Coverage:</b> About one-third of the country is covered with forests.</li>
              <li><IoIosArrowForward className='size-6 inline-block'/>&nbsp;<b>Famous Natural Features:</b> Lakes, Rivers, Green Parks, Sand Dunes</li>

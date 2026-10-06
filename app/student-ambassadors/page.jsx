@@ -19,14 +19,14 @@ export const metadata = {
       "Study in Lithuania"
   ],
   alternates: {
-    canonical: "https://www.studyinlithuania.in/student-ambassadors"
+    canonical: "https://www.studyinlithuania.in/student-ambassadors/"
   },
   robots: {
     index: true,
     follow: true,
   },
-    openGraph: {
-    type: "article",
+  openGraph: {
+    type: "website",
     title:
       "Lithuania Student Ambassador | Real Stories and Success",
     description:
@@ -180,46 +180,25 @@ const page = () => {
         "description":
           "Read real experiences and success stories from international students studying in Lithuania."
       },
-      {
-        "@type": "Article",
-        "@id":
-          "https://www.studyinlithuania.in/student-ambassadors/",
-        "headline":
-          "Student Experiences in Lithuania",
-        "description":
-          "Real stories and experiences shared by students studying in Lithuania.",
-        "mainEntityOfPage": {
-          "@id":
-            "https://www.studyinlithuania.in/student-ambassadors/"
-        }
-      },
-      {
-        "@type": "FAQPage",
-        "@id":
-          "https://www.studyinlithuania.in/faq",
-        "mainEntity": [
           {
-            "@type": "Question",
-            "name":
-              "What can I learn from student ambassadors in Lithuania?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text":
-                "Student ambassadors share real-life experiences about academics, accommodation and student life."
-            }
-          },
-          {
-            "@type": "Question",
-            "name":
-              "Can I contact students currently studying in Lithuania?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text":
-                "Yes, prospective students can connect with ambassadors for first-hand insights."
-            }
-          }
-        ]
-      }
+      "@type": "BreadcrumbList",
+      "@id":
+        "https://www.studyinlithuania.in/student-ambassadors/#breadcrumb",
+      itemListElement: [
+        {
+          "@type": "ListItem",
+          position: 1,
+          name: "Home",
+          item: "https://www.studyinlithuania.in/",
+        },
+        {
+          "@type": "ListItem",
+          position: 2,
+          name: "Student Ambassadors",
+          item: "https://www.studyinlithuania.in/student-ambassadors/",
+        },
+      ],
+    },
     ]
   };
 

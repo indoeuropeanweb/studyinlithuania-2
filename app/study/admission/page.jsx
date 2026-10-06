@@ -110,7 +110,7 @@ const page = () => {
                 affordable European education, globally recognised degrees, and modern learning opportunities
                 in a safe environment.
                 <br />
-                Discover universities that provide <Link className="font-semibold hover:underline" href="/study/scholarships">scholarships</Link> to assist international students in lowering tuition costs and making education in Lithuania more accessible.
+                Discover universities that provide <Link className="font-semibold hover:underline" href="/study/scholarships">International Scholarships for Indian Students</Link> to assist international students in lowering tuition costs and making education in Lithuania more accessible.
                 </p>
                 <div className="mt-10">
                   <h4 className="text-xl md:text-2xl font-roboto text-[#3d3d3d]">Lithuania Admission Process – Step by Step</h4>

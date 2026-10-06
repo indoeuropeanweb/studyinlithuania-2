@@ -132,7 +132,7 @@ const HomeClient = () => {
           <div className="relative z-3 max-w-6xl mx-auto">
             <div className="grid grid-cols-1 lg:grid-cols-2 justify-center items-center gap-5 px-8">
               <div className="mx-auto">
-                 <Image className="mb-5 rounded-md" width={360} height={480} src="/images/home/map.webp" alt="study abroad lithuania map"/>
+                 <Image className="mb-5 rounded-md w-full h-full" width={360} height={480} src="/images/home/map.webp" alt="study abroad lithuania map"/>
               </div>
               <div className="mb-5">
                  <ul className="pr-5">

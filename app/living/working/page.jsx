@@ -29,7 +29,7 @@ export const metadata = {
     follow: true,
   },
   openGraph: {
-    type: "article",
+    type: "website",
     url: "https://www.studyinlithuania.in/living/working",
     siteName: "Study in Lithuania",
     title:
@@ -149,7 +149,7 @@ const page = () => {
               </div>
               <div className='mt-5'>
                 <h5 className='font-roboto text-lg md:text-xl'>Average Salary and Working Hours</h5>
-                <p className='mt-2 text-inter text-md text-justify'>The salary in Lithuania depends on the type of work, skills, and working hours. Many students work part-time to support accommodation, food, and personal expenses while studying abroad.</p>
+                <p className='mt-2 text-inter text-md text-justify'>The salary in Lithuania depends on the type of work, skills, and working hours. Many students work part-time to support accommodation, food, and personal expenses while <Link className="font-semibold hover:underline" href="/">study in lithuania</Link>.</p>
                 <p className='mt-2 text-inter text-md text-justify'>Indian students can usually manage both studies and work comfortably with proper time management. However, universities always recommend prioritising academic performance during the study period.</p>
               </div>
               <div className='mt-5'>

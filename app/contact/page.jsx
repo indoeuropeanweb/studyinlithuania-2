@@ -78,15 +78,6 @@ const page = () => {
         },
       },
       {
-        "@type": "WebSite",
-        "@id": "https://www.studyinlithuania.in/#website",
-        url: "https://www.studyinlithuania.in/",
-        name: "Study in Lithuania Centre",
-        publisher: {
-          "@id": "https://www.studyinlithuania.in/#organization",
-        },
-      },
-      {
         "@type": "ContactPage",
         "@id":
           "https://www.studyinlithuania.in/contact/#contactpage",
@@ -184,8 +175,8 @@ const page = () => {
              <div className=''>
                 <h2 className='text-2xl md:text-4xl font-aino'>Study in Lithuania Contact – Get Expert Guidance for Your Future</h2>
                 <h4 className='text-md md:text-lg font-roboto mt-3'>Connect With Lithuania Education Experts</h4>
-                <p className='text-md font-inter mt-3 text-justify'>Planning to study in Lithuania? Whether you&#39;re exploring universities, looking for scholarship opportunities, or need guidance on the Lithuania student visa process, our team is here to help.</p>
-                <p className='text-md font-inter mt-3 text-justify'>We understand that studying abroad is one of the most important decisions in a student&#39;s life. Our experienced advisors provide personalised guidance, helping students choose the right university, course, and career pathway while making the Lithuania admission and visa process smooth and stress-free.</p>
+                <p className='text-md font-inter mt-3 text-justify'>Planning to <Link className="font-semibold hover:underline" href="/">study in Lithuania</Link>? Whether you're exploring universities, looking for scholarship opportunities, or need guidance on the Lithuania student visa process, our team is here to help.</p>
+                <p className='text-md font-inter mt-3 text-justify'>We understand that studying abroad is one of the most important decisions in a student's life. Our experienced advisors provide personalised guidance, helping students choose the right university, course, and career pathway while making the Lithuania admission and visa process smooth and stress-free.</p>
              </div>
              <div className='mt-10'>
               <div className='grid md:grid-cols-3 grid-cols-1 gap-5 border-2 border-dotted border-secondary p-4 rounded-lg bg-gray-100'>
@@ -219,7 +210,7 @@ const page = () => {
                     <li className='text-lg font-roboto'><IoIosArrowForward className='inline-block size-6'/>&nbsp;Interview preparation</li>
                     <li className='text-lg font-roboto'><IoIosArrowForward className='inline-block size-6'/>&nbsp;Pre-departure assistance</li>
                 </ul>
-                <Image className="rounded-md" width={380} height={180} src="/images/contact/our-expert.webp" alt="Meet Our Experts" />
+                <Image className="rounded-md h-full w-full" width={380} height={180} src="/images/contact/our-expert.webp" alt="Meet Our Experts" />
                 </div>
                 <p className='text-base text-inter mt-3 text-justify'>We help students make informed decisions and prepare for a successful academic future in
                     Lithuania.</p>
@@ -227,7 +218,7 @@ const page = () => {
              <div className='my-10 mx-5'>
                    <h2 className='text-2xl md:text-4xl font-aino'>Visit Our Office for Personalised Guidance</h2>
                    <p className='mt-3'>For students who prefer face-to-face counselling, we welcome you to connect with our
-                      experienced advisors and discuss their study abroad plans in detail.</p>
+                      experienced advisors and discuss their <Link className="font-semibold hover:underline" href="https://indoeuropean.in">study abroad plans in detail</Link>.</p>
                       <div className='py-5'>
                       <div className='border-2 border-dotted border-secondary p-4 rounded-md'>
                         <div>

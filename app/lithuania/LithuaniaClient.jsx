@@ -33,6 +33,7 @@ const LithuaniaClient = () => {
                             money during their studies, they are allowed to work part-time while studying so
                             they can have the knowledge of the international work process and support
                             themselves.</li>
+                         <li className='font-roboto text-justify'><IoIosArrowForward className='size-6 inline-block'/>&nbsp;<b>Explore the State of Lithuania:</b> International students can learn more about the regions of the country, cities, lifestyle, culture, living environment before choosing the place to study with the knowledge of the <Link className="font-semibold hover:underline" href="/lithuania/state">State of Lithuania</Link>.</li>
                       </ul>
                    <Image className="h-auto w-auto rounded-md" src="/images/lithuania/study-in-lithuania.webp" width={480} height={250} alt="study abroad lithuania" />
                  </div>

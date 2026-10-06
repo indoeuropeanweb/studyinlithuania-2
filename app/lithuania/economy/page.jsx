@@ -4,7 +4,7 @@ import Link from 'next/link';
 import { FaArrowRightLong } from 'react-icons/fa6';
 
 export const metadata = {
-  title: "Explore Lithuania Economy: GDP, Growth and Business for Students",
+  title: "Explore Lithuania Economy: GDP, Growth and Business",
   description: "Analyze the economy of Lithuania. Study GDP, trade, and top industries. Find out why it's a top spot for students and investors. Start your research here.",
   keywords: [
       "Economy of Lithuania",
@@ -30,7 +30,7 @@ export const metadata = {
   openGraph: {
     type: "website",
     title:
-      "Explore Lithuania Economy: GDP, Growth and Business for Students",
+      "Explore Lithuania Economy: GDP, Growth and Business",
     description:
       "Analyze the economy of Lithuania. Study GDP, trade, and top industries. Find out why it's a top spot for students and investors. Start your research here.",
     url: "https://www.studyinlithuania.in/lithuania/economy/",
@@ -47,7 +47,7 @@ export const metadata = {
   twitter: {
     card: "summary_large_image",
     title:
-      "Explore Lithuania Economy: GDP, Growth and Business for Students",
+      "Explore Lithuania Economy: GDP, Growth and Business",
     description:
       "Analyze the economy of Lithuania. Study GDP, trade, and top industries. Find out why it's a top spot for students and investors. Start your research here.",
     images: [
@@ -135,7 +135,7 @@ const page = () => {
             Lithuania has one of the fastest-growing economies in the Baltic region and is known for
             its stable and modern economic system. The country’s economy is mainly supported by
             industries such as information technology, manufacturing, transportation, finance,
-            agriculture, and international trade. Being a member of the European Union and the
+            agriculture, <Link className="font-semibold hover:underline" href="/lithuania/culture">lithuanian culture</Link> and international trade. Being a member of the European Union and the
             Eurozone has helped Lithuania attract global investments and expand its business
             opportunities across Europe.<br />
             In recent years, Lithuania has become a popular hub for startups, fintech companies,

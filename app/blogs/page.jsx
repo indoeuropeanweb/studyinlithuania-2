@@ -21,13 +21,13 @@ export const metadata = {
       "Lithuania Admission Guide"
   ],
   alternates: {
-    canonical: "https://www.studyinlithuania.in/blogs"
+    canonical: "https://www.studyinlithuania.in/blogs/"
   },
   robots: {
     index: true,
     follow: true,
   },
-    openGraph: {
+  openGraph: {
     type: "website",
     url: "https://www.studyinlithuania.in/blogs/",
     title:
@@ -49,7 +49,6 @@ export const metadata = {
 
 export default function Blogs() {
 
-
 const schema = {
   "@context": "https://schema.org",
   "@graph": [
@@ -61,21 +60,6 @@ const schema = {
       logo: {
         "@type": "ImageObject",
         url: "https://www.studyinlithuania.in/wp-content/uploads/logo.png",
-      },
-    },
-    {
-      "@type": "WebSite",
-      "@id": "https://www.studyinlithuania.in/#website",
-      url: "https://www.studyinlithuania.in",
-      name: "Study in Lithuania",
-      publisher: {
-        "@id": "https://www.studyinlithuania.in/#organization",
-      },
-      potentialAction: {
-        "@type": "SearchAction",
-        target:
-          "https://www.studyinlithuania.in/?s={search_term_string}",
-        "query-input": "required name=search_term_string",
       },
     },
     {
@@ -130,43 +114,6 @@ const schema = {
         },
       ],
     },
-    {
-      "@type": "FAQPage",
-      mainEntity: [
-        {
-          "@type": "Question",
-          name: "What topics are covered in the Study in Lithuania Blog?",
-          acceptedAnswer: {
-            "@type": "Answer",
-            text: "The blog covers universities, admissions, scholarships, visas, accommodation, student life, living costs, work opportunities and study abroad guidance.",
-          },
-        },
-        {
-          "@type": "Question",
-          name: "Are these blogs useful for Indian students?",
-          acceptedAnswer: {
-            "@type": "Answer",
-            text: "Yes, the blogs are designed to help Indian students understand the admission process, visa requirements, scholarships and life in Lithuania.",
-          },
-        },
-        {
-          "@type": "Question",
-          name: "Can I find scholarship and visa updates on this blog?",
-          acceptedAnswer: {
-            "@type": "Answer",
-            text: "Yes, the blog regularly publishes information about scholarships, university deadlines, admissions and visa procedures.",
-          },
-        },
-      ],
-    },
-    {
-      "@type": "ImageObject",
-      "@id": "https://www.studyinlithuania.in/blogs/#image",
-      contentUrl:
-        "https://www.studyinlithuania.in/wp-content/uploads/study-in-lithuania-blog.jpg",
-      caption: "Study in Lithuania Blog for International Students",
-      representativeOfPage: true,
-    },
   ],
 };
 
@@ -175,7 +122,7 @@ const schema = {
     <Breadcrumb heading="Study in Lithuania Blogs: Expert Guides, Student Resources and Study Abroad Insights" />
     <div className="max-w-6xl mx-auto py-10 px-5">
       <h2 className="text-2xl md:text-4xl font-aino mt-5">Study in Lithuania Blogs & Student Guides</h2>
-      <p className="text-base font-roboto mt-3 mb-10">Explore the latest updates, expert guidance, and student resources about studying in Lithuania. From university admissions and Lithuania student visa processes to scholarships, accommodation, career opportunities, and student life, our blogs are designed to help international students make informed decisions about their study abroad journey. Stay updated with valuable insights, practical tips, and real experiences to successfully plan your education in Lithuania.</p>
+      <p className="text-base font-roboto mt-3 mb-10">Explore the latest updates, expert guidance, and student resources about studying in Lithuania. From university admissions and Lithuania student visa processes to scholarships, accommodation, career opportunities, and student life, our blogs are designed to help international students make informed decisions about their <Link className="font-semibold hover:underline" href="https://indoeuropean.in">study abroad consultants</Link>. Stay updated with valuable insights, practical tips, and real experiences to successfully plan your education in Lithuania.</p>
       <div className="grid md:grid-cols-3 gap-6">
         {[...blogs].reverse().map((blog) => (
           <Link

@@ -145,7 +145,7 @@ export default async function BlogPage({ params }) {
         <Image
           src={blog.image}
           alt={blog.title}
-          className="w-full rounded-xl"
+          className="w-full h-full rounded-xl"
           width={720}
           height={540}
         />

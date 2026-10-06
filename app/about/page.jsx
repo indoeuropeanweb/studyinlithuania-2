@@ -82,12 +82,6 @@ const page = () => {
           "Study in Lithuania Centre helps Indian students with admissions, scholarships, visa guidance, and study abroad support."
       },
       {
-        "@type": "WebSite",
-        "@id": "https://www.studyinlithuania.in/#website",
-        "url": "https://www.studyinlithuania.in/",
-        "name": "Study in Lithuania Centre"
-      },
-      {
         "@type": "AboutPage",
         "@id":
           "https://www.studyinlithuania.in/about/#aboutpage",
@@ -126,43 +120,6 @@ const page = () => {
           "Counselling, university selection, application support, scholarship guidance and visa assistance."
       },
       {
-        "@type": "FAQPage",
-        "@id":
-          "https://www.studyinlithuania.in/about/#faq",
-        "mainEntity": [
-          {
-            "@type": "Question",
-            "name":
-              "What is Study in Lithuania Centre?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text":
-                "Study in Lithuania Centre is an education consultancy helping Indian students study in Lithuania."
-            }
-          },
-          {
-            "@type": "Question",
-            "name":
-              "How does Study in Lithuania Centre help students?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text":
-                "The consultancy supports students with counselling, applications, scholarships and visa guidance."
-            }
-          },
-          {
-            "@type": "Question",
-            "name":
-              "Does Study in Lithuania Centre help with visas?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text":
-                "Yes, guidance is provided for Lithuania student visa applications."
-            }
-          }
-        ]
-      },
-      {
         "@type": "BreadcrumbList",
         "@id":
           "https://www.studyinlithuania.in/about/#breadcrumb",
@@ -194,10 +151,9 @@ const page = () => {
                <h2 className='font-aino text-2xl md:text-4xl'>Who We Are?</h2>
                <p className='text-justify font-roboto text-lg mt-3'>We are a dedicated international education guidance platform committed to helping students
                 achieve their dream of studying abroad. For over 20+ years, we have been supporting students
-                with university admissions, scholarships, visa applications, IELTS preparation, and complete
-                study abroad guidance.<br />
+                with university admissions, scholarships, visa applications, <Link className="font-semibold hover:underline" href="https://www.indoeuropean.in/coaching">IELTS preparation</Link>, and complete <Link className="font-semibold hover:underline" href="/contact">study abroad guidance</Link>.<br />
                 With more than 5,000+ successful student placements, we have helped aspiring students pursue
-                Bachelor&#39;s, Master&#39;s, and other higher education programmes in leading international
+                Bachelor's, Master's, and other higher education programmes in leading international
                 destinations. Our experienced team works closely with students to simplify every step of the
                 admission and visa process.</p>
               <div className='mt-10'>
@@ -233,11 +189,10 @@ institutions, including:</p>
                           <li className='font-roboto text-justify'><IoIosArrowForward className='size-6 inline-block'/>&nbsp;Vytautas Magnus University</li>
                           <li className='font-roboto text-justify'><IoIosArrowForward className='size-6 inline-block'/>&nbsp;Mykolas Romeris University</li>
                           <li className='font-roboto text-justify'><IoIosArrowForward className='size-6 inline-block'/>&nbsp;Klaipėda University</li>
-                          <li className='font-roboto text-justify'><IoIosArrowForward className='size-6 inline-block'/>&nbsp;Lithuanian University of Health Sciences</li>
+                          <li className='font-roboto text-justify'><IoIosArrowForward className='size-6 inline-block'/>&nbsp;<Link className="font-semibold hover:underline" href="/study/universities">Lithuanian University</Link> of Health Sciences</li>
                           <li className='font-roboto text-justify'><IoIosArrowForward className='size-6 inline-block'/>&nbsp;ISM University of Management and Economics</li>
                       </ul>
-                      <p className='mt-5 text-justify'>These institutions offer a wide range of English-taught programmes and provide a supportive
-environment for indian students.</p>
+                      <p className='mt-5 text-justify'>These institutions offer a wide range of English-taught programmes and provide a supportive environment for indian students.</p>
                </div>
                 <div className="my-10">
                   <div className="mb-10">
