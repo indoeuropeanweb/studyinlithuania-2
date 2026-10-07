@@ -2,6 +2,7 @@ import { blogs } from "@/public/data/blogs";
 import { notFound } from "next/navigation";
 import Image from "next/image";
 import Script from "next/script";
+import Link from "next/link";
 
 export async function generateStaticParams() {
   return blogs.map((blog) => ({
@@ -87,7 +88,7 @@ export default async function BlogPage({ params }) {
         name: "Study in Lithuania",
         logo: {
           "@type": "ImageObject",
-          url: "https://www.studyinlithuania.in/logo.png",
+          url: "https://www.studyinlithuania.in/images/logos/logo.png",
         },
       },
       datePublished: blog.date,
@@ -162,11 +163,23 @@ export default async function BlogPage({ params }) {
         if (section.type === "heading") {
           return (
             <h2
+              id="article"
               key={index}
               className="mt-10 text-2xl md:text-3xl font-semibold font-aino text-[#048D4E]"
             >
               {section.content}
             </h2>
+          );
+        }
+
+        if (section.type === "subheading") {
+          return (
+            <h4
+              key={index}
+              className="mt-10 text-lg md:text-xl font-semibold font-aino text-[#188b55]"
+            >
+              {section.content}
+            </h4>
           );
         }
 
@@ -187,7 +200,40 @@ export default async function BlogPage({ params }) {
               key={index}
               className="mt-4 text-justify text-gray-700 leading-8 font-inter"
             >
-              {section.content}
+                    {Array.isArray(section.content)
+                      ? section.content.map((item, i) => {
+                          switch (item.type) {
+                            case "text":
+                              return (
+                                <span key={i}>{item.text}</span>
+                              );
+
+                            case "link":
+                              return (
+                                <Link
+                                  key={i}
+                                  href={item.href}
+                                  className="text-primary font-medium hover:underline"
+                                >
+                                  {item.text}
+                                </Link>
+                              );
+
+                            case "bold":
+                              return (
+                                <strong key={i}>
+                                  {item.text}
+                                </strong>
+                              );
+
+                            case "br":
+                              return <br key={i} />;
+
+                            default:
+                              return null;
+                          }
+                        })
+                      : section.content}
             </p>
           );
         }

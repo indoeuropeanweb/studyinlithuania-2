@@ -4,7 +4,7 @@ import Link from 'next/link';
 import { FaArrowRightLong } from 'react-icons/fa6';
 
 export const metadata = {
-  title: "Lithuania Student Ambassador | Real Stories and Success",
+  title: "Study in Lithuania Consultant | Student Success Stories",
   description: "Connect with our expert for Study in Lithuania. Read real success stories and get visa help from our Lithuania student ambassadors. See how they did it",
   keywords: [
       "Student Accommodation in Lithuania",
