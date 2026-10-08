@@ -1098,14 +1098,14 @@ export const blogs = [
 },
 {
   id: 4,
-  title: "Lithuania Courses in 2026: Find the Perfect Program for Your Career Goals",
-  slug: "lithuania-courses-2026-find-the-perfect-program-for-your-career-goals",
+  title: "Lithuania Courses in 2027: Find the Perfect Program for Your Career Goals",
+  slug: "lithuania-courses-2027-find-the-perfect-program-for-your-career-goals",
   metaTitle:
-    "Lithuania Courses 2026: Which Program Fits Your Career?",
+    "Lithuania Courses 2027: Which Program Fits Your Career?",
   metaDescription:
-    "Which Lithuania courses in 2026 can actually match your career goals? Explore top programs, fees, English-taught courses, scholarships, and universities.",
+    "Which Lithuania courses in 2027 can actually match your career goals? Explore top programs, fees, English-taught courses, scholarships, and universities.",
   keywords: [
-      "Lithuania Courses 2026",
+      "Lithuania Courses 2027",
       "Best Courses in Lithuania",
       "Lithuania Courses for International Students",
       "Study Courses in Lithuania",
@@ -1212,8 +1212,21 @@ export const blogs = [
 
     {
       type: "paragraph",
-      content:
-        "Many Indian and Asian students choose Lithuania for affordable medical education compared to Western countries."
+      content: [
+        {
+          type: "text",
+          text: "Many Indian and Asian "
+        },
+        {
+          type: "link",
+          text: "students choose Lithuania",
+          href: "/blogs/why-study-in-lithuania-is-becoming-the-top-choice-for-students-abroad/"
+        },
+        {
+          type: "text",
+          text: " for affordable medical education compared to Western countries."
+        }
+      ]
     },
 
     {
@@ -1547,14 +1560,10 @@ export const blogs = [
 },
 {
   id: 5,
-  title:
-    "Best Universities in Lithuania Offering Scholarships & Affordable Tuition",
-  slug:
-    "best-universities-in-lithuania-offering-scholarships-affordable-tuition",
-  metaTitle:
-    "Top Universities in Lithuania: Scholarships & Affordable Fees",
-  metaDescription:
-    "Find affordable universities in Lithuania and learn how scholarships can lower tuition fees. Review funding options for international students before applying.",
+  title: "Best Universities in Lithuania Offering Scholarships & Affordable Tuition",
+  slug: "best-universities-in-lithuania-offering-scholarships-affordable-tuition",
+  metaTitle: "Top Universities in Lithuania: Scholarships & Affordable Fee",
+  metaDescription: "Find affordable universities in Lithuania and learn how scholarships can lower tuition fees. Review funding options for international students before applying.",
   keywords: [
       "Best Universities in Lithuania",
       "Top Universities in Lithuania",
@@ -1568,8 +1577,7 @@ export const blogs = [
       "Lithuania University Tuition Fees",
       "Best Lithuania Universities"
   ],
-  image:
-    "/images/blogs/best-universities-in-lithuania.webp",
+  image: "/images/blogs/best-universities-in-lithuania.webp",
   category: "Lithuania",
   publishDate: "2026-06-06",
   readingTime: "14 min read",
@@ -1584,19 +1592,16 @@ export const blogs = [
       content:
         "The best universities in Lithuania provide quality education in business, medicine, engineering, IT, and social sciences while maintaining lower study costs compared to many Western European countries."
     },
-
     {
       type: "heading",
       content:
         "Why Study in Lithuania?"
     },
-
     {
       type: "paragraph",
       content:
         "Lithuania is part of the European Union and follows high educational standards. The country is known for innovation, research-based education, and affordable living costs."
     },
-
     {
       type: "list",
       items: [
@@ -1608,7 +1613,6 @@ export const blogs = [
         "Living expenses are manageable"
       ]
     },
-
     {
       type: "paragraph",
       content:
@@ -1648,25 +1652,21 @@ export const blogs = [
         "Excellent student support services"
       ]
     },
-
     {
       type: "paragraph",
       content:
         "Vilnius University is considered one of the best universities in Lithuania because of its strong international reputation and modern learning environment."
     },
-
     {
       type: "subheading",
       content:
         "2. Kaunas University of Technology"
     },
-
     {
       type: "paragraph",
       content:
         "Kaunas University of Technology is well-known for engineering, architecture, technology, and innovation-focused education."
     },
-
     {
       type: "paragraph",
       content:
@@ -1685,22 +1685,32 @@ export const blogs = [
 
     {
       type: "paragraph",
-      content:
-        "Many courses are fully taught in English, making the university highly attractive for international students."
+      content: [
+        {
+          type: "text",
+          text: "Many "
+        },
+        {
+          type: "link",
+          text: "Lithuanian courses",
+          href: "/blogs/lithuania-courses-2027-find-the-perfect-program-for-your-career-goals/"
+        },
+        {
+          type: "text",
+          text: " are fully taught in English, making the university highly attractive for international students."
+        }
+      ]
     },
-
     {
       type: "heading",
       content:
         "Scholarships Available in Lithuania"
     },
-
     {
       type: "paragraph",
       content:
         "One of the biggest advantages of studying in Lithuania is the availability of scholarships and financial support for international students."
     },
-
     {
       type: "list",
       items: [
@@ -1711,31 +1721,38 @@ export const blogs = [
         "Erasmus+ funding opportunities"
       ]
     },
-
     {
       type: "paragraph",
       content:
         "Students with strong academic records can significantly reduce their educational expenses through scholarship programs."
     },
-
     {
       type: "heading",
-      content:
-        "Affordable Universities in Lithuania"
+      content: "Affordable Universities in Lithuania"
     },
-
     {
       type: "paragraph",
       content:
         "Lithuania is famous for offering high-quality education at lower costs compared to many Western countries."
     },
-
     {
       type: "paragraph",
-      content:
-        "Many affordable universities in Lithuania charge tuition fees starting from €2,000 to €5,000 per year depending on the course and university."
+      content: [
+        {
+          type: "text",
+          text: "Many affordable "
+        },
+        {
+          type: "link",
+          text: "universities in Lithuania",
+          href: "/study/universities"
+        },
+        {
+          type: "text",
+          text: " charge tuition fees starting from €2,000 to €5,000 per year depending on the course and university."
+        }
+      ]
     },
-
     {
       type: "list",
       items: [
@@ -1745,25 +1762,21 @@ export const blogs = [
         "Miscellaneous: €100–€150"
       ]
     },
-
     {
       type: "paragraph",
       content:
         "Affordable living costs make Lithuania a smart destination for students looking for quality education within a manageable budget."
     },
-
     {
       type: "subheading",
       content:
         "3. Vytautas Magnus University"
     },
-
     {
       type: "paragraph",
       content:
         "Vytautas Magnus University is highly respected for liberal arts, humanities, social sciences, and international education programs."
     },
-
     {
       type: "list",
       items: [
@@ -1773,25 +1786,21 @@ export const blogs = [
         "Exchange opportunities across Europe"
       ]
     },
-
     {
       type: "paragraph",
       content:
         "The university is recognised for flexible learning systems and strong support services for international students."
     },
-
     {
       type: "subheading",
       content:
         "4. Lithuanian University of Health Sciences"
     },
-
     {
       type: "paragraph",
       content:
         "Lithuanian University of Health Sciences is highly popular among students pursuing medicine and healthcare-related programs."
     },
-
     {
       type: "list",
       items: [
@@ -1801,25 +1810,21 @@ export const blogs = [
         "Veterinary Medicine"
       ]
     },
-
     {
       type: "paragraph",
       content:
         "Medical education follows European Union standards and provides modern clinical training opportunities."
     },
-
     {
       type: "heading",
       content:
         "Lithuania Universities for Indian Students"
     },
-
     {
       type: "paragraph",
       content:
         "The number of Indian students studying in Lithuania has increased rapidly because of affordable education and globally accepted degrees."
     },
-
     {
       type: "list",
       items: [
@@ -1830,25 +1835,21 @@ export const blogs = [
         "Career opportunities after graduation"
       ]
     },
-
     {
       type: "paragraph",
       content:
         "Many universities also provide accommodation support, career counselling, and student communities for Indian students."
     },
-
     {
       type: "heading",
       content:
         "English Programs in Lithuania Universities"
     },
-
     {
       type: "paragraph",
       content:
         "Many Lithuanian universities now offer complete English-medium degree programs for international students."
     },
-
     {
       type: "list",
       items: [
@@ -1860,25 +1861,21 @@ export const blogs = [
         "Finance"
       ]
     },
-
     {
       type: "paragraph",
       content:
         "This flexibility makes Lithuania highly attractive for students from non-European countries."
     },
-
     {
       type: "heading",
       content:
         "Lithuania University Rankings and Global Recognition"
     },
-
     {
       type: "paragraph",
       content:
         "Many universities in Lithuania are gaining international recognition for their research quality and academic standards."
     },
-
     {
       type: "list",
       items: [
@@ -1889,25 +1886,34 @@ export const blogs = [
         "Research excellence"
       ]
     },
-
     {
       type: "paragraph",
       content:
         "Degrees earned from Lithuanian universities are internationally recognised and accepted across Europe and many other countries."
     },
-
     {
       type: "heading",
       content:
         "How to Apply to Lithuanian Universities"
     },
-
     {
       type: "paragraph",
-      content:
-        "The admission process is relatively simple and student-friendly for international applicants."
+      content: [
+        {
+          type: "text",
+          text: "The "
+        },
+        {
+          type: "link",
+          text: "admission process lithuania",
+          href: "https://indoeuropean.in/blogs/study-in-lithuania-consultants-in-delhi"
+        },
+        {
+          type: "text",
+          text: " is relatively simple and student-friendly for international applicants."
+        }
+      ]
     },
-
     {
       type: "list",
       items: [
@@ -1918,13 +1924,11 @@ export const blogs = [
         "Recommendation letters"
       ]
     },
-
     {
       type: "paragraph",
       content:
         "Students are advised to apply early to secure scholarships and visa appointments."
     },
-
     {
       type: "heading",
       content:
@@ -1936,7 +1940,6 @@ export const blogs = [
       content:
         "Lithuania is becoming a technology and innovation hub in Europe, creating excellent career opportunities for graduates."
     },
-
     {
       type: "list",
       items: [
@@ -1947,31 +1950,26 @@ export const blogs = [
         "Research industries"
       ]
     },
-
     {
       type: "paragraph",
       content:
         "Universities focus strongly on practical learning and industry collaboration, helping students build successful international careers."
     },
-
     {
       type: "heading",
       content:
         "Conclusion"
     },
-
     {
       type: "paragraph",
       content:
         "Choosing Lithuania for higher education can be a smart decision for students seeking affordable European education with excellent academic standards."
     },
-
     {
       type: "paragraph",
       content:
         "The best universities in Lithuania offer scholarships, affordable tuition fees, English-medium programs, and internationally recognised degrees that help students build successful global careers."
     },
-
     {
       type: "paragraph",
       content:
@@ -2018,32 +2016,24 @@ export const blogs = [
 },
 {
   id: 6,
-  title:
-    "How to Apply to Lithuanian Universities",
-  slug:
-    "how-to-apply-to-lithuanian-universities",
-  metaTitle:
-    "Jobs for Students in Lithuania 2026 – Top 10 Options",
-  metaDescription:
-    "Find jobs for students in Lithuania with 10 part-time options, salary insights and internship tips. See how international students can work in 2026.",
+  title: "How to Apply to Lithuanian Universities",
+  slug: "how-to-apply-to-lithuanian-universities",
+  metaTitle: "How to Apply to Lithuanian Universities? Admission Guide",
+  metaDescription: "Wondering how to apply to Lithuanian universities? Explore admission requirements, documents, application steps, fees and visa guidance for Indian students.",
   keywords: [
-      "Jobs for Students in Lithuania",
-      "Part-Time Jobs in Lithuania for Students",
-      "Student Jobs in Lithuania",
-      "Jobs in Lithuania for International Students",
-      "Part-Time Work in Lithuania",
-      "Best Jobs for Students in Lithuania",
-      "Lithuania Student Jobs 2026"
+      "How to Apply to Lithuanian Universities",
+      "How to Apply to Universities in Lithuania",
+      "Lithuania University Admission",
+      "Lithuania University Application Process",
+      "Lithuanian University Admission Requirements",
+      "Study in Lithuania for Indian Students",
+      "Lithuania University Requirements",
+      "Lithuania University Application for Indian Students"
   ],
-  image:
-    "/images/blogs/how-to-apply-lithuanian-universities.webp",
-
+  image: "/images/blogs/how-to-apply-lithuanian-universities.webp",
   category: "Lithuania",
-
   publishDate: "2026-06-06",
-
   readingTime: "12 min read",
-
   sections: [
     {
       type: "paragraph",
@@ -2095,8 +2085,21 @@ export const blogs = [
 
     {
       type: "paragraph",
-      content:
-        "Several universities in Lithuania are recognised internationally for academic quality, research output, and innovation-focused education."
+      content: [
+        {
+          type: "text",
+          text: "Several "
+        },
+        {
+          type: "link",
+          text: "universities in Lithuania",
+          href: "/blogs/best-universities-in-lithuania-offering-scholarships-affordable-tuition/"
+        },
+        {
+          type: "text",
+          text: " are recognised internationally for academic quality, research output, and innovation-focused education."
+        }
+      ]
     },
 
     {
@@ -2342,10 +2345,22 @@ export const blogs = [
 
     {
       type: "paragraph",
-      content:
-        "Applying to Lithuanian universities can be a smart decision for students seeking affordable European education with globally recognised qualifications."
+      content: [
+        {
+          type: "text",
+          text: "Applying to Lithuanian universities can be a smart decision for students seeking affordable "
+        },
+        {
+          type: "link",
+          text: "European education",
+          href: "https://indoeuropean.in/destinations/study-in-europe"
+        },
+        {
+          type: "text",
+          text: " with globally recognised qualifications."
+        }
+      ]
     },
-
     {
       type: "paragraph",
       content:
@@ -2354,8 +2369,21 @@ export const blogs = [
 
     {
       type: "paragraph",
-      content:
-        "Whether you are interested in business, engineering, medicine, or technology, studying in Lithuania can help you build a successful future in Europe and beyond."
+      content: [
+        {
+          type: "text",
+          text: "Whether you are interested in business, engineering, medicine, or technology, "
+        },
+        {
+          type: "link",
+          text: "studying in Lithuania",
+          href: "/study"
+        },
+        {
+          type: "text",
+          text: " can help you build a successful future in Europe and beyond."
+        }
+      ]
     }
   ],
 
@@ -2419,14 +2447,10 @@ export const blogs = [
 },
 {
   id: 7,
-  title:
-    "10 Essential Steps for a Lithuania Student Visa Application in 2026",
-  slug:
-    "lithuania-student-visa-application-guide-2026",
-  metaTitle:
-    "Looking for Lithuania Consultants in Delhi? Start Here",
-  metaDescription:
-    "Studying in Lithuania from Delhi? Compare universities, check entry rules, prepare key documents and learn what to know before you apply for a student visa.",
+  title: "10 Essential Steps for a Lithuania Student Visa Application in 2027",
+  slug: "lithuania-student-visa-application-guide-2027",
+  metaTitle: "Looking for Lithuania Consultants in Delhi? Start Here",
+  metaDescription: "Studying in Lithuania from Delhi? Compare universities, check entry rules, prepare key documents and learn what to know before you apply for a student visa.",
   keywords: [
       "Study in Lithuania Consultants in Delhi",
       "Lithuania Study Consultants in Delhi",
@@ -2437,36 +2461,27 @@ export const blogs = [
       "Lithuania Student Visa Consultants in Delhi",
       "Lithuania Admission Consultants in Delhi"
   ],
-  image:
-    "/images/blogs/lithuania-student-visa-guide.webp",
+  image: "/images/blogs/lithuania-student-visa-guide.webp",
   category: "Lithuania",
   publishDate: "2026-06-06",
   readingTime: "13 min read",
   sections: [
     {
       type: "paragraph",
-      content:
-        "Lithuania has become one of the fastest-growing European study destinations for international students seeking affordable tuition fees, globally recognised degrees, and excellent career opportunities."
+      content: "Lithuania has become one of the fastest-growing European study destinations for international students seeking affordable tuition fees, globally recognised degrees, and excellent career opportunities."
     },
-
     {
       type: "paragraph",
-      content:
-        "Understanding the Lithuania student visa process is essential for students planning to begin their higher education journey in Europe."
+      content: "Understanding the Lithuania student visa process is essential for students planning to begin their higher education journey in Europe."
     },
-
     {
       type: "heading",
-      content:
-        "Why Choose Lithuania for Higher Education?"
+      content: "Why Choose Lithuania for Higher Education?"
     },
-
     {
       type: "paragraph",
-      content:
-        "Lithuania offers quality education, affordable living costs, modern campuses, and internationally recognised degrees for students from around the world."
+      content: "Lithuania offers quality education, affordable living costs, modern campuses, and internationally recognised degrees for students from around the world."
     },
-
     {
       type: "list",
       items: [
@@ -2478,25 +2493,32 @@ export const blogs = [
         "Growing job opportunities in Europe"
       ]
     },
-
     {
       type: "paragraph",
-      content:
-        "Many Indian students prefer Lithuania because it offers quality European education at a significantly lower cost compared to Western European countries."
+      content: [
+        {
+          type: "text",
+          text: "Many Indian students prefer Lithuania because it offers quality "
+        },
+        {
+          type: "link",
+          text: "European education",
+          href: "https://indoeuropean.in/destinations/study-in-europe"
+        },
+        {
+          type: "text",
+          text: " at a significantly lower cost compared to Western European countries."
+        }
+      ]
     },
-
     {
-      type: "heading",
-      content:
-        "Step 1: Choose a Recognised Lithuanian University"
+      type: "subheading",
+      content: "Step 1: Choose a Recognised Lithuanian University"
     },
-
     {
       type: "paragraph",
-      content:
-        "Students must first secure admission to a recognised Lithuanian university before applying for a student visa."
+      content: "Students must first secure admission to a recognised Lithuanian university before applying for a student visa."
     },
-
     {
       type: "list",
       items: [
@@ -2509,25 +2531,32 @@ export const blogs = [
         "Information Technology"
       ]
     },
-
     {
       type: "paragraph",
-      content:
-        "Students should research universities carefully and choose a programme aligned with their academic and career goals."
+      content: "Students should research universities carefully and choose a programme aligned with their academic and career goals."
     },
-
     {
-      type: "heading",
-      content:
-        "Step 2: Select the Right Course"
+      type: "subheading",
+      content: "Step 2: Select the Right Course"
     },
-
     {
       type: "paragraph",
-      content:
-        "Choosing the right course is equally important because universities in Lithuania offer industry-focused programmes designed to meet global workforce demands."
+      content: [
+        {
+          type: "text",
+          text: "Choosing the right course is equally important because "
+        },
+        {
+          type: "link",
+          text: "universities in Lithuania",
+          href: "/blogs/how-to-apply-to-lithuanian-universities/"
+        },
+        {
+          type: "text",
+          text: " offer industry-focused programmes designed to meet global workforce demands."
+        }
+      ]
     },
-
     {
       type: "list",
       items: [
@@ -2540,43 +2569,30 @@ export const blogs = [
         "Finance"
       ]
     },
-
     {
       type: "paragraph",
-      content:
-        "Selecting a course with strong employment prospects can strengthen both admission and visa applications."
+      content: "Selecting a course with strong employment prospects can strengthen both admission and visa applications."
     },
-
     {
-      type: "heading",
-      content:
-        "Step 3: Receive Your Official Admission Letter"
+      type: "subheading",
+      content: "Step 3: Receive Your Official Admission Letter"
     },
-
     {
       type: "paragraph",
-      content:
-        "Once accepted by a university, students receive an official admission letter, which is one of the most important requirements for a Lithuania student visa application."
+      content: "Once accepted by a university, students receive an official admission letter, which is one of the most important requirements for a Lithuania student visa application."
     },
-
     {
       type: "paragraph",
-      content:
-        "Immigration authorities use this document to verify admission into a recognised educational institution."
+      content: "Immigration authorities use this document to verify admission into a recognised educational institution."
     },
-
     {
-      type: "heading",
-      content:
-        "Step 4: Arrange Financial Proof"
+      type: "subheading",
+      content: "Step 4: Arrange Financial Proof"
     },
-
     {
       type: "paragraph",
-      content:
-        "Students must provide evidence showing they can financially support themselves during their studies in Lithuania."
+      content: "Students must provide evidence showing they can financially support themselves during their studies in Lithuania."
     },
-
     {
       type: "list",
       items: [
@@ -2586,25 +2602,18 @@ export const blogs = [
         "Scholarship award letters"
       ]
     },
-
     {
       type: "paragraph",
-      content:
-        "Strong financial documentation improves the chances of visa approval without unnecessary delays."
+      content: "Strong financial documentation improves the chances of visa approval without unnecessary delays."
     },
-
     {
-      type: "heading",
-      content:
-        "Step 5: Apply for Available Scholarships"
+      type: "subheading",
+      content: "Step 5: Apply for Available Scholarships"
     },
-
     {
       type: "paragraph",
-      content:
-        "Many international students reduce study expenses by applying for scholarships offered by universities, governments, and international organisations."
+      content: "Many international students reduce study expenses by applying for scholarships offered by universities, governments, and international organisations."
     },
-
     {
       type: "list",
       items: [
@@ -2614,25 +2623,18 @@ export const blogs = [
         "Erasmus+ exchange funding"
       ]
     },
-
     {
       type: "paragraph",
-      content:
-        "Scholarship support can strengthen financial credibility during visa assessment."
+      content: "Scholarship support can strengthen financial credibility during visa assessment."
     },
-
     {
-      type: "heading",
-      content:
-        "Step 6: Prepare the Required Visa Documents"
+      type: "subheading",
+      content: "Step 6: Prepare the Required Visa Documents"
     },
-
     {
       type: "paragraph",
-      content:
-        "Accurate documentation is one of the most important aspects of a successful Lithuania student visa application."
+      content: "Accurate documentation is one of the most important aspects of a successful Lithuania student visa application."
     },
-
     {
       type: "list",
       items: [
@@ -2647,25 +2649,18 @@ export const blogs = [
         "English language proficiency proof"
       ]
     },
-
     {
       type: "paragraph",
-      content:
-        "Students should verify the latest immigration requirements before submission."
+      content: "Students should verify the latest immigration requirements before submission."
     },
-
     {
-      type: "heading",
-      content:
-        "Step 7: Submit Your Visa Application"
+      type: "subheading",
+      content: "Step 7: Submit Your Visa Application"
     },
-
     {
       type: "paragraph",
-      content:
-        "Students can submit their visa application through the designated Lithuanian embassy or visa application centre."
+      content: "Students can submit their visa application through the designated Lithuanian embassy or visa application centre."
     },
-
     {
       type: "list",
       items: [
@@ -2675,43 +2670,42 @@ export const blogs = [
         "Organise supporting documents professionally"
       ]
     },
-
     {
       type: "paragraph",
-      content:
-        "Missing or incorrect information may result in delays during processing."
+      content: "Missing or incorrect information may result in delays during processing."
     },
-
     {
-      type: "heading",
-      content:
-        "Step 8: Attend Biometrics and Verification Procedures"
+      type: "subheading",
+      content: "Step 8: Attend Biometrics and Verification Procedures"
     },
-
     {
       type: "paragraph",
-      content:
-        "Applicants are usually required to provide biometric information including fingerprints and photographs."
+      content: "Applicants are usually required to provide biometric information including fingerprints and photographs."
     },
-
     {
       type: "paragraph",
       content:
         "Immigration authorities may also request additional clarification regarding academic or financial documents."
     },
-
     {
-      type: "heading",
+      type: "subheading",
       content:
         "Step 9: Understand Student Work Opportunities"
     },
-
     {
       type: "paragraph",
-      content:
-        "International students in Lithuania can explore part-time job opportunities while studying to gain work experience and manage living expenses."
+      content: [
+        {
+          type: "link",
+          text: "International students in Lithuania",
+          href: "/student-ambassadors"
+        },
+        {
+          type: "text",
+          text: " can explore part-time job opportunities while studying to gain work experience and manage living expenses."
+        }
+      ]
     },
-
     {
       type: "list",
       items: [
@@ -2722,25 +2716,21 @@ export const blogs = [
         "Freelance and remote work"
       ]
     },
-
     {
       type: "paragraph",
       content:
         "Students should always follow local work regulations and university guidelines."
     },
-
     {
-      type: "heading",
+      type: "subheading",
       content:
         "Step 10: Prepare for Your Journey to Lithuania"
     },
-
     {
       type: "paragraph",
       content:
         "After visa approval, students should begin final travel preparations before departure."
     },
-
     {
       type: "list",
       items: [
@@ -2751,43 +2741,36 @@ export const blogs = [
         "Attend pre-departure sessions"
       ]
     },
-
     {
       type: "paragraph",
       content:
         "Proper preparation helps students transition smoothly into academic life in Lithuania."
     },
-
     {
       type: "heading",
       content:
         "Understanding the Growing Popularity of Lithuania Study Abroad"
     },
-
     {
       type: "paragraph",
       content:
         "Lithuania study abroad programmes continue to grow because of affordable education, practical learning, and multicultural academic environments."
     },
-
     {
       type: "paragraph",
       content:
         "Students benefit from research-based education, exchange opportunities, and industry collaborations."
     },
-
     {
       type: "heading",
       content:
         "Life for Indian Students in Lithuania"
     },
-
     {
       type: "paragraph",
       content:
         "The number of Indian students in Lithuania has steadily increased due to affordable education and welcoming student communities."
     },
-
     {
       type: "list",
       items: [
@@ -2798,19 +2781,29 @@ export const blogs = [
         "Multicultural environment"
       ]
     },
-
     {
       type: "heading",
       content:
         "Best Universities to Consider in Lithuania"
     },
-
     {
       type: "paragraph",
-      content:
-        "Several respected universities in Lithuania attract international students because of their strong academic reputation and research facilities."
+      content: [
+        {
+          type: "text",
+          text: "Several respected "
+        },
+        {
+          type: "link",
+          text: " universities in Lithuania",
+          href: "/blogs/best-universities-in-lithuania-offering-scholarships-affordable-tuition/"
+        },
+        {
+          type: "text",
+          text: " attract international students because of their strong academic reputation and research facilities."
+        }
+      ]
     },
-
     {
       type: "list",
       items: [
@@ -2820,25 +2813,21 @@ export const blogs = [
         "Lithuanian University of Health Sciences"
       ]
     },
-
     {
       type: "paragraph",
       content:
         "Students should evaluate course quality, tuition fees, employability, and international student support before choosing a university."
     },
-
     {
       type: "heading",
       content:
         "Why Professional Guidance Matters"
     },
-
     {
       type: "paragraph",
       content:
         "Professional guidance can help students simplify the admission and visa process while avoiding common mistakes."
     },
-
     {
       type: "list",
       items: [
@@ -2850,19 +2839,16 @@ export const blogs = [
         "Pre-departure counselling"
       ]
     },
-
     {
       type: "heading",
       content:
         "Why Choose Lithuania Center for Admissions and Visa Support?"
     },
-
     {
       type: "paragraph",
       content:
         "Lithuania Center helps international students throughout the admission and visa process with personalised guidance and documentation support."
     },
-
     {
       type: "list",
       items: [
@@ -2875,32 +2861,27 @@ export const blogs = [
         "Pre-departure counselling"
       ]
     },
-
     {
       type: "heading",
       content:
         "Conclusion"
     },
-
     {
       type: "paragraph",
       content:
         "A successful Lithuania student visa application starts with proper planning, complete documentation, and clear academic goals."
     },
-
     {
       type: "paragraph",
       content:
         "Lithuania continues to attract international students because of affordable education, recognised degrees, respected universities, and excellent career opportunities."
     },
-
     {
       type: "paragraph",
       content:
         "With the right preparation and expert guidance, students can begin a successful academic and professional journey in Europe."
     }
   ],
-
   faqs: [
     {
       question:
@@ -2908,42 +2889,36 @@ export const blogs = [
       answer:
         "Indian students can apply for a Lithuania student visa after receiving an admission letter from a recognised Lithuanian university and submitting all required documents."
     },
-
     {
       question:
         "What documents are required for a Lithuania student visa?",
       answer:
         "Required documents include a valid passport, admission letter, visa application form, proof of funds, accommodation details, health insurance, academic certificates, and passport-sized photographs."
     },
-
     {
       question:
         "Is Lithuania a good destination for Indian students?",
       answer:
         "Yes, Lithuania is popular among Indian students because of affordable tuition fees, English-taught programmes, globally recognised degrees, and career opportunities."
     },
-
     {
       question:
         "What are the best courses in Lithuania for international students?",
       answer:
         "Popular courses include Computer Science, Artificial Intelligence, Engineering, Business Administration, Finance, Healthcare, and Cybersecurity."
     },
-
     {
       question:
         "Are scholarships available for international students in Lithuania?",
       answer:
         "Yes, universities and government-funded programmes offer scholarships based on academic performance and programme requirements."
     },
-
     {
       question:
         "Can international students work while studying in Lithuania?",
       answer:
         "Yes, international students can work part-time in Lithuania while studying, according to local regulations and university guidelines."
     },
-
     {
       question:
         "Which are the top universities in Lithuania for international students?",
@@ -2954,9 +2929,9 @@ export const blogs = [
 },
 {
   id: 8,
-  title: "Top 10 Jobs for Students in Lithuania to Earn While Studying in 2026",
-  slug: "top-jobs-for-students-in-lithuania-2026",
-  metaTitle: "Top Jobs for Students in Lithuania 2026 | Part-Time Jobs, Salaries & Career Opportunities",
+  title: "Top 10 Jobs for Students in Lithuania to Earn While Studying in 2027",
+  slug: "top-jobs-for-students-in-lithuania-2027",
+  metaTitle: "Top Jobs for Students in Lithuania 2027 | Part-Time Jobs, Salaries & Career Opportunities",
   metaDescription: "Discover the top jobs for students in Lithuania in 2026. Explore part-time work opportunities, student salaries, internships, work rights, and career prospects for Indian and international students.",
   keywords: ["Top Jobs for Students in Lithuania", "Student Jobs Lithuania", "Part Time Jobs Lithuania", "Lithuania Student Employment", "Jobs for Indian Students in Lithuania", "Lithuania Internships", "Lithuania Student Salary", "Work While Studying Lithuania", "Lithuania Career Opportunities", "Lithuania Job Market", "International Students Lithuania", "Lithuania Work Rights", "Lithuania Graduate Jobs", "Lithuania Student Life", "Lithuania Employment Opportunities", "Lithuania Work and Study", "Lithuania Part Time Work", "Lithuania Careers", "Lithuania Work Permit", "Study in Lithuania"],
   image: "/images/blogs/jobs-for-students-in-lithuania.webp",
@@ -3006,8 +2981,21 @@ export const blogs = [
     },
     {
       type: "paragraph",
-      content:
-        "Yes, international students enrolled in recognised Lithuanian universities are generally allowed to work while studying according to immigration and employment regulations."
+      content: [
+        {
+          type: "text",
+          text: "Yes, international students enrolled in recognised "
+        },
+        {
+          type: "link",
+          text: "Lithuanian universities",
+          href: "/study/universities"
+        },
+        {
+          type: "text",
+          text: " are generally allowed to work while studying according to immigration and employment regulations."
+        }
+      ]
     },
     {
       type: "paragraph",
@@ -3403,6 +3391,28 @@ export const blogs = [
     {
       type: "paragraph",
       content: "With the right preparation, skills, and networking efforts, students can successfully balance academics and employment while building a strong future career."
+    },
+    {
+      type: "paragraph",
+      content: [
+        {
+          type: "bold",
+          text: "Thinking about studying in Lithuania?"
+        },
+        {
+          type: "text",
+          text: " Read our next guide “10 Essential Steps for a "
+        },
+        {
+          type: "link",
+          text: "Lithuania Student Visa",
+          href: "/blogs/lithuania-student-visa-application-guide-2026/"
+        },
+        {
+          type: "text",
+          text: " Application in 2027” to know the key steps of your visa application."
+        }
+      ]
     }
   ],
   faqs: [
@@ -3440,11 +3450,11 @@ export const blogs = [
 },
 {
   id: 9,
-  title: "Lithuania Study Abroad 2026: Universities, Visa, Scholarships, Costs & Jobs",
-  slug: "lithuania-study-abroad-2026",
-  metaTitle: "Lithuania Study Abroad 2026 | Complete Guide for Indian Students",
-  metaDescription: "Planning to study in Lithuania in 2026? Explore top universities, affordable tuition fees, scholarships, student visa process, living costs, work opportunities, and admission requirements for Indian students.",
-  keywords: ["Lithuania Study Abroad 2026", "Study in Lithuania", "Lithuania for Indian Students", "Lithuania Universities", "Lithuania Scholarships", "Lithuania Student Visa", "Lithuania Admission 2026", "Study Abroad Lithuania", "Lithuania Tuition Fees", "Lithuania Living Costs", "Lithuania Work Opportunities", "Lithuania Courses", "Lithuania Higher Education", "Lithuania TRP", "Lithuania Bachelor's Programs", "Lithuania Master's Programs", "Study in Europe", "Lithuania Career Opportunities", "Lithuania Student Life", "International Students Lithuania"],
+  title: "Lithuania Study Abroad 2027: Universities, Visa, Scholarships, Costs & Jobs",
+  slug: "lithuania-study-abroad-2027",
+  metaTitle: "Lithuania Study Abroad 2027 | Complete Guide for Indian Students",
+  metaDescription: "Planning to study in Lithuania in 2027? Explore top universities, affordable tuition fees, scholarships, student visa process, living costs, work opportunities, and admission requirements for Indian students.",
+  keywords: ["Lithuania Study Abroad 2027", "Study in Lithuania", "Lithuania for Indian Students", "Lithuania Universities", "Lithuania Scholarships", "Lithuania Student Visa", "Lithuania Admission 2026", "Study Abroad Lithuania", "Lithuania Tuition Fees", "Lithuania Living Costs", "Lithuania Work Opportunities", "Lithuania Courses", "Lithuania Higher Education", "Lithuania TRP", "Lithuania Bachelor's Programs", "Lithuania Master's Programs", "Study in Europe", "Lithuania Career Opportunities", "Lithuania Student Life", "International Students Lithuania"],
   image:
     "/images/blogs/lithuania-study-abroad-guide.webp",
   category: "Lithuania",
@@ -3815,7 +3825,7 @@ export const blogs = [
         {
           type: "link",
           text: "jobs for students in Lithuania",
-          href: "/blogs/top-jobs-for-students-in-lithuania-2026"
+          href: "/blogs/top-jobs-for-students-in-lithuania-2027"
         },
         {
           type: "text",
@@ -4295,7 +4305,7 @@ export const blogs = [
         {
           type: "link",
           text: "study abroad process",
-          href: "/blogs/lithuania-study-abroad-2026"
+          href: "/blogs/lithuania-study-abroad-2027"
         },
         {
           type: "text",
