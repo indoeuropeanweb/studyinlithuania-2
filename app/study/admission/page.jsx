@@ -6,7 +6,7 @@ import { FaArrowRightLong } from "react-icons/fa6";
 
 export const metadata = {
   title: "Lithuania University Admission Process for Indian Students",
-  description: "Apply for Lithuania universities Admission with confidence. We cover intakes and admission steps for Indian students. Contact our experts to start your journey.",
+  description: "Apply to Lithuanian universities with expert guidance on intakes and admission steps for Indian students. Contact us to start your journey!",
   keywords: [
       "Lithuania University Admission",
       "Lithuania Admission Process",
@@ -31,7 +31,7 @@ export const metadata = {
   title:
     "Lithuania University Admission Process for Indian Students",
   description:
-    "Apply for Lithuania universities Admission with confidence. We cover intakes and admission steps for Indian students. Contact our experts to start your journey.",
+    "Apply to Lithuanian universities with expert guidance on intakes and admission steps for Indian students. Contact us to start your journey!",
   images: [
     {
       url: "https://www.studyinlithuania.in/images/study/lithuania-01.webp",
@@ -63,7 +63,7 @@ const page = () => {
       url: "https://www.studyinlithuania.in/study/admission/",
       name: "Study in Lithuania Admission",
       description:
-        "Learn about admission requirements, documents, application process, eligibility criteria and university admission procedures in Lithuania.",
+        "Apply to Lithuanian universities with expert guidance on intakes and admission steps for Indian students. Contact us to start your journey!",
       isPartOf: {
         "@id": "https://www.studyinlithuania.in/#website",
       },

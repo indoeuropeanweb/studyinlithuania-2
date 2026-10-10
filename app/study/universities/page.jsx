@@ -5,7 +5,7 @@ import { FaArrowRightLong } from 'react-icons/fa6';
 
 export const metadata = {
   title: "Top Universities in Lithuania Admission for Indian Students",
-  description: "Best universities in Lithuania for Student. Compare top-ranked universities, courses, tuition fees, scholarships, admission requirements Contact our expert Now.",
+  description: "Explore top universities in Lithuania, courses, tuition fees, scholarships, and admission requirements. Contact our experts today!",
   keywords: [
       "Universities in Lithuania",
       "Lithuania Universities",
@@ -38,7 +38,7 @@ export const metadata = {
     title:
     "Study Programmes in Lithuania | Bachelor's, Master's & PhD Courses",
     description:
-    "Explore the best study programmes in Lithuania for Indian students. Compare Bachelor's, Master's, and PhD courses, universities, tuition fees, more, Apply Now",
+    "Explore top universities in Lithuania, courses, tuition fees, scholarships, and admission requirements. Contact our experts today!",
     images: [
     {
     url: "https://www.studyinlithuania.in/images/study/lithuania-01.webp",

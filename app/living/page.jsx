@@ -2,8 +2,8 @@ import LivingClient from "./LivingClient";
 
 
 export const metadata = {
-  title: "Get Expert Help for Indian Student Accommodation in Lithuania",
-  description: "Get a guide to student accommodation in Lithuania. Explore affordable rooms and university dorms and more. Learn about costs for living there. Contact Us Now",
+  title: "Get Expert Help for Student Accommodation in Lithuania",
+  description: "Explore affordable student accommodation in Lithuania, including dorms, room options, and living costs. Contact us today!",
   keywords: [
       "Student Accommodation in Lithuania",
       "Accommodation in Lithuania for Students",
@@ -26,9 +26,9 @@ export const metadata = {
     openGraph: {
     type: "website",
     title:
-      "Get Expert Help for Indian Student Accommodation in Lithuania",
+      "Get Expert Help for Student Accommodation in Lithuania",
     description:
-      "Get a guide to student accommodation in Lithuania. Explore affordable rooms and university dorms and more. Learn about costs for living there. Contact Us Now",
+      "Explore affordable student accommodation in Lithuania, including dorms, room options, and living costs. Contact us today!",
     url: "https://www.studyinlithuania.in/living/",
     siteName: "Study in Lithuania",
     images: [
@@ -44,9 +44,9 @@ export const metadata = {
   twitter: {
     card: "summary_large_image",
     title:
-      "Get Expert Help for Indian Student Accommodation in Lithuania",
+      "Get Expert Help for Student Accommodation in Lithuania",
     description:
-      "Get a guide to student accommodation in Lithuania. Explore affordable rooms and university dorms and more. Learn about costs for living there. Contact Us Now",
+      "Explore affordable student accommodation in Lithuania, including dorms, room options, and living costs. Contact us today!",
     images: [
       "https://www.studyinlithuania.in/images/living/living.webp",
     ],
@@ -73,7 +73,7 @@ export const metadata = {
         "name":
           "Living in Lithuania as an International Student",
         "description":
-          "Learn about student life in Lithuania, including living costs, accommodation, transportation, healthcare, safety, culture and lifestyle.",
+          "Explore affordable student accommodation in Lithuania, including dorms, room options, and living costs. Contact us today!",
         "isPartOf": {
           "@id": "https://www.studyinlithuania.in/"
         }

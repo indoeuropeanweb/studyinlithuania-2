@@ -260,6 +260,8 @@ const faqData = [
          <Breadcrumb heading={'Frequently Asked Questions About Studying in Lithuania'}/>
          <div className='max-w-6xl mx-auto'>
             <div className='px-5 py-10'>
+              <h2 className="text-2xl lg:text-3xl font-aino mb-2">Frequently Asked Questions</h2>
+              <p className="text-roboto text-md lg:text-base mb-8">Find answers to frequently asked questions about studying abroad, including university admissions, course selection, eligibility requirements, tuition fees, scholarships, student visas, IELTS and other English proficiency tests, accommodation, and part-time work opportunities. Explore expert guidance to help you plan your international education journey with confidence.</p>
                {faqData?.map((faq, index) => {
                 return <FAQ panelNo={faq.id} key={index} question={faq.question} answer={faq.answer}/>
                })}

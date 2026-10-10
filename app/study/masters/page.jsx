@@ -133,7 +133,7 @@ const page = () => {
         <p className='mt-3 text-justify text-roboto'>Master’s degree programs in Lithuania are advanced study programs that usually last 1–2
 years and focus on specialised knowledge and career development.</p>
         <div className='mt-10'>
-          <h2 className='text-xl md:text-2xl font-roboto text-[#5d5b5b]'>Popular Courses</h2>
+          <h2 className='text-xl md:text-2xl font-roboto text-[#5d5b5b]'>Best Courses</h2>
           <ul className='mt-5 space-y-2'>
             <li><IoIosArrowForward className='size-6 inline-block'/>&nbsp;Business &amp; Management</li>
             <li><IoIosArrowForward className='size-6 inline-block'/>&nbsp;Information Technology</li>

@@ -21,7 +21,7 @@ export const metadata = {
       "Study in Lithuania"
   ],
   alternates: {
-    canonical: "https://www.studyinlithuania.in/study/programmes/phd"
+    canonical: "https://www.studyinlithuania.in/study/phd"
   },
   robots: {
     index: true,
@@ -29,7 +29,7 @@ export const metadata = {
   },
    openGraph: {
     type: "website",
-    url: "https://www.studyinlithuania.in/study/programmes/phd/",
+    url: "https://www.studyinlithuania.in/study/phd/",
     siteName: "Study in Lithuania",
     title:
       "PhD in Lithuania | Get Top University Admission in Lithuania",
@@ -77,9 +77,9 @@ const page = () => {
     {
       "@type": "WebPage",
       "@id":
-        "https://www.studyinlithuania.in/study/programmes/phd/#webpage",
+        "https://www.studyinlithuania.in/study/phd/#webpage",
       url:
-        "https://www.studyinlithuania.in/study/programmes/phd/",
+        "https://www.studyinlithuania.in/study/phd/",
       name: "PhD Programs in Lithuania",
       description:
         "Explore doctoral and research degree programs in Lithuania for international students, including admission requirements, scholarships, and research opportunities.",
@@ -124,7 +124,7 @@ const page = () => {
             qualifications, and modern academic facilities for students aiming to build careers in research,
             teaching, and specialised industries.</p>
         <div className='mt-10'>
-          <h2 className='text-xl md:text-2xl font-roboto text-[#5d5b5b]'>Popular Courses</h2>
+          <h2 className='text-xl md:text-2xl font-roboto text-[#5d5b5b]'>PhD Courses</h2>
           <ul className='mt-5 space-y-2'>
             <li><IoIosArrowForward className='size-6 inline-block'/>&nbsp;Engineering &amp; Technology</li>
             <li><IoIosArrowForward className='size-6 inline-block'/>&nbsp;Medical &amp; Health Sciences</li>

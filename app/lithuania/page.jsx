@@ -3,7 +3,7 @@ import LithuaniaClient from "./LithuaniaClient";
 
 export const metadata = {
   title: "Get Study in Lithuania Consultant for Student By Our Expert",
-  description: "Get expert help from a study in Lithuania consultant. We guide you for University admission, choose courses and more. Contact us to start your application now.",
+  description: "Get expert guidance from a study in Lithuania consultant for university admissions, course selection, and a smooth application process. Contact us today!",
   keywords: [
     "Why Study in Lithuania",
     "Study in Lithuania",
@@ -29,7 +29,7 @@ export const metadata = {
     title:
       "Get Study in Lithuania Consultant for Student By Our Expert",
     description:
-      "Get expert help from a study in Lithuania consultant. We guide you for University admission, choose courses and more. Contact us to start your application now.",
+      "Get expert guidance from a study in Lithuania consultant for university admissions, course selection, and a smooth application process. Contact us today!",
     url: "https://www.studyinlithuania.in/lithuania/",
     siteName: "Study in Lithuania",
     images: [
@@ -46,7 +46,7 @@ export const metadata = {
     title:
       "Get Study in Lithuania Consultant for Student By Our Expert",
     description:
-      "Get expert help from a study in Lithuania consultant. We guide you for University admission, choose courses and more. Contact us to start your application now.",
+      "Get expert guidance from a study in Lithuania consultant for university admissions, course selection, and a smooth application process. Contact us today!",
     images: [
       "https://www.studyinlithuania.in/images/logos/logo.png",
     ],
@@ -75,7 +75,7 @@ export default function Home() {
         "name":
           "Get Study in Lithuania Consultant for Student By Our Expert",
         "description":
-          "Get expert help from a study in Lithuania consultant. We guide you for University admission, choose courses and more. Contact us to start your application now."
+          "Get expert guidance from a study in Lithuania consultant for university admissions, course selection, and a smooth application process. Contact us today!"
       },
             {
         "@type": "BreadcrumbList",

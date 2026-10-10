@@ -1,7 +1,7 @@
 import ProgrammeClient from "./ProgrammeClient";
 
 export const metadata = {
-  title: "Study Programmes in Lithuania | Bachelor's, Master's & PhD Courses",
+  title: "Study Programmes in Lithuania | Bachelor's, Master's & PhD",
   description: "Explore the best study programmes in Lithuania for Indian students. Compare Bachelor's, Master's, and PhD courses, universities, tuition fees, more, Apply Now",
   keywords: [
       "Study Programmes in Lithuania",
@@ -17,7 +17,7 @@ export const metadata = {
       "English Taught Programmes in Lithuania"
   ],
   alternates: {
-    canonical: "https://www.studyinlithuania.in/study/universities"
+    canonical: "https://www.studyinlithuania.in/study/programmes"
   },
   robots: {
     index: true,
@@ -26,10 +26,10 @@ export const metadata = {
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://www.studyinlithuania.in/study/universities/",
+    url: "https://www.studyinlithuania.in/study/programmes/",
     siteName: "Study in Lithuania",
     title:
-    "Study Programmes in Lithuania | Bachelor's, Master's & PhD Courses",
+    "Study Programmes in Lithuania | Bachelor's, Master's & PhD",
     description:
     "Explore the best study programmes in Lithuania for Indian students. Compare Bachelor's, Master's, and PhD courses, universities, tuition fees, more, Apply Now",
     images: [

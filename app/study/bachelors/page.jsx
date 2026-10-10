@@ -20,7 +20,7 @@ export const metadata = {
       "Lithuania Education"
   ],
   alternates: {
-    canonical: "https://www.studyinlithuania.in/study/programmes/bachelors"
+    canonical: "https://www.studyinlithuania.in/study/bachelors"
   },
   robots: {
     index: true,
@@ -28,7 +28,7 @@ export const metadata = {
   },
    openGraph: {
     type: "website",
-    url: "https://www.studyinlithuania.in/study/programmes/bachelors/",
+    url: "https://www.studyinlithuania.in/study/bachelors/",
     siteName: "Study in Lithuania",
     title:
       "Bachelor Degree in Lithuania: Best Universities for Indians",
@@ -75,9 +75,9 @@ const page = () => {
     {
       "@type": "WebPage",
       "@id":
-        "https://www.studyinlithuania.in/study/programmes/bachelors/#webpage",
+        "https://www.studyinlithuania.in/study/bachelors/#webpage",
       url:
-        "https://www.studyinlithuania.in/study/programmes/bachelors/",
+        "https://www.studyinlithuania.in/study/bachelors/",
       name: "Bachelor's Programs in Lithuania",
       description:
         "Explore undergraduate degree programs in Lithuania for international students including admission requirements, tuition fees and career opportunities.",

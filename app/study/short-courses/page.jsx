@@ -9,7 +9,7 @@ export const metadata = {
   description: "Explore short courses in Lithuania for international students. Gain industry-focused skills through certificate, diploma, and professional programs.",
   keywords: ["Short Courses in Lithuania", "Lithuania Certificate Courses", "Professional Courses Lithuania", "Diploma Courses Lithuania", "Study Short Courses in Lithuania", "Lithuania Training Programs", "Lithuania Professional Development", "Skill Development Courses Lithuania", "International Students Lithuania", "Lithuania Education", "Short Term Courses Europe", "Online Courses Lithuania", "Technical Courses Lithuania", "Business Courses Lithuania", "IT Courses Lithuania", "Study in Lithuania", "Lithuania Career Development", "European Certification Courses", "Lithuania Learning Programs", "Lithuania Higher Education"],
   alternates: {
-    canonical: "https://www.studyinlithuania.in/study/programmes/short-courses"
+    canonical: "https://www.studyinlithuania.in/study/short-courses"
   },
   robots: {
     index: true,
@@ -17,10 +17,10 @@ export const metadata = {
   },
    openGraph: {
     type: "website",
-    url: "https://www.studyinlithuania.in/study/programmes/short-courses/",
+    url: "https://www.studyinlithuania.in/study/short-courses/",
     siteName: "Study in Lithuania",
     title:
-      "Short Courses in Lithuania 2026 | Certificate, Diploma & Professional Courses",
+      "Short Courses in Lithuania 2027 | Certificate, Diploma & Professional Courses",
     description:
       "Explore short courses, certificate programs, diploma courses and professional training opportunities in Lithuania.",
     images: [
@@ -37,7 +37,7 @@ export const metadata = {
   twitter: {
     card: "summary_large_image",
     title:
-      "Short Courses in Lithuania 2026 | Certificate, Diploma & Professional Courses",
+      "Short Courses in Lithuania 2027 | Certificate, Diploma & Professional Courses",
     description:
       "Explore short courses, certificate programs, diploma courses and professional training opportunities in Lithuania.",
     images: [
@@ -79,9 +79,9 @@ const page = () => {
     {
       "@type": "WebPage",
       "@id":
-        "https://www.studyinlithuania.in/study/programmes/short-courses/#webpage",
+        "https://www.studyinlithuania.in/study/short-courses/#webpage",
       url:
-        "https://www.studyinlithuania.in/study/programmes/short-courses/",
+        "https://www.studyinlithuania.in/study/short-courses/",
       name: "Short Courses in Lithuania",
       description:
         "Explore short courses, certificate programs, diploma courses and professional training opportunities in Lithuania.",
@@ -93,9 +93,9 @@ const page = () => {
     {
       "@type": "CollectionPage",
       "@id":
-        "https://www.studyinlithuania.in/study/programmes/short-courses/#collectionpage",
+        "https://www.studyinlithuania.in/study/short-courses/#collectionpage",
       url:
-        "https://www.studyinlithuania.in/study/programmes/short-courses/",
+        "https://www.studyinlithuania.in/study/short-courses/",
       name: "Short Courses in Lithuania",
       description:
         "Browse short-term certificate, diploma and professional development courses available in Lithuania.",
@@ -103,14 +103,14 @@ const page = () => {
     {
       "@type": "Article",
       "@id":
-        "https://www.studyinlithuania.in/study/programmes/short-courses/#article",
+        "https://www.studyinlithuania.in/study/short-courses/#article",
       headline:
         "Short Courses in Lithuania for International Students",
       description:
         "Guide to short courses, professional certifications, diploma programs and skill development opportunities in Lithuania.",
       mainEntityOfPage: {
         "@id":
-          "https://www.studyinlithuania.in/study/programmes/short-courses/#webpage",
+          "https://www.studyinlithuania.in/study/short-courses/#webpage",
       },
       publisher: {
         "@id": "https://www.studyinlithuania.in/#organization",
@@ -144,15 +144,15 @@ const page = () => {
         {
           "@type": "ListItem",
           position: 3,
-          name: "Programmes",
-          item: "https://www.studyinlithuania.in/study/programmes/",
+          name: "Study",
+          item: "https://www.studyinlithuania.in/study/",
         },
         {
           "@type": "ListItem",
           position: 4,
           name: "Short Courses",
           item:
-            "https://www.studyinlithuania.in/study/programmes/short-courses/",
+            "https://www.studyinlithuania.in/study/short-courses/",
         },
       ],
     },

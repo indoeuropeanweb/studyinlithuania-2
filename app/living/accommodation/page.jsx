@@ -6,7 +6,7 @@ import Link from 'next/link';
 import { FaArrowRightLong } from 'react-icons/fa6';
 
 export const metadata = {
-  title: "Best Student Accommodation Lithuania: Budget Friendly Options",
+  title: "Top Student Accommodation Lithuania: Options at Lower Cost",
   description: "Find student accommodation in Lithuania. Compare dorms, private flats, and costs. Get budget tips and find your perfect home. Start your search today.",
   keywords: [
       "Student Accommodation in Lithuania",
@@ -32,7 +32,7 @@ export const metadata = {
     url: "https://www.studyinlithuania.in/living/accommodation/",
     siteName: "Study in Lithuania",
     title:
-      "Best Student Accommodation Lithuania: Budget Friendly Options",
+      "Top Student Accommodation Lithuania: Options at Lower Cost",
     description:
       "Find student accommodation in Lithuania. Compare dorms, private flats, and costs. Get budget tips and find your perfect home. Start your search today.",
     images: [
@@ -49,7 +49,7 @@ export const metadata = {
   twitter: {
     card: "summary_large_image",
     title:
-      "Best Student Accommodation Lithuania: Budget Friendly Options",
+      "Top Student Accommodation Lithuania: Options at Lower Cost",
     description:
       "Find student accommodation in Lithuania. Compare dorms, private flats, and costs. Get budget tips and find your perfect home. Start your search today.",
     images: [

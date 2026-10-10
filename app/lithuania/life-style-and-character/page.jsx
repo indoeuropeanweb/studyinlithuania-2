@@ -4,7 +4,7 @@ import Link from 'next/link';
 import { FaArrowRightLong } from 'react-icons/fa6';
 
 export const metadata = {
-    title: "Lifestyle in Lithuania | Culture, People & Student Life Guide",
+    title: "Lifestyle in Lithuania | Culture, People & Student Guide",
     description: "Explore lifestyle in Lithuania. Learn about local culture, student life, and great work-life balance. Get everything you need to study abroad now.",
     keywords: [
         "Lifestyle in Lithuania",

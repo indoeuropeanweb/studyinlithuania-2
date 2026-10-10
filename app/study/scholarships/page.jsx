@@ -5,7 +5,7 @@ import { FaArrowRightLong } from 'react-icons/fa6';
 
 export const metadata = {
   title: "Find Best Scholarships in Lithuania for Indian Students",
-  description: "Find the best scholarships in Lithuania for Indian students.Check government and merit grants. Learn how to apply and get funding today. Meet our Expert Now",
+  description: "Find the best scholarships in Lithuania for Indian students.Check government and merit grants. Learn how to apply and get funding today. Get our Expert Now",
   keywords: [
       "Scholarships in Lithuania",
       "Scholarships in Lithuania for Indian Students",
@@ -31,7 +31,7 @@ export const metadata = {
     title:
       "Find Best Scholarships in Lithuania for Indian Students",
     description:
-      "Find the best scholarships in Lithuania for Indian students.Check government and merit grants. Learn how to apply and get funding today. Meet our Expert Now",
+      "Find the best scholarships in Lithuania for Indian students.Check government and merit grants. Learn how to apply and get funding today. Get our Expert Now",
     images: [
       {
         url: "https://www.studyinlithuania.in/images/study/lithuania-01.webp",
@@ -63,7 +63,7 @@ const page = () => {
           url: "https://www.studyinlithuania.in/study/scholarships/",
           name: "Scholarships in Lithuania",
           description:
-            "Explore scholarships, grants, tuition fee waivers and funding opportunities available for international students studying in Lithuania.",
+            "Find the best scholarships in Lithuania for Indian students.Check government and merit grants. Learn how to apply and get funding today. Get our Expert Now",
           isPartOf: {
             "@id": "https://www.studyinlithuania.in/#website",
           },
